@@ -13,7 +13,7 @@
   "budget_path": "系统/初始预算.json",
   "image_workflow_path": "系统/图片工作流V2.md",
   "image_gate_path": "系统/图片质量门禁.md",
-  "asset_protocol_path": "系统/图片资产交付协议V2.1.md",
+  "asset_protocol_path": "系统/图片资产交付协议V2.2.md",
   "lock_protocol_path": "系统/版本锁定协议.md",
   "hotspot_protocol_path": "系统/热点与品牌借势协议V2.2.md",
   "growth_protocol_path": "系统/投放与预算闸门V2.2.md",
