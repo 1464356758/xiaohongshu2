@@ -28,22 +28,22 @@
     },
     {
       "path": "系统/图片工作流V2.md",
-      "commit": "bc0cacdec862dd5dc5323267ea5f9f97e76cbe26",
+      "commit": "2ad15fac46a5a5129a3d75d7cbb38250c62225d6",
       "required": true
     },
     {
       "path": "系统/图片质量门禁.md",
-      "commit": "bef12db6871b896dcc86ea9f8437f7a118692bce",
+      "commit": "03c61a71d28b59c17cb4c824695a3779d72abb54",
       "required": true
     },
     {
-      "path": "系统/状态机V2.1.md",
-      "commit": "950906276f2a5ab55ac1b345d4bba3ded03a34f8",
+      "path": "系统/状态机V2.2.md",
+      "commit": "97f19d72dd01f292bec96e61f6b0115d0cfe8361",
       "required": true
     },
     {
-      "path": "系统/图片资产交付协议V2.1.md",
-      "commit": "d8d415f3f6fc603ed274ac4c7b3fb609f4f2185e",
+      "path": "系统/图片资产交付协议V2.2.md",
+      "commit": "94d08acd92d40695213f6ced16662edd998e9a87",
       "required": true
     }
   ],
