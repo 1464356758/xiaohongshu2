@@ -1,0 +1,33 @@
+{
+  "task_id": "CONTENT-XXX",
+  "input_revision": 1,
+  "task_type": "content_pipeline",
+  "status": "READY",
+  "pipeline": [
+    "热点选题AI",
+    "文案脚本AI",
+    "图片生成员A",
+    "图片审核修图员B",
+    "图片终审修图员C",
+    "内容与合规审核AI",
+    "总监LOCK",
+    "发布与社群运营AI",
+    "数据分析AI"
+  ],
+  "inputs": [
+    {
+      "path": "正式/定位/V1.md",
+      "commit": null
+    },
+    {
+      "path": "批准/PERSONA-001/LOCK-V1.json",
+      "commit": null
+    }
+  ],
+  "page_count": 4,
+  "requirements": [],
+  "deliverables": [],
+  "max_spend_cny": 0,
+  "max_rework_rounds": 2,
+  "publish_authority": "USER_ONLY"
+}
