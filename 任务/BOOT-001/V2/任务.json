@@ -1,19 +1,7 @@
 {
   "task_id": "BOOT-001",
   "input_revision": 2,
-  "task_type": "system_bootstrap",
-  "status": "COMPLETED",
-  "system_version": "2.1",
-  "goal": "完成XHS-BEAUTY-002全新项目的系统、角色、状态机、图片链路、资产协议和LOCK协议审计重制。",
-  "major_fixes": [
-    "修复PERSONA首次锚点无LOCK导致的启动死锁",
-    "A/B/C产物路径改为按task_id通用，不再写死CONTENT",
-    "新增PERSONA LOCK和CONTENT LOCK双锁定协议",
-    "新增明确状态机",
-    "新增C最终图片资产清单与最终ZIP协议",
-    "任务模板增加pipeline、input_revision和固定输入commit",
-    "图片工作流增加摄影底图与确定性中文文字层分离",
-    "所有9个角色重制为V2.1"
-  ],
-  "next_task": "任务/PERSONA-001/V2/任务.json"
+  "status": "SUPERSEDED",
+  "superseded_by": "任务/BOOT-001/V3/任务.json",
+  "note": "V2.1只覆盖图片型工作流，已被V2.2完整经营系统重构替代。"
 }
