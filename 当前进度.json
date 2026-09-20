@@ -1,0 +1,28 @@
+{
+  "project_id": "XHS-BEAUTY-002",
+  "revision": 1,
+  "handoff_epoch": 1,
+  "stage": "PERSONA_BOOTSTRAP",
+  "status": "READY_FOR_PERSONA_ANCHOR_A",
+  "current_task": "PERSONA-001",
+  "task_path": "任务/PERSONA-001/V1/任务.json",
+  "current_input_revision": 1,
+  "account_registration_status": "NOT_REGISTERED",
+  "publish_status": "NOT_PUBLISHED",
+  "active_persona_version": "正式/人设/虚拟博主人设V1.md",
+  "active_visual_spec": "正式/视觉规范/V1.md",
+  "active_anchor_lock": null,
+  "approved_spend_cny": 0,
+  "actual_spend_cny": 0,
+  "next_actions": [
+    {
+      "role": "图片生成员A",
+      "action": "读取PERSONA-001任务与正式人设，生成2至4张同一虚拟人物锚点图。"
+    },
+    {
+      "role": "用户",
+      "action": "将A输出的实际图片原图上传到图片审核修图员B对话。"
+    }
+  ],
+  "updated_at": "2026-09-20T23:20:00+08:00"
+}
