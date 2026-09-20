@@ -1,0 +1,23 @@
+{
+  "task_id": "CONTENT-XXX",
+  "version": "V1",
+  "source_stage": "C",
+  "status": "FINAL_VISUAL_ASSET",
+  "page_count": 4,
+  "persona_lock": null,
+  "files": [
+    {
+      "page": 1,
+      "filename": "01_cover.jpg",
+      "format": "JPG",
+      "width": null,
+      "height": null,
+      "asset_id": null
+    }
+  ],
+  "zip_bundle": {
+    "status": "PENDING",
+    "filename": null,
+    "sha256": null
+  }
+}
