@@ -1,0 +1,21 @@
+{
+  "task_id": "BOOT-001",
+  "input_revision": 1,
+  "owner": "总监",
+  "status": "COMPLETED",
+  "goal": "初始化XHS-BEAUTY-002 V2.0工作流。",
+  "outputs": [
+    "数据库入口.json",
+    "当前进度.json",
+    "系统/共同协议.md",
+    "系统/图片工作流V2.md",
+    "系统/图片质量门禁.md",
+    "系统/版本锁定协议.md",
+    "正式/定位/V1.md",
+    "正式/人设/虚拟博主人设V1.md",
+    "正式/视觉规范/V1.md",
+    "正式/计划/首周V1.md",
+    "角色/01_总监.txt 至 角色/09_数据分析AI.txt"
+  ],
+  "next_task": "PERSONA-001"
+}
