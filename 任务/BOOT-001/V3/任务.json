@@ -1,0 +1,32 @@
+{
+  "task_id": "BOOT-001",
+  "input_revision": 3,
+  "task_type": "system_bootstrap",
+  "status": "COMPLETED",
+  "system_version": "2.2",
+  "goal": "以旧xiaohongshu母系统为经营骨架，结合新A/B/C图片链，重建完整小红书美妆广告型IP工作流。",
+  "restored_modules": [
+    "市场与定位研究",
+    "热点与竞品研究",
+    "内容策划",
+    "独立审核",
+    "数据实验",
+    "增长投放",
+    "商务财务",
+    "预算分池",
+    "发布许可与回执",
+    "数据字典",
+    "故障恢复与备份",
+    "模型节流与续接",
+    "14天与经营复盘"
+  ],
+  "new_modules": [
+    "统一PERSONA LOCK",
+    "图片A/B/C三段生成审核修图",
+    "C最终图片资产清单与ZIP协议",
+    "确定性中文文字层",
+    "CONTENT LOCK"
+  ],
+  "role_count": 13,
+  "next_task": "任务/PERSONA-001/V2/任务.json"
+}
