@@ -1,0 +1,50 @@
+{
+  "task_id": "PERSONA-001",
+  "input_revision": 2,
+  "task_type": "persona_anchor_generation",
+  "status": "READY",
+  "pipeline": [
+    "图片生成员A",
+    "图片审核修图员B",
+    "图片终审修图员C",
+    "总监PERSONA_LOCK"
+  ],
+  "allowed_roles": [
+    "图片生成员A",
+    "图片审核修图员B",
+    "图片终审修图员C",
+    "总监"
+  ],
+  "inputs": [
+    {
+      "path": "正式/人设/虚拟博主人设V1.md",
+      "commit": "3be76cb055776cc81293eedf27860f78ce90bb24",
+      "required": true
+    },
+    {
+      "path": "正式/视觉规范/V1.md",
+      "commit": "3be76cb055776cc81293eedf27860f78ce90bb24",
+      "required": true
+    }
+  ],
+  "special_rule": "这是首次人物锚点任务，active_anchor_lock允许为空；图片生成员A不得因没有既有LOCK而阻塞。",
+  "requirements": [
+    "生成2至4张同一原创虚拟人物锚点图",
+    "至少包含正面肩部近景、45度侧面肩部近景、半身自然姿势",
+    "人物外观满足正式人设V1",
+    "直接生成实际图片",
+    "最终使用JPG/PNG",
+    "A、B、C都按task_id=PERSONA-001写产物，不使用CONTENT目录",
+    "C PASS后生成最终资产清单；条件允许时生成PERSONA-001_FINAL_IMAGES_V1.zip"
+  ],
+  "deliverables": [
+    "产物/图片A/PERSONA-001/V1/",
+    "产物/图片B/PERSONA-001/V1/",
+    "产物/图片C/PERSONA-001/V1/最终资产清单.json",
+    "批准/PERSONA-001/LOCK-V1.json（仅总监创建）"
+  ],
+  "max_spend_cny": 0,
+  "max_rework_rounds": 2,
+  "publish_authority": "NONE",
+  "next_condition": "C PASS后交总监建立PERSONA LOCK"
+}
