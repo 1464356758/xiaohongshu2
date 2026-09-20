@@ -1,0 +1,17 @@
+{
+  "task_id": "CONTENT-XXX",
+  "lock_type": "CONTENT",
+  "version": "LOCK-V1",
+  "status": "LOCKED",
+  "approved_title": null,
+  "copy_commit": null,
+  "image_c_delivery": null,
+  "final_asset_manifest": null,
+  "image_bundle": null,
+  "persona_lock": null,
+  "audit_commit": null,
+  "director_approval_commit": null,
+  "publish_scope": [],
+  "forbidden_old_versions": [],
+  "created_at": null
+}
