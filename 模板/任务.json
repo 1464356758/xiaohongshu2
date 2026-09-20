@@ -1,14 +1,21 @@
 {
-  "task_id": "CONTENT-XXX",
+  "task_id": "TASK-XXX",
   "input_revision": 1,
-  "type": "content",
-  "owner": "角色名",
+  "task_type": null,
   "status": "READY",
-  "goal": null,
-  "inputs": [],
+  "pipeline": [],
+  "allowed_roles": [],
+  "inputs": [
+    {
+      "path": null,
+      "commit": null,
+      "required": true
+    }
+  ],
   "requirements": [],
   "deliverables": [],
   "max_spend_cny": 0,
+  "max_rework_rounds": 2,
   "publish_authority": "NONE",
-  "next_role": null
+  "next_condition": null
 }
