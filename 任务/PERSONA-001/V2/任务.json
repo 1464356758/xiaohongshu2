@@ -23,7 +23,27 @@
     },
     {
       "path": "正式/视觉规范/V1.md",
-      "commit": "3be76cb055776cc81293eedf27860f78ce90bb24",
+      "commit": "6fc3c7adaa99458a7186f4ff3c548a5f0137ae23",
+      "required": true
+    },
+    {
+      "path": "系统/图片工作流V2.md",
+      "commit": "bc0cacdec862dd5dc5323267ea5f9f97e76cbe26",
+      "required": true
+    },
+    {
+      "path": "系统/图片质量门禁.md",
+      "commit": "bef12db6871b896dcc86ea9f8437f7a118692bce",
+      "required": true
+    },
+    {
+      "path": "系统/状态机V2.1.md",
+      "commit": "950906276f2a5ab55ac1b345d4bba3ded03a34f8",
+      "required": true
+    },
+    {
+      "path": "系统/图片资产交付协议V2.1.md",
+      "commit": "d8d415f3f6fc603ed274ac4c7b3fb609f4f2185e",
       "required": true
     }
   ],
