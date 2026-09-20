@@ -1,10 +1,14 @@
 {
-  "task_id": "CONTENT-XXX",
+  "task_id": "TASK-XXX",
   "role": "角色名",
   "input_revision": 1,
+  "task_type": null,
+  "predecessor_delivery": null,
   "inputs": [],
   "artifacts": [],
+  "asset_manifest": null,
   "verification_status": "PENDING",
+  "rework_round": 0,
   "blockers": [],
   "next_role": null,
   "note": null
