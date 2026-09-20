@@ -1,30 +1,8 @@
 {
   "task_id": "PERSONA-001",
   "input_revision": 1,
-  "type": "persona_anchor_generation",
-  "owner": "图片生成员A",
-  "status": "READY",
-  "goal": "建立后续所有带脸内容统一使用的原创虚拟美妆博主人物锚点。",
-  "inputs": [
-    "正式/人设/虚拟博主人设V1.md",
-    "正式/视觉规范/V1.md",
-    "系统/图片工作流V2.md",
-    "系统/图片质量门禁.md"
-  ],
-  "requirements": [
-    "生成2至4张同一虚拟人物锚点图",
-    "正面、45度侧面、半身至少各1张",
-    "自然皮肤纹理，不做明星或现实人物仿脸",
-    "人物外观满足人设V1固定锚点",
-    "直接生成实际图片，不只输出提示词",
-    "最终交付PNG/JPG"
-  ],
-  "handoff": [
-    "A完成后用户将实际图片上传到图片审核修图员B",
-    "B完成后用户将B最终实际图片上传到图片终审修图员C",
-    "C PASS后交总监建立人物LOCK"
-  ],
-  "max_spend_cny": 0,
-  "publish_authority": "NONE",
-  "next_role": "图片审核修图员B"
+  "task_type": "persona_anchor_generation",
+  "status": "SUPERSEDED",
+  "superseded_by": "任务/PERSONA-001/V2/任务.json",
+  "note": "V1存在首次锚点LOCK死锁与角色路径定义不足，禁止继续执行。请读取当前进度指定的V2任务。"
 }
