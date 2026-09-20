@@ -1,0 +1,19 @@
+{
+  "capital_limit_cny": 10000,
+  "authorized_spend_cny": 0,
+  "pools_cny": {
+    "首段验证": 500,
+    "素材与生产": 1500,
+    "新增工具": 500,
+    "增长试验": 800,
+    "有效扩大": 1700,
+    "商单周转": 2000,
+    "准备金": 3000
+  },
+  "rules": {
+    "default_spend_authorized": false,
+    "first_7_posts_paid_growth": "DISABLED_BY_DEFAULT",
+    "specific_payment_requires_user_approval": true,
+    "receivable_is_cash": false
+  }
+}
