@@ -1,0 +1,11 @@
+{
+  "task_id": "CONTENT-XXX",
+  "role": "角色名",
+  "input_revision": 1,
+  "inputs": [],
+  "artifacts": [],
+  "verification_status": "PENDING",
+  "blockers": [],
+  "next_role": null,
+  "note": null
+}
