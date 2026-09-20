@@ -1,0 +1,14 @@
+{
+  "task_id": "CONTENT-XXX",
+  "input_revision": 1,
+  "type": "content",
+  "owner": "角色名",
+  "status": "READY",
+  "goal": null,
+  "inputs": [],
+  "requirements": [],
+  "deliverables": [],
+  "max_spend_cny": 0,
+  "publish_authority": "NONE",
+  "next_role": null
+}
