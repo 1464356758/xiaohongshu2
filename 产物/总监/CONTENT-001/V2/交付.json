@@ -1,0 +1,23 @@
+{
+  "project_id": "XHS-BEAUTY-002",
+  "role": "总监",
+  "task_id": "CONTENT-001",
+  "input_revision": 2,
+  "version": "V2",
+  "action": "CREATE_CONTENT_LOCK_AND_ENTER_PUBLISH_PREP",
+  "result": "PASS",
+  "audit_fixed_commit": "90449e5f180f2696dc44df66ea83d1a995195920",
+  "director_approval_path": "批准/CONTENT-001/V3/最终发布许可.md",
+  "director_approval_commit": "7bed7f7ac106d63a41153ab227676c253a963a1d",
+  "content_lock_path": "批准/CONTENT-001/LOCK-V1.json",
+  "content_lock_commit": "912ce9a5a70eb1356e96f3d2401de755dfc9276e",
+  "publish_task_path": "任务/CONTENT-001/V3/任务.json",
+  "publish_task_commit": "bddca3d4f420b774495ba45e9c1bb074d398578a",
+  "progress_commit": "684d09891207abdadefb504f283725e1505ee44d",
+  "final_visual_commit": "1fbafe7dc00bfdc3048a107a29116f64f077e90c",
+  "publish_status": "NOT_PUBLISHED",
+  "account_registration_status": "NOT_REGISTERED",
+  "max_spend_cny": 0,
+  "next_role": "发布与社群运营",
+  "next_action": "读取CONTENT-001 V3发布任务与CONTENT LOCK-V1，生成正式发布包。实际账号注册、验证和最终发布由用户完成。"
+}
