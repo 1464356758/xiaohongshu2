@@ -1,0 +1,47 @@
+{
+  "project_id": "XHS-BEAUTY-002",
+  "task_id": "CONTENT-001",
+  "input_revision": 1,
+  "role": "热点与竞品研究员",
+  "role_version": "V2.2",
+  "status": "DONE",
+  "result": "HOT_RESEARCH_COMPLETE",
+  "completed_at": "2026-09-21T18:20:00+08:00",
+  "timezone": "Asia/Shanghai",
+  "input_task_path": "任务/CONTENT-001/V1/任务.json",
+  "input_task_commit": "9b4b67102ba4b1f10180fde7976e430fc78d05be",
+  "research_content_commit": "722a07384855492656f517c4bceef4598716435d",
+  "deliverables": [
+    {
+      "path": "产物/热点/CONTENT-001/V1/热点报告.md",
+      "git_blob_sha": "91faf2ac63ae16286e0d69a3b3266d4eecdb7ceb",
+      "verified_readback": true
+    },
+    {
+      "path": "产物/热点/CONTENT-001/V1/来源.json",
+      "git_blob_sha": "f913f53d40e07b24f18f4e249583e1ea01e0ba42",
+      "verified_readback": true
+    }
+  ],
+  "selection": {
+    "main": "秋日低饱和妆为什么一上脸容易显脏、显灰、没精神？通勤版只改3处。",
+    "backup_a": "“三无妆”不是三处都不画：通勤淡妆到底要把重点留在哪里？",
+    "backup_b": "秋冬裸雾唇一涂就没气色？棕粉/肉桂调通勤怎么配才不灰。"
+  },
+  "candidate_count": 7,
+  "competitor_structure_observation_count": 5,
+  "fresh_web_research": true,
+  "latest_data_report": null,
+  "budget_cny": 0,
+  "spend_cny": 0,
+  "verification": {
+    "report_blob_match": true,
+    "source_blob_match": true,
+    "unknown_values_not_filled_with_zero": true,
+    "heat_types_separated": true,
+    "cross_platform_data_not_misrepresented_as_xhs": true,
+    "real_product_requirement_checked": true
+  },
+  "next_role": "内容策划AI",
+  "next_condition": "读取正式定位V2、CONTENT-001任务、热点报告/来源、PERSONA LOCK后，按主热点优先进行默认4页内容策划；如改用具体品牌产品，先列准确产品资料与视觉素材缺口。"
+}
