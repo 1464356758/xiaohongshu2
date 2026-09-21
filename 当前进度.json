@@ -1,19 +1,19 @@
 {
   "project_id": "XHS-BEAUTY-002",
   "system_version": "2.2",
-  "revision": 4,
-  "handoff_epoch": 4,
-  "stage": "PERSONA_BOOTSTRAP",
-  "status": "READY_FOR_PERSONA_ANCHOR_A",
-  "current_task": "PERSONA-001",
-  "task_path": "任务/PERSONA-001/V3/任务.json",
-  "current_input_revision": 3,
-  "current_pipeline_step": "IMAGE_A",
+  "revision": 5,
+  "handoff_epoch": 5,
+  "stage": "MARKET_POSITIONING",
+  "status": "RESEARCH_READY",
+  "current_task": "RESEARCH-001",
+  "task_path": "任务/RESEARCH-001/V1/任务.json",
+  "current_input_revision": 1,
+  "current_pipeline_step": "MARKET_RESEARCH",
   "account_registration_status": "NOT_REGISTERED",
   "publish_status": "NOT_PUBLISHED",
   "active_persona_version": "正式/人设/虚拟博主人设V1.md",
   "active_visual_spec": "正式/视觉规范/V1.md",
-  "active_anchor_lock": null,
+  "active_anchor_lock": "批准/PERSONA-001/LOCK-V1.json",
   "active_positioning_version": "正式/定位/V1.md",
   "latest_market_research": null,
   "latest_data_report": null,
@@ -24,18 +24,18 @@
   "role_system": "13_ROLE_COMPLETE_OPERATING_SYSTEM",
   "next_actions": [
     {
-      "role": "图片生成员A",
-      "action": "执行PERSONA-001 input_revision=3：先生成唯一母脸，再以母脸实际图片为参考，通过图像编辑/变体生成4张同一人物锚点图；禁止四张分别独立文生图。"
+      "role": "市场与定位研究员",
+      "action": "执行RESEARCH-001 V1，基于已锁定PERSONA和现有定位进行首次正式市场与定位研究，提交3种定位候选及真实来源。"
     },
     {
-      "role": "用户",
-      "action": "A完成后，把本轮A实际独立原图逐张上传给图片审核修图员B。"
+      "role": "总监",
+      "action": "研究完成后验收并决定是否更新正式定位；定位批准后再创建首条CONTENT任务。"
     }
   ],
-  "updated_at": "2026-09-21T14:25:00+08:00",
-  "note": "用户否定旧方案整体人物照片质量；旧方案已到第2轮返修。总监按规则停止第3次同方案返修，切换为MASTER_FACE_FIRST_THEN_IMAGE_EDIT_VARIANTS，重新定制并锁定同一原创虚拟人物。",
+  "updated_at": "2026-09-21T17:45:00+08:00",
+  "note": "PERSONA-001已完成C PASS、GitHub真实二进制入库与总监核验，PERSONA LOCK-V1生效。主线正式进入市场与定位研究阶段。",
   "system_patch": "V2.2-P1_GITHUB_BINARY_ASSETS",
   "binary_asset_policy_active": true,
-  "current_persona_binary_upload_required": true,
-  "binary_asset_note": "当前PERSONA-001 input_revision=3无需重跑A/B；从C最终PASS开始，master_face与最终anchor必须上传GitHub真实JPG/PNG后才能PERSONA LOCK。"
+  "current_persona_binary_upload_required": false,
+  "persona_image_commit": "9c2a18da1b244e801c74c1f125ac0d52712aa442"
 }
