@@ -1,0 +1,68 @@
+{
+  "project_id": "XHS-BEAUTY-002",
+  "task_id": "CONTENT-001",
+  "input_revision": 2,
+  "task_version": "V3",
+  "task_type": "publish_prep",
+  "status": "READY",
+  "pipeline": [
+    "发布与社群运营",
+    "用户发布",
+    "数据分析与实验"
+  ],
+  "responsible_role": "发布与社群运营",
+  "fixed_input_commit": "912ce9a5a70eb1356e96f3d2401de755dfc9276e",
+  "inputs": [
+    {
+      "path": "批准/CONTENT-001/LOCK-V1.json",
+      "commit": "912ce9a5a70eb1356e96f3d2401de755dfc9276e",
+      "required": true
+    },
+    {
+      "path": "批准/CONTENT-001/V3/最终发布许可.md",
+      "commit": "912ce9a5a70eb1356e96f3d2401de755dfc9276e",
+      "required": true
+    },
+    {
+      "path": "角色/10_发布与社群运营.txt",
+      "commit": "912ce9a5a70eb1356e96f3d2401de755dfc9276e",
+      "required": true
+    },
+    {
+      "path": "系统/状态机V2.2.md",
+      "commit": "912ce9a5a70eb1356e96f3d2401de755dfc9276e",
+      "required": true
+    }
+  ],
+  "locked_publish_content": {
+    "title": "低饱和秋妆显灰？通勤只改3处",
+    "body_path": "产物/文案/CONTENT-001/V1/文案.md",
+    "body_fixed_commit": "cfe82ca46022a67529c36eb0d8298c92bc6c8bb5",
+    "content_lock": "批准/CONTENT-001/LOCK-V1.json",
+    "persona_lock": "批准/PERSONA-001/LOCK-V2.json",
+    "page_order": [
+      "资产/内容/CONTENT-001/LOCK-V1/01_cover.jpg",
+      "资产/内容/CONTENT-001/LOCK-V1/02_page.jpg",
+      "资产/内容/CONTENT-001/LOCK-V1/03_page.jpg",
+      "资产/内容/CONTENT-001/LOCK-V1/04_page.jpg"
+    ],
+    "image_commit": "1fbafe7dc00bfdc3048a107a29116f64f077e90c"
+  },
+  "requirements": [
+    "生成单条发布包：最终标题、正文、建议话题、4张锁定图片顺序、发布前检查。",
+    "只认批准/CONTENT-001/LOCK-V1.json，不从历史聊天、A图、B图或旧标题自行选版本。",
+    "不得修改标题、正文、图片、页序、人物或品牌事实；任何实质变化必须回总监建立新LOCK并重审变更范围。",
+    "根据发布当日实际小红书编辑器与适用规则提醒用户必要设置，包括当期AI生成/合成内容标识要求；不得提供规避标识方案。",
+    "账号注册、验证码、实名认证及最终点击发布由用户本人完成。",
+    "账号当前登记状态为NOT_REGISTERED，因此可先完成发布包，但不得声称已经发布。",
+    "只有收到真实笔记链接、真实发布时间和必要截图后，才写数据/回执/CONTENT-001/V1/发布回执.json，并把状态交给数据分析与实验。",
+    "不得启用付费投放；本轮授权支出为0元。"
+  ],
+  "deliverables": [
+    "产物/运营/CONTENT-001/V1/发布包.md",
+    "数据/回执/CONTENT-001/V1/发布回执.json（仅用户真实发布后）"
+  ],
+  "max_spend_cny": 0,
+  "publish_authority": "USER_ONLY",
+  "next_condition": "发布与社群运营先完成发布包；用户完成账号注册/验证并真实发布后，提供真实笔记链接、发布时间和必要截图，才能进入PUBLISHED_CONFIRMED与数据阶段。"
+}
