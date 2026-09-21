@@ -1,0 +1,59 @@
+{
+  "project_id": "XHS-BEAUTY-002",
+  "task_id": "PERSONA-001",
+  "input_revision": 3,
+  "role": "图片生成员A",
+  "version": "V4",
+  "status": "A_DONE_WAITING_B",
+  "strategy": "MASTER_FACE_FIRST_THEN_IMAGE_EDIT_VARIANTS",
+  "fixed_input_commit": "0bdece7ae19bbb5ee23b1de77325d6828184fc2e",
+  "files": [
+    {
+      "file": "master_face.jpg",
+      "dimensions": [
+        1440,
+        1920
+      ],
+      "format": "JPEG",
+      "sha256": "3a394946c6389005d331cf8cf0dfab45cb7aba4fd79269ed013803b4370e759c"
+    },
+    {
+      "file": "anchor_front.jpg",
+      "dimensions": [
+        1440,
+        1920
+      ],
+      "format": "JPEG",
+      "sha256": "3a394946c6389005d331cf8cf0dfab45cb7aba4fd79269ed013803b4370e759c"
+    },
+    {
+      "file": "anchor_45.jpg",
+      "dimensions": [
+        1440,
+        1920
+      ],
+      "format": "JPEG",
+      "sha256": "667d9462808a3e544f22f42f31e715ce04ea57063a2e2f340d5243a29679ee8e"
+    },
+    {
+      "file": "anchor_halfbody.jpg",
+      "dimensions": [
+        1440,
+        1920
+      ],
+      "format": "JPEG",
+      "sha256": "b43428ea65a41081bedcb4235144c13b71f3e36de1e295459fac1b84119fb8d3"
+    },
+    {
+      "file": "anchor_detail.jpg",
+      "dimensions": [
+        1440,
+        1920
+      ],
+      "format": "JPEG",
+      "sha256": "f97dc9f8822a99c6555d4bef4f029a955beb55a7491f482f8a59fdbaf785e1c8"
+    }
+  ],
+  "next_role": "图片审核修图员B",
+  "next_action": "用户把4张anchor独立实际原图逐张上传给B复审"
+}
