@@ -1,0 +1,57 @@
+{
+  "project_id": "XHS-BEAUTY-002",
+  "task_id": "PERSONA-001",
+  "input_revision": 2,
+  "role": "图片生成员A",
+  "version": "V2",
+  "rework_round": 1,
+  "status": "A_R1_DONE_WAITING_B_REVIEW",
+  "source_review": {
+    "path": "产物/图片B/PERSONA-001/V1/审核修图记录.md",
+    "result": "FAIL_TO_A"
+  },
+  "asset_count": 3,
+  "files": [
+    {
+      "name": "anchor_front.jpg",
+      "purpose": "正面肩部近景",
+      "dimensions": [
+        1440,
+        1920
+      ],
+      "format": "JPEG",
+      "sha256": "ad91a9a03a1378def0596af06a16b60738e23a5c21ef238a4e608519fada7653"
+    },
+    {
+      "name": "anchor_45.jpg",
+      "purpose": "45度肩部近景",
+      "dimensions": [
+        1440,
+        1920
+      ],
+      "format": "JPEG",
+      "sha256": "c0ad1c94f6f995560f0e044d521c45d91b9b66c16fd9c5a5f03defd18087dcee"
+    },
+    {
+      "name": "anchor_halfbody.jpg",
+      "purpose": "半身自然坐姿",
+      "dimensions": [
+        1440,
+        1920
+      ],
+      "format": "JPEG",
+      "sha256": "afe918ab11db91380ae4cb878922901d428a1bc55d5d96328cd9078198b74003"
+    }
+  ],
+  "checks": {
+    "standalone_assets": true,
+    "aspect_ratio": "3:4",
+    "right_cheek_mole": "PRESENT_AS_IDENTITY_ANCHOR",
+    "skin_texture": "VISIBLE_LIGHT_TEXTURE",
+    "product_brand": "NOT_APPLICABLE",
+    "collage_or_screenshot": false
+  },
+  "current_state_not_modified": true,
+  "next_role": "图片审核修图员B",
+  "next_action": "用户逐张上传3张A实际原图给B复审"
+}
