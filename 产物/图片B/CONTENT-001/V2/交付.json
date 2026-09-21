@@ -1,0 +1,57 @@
+{
+  "project_id": "XHS-BEAUTY-002",
+  "task_id": "CONTENT-001",
+  "input_revision": 2,
+  "role": "图片审核修图员B",
+  "version": "V2",
+  "rework_round": 1,
+  "status": "READY_FOR_C_REVIEW",
+  "repair_scope": "TEXT_LAYER_ONLY",
+  "person_pixels_regenerated": false,
+  "makeup_changed": false,
+  "main_composition_changed": false,
+  "approved_copy_source": "产物/文案/CONTENT-001/V1/文案.md",
+  "persona_lock": "批准/PERSONA-001/LOCK-V2.json",
+  "files": [
+    {
+      "name": "01_cover.png",
+      "dimensions": [
+        1152,
+        1536
+      ],
+      "format": "PNG",
+      "sha256": "d66e4f7cf3dfa31835edbd1c03f089c6bbe954239bebb2ca6c63f69d1bbb6f27"
+    },
+    {
+      "name": "02_page.png",
+      "dimensions": [
+        1152,
+        1536
+      ],
+      "format": "PNG",
+      "sha256": "391b1a7ed6802985010dc0a4723453357cc047f05848ab645e863c80578023ad"
+    },
+    {
+      "name": "03_page.png",
+      "dimensions": [
+        1152,
+        1536
+      ],
+      "format": "PNG",
+      "sha256": "578e68c261b80bd37b26a3a9ceb48ee387c3cc5e417d5ca6af5e43a00bb7cab3"
+    },
+    {
+      "name": "04_page.png",
+      "dimensions": [
+        1152,
+        1536
+      ],
+      "format": "PNG",
+      "sha256": "f24476b7462a5fa280de98391598019223c87ebc8101a005492a05b6cacfdc01"
+    }
+  ],
+  "binary_github_policy": "B_INTERMEDIATE_NOT_UPLOADED_PER_V2.2-P1",
+  "actual_images": "delivered_in_current_chat",
+  "next_role": "图片终审修图员C",
+  "next_action": "仅使用本轮4张B最终图执行C复审"
+}
