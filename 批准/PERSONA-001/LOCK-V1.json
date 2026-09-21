@@ -1,0 +1,91 @@
+{
+  "project_id": "XHS-BEAUTY-002",
+  "task_id": "PERSONA-001",
+  "input_revision": 3,
+  "lock_type": "PERSONA",
+  "lock_version": "LOCK-V1",
+  "persona_version": "正式/人设/虚拟博主人设V1.md",
+  "visual_spec": "正式/视觉规范/V1.md",
+  "status": "LOCKED",
+  "created_at": "2026-09-21T17:45:00+08:00",
+  "c_final_manifest": {
+    "path": "产物/图片C/PERSONA-001/V1/最终资产清单.json",
+    "commit": "6bbf7bd4aaf53c9f73a7cfb44c7841653a27691f"
+  },
+  "c_pass_delivery": {
+    "path": "产物/图片C/PERSONA-001/V1/交付.json",
+    "commit": "38bd46a1aad9d56fda2c1b21adf386cfe4ed4a60",
+    "result": "PASS"
+  },
+  "image_commit": "9c2a18da1b244e801c74c1f125ac0d52712aa442",
+  "asset_root": "资产/人物/PERSONA-001/LOCK-V1/",
+  "master_face_repo_path": "资产/人物/PERSONA-001/LOCK-V1/master_face.jpg",
+  "anchor_repo_paths": [
+    "资产/人物/PERSONA-001/LOCK-V1/anchor_front.jpg",
+    "资产/人物/PERSONA-001/LOCK-V1/anchor_45.jpg",
+    "资产/人物/PERSONA-001/LOCK-V1/anchor_halfbody.jpg"
+  ],
+  "anchor_detail": {
+    "included": false,
+    "reason": "当前C最终版本没有独立anchor_detail实际原图；不创建占位文件。"
+  },
+  "assets": [
+    {
+      "role": "master_face",
+      "repo_path": "资产/人物/PERSONA-001/LOCK-V1/master_face.jpg",
+      "git_blob_sha": "0631956462e51911f7c61dfe6023cdc6c5771b8e",
+      "sha256": "37b9e2c3aaf978c8a913ef34878feddc17cab06bf2302376712e87c10173ccce",
+      "bytes": 180688,
+      "width": 1152,
+      "height": 1536,
+      "format": "JPEG"
+    },
+    {
+      "role": "anchor_front",
+      "repo_path": "资产/人物/PERSONA-001/LOCK-V1/anchor_front.jpg",
+      "git_blob_sha": "0631956462e51911f7c61dfe6023cdc6c5771b8e",
+      "sha256": "37b9e2c3aaf978c8a913ef34878feddc17cab06bf2302376712e87c10173ccce",
+      "bytes": 180688,
+      "width": 1152,
+      "height": 1536,
+      "format": "JPEG"
+    },
+    {
+      "role": "anchor_45",
+      "repo_path": "资产/人物/PERSONA-001/LOCK-V1/anchor_45.jpg",
+      "git_blob_sha": "7013c1453c7477ec509bafb95207714b4821bbf3",
+      "sha256": "8869b853effad0e04bdb5734ae68eed6ae80ad78d2728b458411c4d79e5f1739",
+      "bytes": 164052,
+      "width": 1152,
+      "height": 1536,
+      "format": "JPEG"
+    },
+    {
+      "role": "anchor_halfbody",
+      "repo_path": "资产/人物/PERSONA-001/LOCK-V1/anchor_halfbody.jpg",
+      "git_blob_sha": "7acf71fea72112cb2a7208ca385eecf9e3887c25",
+      "sha256": "57a2a2db5f40cc14420933812fac94be64e5c008d439caec6e796053103cffd3",
+      "bytes": 178941,
+      "width": 1152,
+      "height": 1536,
+      "format": "JPEG"
+    }
+  ],
+  "identity_summary": {
+    "appearance": "原创东亚女性虚拟美妆博主，年龄观感24至27岁，鹅蛋脸，深棕杏仁眼，自然鼻梁，柔和唇形，黑茶至深棕中长发，中性偏白肤色并保留自然皮肤纹理。",
+    "identity_anchor": "右侧面颊靠近颧骨的小痣，以及锁定图片中的脸型、眼距、鼻唇比例、下颌线、发际线和肤色。",
+    "style": "温柔、干净、聪明、轻通勤；低饱和奶咖/豆沙系美妆方向。",
+    "real_person_mapping": false
+  },
+  "binary_verification": {
+    "protocol": "系统/GitHub图片资产入库补充协议V2.2-P1.md",
+    "verified_at_image_commit": "9c2a18da1b244e801c74c1f125ac0d52712aa442",
+    "director_blob_readback": true,
+    "blob_sha_match": true,
+    "c_sha256_verification_accepted": true,
+    "note": "总监在图片固定提交逐张读取4个JPG并核对Git blob SHA；SHA256采用C最终清单中已完成的固定提交字节回读校验结果。"
+  },
+  "usage_rule": "后续所有带脸CONTENT必须读取本LOCK，并优先直接使用本LOCK中的GitHub真实图片作为视觉参考；不得仅靠文字随机重建人物。",
+  "supersedes": [],
+  "publish_authority": "NONE"
+}
