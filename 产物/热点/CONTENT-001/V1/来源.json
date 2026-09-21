@@ -1,0 +1,242 @@
+{
+  "project_id": "XHS-BEAUTY-002",
+  "task_id": "CONTENT-001",
+  "input_revision": 1,
+  "observed_at": "2026-09-21T18:18:00+08:00",
+  "timezone": "Asia/Shanghai",
+  "methodology": {
+    "web_research_fresh": true,
+    "latest_data_report": null,
+    "unknown_rule": "未知/null不补0",
+    "heat_types": [
+      "季节/妆容趋势",
+      "小红书第三方达人/行业榜",
+      "创作者公开内容互动",
+      "品牌新品发布",
+      "品牌讨论"
+    ],
+    "sales_ranking_used_as_primary": false,
+    "note": "跨平台公开内容只用于结构观察，不把其互动数据等同小红书数据。"
+  },
+  "sources": [
+    {
+      "id": "S01",
+      "name": "千瓜数据｜小红书彩妆达人日榜（2026-09-20口径，页面2026-09-21更新）",
+      "url": "https://wap.qian-gua.com/rank/fans/1/1/20260920/83.html",
+      "type": "third_party_xhs_creator_rank",
+      "use": "当前彩妆达人活跃与涨粉背景",
+      "observed_date": "2026-09-21"
+    },
+    {
+      "id": "S02",
+      "name": "千瓜数据｜小红书彩妆行业周榜/行业榜（2026-09-20）",
+      "url": "https://wap.qian-gua.com/rank/category/2/7/20260920/83.html",
+      "type": "third_party_xhs_category_rank",
+      "use": "化妆师张宇、今晚吃香菜、晶晶酱等当前活跃背景",
+      "observed_date": "2026-09-21"
+    },
+    {
+      "id": "S03",
+      "name": "千瓜数据｜小红书彩妆行业日榜（2026-09-19）",
+      "url": "https://qian-gua.com/rank/category/2/1/20260919/83.html",
+      "type": "third_party_xhs_category_rank",
+      "use": "当前腰部/头部账号活跃背景",
+      "observed_date": "2026-09-21"
+    },
+    {
+      "id": "S04",
+      "name": "千瓜数据｜2026上半年美妆个护种草趋势报告",
+      "url": "https://wap.qian-gua.com/Home/ArticleDetail?id=3346",
+      "type": "industry_report",
+      "use": "原生美学、强搜索、场景化需求",
+      "published_date": "2026-06-24"
+    },
+    {
+      "id": "S05",
+      "name": "Marie Claire Taiwan｜2026秋冬彩妆趋势",
+      "url": "https://www.marieclaire.com.tw/beauty/make-up/95903",
+      "type": "seasonal_editorial_trend",
+      "use": "原生肌理、灰棕、深莓果等秋冬趋势",
+      "published_date": "2026-09-15"
+    },
+    {
+      "id": "S06",
+      "name": "Vogue Hong Kong｜Smoky Rose烟熏玫瑰秋冬趋势",
+      "url": "https://www.voguehk.com/zh/article/beauty/dusty-petal/",
+      "type": "seasonal_editorial_trend",
+      "use": "低饱和灰粉/烟熏玫瑰方向",
+      "published_date": "2026-09-01"
+    },
+    {
+      "id": "S07",
+      "name": "央视网时尚｜腮红位置与脸型风格",
+      "url": "https://style.cctv.cn/2026/09/02/ARTIGifPhm4d3ByKfoBO18JR260902.shtml",
+      "type": "beauty_editorial",
+      "use": "腮红位置候选问题与近期讨论",
+      "published_date": "2026-09-02"
+    },
+    {
+      "id": "S08",
+      "name": "联合新闻网女子漾｜2026秋冬原生感粉雾肌/冷调腮红/水光唇",
+      "url": "https://woman.udn.com/woman/story/123163/9746056",
+      "type": "seasonal_editorial_trend",
+      "use": "原生底妆、局部遮瑕、秋冬色彩",
+      "published_date": "2026-09-10"
+    },
+    {
+      "id": "S09",
+      "name": "Vogue Taiwan｜2026年9月彩妆新品Part2",
+      "url": "https://www.vogue.com.tw/article/2026-sep-%E5%BD%A9%E5%A6%9D%E6%96%B0%E5%93%81part2",
+      "type": "new_product_editorial",
+      "use": "9月换季新品与原生感妆容背景",
+      "published_date": "2026-09-15"
+    },
+    {
+      "id": "S10",
+      "name": "INTO YOU心慕与你公开微博聚合页",
+      "url": "https://www.sina.cn/media/7339405441",
+      "type": "brand_official_social_public",
+      "use": "2026-09秋冬水雾唇釉StarWish、新品色彩与内容结构",
+      "observed_date": "2026-09-21"
+    },
+    {
+      "id": "S11",
+      "name": "WWD国际时尚特讯｜Judydoll橘朵2026秋冬新品",
+      "url": "https://weibo.com/2/detail/5339031631040666",
+      "type": "industry_news_new_product",
+      "use": "橘朵9月秋冬新品矩阵",
+      "published_date": "2026-09-02"
+    },
+    {
+      "id": "S12",
+      "name": "NARS中国官网｜流光美肌粉底液",
+      "url": "https://www.narscosmetics.com.cn/NARS%E8%B6%85%E6%96%B9%E7%93%B6-%E6%B5%81%E5%85%89%E7%BE%8E%E8%82%8C%E7%B2%89%E5%BA%95%E6%B6%B2---%E6%8C%81%E5%A6%86%E7%B2%89%E5%BA%95%E6%B6%B2---NARS%E7%B2%89%E5%BA%95%E6%B6%B2---NARS%E4%B8%AD%E5%9B%BD%E5%AE%98%E7%BD%91-n34502.html",
+      "type": "brand_official_product",
+      "use": "核实NARS当前具体产品存在及官方信息边界",
+      "observed_date": "2026-09-21"
+    },
+    {
+      "id": "S13",
+      "name": "姜乘澜公开微博聚合页",
+      "url": "https://www.sina.cn/media/6174824046",
+      "type": "creator_public_social",
+      "use": "近期底妆问题型内容、NARS商业内容结构",
+      "observed_date": "2026-09-21"
+    },
+    {
+      "id": "S14",
+      "name": "王七四-｜Bilibili 2026-09-10 三无妆",
+      "url": "https://www.bilibili.com/video/BV14NYg6xEdH/",
+      "type": "creator_public_content",
+      "use": "近期‘简单+易记概念+妆前后’结构观察",
+      "published_date": "2026-09-10"
+    },
+    {
+      "id": "S15",
+      "name": "奇迹生生（美妆邪修版）｜抖音精选公开页",
+      "url": "https://jingxuan.douyin.com/m/video/7680444222268329242",
+      "type": "creator_public_content",
+      "use": "新手不会失误/捷径型结构观察",
+      "published_date": "2026-09-01"
+    },
+    {
+      "id": "S16",
+      "name": "千瓜数据｜FlowerKnows花知晓在2026-09-18彩妆行业榜公开记录",
+      "url": "https://www.qian-gua.com/rank/category/2/1/20260918/83.html",
+      "type": "third_party_xhs_category_rank",
+      "use": "花知晓只作为当前品牌讨论线索，不据此预设主选",
+      "observed_date": "2026-09-21"
+    }
+  ],
+  "candidate_summary": [
+    {
+      "id": "C1",
+      "topic": "秋日低饱和妆显脏/显灰纠错",
+      "heat_type": [
+        "seasonal_trend",
+        "problem_demand"
+      ],
+      "no_real_product_executable": true,
+      "visual_difficulty": "low-medium",
+      "fact_risk": "low",
+      "decision": "MAIN"
+    },
+    {
+      "id": "C2",
+      "topic": "三无妆通勤重点翻译",
+      "heat_type": [
+        "creator_content_interaction",
+        "original_makeup_trend"
+      ],
+      "no_real_product_executable": true,
+      "visual_difficulty": "low",
+      "fact_risk": "low-medium",
+      "decision": "BACKUP_A"
+    },
+    {
+      "id": "C3",
+      "topic": "秋冬裸雾唇不显没气色",
+      "heat_type": [
+        "new_product",
+        "seasonal_trend"
+      ],
+      "no_real_product_executable": true,
+      "visual_difficulty": "medium",
+      "fact_risk": "medium",
+      "decision": "BACKUP_B"
+    },
+    {
+      "id": "C4",
+      "topic": "秋日原生肌理底妆/局部遮瑕",
+      "heat_type": [
+        "seasonal_trend",
+        "brand_discussion"
+      ],
+      "no_real_product_executable": true,
+      "visual_difficulty": "medium",
+      "fact_risk": "low-medium",
+      "decision": "CANDIDATE"
+    },
+    {
+      "id": "C5",
+      "topic": "腮红位置决定显肿/通勤感",
+      "heat_type": [
+        "beauty_editorial",
+        "evergreen_problem"
+      ],
+      "no_real_product_executable": true,
+      "visual_difficulty": "medium",
+      "fact_risk": "low-medium",
+      "decision": "CANDIDATE"
+    },
+    {
+      "id": "C6",
+      "topic": "烟熏玫瑰日常翻译",
+      "heat_type": [
+        "seasonal_trend"
+      ],
+      "no_real_product_executable": true,
+      "visual_difficulty": "medium",
+      "fact_risk": "low",
+      "decision": "CANDIDATE"
+    },
+    {
+      "id": "C7",
+      "topic": "橘朵秋冬新品氛围妆拆解",
+      "heat_type": [
+        "new_product"
+      ],
+      "no_real_product_executable": "only_public-info-summary",
+      "visual_difficulty": "high",
+      "fact_risk": "medium-high",
+      "decision": "DEFER"
+    }
+  ],
+  "limitations": [
+    "小红书匿名网页对具体笔记访问不稳定，未虚构互动数、页数或评论问题。",
+    "第三方榜单不等同小红书官方后台。",
+    "跨平台互动只用于结构观察，不等同小红书热度。",
+    "港台/国际编辑趋势仅作为秋冬审美趋势证据，不等同大陆小红书搜索排名。",
+    "品牌功效/持妆描述仅视为品牌宣称，不作为账号亲测。"
+  ]
+}
