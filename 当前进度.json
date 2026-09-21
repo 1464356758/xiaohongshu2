@@ -1,14 +1,14 @@
 {
   "project_id": "XHS-BEAUTY-002",
   "system_version": "2.2",
-  "revision": 7,
-  "handoff_epoch": 7,
+  "revision": 8,
+  "handoff_epoch": 8,
   "stage": "CONTENT",
-  "status": "IMAGE_A",
+  "status": "REVIEWING",
   "current_task": "CONTENT-001",
   "task_path": "任务/CONTENT-001/V2/任务.json",
   "current_input_revision": 2,
-  "current_pipeline_step": "IMAGE_A",
+  "current_pipeline_step": "AUDIT_WRITEBACK",
   "account_registration_status": "NOT_REGISTERED",
   "publish_status": "NOT_PUBLISHED",
   "active_persona_version": "正式/人设/虚拟博主人设V1.md",
@@ -29,6 +29,25 @@
     "status": "VALIDATED_CARRY_FORWARD",
     "approval_path": "批准/CONTENT-001/V2/人物锁升级继承批准.md"
   },
+  "content_001_visual": {
+    "c_result": "PASS",
+    "asset_root": "资产/内容/CONTENT-001/LOCK-V1/",
+    "asset_commit": "1fbafe7dc00bfdc3048a107a29116f64f077e90c",
+    "manifest_path": "产物/图片C/CONTENT-001/V1/最终资产清单.json",
+    "delivery_path": "产物/图片C/CONTENT-001/V1/交付.json"
+  },
+  "content_001_audit": {
+    "chat_review_completed": true,
+    "result": "PASS",
+    "P0": 0,
+    "P1": 0,
+    "P2": 2,
+    "score": 92,
+    "github_writeback_status": "WAITING",
+    "rework_required": false,
+    "rework_round_counted": false,
+    "instruction_path": "任务/CONTENT-001/V2/审核PASS落库指令.md"
+  },
   "latest_data_report": null,
   "latest_verified_snapshot": null,
   "approved_spend_cny": 0,
@@ -37,16 +56,16 @@
   "role_system": "13_ROLE_COMPLETE_OPERATING_SYSTEM",
   "next_actions": [
     {
-      "role": "图片生成员A",
-      "action": "执行CONTENT-001 input_revision=2；读取任务/CONTENT-001/V2/任务.json与批准/PERSONA-001/LOCK-V2.json，继承已批准文案V1，从图片A开始制作4页实际图片。"
+      "role": "内容与合规审核",
+      "action": "不重新审核、不重新上传图片；仅将当前聊天已完成的PASS结果写入产物/审核/CONTENT-001/V1/审核报告.md与交付.json，并回读验证后返回固定提交。"
     },
     {
-      "role": "图片审核修图员B",
-      "action": "A完成并提供实际原图后，按CONTENT-001 V2与PERSONA LOCK-V2进行像素级审核。"
+      "role": "总监",
+      "action": "收到审核固定提交后，创建CONTENT LOCK并进入PUBLISH_PREP。"
     }
   ],
-  "updated_at": "2026-09-21T20:42:00+08:00",
-  "note": "PERSONA-001 LOCK-V2已由总监接受并替代LOCK-V1；LOCK-V1历史保留。CONTENT-001仅做人物锁最小范围重绑，热点/策划/文案V1继续有效，无CONTENT图片A旧产物需要废弃，主线直接进入IMAGE_A。",
+  "updated_at": "2026-09-22T07:10:00+08:00",
+  "note": "修正此前当前进度滞后问题：CONTENT-001实际已完成A/B/C并完成独立审核聊天PASS；当前唯一未完成项为审核角色GitHub正式交付落库。该等待不计返修，不退回策划/A/B/C。",
   "system_patch": "V2.2-P1_GITHUB_BINARY_ASSETS",
   "binary_asset_policy_active": true,
   "current_persona_binary_upload_required": false,
