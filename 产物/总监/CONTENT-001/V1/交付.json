@@ -1,0 +1,26 @@
+{
+  "project_id": "XHS-BEAUTY-002",
+  "task_id": "CONTENT-001",
+  "input_revision": 2,
+  "role": "总监",
+  "version": "V1",
+  "action": "CORRECT_STATE_TO_COMPLIANCE_WAITING_UPLOAD",
+  "result": "BLOCKED_WAITING_USER_UPLOAD",
+  "block_reason": "内容与合规审核AI当前聊天尚未收到C最终P1-P4四张实际JPG原图；按像素级独立审核规则不能仅凭GitHub清单/路径替代当前聊天实际图片。",
+  "rework_round_counted": false,
+  "return_to_image_a_b_c": false,
+  "c_status": "PASS",
+  "c_manifest_path": "产物/图片C/CONTENT-001/V1/最终资产清单.json",
+  "c_delivery_path": "产物/图片C/CONTENT-001/V1/交付.json",
+  "final_asset_commit": "1fbafe7dc00bfdc3048a107a29116f64f077e90c",
+  "final_asset_paths": [
+    "资产/内容/CONTENT-001/LOCK-V1/01_cover.jpg",
+    "资产/内容/CONTENT-001/LOCK-V1/02_page.jpg",
+    "资产/内容/CONTENT-001/LOCK-V1/03_page.jpg",
+    "资产/内容/CONTENT-001/LOCK-V1/04_page.jpg"
+  ],
+  "known_deviation": "图内文字与批准文案存在用户明确接受的偏差；独立审核需知悉，但不得因同一偏差自动退回B/C，除非审核发现新的P0/P1问题。",
+  "next_user_action": "把上述4张C最终实际JPG原图逐张上传到内容与合规审核AI当前聊天。",
+  "resume_state": "REVIEWING",
+  "next_role": "内容与合规审核AI"
+}
