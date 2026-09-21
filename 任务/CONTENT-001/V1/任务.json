@@ -1,0 +1,100 @@
+{
+  "project_id": "XHS-BEAUTY-002",
+  "task_id": "CONTENT-001",
+  "input_revision": 1,
+  "task_type": "content_production",
+  "status": "READY",
+  "pipeline": [
+    "热点与竞品研究员",
+    "内容策划",
+    "文案脚本",
+    "图片生成员A",
+    "图片审核修图员B",
+    "图片终审修图员C",
+    "内容与合规审核",
+    "总监CONTENT_LOCK",
+    "发布与社群运营",
+    "用户发布",
+    "数据分析与实验"
+  ],
+  "responsible_role": "热点与竞品研究员",
+  "fixed_input_commit": "03fc81314304b8f64d594378acbe4bbaf229546a",
+  "inputs": [
+    {
+      "path": "正式/定位/V2.md",
+      "commit": "03fc81314304b8f64d594378acbe4bbaf229546a",
+      "required": true
+    },
+    {
+      "path": "批准/PERSONA-001/LOCK-V1.json",
+      "commit": "03fc81314304b8f64d594378acbe4bbaf229546a",
+      "required": true
+    },
+    {
+      "path": "正式/视觉规范/V1.md",
+      "commit": "03fc81314304b8f64d594378acbe4bbaf229546a",
+      "required": true
+    },
+    {
+      "path": "产物/研究/RESEARCH-001/V1/研究报告.md",
+      "commit": "3f040891b47cdd79669df84a54a41b32e1610a7f",
+      "required": true
+    },
+    {
+      "path": "产物/研究/RESEARCH-001/V1/来源.json",
+      "commit": "3f040891b47cdd79669df84a54a41b32e1610a7f",
+      "required": true
+    },
+    {
+      "path": "系统/热点与品牌借势协议V2.2.md",
+      "commit": "03fc81314304b8f64d594378acbe4bbaf229546a",
+      "required": true
+    },
+    {
+      "path": "系统/图片工作流V2.md",
+      "commit": "03fc81314304b8f64d594378acbe4bbaf229546a",
+      "required": true
+    },
+    {
+      "path": "系统/审核标准.md",
+      "commit": "03fc81314304b8f64d594378acbe4bbaf229546a",
+      "required": true
+    }
+  ],
+  "content_direction": {
+    "primary_positioning": "轻通勤问题解决型妆感卡",
+    "secondary_pillar": "热门妆容趋势翻译器",
+    "conditional_pillar": "品牌审美观察 + 单品信息整理",
+    "rule": "首条优先服务主定位；是否借热点由热点研究员按当期真实证据决定，不预设品牌或具体热词。"
+  },
+  "hot_research_requirements": [
+    "本次CONTENT重新联网检索，不复用RESEARCH-001中的旧热度作为当前热点结论",
+    "至少提供5个候选，区分品牌讨论、新品、销售榜单、搜索/内容讨论、季节/节日/妆容趋势",
+    "每个候选写来源、检索日期、热度类型、证据、本账号切入角度、视觉难度、事实风险",
+    "评估是否能在没有真实产品的情况下执行；需要具体包装/色号时列出素材缺口",
+    "补充3至10条近期竞品内容结构观察",
+    "最终给1个主热点 + 2个备选，不承诺爆款",
+    "优先选择能落入“一个明确问题 + 4页可收藏答案”的切口"
+  ],
+  "content_rules": [
+    "一条只解决一个主要问题",
+    "默认4页，策划有充分理由时可扩展至6页",
+    "普通带脸内容必须使用当前PERSONA LOCK真实图片作为人物参考",
+    "无账号真实体验证据时不得写亲测、使用时长、持妆或现实效果结论",
+    "具体品牌/产品事实必须有可靠来源；无可靠产品外观依据时不得伪造包装、Logo或色号",
+    "图片必须经过A→B→C，C最终资产真实二进制入库后才可进入独立审核",
+    "独立审核PASS后由总监创建CONTENT LOCK；发布运营只认LOCK"
+  ],
+  "page_count": 4,
+  "max_page_count": 6,
+  "budget_cny": 0,
+  "max_spend_cny": 0,
+  "max_rework_rounds": 2,
+  "publish_authority": "USER_ONLY",
+  "deliverables_by_first_role": [
+    "产物/热点/CONTENT-001/V1/热点报告.md",
+    "产物/热点/CONTENT-001/V1/来源.json",
+    "产物/热点/CONTENT-001/V1/交付.json"
+  ],
+  "next_condition": "热点与竞品研究员完成真实联网研究并给出1个主热点+2个备选后，交内容策划继续，不得跳过热点阶段。"
+}
