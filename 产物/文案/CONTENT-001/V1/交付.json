@@ -1,0 +1,50 @@
+{
+  "project_id": "XHS-BEAUTY-002",
+  "task_id": "CONTENT-001",
+  "input_revision": 1,
+  "role": "文案脚本",
+  "role_version": "V2.2",
+  "status": "DONE",
+  "result": "SCRIPT_COMPLETE",
+  "completed_at": "2026-09-21T18:22:00+08:00",
+  "timezone": "Asia/Shanghai",
+  "input_task_path": "任务/CONTENT-001/V1/任务.json",
+  "fixed_inputs": {
+    "hot_research_commit": "ae39b11a15529e1bb0776bb25cd03f092a40fb2c",
+    "planning_commit": "1a8fcc2ad6a99d61b3c5b6fc583ff1d3125f0a76",
+    "positioning_path": "正式/定位/V2.md",
+    "persona_lock_path": "批准/PERSONA-001/LOCK-V1.json",
+    "persona_image_commit": "9c2a18da1b244e801c74c1f125ac0d52712aa442"
+  },
+  "selection": {
+    "recommended_title": "低饱和秋妆显灰？通勤只改3处",
+    "page_count": 4,
+    "main_problem": "低饱和秋妆显脏/显灰/没精神时，通勤版如何只改眼、颊、唇3处",
+    "specific_brand_or_product_used": false,
+    "real_product_image_required": false,
+    "interaction_question": "你最容易灰在眼妆、腮红还是唇色？"
+  },
+  "deliverables": [
+    {
+      "path": "产物/文案/CONTENT-001/V1/文案.md",
+      "git_blob_sha": "5802adfdc0d7a68799bc8c5de395d19d756ed62b",
+      "content_commit": "83e21dcf3b674652b475d025a7330191bd769588",
+      "verified_readback": true
+    },
+    {
+      "path": "产物/文案/CONTENT-001/V1/交付.json"
+    }
+  ],
+  "constraints": {
+    "budget_cny": 0,
+    "page_count_locked": 4,
+    "no_brand_product": true,
+    "no_first_person_product_experience": true,
+    "no_unverified_effect_claims": true,
+    "deterministic_chinese_text": true,
+    "p3_same_person_edit_required": true,
+    "p3_fallback": "同一完成妆主图 + 眼/颊/唇3个局部裁切"
+  },
+  "next_role": "图片生成员A",
+  "next_condition": "读取本V1文案、当前PERSONA LOCK、正式视觉规范与CONTENT-001任务；严格按4页确定性中文和逐页制作说明执行，不自行改文案、换题或增加品牌产品。"
+}
