@@ -1,0 +1,48 @@
+{
+  "project_id": "XHS-BEAUTY-002",
+  "task_id": "PERSONA-001",
+  "input_revision": 2,
+  "role": "图片生成员A",
+  "version": "V1",
+  "status": "A_GENERATED_WAITING_B",
+  "page_count": 3,
+  "files": [
+    {
+      "name": "anchor_front.jpg",
+      "dimensions": [
+        1440,
+        1920
+      ],
+      "format": "JPEG",
+      "sha256": "15fc6549e38c21e4359281b91f11a229cc10d3ac3227c6e099cbf82a245ef92d"
+    },
+    {
+      "name": "anchor_45.jpg",
+      "dimensions": [
+        1440,
+        1920
+      ],
+      "format": "JPEG",
+      "sha256": "e865f69186f8886e00c1ddb4a83f2ebf8b1676541a5a26c7c332122ed917dd63"
+    },
+    {
+      "name": "anchor_halfbody.jpg",
+      "dimensions": [
+        1440,
+        1920
+      ],
+      "format": "JPEG",
+      "sha256": "980d684ebc58fbc21e177fed66342daabb39f0592767b75f38fd4b4f065223ab"
+    }
+  ],
+  "active_anchor_lock": null,
+  "actual_images": "delivered_in_current_chat",
+  "self_check": {
+    "file_gate": "PASS_FOR_B_REVIEW",
+    "identity_consistency": "REQUIRES_B_PIXEL_REVIEW",
+    "right_cheek_mole": "NOT_STABLE_REQUIRES_B_FIX",
+    "halfbody_framing": "REQUIRES_B_REVIEW"
+  },
+  "next_role": "图片审核修图员B",
+  "next_action": "用户把A实际原图上传给图片审核修图员B"
+}
