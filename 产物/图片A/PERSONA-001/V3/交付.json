@@ -1,0 +1,46 @@
+{
+  "project_id": "XHS-BEAUTY-002",
+  "task_id": "PERSONA-001",
+  "input_revision": 2,
+  "role": "图片生成员A",
+  "version": "V3",
+  "rework_round": 2,
+  "status": "READY_FOR_B_REVIEW",
+  "page_count": 3,
+  "source_stage": "A",
+  "files": [
+    {
+      "file": "anchor_front.jpg",
+      "shot": "正面肩部近景",
+      "dimensions": [
+        1440,
+        1920
+      ],
+      "format": "JPEG",
+      "sha256": "2c5fbfd2c35cf2b05c02c4376190d3c0cdec31f0572a6f7a35431650d9e09984"
+    },
+    {
+      "file": "anchor_45.jpg",
+      "shot": "明显45度侧面肩部近景",
+      "dimensions": [
+        1440,
+        1920
+      ],
+      "format": "JPEG",
+      "sha256": "5feca437d9591dbf3fb1869e418ae8b67a796e7e3db1579497627b05505bc8a7"
+    },
+    {
+      "file": "anchor_halfbody.jpg",
+      "shot": "半身自然坐姿",
+      "dimensions": [
+        1440,
+        1920
+      ],
+      "format": "JPEG",
+      "sha256": "7b651ed2d58ed8256346ff521e5ef9638fc8f9e97b0d48d87e44253e315b9950"
+    }
+  ],
+  "actual_image_delivery": "CURRENT_CHAT_THREE_INDEPENDENT_IMAGES",
+  "next_role": "图片审核修图员B",
+  "next_action": "用户将本轮3张A实际独立原图逐张上传给图片审核修图员B复审"
+}
