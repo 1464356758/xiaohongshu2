@@ -33,5 +33,9 @@
     }
   ],
   "updated_at": "2026-09-21T14:25:00+08:00",
-  "note": "用户否定旧方案整体人物照片质量；旧方案已到第2轮返修。总监按规则停止第3次同方案返修，切换为MASTER_FACE_FIRST_THEN_IMAGE_EDIT_VARIANTS，重新定制并锁定同一原创虚拟人物。"
+  "note": "用户否定旧方案整体人物照片质量；旧方案已到第2轮返修。总监按规则停止第3次同方案返修，切换为MASTER_FACE_FIRST_THEN_IMAGE_EDIT_VARIANTS，重新定制并锁定同一原创虚拟人物。",
+  "system_patch": "V2.2-P1_GITHUB_BINARY_ASSETS",
+  "binary_asset_policy_active": true,
+  "current_persona_binary_upload_required": true,
+  "binary_asset_note": "当前PERSONA-001 input_revision=3无需重跑A/B；从C最终PASS开始，master_face与最终anchor必须上传GitHub真实JPG/PNG后才能PERSONA LOCK。"
 }
