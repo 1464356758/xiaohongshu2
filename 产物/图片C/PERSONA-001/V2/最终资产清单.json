@@ -1,0 +1,96 @@
+{
+  "project_id": "XHS-BEAUTY-002",
+  "task_id": "PERSONA-001",
+  "input_revision": 3,
+  "version": "V2",
+  "source_stage": "C",
+  "status": "FINAL_VISUAL_ASSET_CANDIDATE",
+  "review_result": "PASS",
+  "supersedes_candidate": "批准/PERSONA-001/LOCK-V1.json",
+  "proposed_lock_version": "LOCK-V2",
+  "lock_asset_dir": "资产/人物/PERSONA-001/LOCK-V2/",
+  "asset_commit": "10133ebfaf320546daf28b218e62d88911e4de3b",
+  "source": "用户本轮上传的3张图片B最终图，仅基于本轮3图终审；未混入旧A/B/C图。",
+  "files": [
+    {
+      "role": "master_face",
+      "file": "master_face.jpg",
+      "repo_path": "资产/人物/PERSONA-001/LOCK-V2/master_face.jpg",
+      "commit": "10133ebfaf320546daf28b218e62d88911e4de3b",
+      "git_blob_sha": "d7981b500489b57cc0ce864780807d1bc8f71158",
+      "SHA256": "15837cb56bf5fcf039d7d747c2e0655323c746b1c8120ffcc3a2e5e9dd9b0625",
+      "bytes": 318201,
+      "width": 1152,
+      "height": 1536,
+      "format": "JPEG",
+      "source_mapping": "本轮图2 anchor_front，同时作为母脸"
+    },
+    {
+      "role": "anchor_front",
+      "file": "anchor_front.jpg",
+      "repo_path": "资产/人物/PERSONA-001/LOCK-V2/anchor_front.jpg",
+      "commit": "10133ebfaf320546daf28b218e62d88911e4de3b",
+      "git_blob_sha": "d7981b500489b57cc0ce864780807d1bc8f71158",
+      "SHA256": "15837cb56bf5fcf039d7d747c2e0655323c746b1c8120ffcc3a2e5e9dd9b0625",
+      "bytes": 318201,
+      "width": 1152,
+      "height": 1536,
+      "format": "JPEG",
+      "source_mapping": "本轮图2"
+    },
+    {
+      "role": "anchor_45",
+      "file": "anchor_45.jpg",
+      "repo_path": "资产/人物/PERSONA-001/LOCK-V2/anchor_45.jpg",
+      "commit": "10133ebfaf320546daf28b218e62d88911e4de3b",
+      "git_blob_sha": "35d590301b314501f41e660ff664332aaf47f93f",
+      "SHA256": "d66d45bc289df3e21665ca92fd01a8a2eb6eeeb3aecbeb047ebbcc90b4e09e37",
+      "bytes": 326409,
+      "width": 1152,
+      "height": 1536,
+      "format": "JPEG",
+      "source_mapping": "本轮图3"
+    },
+    {
+      "role": "anchor_halfbody",
+      "file": "anchor_halfbody.jpg",
+      "repo_path": "资产/人物/PERSONA-001/LOCK-V2/anchor_halfbody.jpg",
+      "commit": "10133ebfaf320546daf28b218e62d88911e4de3b",
+      "git_blob_sha": "e1b7e3108c642c8062e722a69273bb77fffffb40",
+      "SHA256": "b01976c2e15a4ba5f50cd4ccf3b0982dd159c132806794e6a43e71025cdfe6bd",
+      "bytes": 306962,
+      "width": 1152,
+      "height": 1536,
+      "format": "JPEG",
+      "source_mapping": "本轮图1"
+    }
+  ],
+  "optional_assets": {
+    "anchor_detail": {
+      "included": false,
+      "reason": "本轮B最终交付仅3张，不生成、不伪造独立anchor_detail。"
+    }
+  },
+  "quality_gate": {
+    "identity_consistency": "PASS",
+    "mole_anchor_consistency": "PASS",
+    "face_hair_makeup_body": "PASS",
+    "shot_assignment": "PASS",
+    "xhs_visual_completion": "PASS",
+    "file_format": "PASS",
+    "c_retouch_required": false
+  },
+  "verification": {
+    "method": "GitHub固定提交回读base64与本轮B最终上传源逐字节编码比对 + git_blob_sha核对",
+    "blob_sha_match": true,
+    "byte_content_match": true,
+    "verified_commit": "10133ebfaf320546daf28b218e62d88911e4de3b"
+  },
+  "c_processing": {
+    "visual_regeneration": false,
+    "retouch": false,
+    "identity_changed": false,
+    "note": "C未重新生成或修改人物，仅终审、规范命名并上传真实二进制。"
+  },
+  "director_action_required": "如接受本轮B/C新版人物资产，由总监创建批准/PERSONA-001/LOCK-V2.json，声明supersedes LOCK-V1，并更新active_anchor_lock。"
+}
