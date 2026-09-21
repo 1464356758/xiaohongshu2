@@ -1,0 +1,60 @@
+{
+  "project_id": "XHS-BEAUTY-002",
+  "task_id": "CONTENT-001",
+  "input_revision": 2,
+  "role": "图片审核修图员B",
+  "version": "R1",
+  "status": "READY_FOR_C_REVIEW",
+  "repair_scope": "DETERMINISTIC_TEXT_LAYER_ONLY",
+  "source_reason": "C终审R1仅要求文字层返修",
+  "photography_changed": false,
+  "face_changed": false,
+  "makeup_changed": false,
+  "regenerated": false,
+  "page_order": [
+    "01_cover.png",
+    "02_page.png",
+    "03_page.png",
+    "04_page.png"
+  ],
+  "files": [
+    {
+      "name": "01_cover.png",
+      "dimensions": [
+        1152,
+        1536
+      ],
+      "format": "PNG",
+      "sha256": "d46713e764b33481d8fb97fa536daa1c4f5cc5a5a0a8b3635dba5201ee1070a8"
+    },
+    {
+      "name": "02_page.png",
+      "dimensions": [
+        1152,
+        1536
+      ],
+      "format": "PNG",
+      "sha256": "6f8172c616f50be96b97bbf66c5084560259614590256c21f8f0ac11505dc084"
+    },
+    {
+      "name": "03_page.png",
+      "dimensions": [
+        1152,
+        1536
+      ],
+      "format": "PNG",
+      "sha256": "0444750d053153319605747988a7ba158dd34f16909313382854fa8ccf928ebc"
+    },
+    {
+      "name": "04_page.png",
+      "dimensions": [
+        1152,
+        1536
+      ],
+      "format": "PNG",
+      "sha256": "75cfaa7184531557f90f538f5b9065ec0427e9f932658bb1dae1c6d2ce76e620"
+    }
+  ],
+  "next_role": "图片终审修图员C",
+  "next_action": "只使用本轮4张B最终图执行C复审"
+}
