@@ -3,16 +3,21 @@
   "version": "V1",
   "source_stage": "C",
   "status": "FINAL_VISUAL_ASSET",
+  "repository_assets": true,
+  "image_commit": null,
   "page_count": 4,
   "persona_lock": null,
   "files": [
     {
       "page": 1,
       "filename": "01_cover.jpg",
+      "repo_path": null,
+      "git_blob_sha": null,
+      "sha256": null,
+      "bytes": null,
       "format": "JPG",
       "width": null,
-      "height": null,
-      "asset_id": null
+      "height": null
     }
   ],
   "zip_bundle": {

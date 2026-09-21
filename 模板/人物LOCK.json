@@ -6,6 +6,10 @@
   "persona_version": "正式/人设/虚拟博主人设V1.md",
   "image_c_delivery": null,
   "final_asset_manifest": null,
+  "master_face_repo_path": null,
+  "anchor_repo_paths": [],
+  "image_commit": null,
+  "binary_assets_verified": false,
   "anchors": [],
   "fixed_traits_summary": null,
   "created_at": null
