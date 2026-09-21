@@ -1,0 +1,81 @@
+{
+  "project_id": "XHS-BEAUTY-002",
+  "task_id": "PERSONA-001",
+  "input_revision": 3,
+  "version": "V1",
+  "lock_asset_dir": "资产/人物/PERSONA-001/LOCK-V1/",
+  "source_stage": "C",
+  "status": "FINAL_VISUAL_ASSET",
+  "review_result": "PASS",
+  "page_count": 4,
+  "asset_commit": "9c2a18da1b244e801c74c1f125ac0d52712aa442",
+  "files": [
+    {
+      "role": "master_face",
+      "file": "master_face.jpg",
+      "repo_path": "资产/人物/PERSONA-001/LOCK-V1/master_face.jpg",
+      "commit": "9c2a18da1b244e801c74c1f125ac0d52712aa442",
+      "git_blob_sha": "0631956462e51911f7c61dfe6023cdc6c5771b8e",
+      "SHA256": "37b9e2c3aaf978c8a913ef34878feddc17cab06bf2302376712e87c10173ccce",
+      "bytes": 180688,
+      "width": 1152,
+      "height": 1536,
+      "format": "JPEG"
+    },
+    {
+      "role": "anchor_front",
+      "file": "anchor_front.jpg",
+      "repo_path": "资产/人物/PERSONA-001/LOCK-V1/anchor_front.jpg",
+      "commit": "9c2a18da1b244e801c74c1f125ac0d52712aa442",
+      "git_blob_sha": "0631956462e51911f7c61dfe6023cdc6c5771b8e",
+      "SHA256": "37b9e2c3aaf978c8a913ef34878feddc17cab06bf2302376712e87c10173ccce",
+      "bytes": 180688,
+      "width": 1152,
+      "height": 1536,
+      "format": "JPEG"
+    },
+    {
+      "role": "anchor_45",
+      "file": "anchor_45.jpg",
+      "repo_path": "资产/人物/PERSONA-001/LOCK-V1/anchor_45.jpg",
+      "commit": "9c2a18da1b244e801c74c1f125ac0d52712aa442",
+      "git_blob_sha": "7013c1453c7477ec509bafb95207714b4821bbf3",
+      "SHA256": "8869b853effad0e04bdb5734ae68eed6ae80ad78d2728b458411c4d79e5f1739",
+      "bytes": 164052,
+      "width": 1152,
+      "height": 1536,
+      "format": "JPEG"
+    },
+    {
+      "role": "anchor_halfbody",
+      "file": "anchor_halfbody.jpg",
+      "repo_path": "资产/人物/PERSONA-001/LOCK-V1/anchor_halfbody.jpg",
+      "commit": "9c2a18da1b244e801c74c1f125ac0d52712aa442",
+      "git_blob_sha": "7acf71fea72112cb2a7208ca385eecf9e3887c25",
+      "SHA256": "57a2a2db5f40cc14420933812fac94be64e5c008d439caec6e796053103cffd3",
+      "bytes": 178941,
+      "width": 1152,
+      "height": 1536,
+      "format": "JPEG"
+    }
+  ],
+  "optional_assets": {
+    "anchor_detail": {
+      "included": false,
+      "reason": "当前C最终版本没有独立anchor_detail实际原图；按补充指令不创建占位或伪造文件。"
+    }
+  },
+  "verification": {
+    "method": "GitHub固定提交回读base64与上传源逐字节编码比对 + git_blob_sha核对",
+    "blob_sha_match": true,
+    "byte_content_match": true,
+    "verified_commit": "9c2a18da1b244e801c74c1f125ac0d52712aa442"
+  },
+  "c_processing": {
+    "identity_changed": false,
+    "visual_regeneration": false,
+    "note": "沿用已确定人物；C仅将当前最终图规范化为真实JPEG资产并入库，不重新执行A/B、不更换人物。"
+  },
+  "persona_lock": null,
+  "zip_bundle": "ZIP_NOT_REQUIRED_FOR_GITHUB_LOCK_INGEST"
+}
