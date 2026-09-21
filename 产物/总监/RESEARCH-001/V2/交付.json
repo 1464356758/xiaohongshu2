@@ -1,0 +1,25 @@
+{
+  "project_id": "XHS-BEAUTY-002",
+  "role": "总监",
+  "task_id": "RESEARCH-001",
+  "input_revision": 1,
+  "version": "V2",
+  "result": "PASS",
+  "decision": "POSITIONING_APPROVED_AND_CONTENT_001_ISSUED",
+  "research_fixed_commit": "3f040891b47cdd79669df84a54a41b32e1610a7f",
+  "positioning_path": "正式/定位/V2.md",
+  "positioning_create_commit": "c95d283be281c3a9be658ab5b8a69e1a3b0a8546",
+  "approval_path": "批准/RESEARCH-001/V1/定位批准.md",
+  "approval_commit": "03fc81314304b8f64d594378acbe4bbaf229546a",
+  "next_task": "CONTENT-001",
+  "next_task_path": "任务/CONTENT-001/V1/任务.json",
+  "next_task_commit": "9b4b67102ba4b1f10180fde7976e430fc78d05be",
+  "approved_positioning": {
+    "primary": "轻通勤问题解决型妆感卡",
+    "secondary": "热门妆容趋势翻译器",
+    "conditional": "品牌审美观察 + 单品信息整理"
+  },
+  "max_spend_cny": 0,
+  "next_role": "热点与竞品研究员",
+  "next_action": "读取CONTENT-001 V1正式任务并重新联网检索当期热点，至少给5个候选、1个主热点和2个备选。"
+}
