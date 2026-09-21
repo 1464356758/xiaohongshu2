@@ -1,19 +1,19 @@
 {
   "project_id": "XHS-BEAUTY-002",
   "system_version": "2.2",
-  "revision": 6,
-  "handoff_epoch": 6,
+  "revision": 7,
+  "handoff_epoch": 7,
   "stage": "CONTENT",
-  "status": "READY_FOR_HOT_RESEARCH",
+  "status": "IMAGE_A",
   "current_task": "CONTENT-001",
-  "task_path": "任务/CONTENT-001/V1/任务.json",
-  "current_input_revision": 1,
-  "current_pipeline_step": "HOT_RESEARCH",
+  "task_path": "任务/CONTENT-001/V2/任务.json",
+  "current_input_revision": 2,
+  "current_pipeline_step": "IMAGE_A",
   "account_registration_status": "NOT_REGISTERED",
   "publish_status": "NOT_PUBLISHED",
   "active_persona_version": "正式/人设/虚拟博主人设V1.md",
   "active_visual_spec": "正式/视觉规范/V1.md",
-  "active_anchor_lock": "批准/PERSONA-001/LOCK-V1.json",
+  "active_anchor_lock": "批准/PERSONA-001/LOCK-V2.json",
   "active_positioning_version": "正式/定位/V2.md",
   "latest_market_research": {
     "task_id": "RESEARCH-001",
@@ -21,6 +21,13 @@
     "source_path": "产物/研究/RESEARCH-001/V1/来源.json",
     "fixed_commit": "3f040891b47cdd79669df84a54a41b32e1610a7f",
     "status": "APPROVED"
+  },
+  "content_001_carry_forward": {
+    "hot_research_commit": "ae39b11a15529e1bb0776bb25cd03f092a40fb2c",
+    "planning_commit": "1a8fcc2ad6a99d61b3c5b6fc583ff1d3125f0a76",
+    "script_commit": "cfe82ca46022a67529c36eb0d8298c92bc6c8bb5",
+    "status": "VALIDATED_CARRY_FORWARD",
+    "approval_path": "批准/CONTENT-001/V2/人物锁升级继承批准.md"
   },
   "latest_data_report": null,
   "latest_verified_snapshot": null,
@@ -30,18 +37,18 @@
   "role_system": "13_ROLE_COMPLETE_OPERATING_SYSTEM",
   "next_actions": [
     {
-      "role": "热点与竞品研究员",
-      "action": "执行CONTENT-001 V1：重新联网检索当前品牌/新品/妆容/季节与竞品结构，至少给5个候选、1个主热点和2个备选；优先寻找可落入轻通勤问题解决型妆感卡的切口。"
+      "role": "图片生成员A",
+      "action": "执行CONTENT-001 input_revision=2；读取任务/CONTENT-001/V2/任务.json与批准/PERSONA-001/LOCK-V2.json，继承已批准文案V1，从图片A开始制作4页实际图片。"
     },
     {
-      "role": "内容策划",
-      "action": "热点交付完成后读取正式定位V2、热点最终交付和PERSONA LOCK，进入4页内容策划。"
+      "role": "图片审核修图员B",
+      "action": "A完成并提供实际原图后，按CONTENT-001 V2与PERSONA LOCK-V2进行像素级审核。"
     }
   ],
-  "updated_at": "2026-09-21T18:00:00+08:00",
-  "note": "RESEARCH-001已由总监验收通过；正式定位升级至V2，批准A主定位、B辅助、C条件型支柱。CONTENT-001已正式启动，从热点与竞品研究开始。",
+  "updated_at": "2026-09-21T20:42:00+08:00",
+  "note": "PERSONA-001 LOCK-V2已由总监接受并替代LOCK-V1；LOCK-V1历史保留。CONTENT-001仅做人物锁最小范围重绑，热点/策划/文案V1继续有效，无CONTENT图片A旧产物需要废弃，主线直接进入IMAGE_A。",
   "system_patch": "V2.2-P1_GITHUB_BINARY_ASSETS",
   "binary_asset_policy_active": true,
   "current_persona_binary_upload_required": false,
-  "persona_image_commit": "9c2a18da1b244e801c74c1f125ac0d52712aa442"
+  "persona_image_commit": "10133ebfaf320546daf28b218e62d88911e4de3b"
 }
