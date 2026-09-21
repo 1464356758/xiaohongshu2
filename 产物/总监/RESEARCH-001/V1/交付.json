@@ -1,0 +1,14 @@
+{
+  "project_id": "XHS-BEAUTY-002",
+  "task_id": "RESEARCH-001",
+  "input_revision": 1,
+  "role": "总监",
+  "action": "ISSUE_MARKET_POSITIONING_RESEARCH_TASK",
+  "status": "RESEARCH_READY",
+  "task_path": "任务/RESEARCH-001/V1/任务.json",
+  "fixed_input_commit": "e7cbec3d0df31348dd4450e5fc3f86050b998fe1",
+  "active_persona_lock": "批准/PERSONA-001/LOCK-V1.json",
+  "max_spend_cny": 0,
+  "next_role": "市场与定位研究员",
+  "next_action": "执行RESEARCH-001首次市场与定位研究，输出3种定位候选并提交真实来源。"
+}
