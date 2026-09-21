@@ -1,0 +1,164 @@
+{
+  "project_id": "XHS-BEAUTY-002",
+  "task_id": "PERSONA-001",
+  "input_revision": 3,
+  "task_type": "persona_identity_customization",
+  "status": "READY",
+  "change_type": "DIRECTOR_STRATEGY_RESET_AFTER_REWORK_LIMIT",
+  "change_reason": "用户明确否定当前PERSONA图片整体质量；旧方案已完成2轮返修，不再进行第3轮同方案返修，改为先定母脸再基于母脸做图像编辑/变体。",
+  "strategy": "MASTER_FACE_FIRST_THEN_IMAGE_EDIT_VARIANTS",
+  "pipeline": [
+    "图片生成员A",
+    "图片审核修图员B",
+    "图片终审修图员C",
+    "总监PERSONA_LOCK"
+  ],
+  "allowed_roles": [
+    "图片生成员A",
+    "图片审核修图员B",
+    "图片终审修图员C",
+    "总监"
+  ],
+  "fixed_input_commit": "0bdece7ae19bbb5ee23b1de77325d6828184fc2e",
+  "inputs": [
+    {
+      "path": "正式/人设/虚拟博主人设V1.md",
+      "commit": "0bdece7ae19bbb5ee23b1de77325d6828184fc2e",
+      "required": true
+    },
+    {
+      "path": "正式/视觉规范/V1.md",
+      "commit": "0bdece7ae19bbb5ee23b1de77325d6828184fc2e",
+      "required": true
+    },
+    {
+      "path": "系统/图片工作流V2.md",
+      "commit": "0bdece7ae19bbb5ee23b1de77325d6828184fc2e",
+      "required": true
+    },
+    {
+      "path": "系统/图片质量门禁.md",
+      "commit": "0bdece7ae19bbb5ee23b1de77325d6828184fc2e",
+      "required": true
+    },
+    {
+      "path": "系统/图片资产交付协议V2.2.md",
+      "commit": "0bdece7ae19bbb5ee23b1de77325d6828184fc2e",
+      "required": true
+    },
+    {
+      "path": "产物/图片B/PERSONA-001/V1/审核修图记录.md",
+      "commit": "0bdece7ae19bbb5ee23b1de77325d6828184fc2e",
+      "required": true,
+      "use": "仅用于避免重复旧问题，不得把旧图当作新母脸参考。"
+    },
+    {
+      "path": "产物/图片A/PERSONA-001/V3/交付.json",
+      "commit": "0bdece7ae19bbb5ee23b1de77325d6828184fc2e",
+      "required": true,
+      "use": "记录旧方案已到第2轮返修；旧图整体不作为新版人物视觉参考。"
+    }
+  ],
+  "goal": "重新定制一个更成熟、自然、适合小红书美妆账号长期使用的原创虚拟博主，并确保后续所有锚点照片是真正同一个人。",
+  "special_rule": "PERSONA-001首次人物锚点任务允许active_anchor_lock为空。新版不得沿用旧A图作为母脸，除非用户之后明确点名某张保留。",
+  "master_face_phase": {
+    "required": true,
+    "instruction": "先生成1张高质量母脸定稿图 master_face.jpg。母脸一旦生成，本轮后续角度必须以这张实际图片作为视觉参考，通过图像编辑/变体生成，禁止每张重新独立文生图。",
+    "shot": "正面肩部近景，目视镜头，自然轻微表情",
+    "composition": "3:4竖图，人物头肩占画面主体，背景干净柔和，不做海报，不叠字",
+    "quality": [
+      "真实相机人像观感，不要塑料皮",
+      "皮肤保留轻微毛孔、细纹和自然肤质",
+      "脸型自然小鹅蛋脸，不做极尖V脸",
+      "深棕杏仁眼，眼睛大小自然，不做网红大眼",
+      "鼻梁与鼻头自然，不做过度精雕鼻",
+      "唇形柔和，上唇略薄于下唇",
+      "右侧面颊靠近颧骨的小痣必须自然清晰并作为固定身份锚点",
+      "黑茶至深棕中长发，发际线与发量自然",
+      "年龄观感24至27岁，温柔、干净、聪明、轻通勤",
+      "不得像具体明星、网红或现实人物"
+    ]
+  },
+  "variant_phase": {
+    "source": "master_face.jpg",
+    "method": "必须基于母脸实际像素进行图像编辑/变体，不允许重新从纯文字随机生成",
+    "deliver_exactly": 4,
+    "files": [
+      {
+        "file": "anchor_front.jpg",
+        "shot": "正面肩部近景",
+        "identity_rule": "与master_face同一人，允许仅做轻微表情和摄影变化"
+      },
+      {
+        "file": "anchor_45.jpg",
+        "shot": "明显45度侧面肩部近景",
+        "identity_rule": "保持眼距、鼻唇比例、下颌线、痣位置、发际线和肤色不变"
+      },
+      {
+        "file": "anchor_halfbody.jpg",
+        "shot": "半身自然坐姿",
+        "identity_rule": "保持同一人，姿势变化不能造成脸型或五官重塑"
+      },
+      {
+        "file": "anchor_detail.jpg",
+        "shot": "妆容细节近景",
+        "identity_rule": "保持同一人，皮肤纹理与右颧骨附近小痣可核对"
+      }
+    ]
+  },
+  "identity_invariants": [
+    "脸宽与脸长比例",
+    "双眼形状、眼距与眉眼间距",
+    "鼻梁、鼻头和鼻翼比例",
+    "上唇与下唇比例",
+    "下颌线与下巴长度",
+    "右侧颧骨附近小痣的位置、大小与颜色",
+    "发际线形状、发色和主体发长",
+    "肤色与整体年龄观感"
+  ],
+  "aesthetic_target": [
+    "成熟美妆博主完成度",
+    "真实生活摄影感",
+    "自然窗光或柔和室内光",
+    "低饱和奶咖/豆沙系轻通勤妆",
+    "不做廉价影楼感、AI海报感或过度网红脸",
+    "四张照片允许构图和姿势不同，但第一眼必须明确是同一个人"
+  ],
+  "prohibited": [
+    "四张分别独立文生图",
+    "旧A图直接作为新版母脸",
+    "四宫格或拼图作为正式交付",
+    "过度磨皮、塑料皮、HDR、锐化",
+    "极尖V脸、过大眼睛、过高鼻梁、过度丰唇",
+    "随机改变痣位置、发际线、眼距、鼻唇比例",
+    "随机英文、品牌Logo、文字叠加",
+    "用描述文字代替实际图片"
+  ],
+  "deliverables": [
+    "产物/图片A/PERSONA-001/V4/master_face.jpg（当前聊天实际图片交付）",
+    "产物/图片A/PERSONA-001/V4/anchor_front.jpg（当前聊天实际图片交付）",
+    "产物/图片A/PERSONA-001/V4/anchor_45.jpg（当前聊天实际图片交付）",
+    "产物/图片A/PERSONA-001/V4/anchor_halfbody.jpg（当前聊天实际图片交付）",
+    "产物/图片A/PERSONA-001/V4/anchor_detail.jpg（当前聊天实际图片交付）",
+    "产物/图片A/PERSONA-001/V4/资产清单.md",
+    "产物/图片A/PERSONA-001/V4/交付.json"
+  ],
+  "asset_rules": {
+    "format": ["JPG", "JPEG", "PNG"],
+    "aspect_ratio": "3:4",
+    "recommended_dimensions": [1440, 1920],
+    "independent_files_required": true,
+    "collage_forbidden": true,
+    "actual_pixels_required_for_B": true
+  },
+  "director_acceptance_focus": {
+    "identity_consistency_weight": 50,
+    "natural_beauty_and_persona_fit_weight": 25,
+    "skin_makeup_detail_weight": 15,
+    "composition_and_xhs_quality_weight": 10
+  },
+  "max_spend_cny": 0,
+  "max_rework_rounds": 2,
+  "publish_authority": "NONE",
+  "next_condition": "图片A完成V4实际原图后，用户把A最终原图逐张上传给图片审核修图员B；B基于实际像素复审。"
+}
