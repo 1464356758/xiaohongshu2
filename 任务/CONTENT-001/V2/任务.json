@@ -1,0 +1,119 @@
+{
+  "project_id": "XHS-BEAUTY-002",
+  "task_id": "CONTENT-001",
+  "input_revision": 2,
+  "task_type": "content_production_persona_rebind",
+  "status": "READY",
+  "supersedes_task": "任务/CONTENT-001/V1/任务.json",
+  "change_scope": "PERSONA_LOCK_ONLY",
+  "pipeline": [
+    "图片生成员A",
+    "图片审核修图员B",
+    "图片终审修图员C",
+    "内容与合规审核",
+    "总监CONTENT_LOCK",
+    "发布与社群运营",
+    "用户发布",
+    "数据分析与实验"
+  ],
+  "responsible_role": "图片生成员A",
+  "fixed_input_commit": "0f94800d967801672dcad07c59e987b77717c8cc",
+  "inputs": [
+    {
+      "path": "批准/CONTENT-001/V2/人物锁升级继承批准.md",
+      "commit": "0f94800d967801672dcad07c59e987b77717c8cc",
+      "required": true
+    },
+    {
+      "path": "批准/PERSONA-001/LOCK-V2.json",
+      "commit": "0f94800d967801672dcad07c59e987b77717c8cc",
+      "required": true
+    },
+    {
+      "path": "正式/定位/V2.md",
+      "commit": "0f94800d967801672dcad07c59e987b77717c8cc",
+      "required": true
+    },
+    {
+      "path": "正式/视觉规范/V1.md",
+      "commit": "0f94800d967801672dcad07c59e987b77717c8cc",
+      "required": true
+    },
+    {
+      "path": "产物/热点/CONTENT-001/V1/热点报告.md",
+      "commit": "ae39b11a15529e1bb0776bb25cd03f092a40fb2c",
+      "required": true,
+      "carry_forward": true
+    },
+    {
+      "path": "产物/策划/CONTENT-001/V1/策划.md",
+      "commit": "1a8fcc2ad6a99d61b3c5b6fc583ff1d3125f0a76",
+      "required": true,
+      "carry_forward": true
+    },
+    {
+      "path": "产物/文案/CONTENT-001/V1/文案.md",
+      "commit": "cfe82ca46022a67529c36eb0d8298c92bc6c8bb5",
+      "required": true,
+      "carry_forward": true
+    },
+    {
+      "path": "系统/图片工作流V2.md",
+      "commit": "0f94800d967801672dcad07c59e987b77717c8cc",
+      "required": true
+    },
+    {
+      "path": "系统/图片质量门禁.md",
+      "commit": "0f94800d967801672dcad07c59e987b77717c8cc",
+      "required": true
+    },
+    {
+      "path": "系统/GitHub图片资产入库补充协议V2.2-P1.md",
+      "commit": "0f94800d967801672dcad07c59e987b77717c8cc",
+      "required": true
+    },
+    {
+      "path": "系统/审核标准.md",
+      "commit": "0f94800d967801672dcad07c59e987b77717c8cc",
+      "required": true
+    }
+  ],
+  "carry_forward_validation": {
+    "hot_research": {
+      "status": "VALID",
+      "commit": "ae39b11a15529e1bb0776bb25cd03f092a40fb2c"
+    },
+    "planning": {
+      "status": "VALID",
+      "commit": "1a8fcc2ad6a99d61b3c5b6fc583ff1d3125f0a76"
+    },
+    "script": {
+      "status": "VALID",
+      "commit": "cfe82ca46022a67529c36eb0d8298c92bc6c8bb5"
+    },
+    "reason": "PERSONA LOCK升级只改变人物像素参考，不改变选题、事实、4页结构、标题与文案；CONTENT-001尚未进入图片A正式交付。"
+  },
+  "content_lock": {
+    "title": "低饱和秋妆显灰？通勤只改3处",
+    "main_problem": "低饱和秋妆显脏/显灰/没精神时，通勤版如何只改眼、颊、唇3处",
+    "page_count": 4,
+    "specific_brand_or_product_used": false,
+    "real_product_image_required": false,
+    "budget_cny": 0
+  },
+  "image_a_requirements": [
+    "必须使用批准/PERSONA-001/LOCK-V2.json，不得使用LOCK-V1",
+    "优先直接读取LOCK-V2中的master_face、anchor_front、anchor_45、anchor_halfbody真实GitHub图片作为视觉参考",
+    "如果当前图像编辑工具无法直接消费GitHub二进制，才要求用户上传LOCK-V2指定原图；不得只靠文字重建人物",
+    "严格按产物/文案/CONTENT-001/V1/文案.md的4页逐页制作说明执行，不改标题、不换题、不新增品牌产品",
+    "P3如需要前后/局部变化，必须保持同一人物身份；优先基于同一母脸/成片做编辑，不重新随机生脸",
+    "长中文使用确定性文字层，逐字与文案一致",
+    "最终A阶段实际图片必须逐张交付，B必须基于实际像素审核"
+  ],
+  "page_count": 4,
+  "max_page_count": 4,
+  "max_spend_cny": 0,
+  "max_rework_rounds": 2,
+  "publish_authority": "USER_ONLY",
+  "next_condition": "图片生成员A完成CONTENT-001 V2实际4页图片后，交图片审核修图员B；后续B→C→独立审核→总监CONTENT LOCK。"
+}
