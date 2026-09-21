@@ -1,0 +1,35 @@
+{
+  "project_id": "XHS-BEAUTY-002",
+  "role": "总监",
+  "task_id": "PERSONA-001",
+  "version": "V4",
+  "action": "ACCEPT_LOCK_V2_AND_REBIND_ACTIVE_CONTENT",
+  "result": "PASS",
+  "new_persona_lock": "批准/PERSONA-001/LOCK-V2.json",
+  "persona_lock_commit": "5411079d41b99964d5b37f6e12e27be68c1ceecc",
+  "superseded_lock": "批准/PERSONA-001/LOCK-V1.json",
+  "superseded_lock_preserved": true,
+  "image_commit": "10133ebfaf320546daf28b218e62d88911e4de3b",
+  "verification": {
+    "github_blob_sha_4_of_4_match": true,
+    "uploaded_source_sha256_match": true,
+    "uploaded_source_dimensions": "1152x1536",
+    "uploaded_source_actual_format": "JPEG",
+    "visual_same_person_review": "PASS"
+  },
+  "content_rebind": {
+    "task_id": "CONTENT-001",
+    "new_input_revision": 2,
+    "task_path": "任务/CONTENT-001/V2/任务.json",
+    "task_commit": "8deb5ea19a2da2ee342f1c1a8fa9004d03ba35b2",
+    "carry_forward_approval": "批准/CONTENT-001/V2/人物锁升级继承批准.md",
+    "carry_forward_approval_commit": "0f94800d967801672dcad07c59e987b77717c8cc",
+    "hot_research_commit": "ae39b11a15529e1bb0776bb25cd03f092a40fb2c",
+    "planning_commit": "1a8fcc2ad6a99d61b3c5b6fc583ff1d3125f0a76",
+    "script_commit": "cfe82ca46022a67529c36eb0d8298c92bc6c8bb5",
+    "resume_at": "IMAGE_A"
+  },
+  "progress_commit": "b7d13265151290f1964fa6f8607f1ca523a980ab",
+  "next_role": "图片生成员A",
+  "next_action": "执行CONTENT-001 input_revision=2，必须使用PERSONA LOCK-V2真实GitHub图片，继承已批准文案V1，从4页图片制作开始。"
+}
