@@ -1,0 +1,92 @@
+{
+  "project_id": "XHS-BEAUTY-002",
+  "task_id": "CONTENT-001",
+  "input_revision": 2,
+  "version": "V1",
+  "source_stage": "C",
+  "result": "PASS_BY_USER_FINAL_DECISION",
+  "status": "FINAL_VISUAL_ASSET_LOCKED_FOR_AUDIT",
+  "persona_lock": "批准/PERSONA-001/LOCK-V2.json",
+  "asset_root": "资产/内容/CONTENT-001/LOCK-V1/",
+  "asset_commit": "1fbafe7dc00bfdc3048a107a29116f64f077e90c",
+  "page_order": [
+    "P1",
+    "P2",
+    "P3",
+    "P4"
+  ],
+  "files": [
+    {
+      "page": "P1",
+      "file": "01_cover.jpg",
+      "repo_path": "资产/内容/CONTENT-001/LOCK-V1/01_cover.jpg",
+      "commit": "1fbafe7dc00bfdc3048a107a29116f64f077e90c",
+      "git_blob_sha": "4d7ffb7f03e1388748de2d6531c01c4c94150a99",
+      "SHA256": "ee891490844cf0771c21936e2e85fe3746504eb85526d17e648212c86b085d5a",
+      "bytes": 363478,
+      "width": 1152,
+      "height": 1536,
+      "format": "JPEG"
+    },
+    {
+      "page": "P2",
+      "file": "02_page.jpg",
+      "repo_path": "资产/内容/CONTENT-001/LOCK-V1/02_page.jpg",
+      "commit": "1fbafe7dc00bfdc3048a107a29116f64f077e90c",
+      "git_blob_sha": "7bc6804f0e8d2885d55404337362ccfc4e1c5a0d",
+      "SHA256": "c9aa7faf7c8cd47cc8d45c89eacb597d2d6ae2ef920cdac50f374517eabe95da",
+      "bytes": 369875,
+      "width": 1152,
+      "height": 1536,
+      "format": "JPEG"
+    },
+    {
+      "page": "P3",
+      "file": "03_page.jpg",
+      "repo_path": "资产/内容/CONTENT-001/LOCK-V1/03_page.jpg",
+      "commit": "1fbafe7dc00bfdc3048a107a29116f64f077e90c",
+      "git_blob_sha": "080e1aa3c15bee383d4a97d0c6ef16889545bec5",
+      "SHA256": "dbe8a7aa8f2f44c64e295670d0a6bb8f579fd8f8758e382dca5f73f8eed33395",
+      "bytes": 346189,
+      "width": 1152,
+      "height": 1536,
+      "format": "JPEG"
+    },
+    {
+      "page": "P4",
+      "file": "04_page.jpg",
+      "repo_path": "资产/内容/CONTENT-001/LOCK-V1/04_page.jpg",
+      "commit": "1fbafe7dc00bfdc3048a107a29116f64f077e90c",
+      "git_blob_sha": "24ec2450fde50de2b5977d8c3f7a4f56a29e91e1",
+      "SHA256": "d672014d0796eeb33d0a12f52a1abf136685f08bdd7e532492d96972560e5cea",
+      "bytes": 356997,
+      "width": 1152,
+      "height": 1536,
+      "format": "JPEG"
+    }
+  ],
+  "quality_gate": {
+    "person_consistency": "PASS",
+    "persona_lock_match": "PASS",
+    "anatomy_hair_makeup": "PASS",
+    "page_order": "PASS_AFTER_REORDER",
+    "publishable_image_format": "PASS",
+    "text_exact_match": "USER_ACCEPTED_DEVIATION",
+    "c_retouch_performed": false
+  },
+  "known_deviation": {
+    "type": "APPROVED_TEXT_VARIANCE",
+    "description": "图内文字与产物/文案/CONTENT-001/V1/文案.md并非逐字一致，含自由改写、非锁定装饰文字及非标准页码表达。",
+    "prior_c_decision": "REWORK_REQUIRED",
+    "override_source": "用户在当前对话明确指示“不改了，就要这4个图，直接锁定，发布下一步的任务”。",
+    "handling": "记录偏差但不再阻塞图片C资产锁定；下一阶段内容与合规审核需知悉。"
+  },
+  "verification": {
+    "method": "GitHub固定提交回读base64与用户本轮上传4张B最终图逐字节比对 + git_blob_sha核对",
+    "blob_sha_match_4_of_4": true,
+    "byte_content_match_4_of_4": true,
+    "verified_commit": "1fbafe7dc00bfdc3048a107a29116f64f077e90c"
+  },
+  "content_lock_status": "NOT_CREATED_BY_C",
+  "next_role": "内容与合规审核"
+}
