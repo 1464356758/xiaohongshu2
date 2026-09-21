@@ -1,0 +1,45 @@
+{
+  "project_id": "XHS-BEAUTY-002",
+  "task_id": "PERSONA-001",
+  "input_revision": 2,
+  "role": "图片审核修图员B",
+  "version": "V1",
+  "rework_round": 1,
+  "status": "FAIL_TO_A",
+  "pixel_review": true,
+  "source_stage": "A",
+  "source_delivery": "产物/图片A/PERSONA-001/V1/交付.json",
+  "received_actual_asset": {
+    "asset_count": 1,
+    "structure": "FOUR_PANEL_COLLAGE",
+    "dimensions": [
+      1536,
+      1404
+    ],
+    "detected_format": "JPEG",
+    "sha256": "0527276444180da2a905b94f8fc56c386a2abc4638b33f480060b3aeb3e719d2"
+  },
+  "gates": {
+    "Q1_identity": "FAIL_ANCHOR_MOLE_NOT_STABLE",
+    "Q2_anatomy": "PASS_WITH_VISIBLE_LIMITATIONS",
+    "Q3_makeup_skin": "REWORK_SKIN_TEXTURE",
+    "Q4_product_brand": "NOT_APPLICABLE",
+    "Q5_text_layout": "PASS_FOR_VISIBLE_TEXT",
+    "Q6_xhs_quality": "REWORK_STANDALONE_ASSETS_AND_SKIN_TEXTURE",
+    "Q7_file": "FAIL_ASSET_METADATA_MISMATCH",
+    "Q8_completeness": "FAIL_PAGE_COUNT_AND_FILE_MAPPING_MISMATCH"
+  },
+  "direct_edit_performed": false,
+  "direct_edit_reason": "当前实际素材为单张四宫格，与A登记的3张独立1440×1920资产不一致；直接裁切/扩图会破坏资产追溯链，不属于安全局部修复。",
+  "required_rework": [
+    "保持当前人物外观，不换脸",
+    "重新交付3张独立3:4原图：正面肩部近景、45度侧面肩部近景、半身自然坐姿",
+    "三张稳定保留人物右侧面颊靠近颧骨的小痣",
+    "轻微恢复真实皮肤纹理，降低过度磨皮感",
+    "逐张上传原图，不交四宫格/拼图/截图",
+    "更新A交付的尺寸、格式和SHA-256，使其与真实文件一致"
+  ],
+  "b_final_images": [],
+  "next_role": "图片生成员A",
+  "next_action": "按B最小返修要求重新输出并上传3张独立PERSONA-001原图，再交图片审核修图员B复审"
+}
