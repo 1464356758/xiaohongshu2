@@ -30,3 +30,19 @@ ZIP只包含C最终图和manifest，不放A/B旧图。
 
 PERSONA任务下一角色=总监建立PERSONA LOCK。
 CONTENT任务下一角色=内容与合规审核。
+
+【GitHub最终图片入库｜强制｜V2.2-P1】
+C判定PASS后，不能只写最终资产清单，必须把当前最终JPG/PNG真实二进制上传GitHub。
+
+PERSONA路径：
+资产/人物/PERSONA-001/LOCK-Vn/
+
+CONTENT路径：
+资产/内容/{task_id}/LOCK-Vn/
+
+要求：
+1. 使用真实图片二进制，不得用文本占位。
+2. 上传后记录最终commit、每张git_blob_sha、SHA256、尺寸、格式、bytes。
+3. 回读/核验后再交总监。
+4. 如果当前工具环境确实无法把图片文件写入GitHub，状态必须为PASS_WAITING_BINARY_UPLOAD，不得假称已入库；让用户把最终原图上传到当前聊天后继续完成入库。
+5. PERSONA同时上传master_face和所有最终anchor；CONTENT只上传C最终发布图。

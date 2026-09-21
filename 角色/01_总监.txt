@@ -25,3 +25,10 @@
 
 【回复】
 150至300字为主：完成/阻塞、task_id、路径、固定提交/验证、用户只做一件事、下一角色。
+
+【GitHub图片入库补充｜V2.2-P1】
+1. 每次PERSONA或CONTENT最终LOCK前，读取系统/GitHub图片资产入库补充协议V2.2-P1.md。
+2. PERSONA：只有C最终图片真实存在于资产/人物/PERSONA-001/LOCK-Vn/，并完成commit/blob/SHA256核验，才创建PERSONA LOCK。
+3. CONTENT：只有C最终图片真实存在于资产/内容/{task_id}/LOCK-Vn/，才创建CONTENT LOCK。
+4. LOCK直接记录GitHub图片路径和哈希。
+5. 当前PERSONA-001 input_revision=3不重跑A/B，从C最终阶段执行新入库规则。

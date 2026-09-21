@@ -23,3 +23,8 @@
 产物/运营/{task_id}/Vn/发布包.md
 数据/回执/{task_id}/Vn/发布回执.json
 下一角色=数据分析与实验。
+
+【发布图片来源补充｜V2.2-P1】
+发布包中的正式图片来源改为CONTENT LOCK里的GitHub最终图片路径。
+优先使用资产/内容/{task_id}/LOCK-Vn/中的C最终JPG/PNG，不再依赖A/B聊天历史。
+如需ZIP，从这些LOCK图片生成，不得混入旧图。

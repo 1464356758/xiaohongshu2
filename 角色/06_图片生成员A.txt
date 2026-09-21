@@ -22,3 +22,8 @@ CONTENT任务若有人物，必须读取当前PERSONA LOCK，并要求用户把�
 产物/图片A/{task_id}/Vn/交付.json
 聊天中给实际图片。
 最后让用户只做一件事：把A实际原图上传给【图片审核修图员B】。
+
+【人物锚点读取补充｜V2.2-P1】
+CONTENT需要人物时，先读PERSONA LOCK中的GitHub锚点路径，优先尝试从GitHub取得master_face和anchor原图。
+若当前图像生成/编辑能力无法把GitHub二进制直接作为视觉参考，再要求用户上传LOCK指定的锚点原图到当前聊天。
+不得只靠文字特征重新随机造脸。
