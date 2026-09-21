@@ -1,0 +1,120 @@
+{
+  "project_id": "XHS-BEAUTY-002",
+  "task_id": "CONTENT-001",
+  "input_revision": 2,
+  "lock_type": "CONTENT",
+  "lock_version": "LOCK-V1",
+  "status": "LOCKED",
+  "created_at": "2026-09-22T07:18:00+08:00",
+  "final_title": "低饱和秋妆显灰？通勤只改3处",
+  "final_body": {
+    "path": "产物/文案/CONTENT-001/V1/文案.md",
+    "fixed_commit": "cfe82ca46022a67529c36eb0d8298c92bc6c8bb5"
+  },
+  "persona_lock": "批准/PERSONA-001/LOCK-V2.json",
+  "c_final_manifest": {
+    "path": "产物/图片C/CONTENT-001/V1/最终资产清单.json",
+    "manifest_commit": "5fe517482b1e396e8e313660722aa37c25976661"
+  },
+  "c_pass_delivery": {
+    "path": "产物/图片C/CONTENT-001/V1/交付.json",
+    "result": "PASS"
+  },
+  "image_commit": "1fbafe7dc00bfdc3048a107a29116f64f077e90c",
+  "asset_root": "资产/内容/CONTENT-001/LOCK-V1/",
+  "page_order": ["P1","P2","P3","P4"],
+  "final_image_repo_paths": [
+    "资产/内容/CONTENT-001/LOCK-V1/01_cover.jpg",
+    "资产/内容/CONTENT-001/LOCK-V1/02_page.jpg",
+    "资产/内容/CONTENT-001/LOCK-V1/03_page.jpg",
+    "资产/内容/CONTENT-001/LOCK-V1/04_page.jpg"
+  ],
+  "assets": [
+    {
+      "page": "P1",
+      "file": "01_cover.jpg",
+      "repo_path": "资产/内容/CONTENT-001/LOCK-V1/01_cover.jpg",
+      "git_blob_sha": "4d7ffb7f03e1388748de2d6531c01c4c94150a99",
+      "sha256": "ee891490844cf0771c21936e2e85fe3746504eb85526d17e648212c86b085d5a",
+      "bytes": 363478,
+      "width": 1152,
+      "height": 1536,
+      "format": "JPEG"
+    },
+    {
+      "page": "P2",
+      "file": "02_page.jpg",
+      "repo_path": "资产/内容/CONTENT-001/LOCK-V1/02_page.jpg",
+      "git_blob_sha": "7bc6804f0e8d2885d55404337362ccfc4e1c5a0d",
+      "sha256": "c9aa7faf7c8cd47cc8d45c89eacb597d2d6ae2ef920cdac50f374517eabe95da",
+      "bytes": 369875,
+      "width": 1152,
+      "height": 1536,
+      "format": "JPEG"
+    },
+    {
+      "page": "P3",
+      "file": "03_page.jpg",
+      "repo_path": "资产/内容/CONTENT-001/LOCK-V1/03_page.jpg",
+      "git_blob_sha": "080e1aa3c15bee383d4a97d0c6ef16889545bec5",
+      "sha256": "dbe8a7aa8f2f44c64e295670d0a6bb8f579fd8f8758e382dca5f73f8eed33395",
+      "bytes": 346189,
+      "width": 1152,
+      "height": 1536,
+      "format": "JPEG"
+    },
+    {
+      "page": "P4",
+      "file": "04_page.jpg",
+      "repo_path": "资产/内容/CONTENT-001/LOCK-V1/04_page.jpg",
+      "git_blob_sha": "24ec2450fde50de2b5977d8c3f7a4f56a29e91e1",
+      "sha256": "d672014d0796eeb33d0a12f52a1abf136685f08bdd7e532492d96972560e5cea",
+      "bytes": 356997,
+      "width": 1152,
+      "height": 1536,
+      "format": "JPEG"
+    }
+  ],
+  "binary_verification": {
+    "verified_at_image_commit": "1fbafe7dc00bfdc3048a107a29116f64f077e90c",
+    "director_blob_readback": true,
+    "blob_sha_match_4_of_4": true
+  },
+  "audit": {
+    "report_path": "产物/审核/CONTENT-001/V1/审核报告.md",
+    "delivery_path": "产物/审核/CONTENT-001/V1/交付.json",
+    "fixed_commit": "90449e5f180f2696dc44df66ea83d1a995195920",
+    "result": "PASS",
+    "P0": 0,
+    "P1": 0,
+    "P2": 2,
+    "score": 92,
+    "rework_required": false
+  },
+  "director_approval": {
+    "path": "批准/CONTENT-001/V3/最终发布许可.md",
+    "fixed_commit": "7bed7f7ac106d63a41153ab227676c253a963a1d"
+  },
+  "known_deviation": {
+    "type": "USER_ACCEPTED_TEXT_VARIANCE",
+    "accepted": true,
+    "description": "图内文字与批准文案不逐字一致；已由用户明确接受并经独立审核作为P2留档。",
+    "future_rule": "该偏差仅适用于CONTENT-001当前锁定版本，不作为后续CONTENT自由改文案的先例。"
+  },
+  "commercial_relation_status": "NONE_ORGANIC_CONTENT",
+  "allowed_publish_scope": {
+    "platform": "小红书",
+    "scope": "单条自然发布准备",
+    "final_publish_authority": "USER_ONLY",
+    "paid_growth_authorized": false,
+    "ad_or_sponsorship_claim_allowed": false
+  },
+  "forbidden_old_versions": [
+    "所有图片A中间图",
+    "所有图片B中间图",
+    "非本LOCK列出的C图片",
+    "CONTENT-001历史候选标题",
+    "批准/PERSONA-001/LOCK-V1.json作为本条人物依据"
+  ],
+  "change_rule": "LOCK后如修改标题、正文、图片、页序、人物、品牌事实或其他实质内容，必须建立新CONTENT LOCK并重新审核变更范围。"
+}
