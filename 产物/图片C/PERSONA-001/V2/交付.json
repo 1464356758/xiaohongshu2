@@ -1,0 +1,27 @@
+{
+  "project_id": "XHS-BEAUTY-002",
+  "task_id": "PERSONA-001",
+  "input_revision": 3,
+  "role": "图片终审修图员C",
+  "version": "V2",
+  "result": "PASS",
+  "status": "PERSONA_C_V2_PASS_WAITING_DIRECTOR_LOCK",
+  "proposed_lock_version": "LOCK-V2",
+  "existing_active_lock": "批准/PERSONA-001/LOCK-V1.json",
+  "final_asset_dir": "资产/人物/PERSONA-001/LOCK-V2/",
+  "asset_commit": "10133ebfaf320546daf28b218e62d88911e4de3b",
+  "manifest_path": "产物/图片C/PERSONA-001/V2/最终资产清单.json",
+  "manifest_commit": "9bd678ab5cba3f76580a80c92f2f8d9b42219e64",
+  "binary_assets_verified": true,
+  "final_files": [
+    "master_face.jpg",
+    "anchor_front.jpg",
+    "anchor_45.jpg",
+    "anchor_halfbody.jpg"
+  ],
+  "anchor_detail_status": "NOT_PRESENT_IN_CURRENT_B_FINAL_DELIVERY",
+  "c_retouch_performed": false,
+  "no_old_images_mixed": true,
+  "next_role": "总监",
+  "next_action": "核对LOCK-V2候选真实二进制与V2清单；如接受新版人物资产，创建批准/PERSONA-001/LOCK-V2.json，supersedes LOCK-V1，并将active_anchor_lock切换到LOCK-V2。不要覆盖LOCK-V1历史文件。"
+}
