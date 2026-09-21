@@ -1,0 +1,410 @@
+{
+  "project_id": "XHS-BEAUTY-002",
+  "task_id": "RESEARCH-001",
+  "input_revision": 1,
+  "observed_at": "2026-09-21T17:48:00+08:00",
+  "timezone": "Asia/Shanghai",
+  "methodology": {
+    "account_sample_target": "5-10",
+    "account_sample_actual": 8,
+    "comparable_content_target": 20,
+    "comparable_content_actual": 20,
+    "xhs_direct_note_urls_extracted": 10,
+    "public_interaction_complete_count": 0,
+    "rule": "Unknown fields are null/unknown, never replaced with 0.",
+    "limitation": "Anonymous Xiaohongshu web access frequently returned login walls or 404-like unavailable pages. Third-party public indexes were used only for structure/date/account cross-checking."
+  },
+  "primary_sources": [
+    {
+      "name": "千瓜数据｜2026-09-21附近彩妆达人榜/涨粉榜",
+      "url": "https://wap.qian-gua.com/rank/fans/1/1/20260920/83.html",
+      "type": "public_rank",
+      "use": "current-ish account names, follower scale, growth context"
+    },
+    {
+      "name": "千瓜数据｜彩妆周涨粉榜",
+      "url": "https://wap.qian-gua.com/rank/fans/1/7/20260920/83.html",
+      "type": "public_rank",
+      "use": "growth-oriented competitor sampling"
+    },
+    {
+      "name": "千瓜数据｜2026活跃用户研究报告",
+      "url": "https://www.qian-gua.com/information/detail/3332",
+      "type": "industry_report_summary",
+      "use": "beauty audience and original-beauty trend"
+    },
+    {
+      "name": "千瓜数据｜2026上半年美妆个护种草趋势报告",
+      "url": "https://www.qian-gua.com/information/detail/3346",
+      "type": "industry_report_summary",
+      "use": "beauty trend and scene-based demand"
+    },
+    {
+      "name": "日化智云｜2026上半年美妆个护行业洞察",
+      "url": "https://www.sohu.com/a/1049815643_121672279",
+      "type": "secondary_report_summary",
+      "use": "search/scene demand cross-check"
+    },
+    {
+      "name": "亿媒汇｜小红书达人公开资源",
+      "url": "https://ymh.hk/resources?data_state=has_intro&layout=list&page=1&platform=xiaohongshu&sort=mx1_desc&tag=%E9%9F%A9%E7%B3%BB",
+      "type": "public_creator_database",
+      "use": "account IDs, public tags and commercial-fit cross-check"
+    },
+    {
+      "name": "新榜｜张宇（化妆技巧教学）",
+      "url": "https://www.newrank.cn/profile/xiaohongshu/678caf78000000000d00baea?from=ranklist",
+      "type": "public_creator_profile",
+      "use": "Xiaohongshu ID 26770903665 and account structure"
+    },
+    {
+      "name": "Allua｜2026小红书美妆KOL参考名单",
+      "url": "https://zh.alluatech.com/post/%E5%93%81%E7%89%8C%E6%8E%A8%E5%BB%A3%E5%BF%85%E7%9C%8B%E7%9A%84-10-%E4%BD%8D%E5%B0%8F%E7%B4%85%E6%9B%B8%E7%BE%8E%E5%A6%9D-kol",
+      "type": "marketing_reference",
+      "use": "creator positioning and collaboration-fit cross-check"
+    },
+    {
+      "name": "小红书公开活动页｜韩系内容集合",
+      "url": "https://fe.xiaohongshu.com/ditto/vincent/d841fa18d8384564968547f2131e69b4?fullscreen=true&naviHidden=yes&resource_instance_id=280594&source=creator_activity_center",
+      "type": "xiaohongshu_public_index",
+      "use": "publicly indexed title/creator structure samples"
+    }
+  ],
+  "account_samples": [
+    {
+      "account_name": "姜乘澜",
+      "xhs_id": null,
+      "observed_date": "2026-09-21",
+      "follower_public": "417.74万（第三方公开榜单）",
+      "sample_reason": "头部教程型标杆，观察问题拆解、妆教结构与搜索心智",
+      "content_structure": "完整妆教 + 底层逻辑 + 单点技巧 + 跟练",
+      "commercial_note": "适合新品/教程合作，具体报价未用于本报告",
+      "profile_or_search_url": "https://www.xiaohongshu.com/search_result/?keyword=%E5%A7%9C%E4%B9%98%E6%BE%9C&type=54",
+      "source_url": "https://wap.qian-gua.com/rank/fans/1/1/20260920/83.html"
+    },
+    {
+      "account_name": "化妆师张宇",
+      "xhs_id": "26770903665（公开授权技巧分享账号）",
+      "observed_date": "2026-09-21",
+      "follower_public": "约57万级（第三方公开榜单）",
+      "sample_reason": "专业单点技巧、新手底妆/工具问题",
+      "content_structure": "单问题教学 + 工具/手法说明",
+      "commercial_note": "专业身份优势不可直接复制",
+      "profile_or_search_url": null,
+      "source_url": "https://www.newrank.cn/profile/xiaohongshu/678caf78000000000d00baea?from=ranklist"
+    },
+    {
+      "account_name": "王七四-",
+      "xhs_id": "150477461",
+      "observed_date": "2026-09-21",
+      "follower_public": "76.86万（第三方公开周榜）；2026-07公开档案70.5万",
+      "sample_reason": "韩系/教程/美妆结合，且有公开商业合作报价档位",
+      "content_structure": "韩系审美 + 教程 + vlog",
+      "commercial_note": "证明教程型韩系账号存在清晰商业市场",
+      "profile_or_search_url": null,
+      "source_url": "https://ymh.hk/resources?data_state=has_intro&layout=list&page=1&platform=xiaohongshu&sort=mx1_desc&tag=%E9%9F%A9%E7%B3%BB"
+    },
+    {
+      "account_name": "今晚吃香菜",
+      "xhs_id": null,
+      "observed_date": "2026-09-21",
+      "follower_public": "40.95万（第三方公开榜单）",
+      "sample_reason": "增长中的腰部彩妆账号，比纯头部更接近成长阶段参考",
+      "content_structure": null,
+      "commercial_note": null,
+      "profile_or_search_url": null,
+      "source_url": "https://wap.qian-gua.com/rank/fans/1/7/20260920/83.html"
+    },
+    {
+      "account_name": "奇迹生生（美妆邪修版）",
+      "xhs_id": null,
+      "observed_date": "2026-09-21",
+      "follower_public": "9.93万（第三方公开榜单）",
+      "sample_reason": "约10万粉级别近期增长型腰部账号，接近本项目阶段目标",
+      "content_structure": "从账号命名与公开标签可见强问题解决/省步骤叙事；逐条内容未匿名稳定读取",
+      "commercial_note": null,
+      "profile_or_search_url": null,
+      "source_url": "https://wap.qian-gua.com/rank/fans/1/7/20260920/83.html"
+    },
+    {
+      "account_name": "美谁妹妹剧透号（卖货版）",
+      "xhs_id": null,
+      "observed_date": "2026-09-21",
+      "follower_public": "7.96万（第三方公开榜单）",
+      "sample_reason": "小体量但品牌连接/商业动作明显，用于观察商业适配而非复制卖货模型",
+      "content_structure": "彩妆/品牌活动 + 直播商业链",
+      "commercial_note": "2026-09-20公开榜单可核到FlowerKnows花知晓相关专场直播；不引用估算销售额",
+      "profile_or_search_url": null,
+      "source_url": "https://www.qian-gua.com/rank/live/4/1/20260920/24"
+    },
+    {
+      "account_name": "玉鱼子",
+      "xhs_id": null,
+      "observed_date": "2026-09-21",
+      "follower_public": null,
+      "sample_reason": "详细教程/韩妆结构，公开活动页可检索",
+      "content_structure": "趋势妆容 + 教程 + 底层逻辑",
+      "commercial_note": "适合技巧型品牌植入，但需再核当前广告密度",
+      "profile_or_search_url": "https://www.xiaohongshu.com/search_result/?keyword=%E7%8E%89%E9%B1%BC%E5%AD%90&type=54",
+      "source_url": "https://zh.alluatech.com/post/%E5%93%81%E7%89%8C%E6%8E%A8%E5%BB%A3%E5%BF%85%E7%9C%8B%E7%9A%84-10-%E4%BD%8D%E5%B0%8F%E7%B4%85%E6%9B%B8%E7%BE%8E%E5%A6%9D-kol"
+    },
+    {
+      "account_name": "Kiwi猕桃",
+      "xhs_id": null,
+      "observed_date": "2026-09-21",
+      "follower_public": null,
+      "sample_reason": "自然清透妆方向，与本项目轻通勤低饱和视觉接近",
+      "content_structure": "自然妆容/可信度导向内容",
+      "commercial_note": "公开资料提到部分内容标明非赞助，可用于观察商业/普通内容边界",
+      "profile_or_search_url": "https://www.xiaohongshu.com/search_result/?keyword=Kiwi%E7%8C%95%E6%A1%83&type=54",
+      "source_url": "https://zh.alluatech.com/post/%E5%93%81%E7%89%8C%E6%8E%A8%E5%BB%A3%E5%BF%85%E7%9C%8B%E7%9A%84-10-%E4%BD%8D%E5%B0%8F%E7%B4%85%E6%9B%B8%E7%BE%8E%E5%A6%9D-kol"
+    }
+  ],
+  "comparable_content_samples": [
+    {
+      "n": 1,
+      "title": "姜乘澜新手化妆教程要点，看完视频又刷新我",
+      "publish_date": "2026-05-15",
+      "direct_note_url": null,
+      "index_source_url": "https://post.smzdm.com/p/axkeoe02/",
+      "public_interactions": null,
+      "format": "unknown",
+      "commercial_status": "unknown",
+      "pin_status": "unknown",
+      "structure": "新手问题+要点总结"
+    },
+    {
+      "n": 2,
+      "title": "必学眼线画法！！",
+      "publish_date": "2026-05-14",
+      "direct_note_url": null,
+      "index_source_url": "https://post.smzdm.com/p/axkeoe02/",
+      "public_interactions": null,
+      "format": "unknown",
+      "commercial_status": "unknown",
+      "pin_status": "unknown",
+      "structure": "单点眼线技巧"
+    },
+    {
+      "n": 3,
+      "title": "直接抄作业｜姜乘澜日常妆容详细干货笔记",
+      "publish_date": "2026-05-14",
+      "direct_note_url": null,
+      "index_source_url": "https://post.smzdm.com/p/axkeoe02/",
+      "public_interactions": null,
+      "format": "unknown",
+      "commercial_status": "unknown",
+      "pin_status": "unknown",
+      "structure": "抄作业/可收藏干货"
+    },
+    {
+      "n": 4,
+      "title": "一招学会｜姜乘澜底妆教程（图文版）",
+      "publish_date": "2026-05-14",
+      "direct_note_url": null,
+      "index_source_url": "https://post.smzdm.com/p/axkeoe02/",
+      "public_interactions": null,
+      "format": "图文（标题明确）",
+      "commercial_status": "unknown",
+      "pin_status": "unknown",
+      "structure": "图文跟练"
+    },
+    {
+      "n": 5,
+      "title": "跟练姜乘澜这算有效吗",
+      "publish_date": "2026-05-15",
+      "direct_note_url": null,
+      "index_source_url": "https://post.smzdm.com/p/axkeoe02/",
+      "public_interactions": null,
+      "format": "unknown",
+      "commercial_status": "unknown",
+      "pin_status": "unknown",
+      "structure": "跟练结果/作业"
+    },
+    {
+      "n": 6,
+      "title": "姜乘澜日常妆全流程",
+      "publish_date": "2026-05-14",
+      "direct_note_url": null,
+      "index_source_url": "https://post.smzdm.com/p/axkeoe02/",
+      "public_interactions": null,
+      "format": "unknown",
+      "commercial_status": "unknown",
+      "pin_status": "unknown",
+      "structure": "全流程"
+    },
+    {
+      "n": 7,
+      "title": "姜乘澜超详细回复8个化妆疑问",
+      "publish_date": "2026-05-14",
+      "direct_note_url": null,
+      "index_source_url": "https://post.smzdm.com/p/axkeoe02/",
+      "public_interactions": null,
+      "format": "unknown",
+      "commercial_status": "unknown",
+      "pin_status": "unknown",
+      "structure": "FAQ/疑问拆解"
+    },
+    {
+      "n": 8,
+      "title": "底妆到底怎么跟练才服帖啊",
+      "publish_date": "2026-05-15",
+      "direct_note_url": null,
+      "index_source_url": "https://post.smzdm.com/p/axkeoe02/",
+      "public_interactions": null,
+      "format": "unknown",
+      "commercial_status": "unknown",
+      "pin_status": "unknown",
+      "structure": "具体痛点问题"
+    },
+    {
+      "n": 9,
+      "title": "谁懂2026年了，姜乘澜还在用美妆蛋",
+      "publish_date": "2026-05-14",
+      "direct_note_url": null,
+      "index_source_url": "https://post.smzdm.com/p/axkeoe02/",
+      "public_interactions": null,
+      "format": "unknown",
+      "commercial_status": "unknown",
+      "pin_status": "unknown",
+      "structure": "工具争议/讨论"
+    },
+    {
+      "n": 10,
+      "title": "姜乘澜：最新鼻子修容攻略",
+      "publish_date": "2026-06-03",
+      "direct_note_url": null,
+      "index_source_url": "https://post.smzdm.com/p/a3m95mwr/",
+      "public_interactions": null,
+      "format": "unknown",
+      "commercial_status": "unknown",
+      "pin_status": "unknown",
+      "structure": "单部位修容"
+    },
+    {
+      "n": 11,
+      "title": "姜乘澜眼镜妆｜戴眼镜也能放大双眼的教程",
+      "publish_date": "2026-05-28",
+      "direct_note_url": null,
+      "index_source_url": "https://post.smzdm.com/p/a3m95mwr/",
+      "public_interactions": null,
+      "format": "unknown",
+      "commercial_status": "unknown",
+      "pin_status": "unknown",
+      "structure": "具体场景：眼镜"
+    },
+    {
+      "n": 12,
+      "title": "肉肉脸修容要重视高光！姜乘澜修容思路整理",
+      "publish_date": "2026-05-23",
+      "direct_note_url": null,
+      "index_source_url": "https://post.smzdm.com/p/a3m95mwr/",
+      "public_interactions": null,
+      "format": "unknown",
+      "commercial_status": "unknown",
+      "pin_status": "unknown",
+      "structure": "特定脸型问题"
+    },
+    {
+      "n": 13,
+      "title": "直接抄作业｜姜乘澜亚裔混血感妆干货总结",
+      "publish_date": "2026-05-28",
+      "direct_note_url": null,
+      "index_source_url": "https://post.smzdm.com/p/a3m95mwr/",
+      "public_interactions": null,
+      "format": "unknown",
+      "commercial_status": "unknown",
+      "pin_status": "unknown",
+      "structure": "趋势妆容拆解"
+    },
+    {
+      "n": 14,
+      "title": "姜乘澜亚裔妆真的牛｜扁平脸秒变混血脸",
+      "publish_date": "2026-05-21",
+      "direct_note_url": null,
+      "index_source_url": "https://post.smzdm.com/p/a3m95mwr/",
+      "public_interactions": null,
+      "format": "unknown",
+      "commercial_status": "unknown",
+      "pin_status": "unknown",
+      "structure": "人群适配/脸型痛点"
+    },
+    {
+      "n": 15,
+      "title": "姜乘澜韩妆跟练",
+      "publish_date": "2026-05-17",
+      "direct_note_url": null,
+      "index_source_url": "https://post.smzdm.com/p/a3m95mwr/",
+      "public_interactions": null,
+      "format": "unknown",
+      "commercial_status": "unknown",
+      "pin_status": "unknown",
+      "structure": "跟练/结果反馈"
+    },
+    {
+      "n": 16,
+      "title": "温柔韩系淡颜妆｜小奶狐睫毛焊在眼睛上",
+      "publish_date": "2026-05-19",
+      "direct_note_url": "https://www.xiaohongshu.com/explore/6a0c3509000000000702192b",
+      "index_source_url": "https://post.smzdm.com/p/a70802l9/",
+      "public_interactions": null,
+      "format": "unknown",
+      "commercial_status": "unknown",
+      "pin_status": "unknown",
+      "anonymous_access": "unavailable/404 on 2026-09-21",
+      "structure": "淡颜+单部位"
+    },
+    {
+      "n": 17,
+      "title": "Ins韩妆｜变美思路｜审美提升｜韩系粉感清透妆",
+      "publish_date": "2026-02-18",
+      "direct_note_url": "https://www.xiaohongshu.com/explore/6a59f9210000000009034e4b",
+      "index_source_url": "https://post.smzdm.com/p/a70802l9/",
+      "public_interactions": null,
+      "format": "unknown",
+      "commercial_status": "unknown",
+      "pin_status": "unknown",
+      "anonymous_access": "unavailable/404 on 2026-09-21",
+      "structure": "审美逻辑+眼下结构"
+    },
+    {
+      "n": 18,
+      "title": "终于学会化韩系淡颜眼妆！新手0基础包会！",
+      "publish_date": "2026-07-19",
+      "direct_note_url": "https://www.xiaohongshu.com/explore/6a5f38f6000000000503ae89",
+      "index_source_url": "https://post.smzdm.com/p/a70802l9/",
+      "public_interactions": null,
+      "format": "unknown",
+      "commercial_status": "unknown",
+      "pin_status": "unknown",
+      "anonymous_access": "unavailable/404 on 2026-09-21",
+      "structure": "新手0基础+结果承诺"
+    },
+    {
+      "n": 19,
+      "title": "韩系低饱和粉紫眼妆～温柔冷清氛围感",
+      "publish_date": "2026-06-02",
+      "direct_note_url": "https://www.xiaohongshu.com/explore/6a19569e000000003700fceb",
+      "index_source_url": "https://post.smzdm.com/p/a70802l9/",
+      "public_interactions": null,
+      "format": "unknown",
+      "commercial_status": "unknown",
+      "pin_status": "unknown",
+      "anonymous_access": "unavailable/404 on 2026-09-21",
+      "structure": "低饱和色彩+氛围"
+    },
+    {
+      "n": 20,
+      "title": "好喜欢今天的眼妆啊｜韩系裸感白茶妆",
+      "publish_date": "2026-07-23",
+      "direct_note_url": "https://www.xiaohongshu.com/explore/6a61f657000000001f01cb11",
+      "index_source_url": "https://post.smzdm.com/p/a70802l9/",
+      "public_interactions": null,
+      "format": "unknown",
+      "commercial_status": "unknown",
+      "pin_status": "unknown",
+      "anonymous_access": "unavailable/404 on 2026-09-21",
+      "structure": "妆感命名+日常氛围"
+    }
+  ]
+}
