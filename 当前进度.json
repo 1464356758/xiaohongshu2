@@ -1,20 +1,21 @@
 {
   "project_id": "XHS-BEAUTY-002",
   "system_version": "2.2",
-  "revision": 8,
-  "handoff_epoch": 8,
+  "revision": 9,
+  "handoff_epoch": 9,
   "stage": "CONTENT",
-  "status": "REVIEWING",
+  "status": "PUBLISH_PREP",
   "current_task": "CONTENT-001",
-  "task_path": "任务/CONTENT-001/V2/任务.json",
+  "task_path": "任务/CONTENT-001/V3/任务.json",
   "current_input_revision": 2,
-  "current_pipeline_step": "AUDIT_WRITEBACK",
+  "current_pipeline_step": "PUBLISH_OPS",
   "account_registration_status": "NOT_REGISTERED",
   "publish_status": "NOT_PUBLISHED",
   "active_persona_version": "正式/人设/虚拟博主人设V1.md",
   "active_visual_spec": "正式/视觉规范/V1.md",
   "active_anchor_lock": "批准/PERSONA-001/LOCK-V2.json",
   "active_positioning_version": "正式/定位/V2.md",
+  "active_content_lock": "批准/CONTENT-001/LOCK-V1.json",
   "latest_market_research": {
     "task_id": "RESEARCH-001",
     "report_path": "产物/研究/RESEARCH-001/V1/研究报告.md",
@@ -37,16 +38,22 @@
     "delivery_path": "产物/图片C/CONTENT-001/V1/交付.json"
   },
   "content_001_audit": {
-    "chat_review_completed": true,
     "result": "PASS",
     "P0": 0,
     "P1": 0,
     "P2": 2,
     "score": 92,
-    "github_writeback_status": "WAITING",
+    "fixed_commit": "90449e5f180f2696dc44df66ea83d1a995195920",
+    "github_writeback_status": "VERIFIED",
     "rework_required": false,
-    "rework_round_counted": false,
-    "instruction_path": "任务/CONTENT-001/V2/审核PASS落库指令.md"
+    "rework_round_counted": false
+  },
+  "content_001_lock": {
+    "path": "批准/CONTENT-001/LOCK-V1.json",
+    "commit": "912ce9a5a70eb1356e96f3d2401de755dfc9276e",
+    "status": "LOCKED",
+    "director_approval_path": "批准/CONTENT-001/V3/最终发布许可.md",
+    "director_approval_commit": "7bed7f7ac106d63a41153ab227676c253a963a1d"
   },
   "latest_data_report": null,
   "latest_verified_snapshot": null,
@@ -56,16 +63,16 @@
   "role_system": "13_ROLE_COMPLETE_OPERATING_SYSTEM",
   "next_actions": [
     {
-      "role": "内容与合规审核",
-      "action": "不重新审核、不重新上传图片；仅将当前聊天已完成的PASS结果写入产物/审核/CONTENT-001/V1/审核报告.md与交付.json，并回读验证后返回固定提交。"
+      "role": "发布与社群运营",
+      "action": "读取任务/CONTENT-001/V3/任务.json与批准/CONTENT-001/LOCK-V1.json，生成正式发布包；不得修改锁定标题、正文、图片或页序。"
     },
     {
-      "role": "总监",
-      "action": "收到审核固定提交后，创建CONTENT LOCK并进入PUBLISH_PREP。"
+      "role": "用户",
+      "action": "发布包完成后，用户本人完成账号注册/验证及最终发布；真实发布后提供笔记链接、发布时间和必要截图。"
     }
   ],
-  "updated_at": "2026-09-22T07:10:00+08:00",
-  "note": "修正此前当前进度滞后问题：CONTENT-001实际已完成A/B/C并完成独立审核聊天PASS；当前唯一未完成项为审核角色GitHub正式交付落库。该等待不计返修，不退回策划/A/B/C。",
+  "updated_at": "2026-09-22T07:18:00+08:00",
+  "note": "CONTENT-001独立审核已正式落库并回读验证；总监已完成最终批准与CONTENT LOCK-V1。当前进入PUBLISH_PREP。账号仍未登记为已注册，实际发布尚未发生。",
   "system_patch": "V2.2-P1_GITHUB_BINARY_ASSETS",
   "binary_asset_policy_active": true,
   "current_persona_binary_upload_required": false,
