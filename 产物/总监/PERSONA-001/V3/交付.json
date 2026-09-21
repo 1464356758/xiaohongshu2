@@ -1,0 +1,17 @@
+{
+  "project_id": "XHS-BEAUTY-002",
+  "task_id": "PERSONA-001",
+  "role": "总监",
+  "version": "V3",
+  "input_revision": 3,
+  "action": "PUBLISH_PERSONA_IDENTITY_CUSTOMIZATION_TASK",
+  "decision": "STRATEGY_RESET",
+  "old_rework_round_reached": 2,
+  "new_strategy": "MASTER_FACE_FIRST_THEN_IMAGE_EDIT_VARIANTS",
+  "task_path": "任务/PERSONA-001/V3/任务.json",
+  "approval_path": "批准/PERSONA-001/V3/换方案批准.md",
+  "fixed_input_commit": "0bdece7ae19bbb5ee23b1de77325d6828184fc2e",
+  "max_spend_cny": 0,
+  "next_role": "图片生成员A",
+  "next_action": "执行input_revision=3；先做母脸，再基于母脸实际图生成4张同一人物锚点照片。"
+}
