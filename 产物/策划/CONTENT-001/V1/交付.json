@@ -1,0 +1,79 @@
+{
+  "project_id": "XHS-BEAUTY-002",
+  "task_id": "CONTENT-001",
+  "input_revision": 1,
+  "role": "内容策划",
+  "role_version": "V2.2",
+  "status": "DONE",
+  "result": "PLAN_COMPLETE",
+  "completed_at": "2026-09-21T18:17:00+08:00",
+  "timezone": "Asia/Shanghai",
+  "input_task_path": "任务/CONTENT-001/V1/任务.json",
+  "hot_research_fixed_commit": "ae39b11a15529e1bb0776bb25cd03f092a40fb2c",
+  "positioning_path": "正式/定位/V2.md",
+  "persona_lock_path": "批准/PERSONA-001/LOCK-V1.json",
+  "visual_spec_path": "正式/视觉规范/V1.md",
+  "latest_data_report": null,
+  "selection": {
+    "main_topic": "秋日低饱和妆显脏/显灰/没精神，通勤版只改3处",
+    "column": "通勤妆感纠错卡",
+    "page_count": 4,
+    "specific_brand_or_product_used": false,
+    "real_product_image_required": false,
+    "recommended_title_direction": "低饱和秋妆显灰？通勤只改3处",
+    "recommended_cover": "问题句 + PERSONA单人完成妆近景",
+    "primary_experiment_variable": "封面钩子类型"
+  },
+  "internal_scoring": [
+    {
+      "candidate": "秋日低饱和妆显脏显灰，通勤只改3处",
+      "audience_relevance_30": 30,
+      "evidence_asset_availability_25": 25,
+      "expression_difference_20": 19,
+      "production_cost_15": 15,
+      "commercial_fit_10": 9,
+      "total_100": 98,
+      "decision": "MAIN"
+    },
+    {
+      "candidate": "三无妆通勤重点到底留在哪里",
+      "audience_relevance_30": 28,
+      "evidence_asset_availability_25": 23,
+      "expression_difference_20": 18,
+      "production_cost_15": 15,
+      "commercial_fit_10": 9,
+      "total_100": 93,
+      "decision": "BACKUP"
+    },
+    {
+      "candidate": "秋冬裸雾唇怎么配才不灰、不显没气色",
+      "audience_relevance_30": 27,
+      "evidence_asset_availability_25": 20,
+      "expression_difference_20": 18,
+      "production_cost_15": 13,
+      "commercial_fit_10": 10,
+      "total_100": 88,
+      "decision": "BACKUP"
+    }
+  ],
+  "deliverables": [
+    {
+      "path": "产物/策划/CONTENT-001/V1/策划.md",
+      "git_blob_sha": "24e11194323c0f2809c0b07c0c3756780beb93d4"
+    },
+    {
+      "path": "产物/策划/CONTENT-001/V1/交付.json"
+    }
+  ],
+  "constraints": {
+    "budget_cny": 0,
+    "specific_product_reference_gap": false,
+    "user_real_product_image_needed": false,
+    "persona_lock_required": true,
+    "complex_visual_pages": 1,
+    "no_first_person_product_experience": true,
+    "no_unverified_hottest_claim": true
+  },
+  "next_role": "文案脚本AI",
+  "next_condition": "读取本策划V1、热点最终交付、正式定位V2和PERSONA LOCK后，按4页主方案输出标题、正文、逐页短文案与图片A逐页制作说明，不重新换题。"
+}
