@@ -1,0 +1,28 @@
+{
+  "project_id": "XHS-BEAUTY-002",
+  "task_id": "CONTENT-001",
+  "input_revision": 2,
+  "role": "图片终审修图员C",
+  "version": "V1",
+  "result": "PASS",
+  "pass_basis": "USER_FINAL_DECISION_WITH_RECORDED_TEXT_DEVIATION",
+  "status": "CONTENT_C_PASS_WAITING_COMPLIANCE_REVIEW",
+  "persona_lock": "批准/PERSONA-001/LOCK-V2.json",
+  "final_asset_dir": "资产/内容/CONTENT-001/LOCK-V1/",
+  "asset_commit": "1fbafe7dc00bfdc3048a107a29116f64f077e90c",
+  "manifest_path": "产物/图片C/CONTENT-001/V1/最终资产清单.json",
+  "manifest_commit": "5fe517482b1e396e8e313660722aa37c25976661",
+  "final_files": [
+    "01_cover.jpg",
+    "02_page.jpg",
+    "03_page.jpg",
+    "04_page.jpg"
+  ],
+  "page_order": "P1→P2→P3→P4",
+  "binary_assets_verified": true,
+  "c_retouch_performed": false,
+  "known_text_deviation_accepted_by_user": true,
+  "publish_authority": "NONE",
+  "next_role": "内容与合规审核",
+  "next_action": "读取CONTENT-001 V2任务、PERSONA LOCK-V2、文案V1及本C最终资产清单；当前聊天必须看到4张C最终实际图后执行独立内容与合规审核。不要自行替换C最终图片。"
+}
