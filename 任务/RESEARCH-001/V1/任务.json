@@ -1,0 +1,60 @@
+{
+  "project_id": "XHS-BEAUTY-002",
+  "task_id": "RESEARCH-001",
+  "input_revision": 1,
+  "task_type": "market_positioning_research",
+  "status": "READY",
+  "pipeline": [
+    "市场与定位研究员",
+    "总监定位验收"
+  ],
+  "responsible_role": "市场与定位研究员",
+  "fixed_input_commit": "e7cbec3d0df31348dd4450e5fc3f86050b998fe1",
+  "inputs": [
+    {
+      "path": "批准/PERSONA-001/LOCK-V1.json",
+      "commit": "e7cbec3d0df31348dd4450e5fc3f86050b998fe1",
+      "required": true
+    },
+    {
+      "path": "正式/定位/V1.md",
+      "commit": "e7cbec3d0df31348dd4450e5fc3f86050b998fe1",
+      "required": true
+    },
+    {
+      "path": "正式/人设/虚拟博主人设V1.md",
+      "commit": "e7cbec3d0df31348dd4450e5fc3f86050b998fe1",
+      "required": true
+    },
+    {
+      "path": "正式/视觉规范/V1.md",
+      "commit": "e7cbec3d0df31348dd4450e5fc3f86050b998fe1",
+      "required": true
+    },
+    {
+      "path": "系统/初始预算.json",
+      "commit": "e7cbec3d0df31348dd4450e5fc3f86050b998fe1",
+      "required": true
+    }
+  ],
+  "objective": "在已锁定统一虚拟人物的前提下，对小红书美妆广告型IP进行首次正式市场与定位研究，验证目标受众、内容缺口、竞争结构、可持续制作条件与商业适配，并向总监提交3种可执行定位候选。",
+  "requirements": [
+    "尽量核对5至10个竞争账号、20条可比内容；取不到则报告真实样本数",
+    "记录账号链接或ID、观察日期、笔记链接、发布时间、公开互动、内容结构和取样理由",
+    "区分图文/视频、广告/普通、置顶/近期",
+    "输出3种定位候选，分别说明目标人群、具体问题、内容承诺、所需素材、制作成本、可合作品类和风险",
+    "结合已锁定PERSONA、A/B/C图片链、默认4页内容形态、0元当前授权支出与用户操作成本",
+    "只学习结构、栏目、封面逻辑和商业适配，不复制竞品原文、图片或个人经历",
+    "不得直接修改正式/定位；只提交研究建议给总监"
+  ],
+  "deliverables": [
+    "产物/研究/RESEARCH-001/V1/研究报告.md",
+    "产物/研究/RESEARCH-001/V1/来源.json",
+    "产物/研究/RESEARCH-001/V1/交付.json"
+  ],
+  "page_count": null,
+  "max_spend_cny": 0,
+  "max_rework_rounds": 2,
+  "publish_authority": "NONE",
+  "next_condition": "市场与定位研究员完成真实来源研究并交付后，由总监验收；总监批准定位后才创建首条CONTENT任务。"
+}
