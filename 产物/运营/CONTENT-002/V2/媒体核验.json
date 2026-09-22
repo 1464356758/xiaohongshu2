@@ -1,0 +1,73 @@
+{
+  "project_id": "XHS-BEAUTY-002",
+  "task_id": "CONTENT-002",
+  "input_revision": 4,
+  "lock": "批准/CONTENT-002/LOCK-V2.json",
+  "media_delivery_mode": "USER_CARRIED_FINAL_MEDIA",
+  "verification_status": "MEDIA_VERIFIED_FOR_PUBLISH",
+  "verified_at": "2026-09-22T22:55:00+08:00",
+  "binary_uploaded_to_github": false,
+  "source": "用户在当前发布与社群运营对话直接上传4张最终原图",
+  "received_order": [
+    "P3",
+    "P2",
+    "P4",
+    "P1"
+  ],
+  "required_publish_order": [
+    "P1",
+    "P2",
+    "P3",
+    "P4"
+  ],
+  "files": [
+    {
+      "page": "P1",
+      "uploaded_name": "1000157685(4).png",
+      "decoded_format": "JPEG",
+      "width": 1152,
+      "height": 1536,
+      "bytes": 475333,
+      "sha256": "0b2ed7c4b100c9ffa6f7d30b442561090a1e6a20a2de4b9421ce78292113072a",
+      "lock_sha256_match": true
+    },
+    {
+      "page": "P2",
+      "uploaded_name": "1000157689(1).png",
+      "decoded_format": "JPEG",
+      "width": 1152,
+      "height": 1536,
+      "bytes": 439757,
+      "sha256": "57c962ab451b24c92249f8ef653733b6ff63833702b641005baf1b0a35d8911a",
+      "lock_sha256_match": true
+    },
+    {
+      "page": "P3",
+      "uploaded_name": "1000157690.png",
+      "decoded_format": "JPEG",
+      "width": 1152,
+      "height": 1536,
+      "bytes": 342183,
+      "sha256": "1570068fe9c907b8414779cc7090beae10c2cfe90f19c330317f0a48d2c26a67",
+      "lock_sha256_match": true
+    },
+    {
+      "page": "P4",
+      "uploaded_name": "1000157686(4).png",
+      "decoded_format": "JPEG",
+      "width": 1152,
+      "height": 1536,
+      "bytes": 434205,
+      "sha256": "6f5a1039b08309c7c23b36552d5e918b01597eabbe3e9a2fff78f093611f6799",
+      "lock_sha256_match": true
+    }
+  ],
+  "summary": {
+    "sha256_match": "4/4",
+    "dimensions_match": "4/4",
+    "decoded_format_match": "4/4",
+    "publish_media_gate": "PASS"
+  },
+  "warning": "聊天上传顺序不是发布顺序。发布时必须按P1→P2→P3→P4重新排序。严禁调用旧资产/内容/CONTENT-002/LOCK-V1/橘朵历史图片。",
+  "next_action": "用户本人按正式发布包完成实际发布。"
+}
