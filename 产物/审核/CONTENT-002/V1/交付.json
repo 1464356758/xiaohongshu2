@@ -1,0 +1,40 @@
+{
+  "project_id": "XHS-BEAUTY-002",
+  "task_id": "CONTENT-002",
+  "input_revision": 1,
+  "role": "内容与合规审核",
+  "version": "V1",
+  "result": "PASS",
+  "P0": 0,
+  "P1": 0,
+  "P2": 2,
+  "score": 94,
+  "visual_commit": "da1549df9b8d704e273ac407fb4c06dfa6570384",
+  "persona_lock": "批准/PERSONA-001/LOCK-V2.json",
+  "audit_report_path": "产物/审核/CONTENT-002/V1/审核报告.md",
+  "brand_fact_check": {
+    "product_exists": true,
+    "product_name": "Judydoll Cushion Satin Lip Cream / 橘朵缎光唇粉霜",
+    "s01_s04_names_and_tone_descriptions_verified": true,
+    "official_product_source": "https://judydoll.com/products/cushion-satin-lip-cream",
+    "brand_public_source": "https://weibo.com/2/detail/5339402416687721"
+  },
+  "truth_boundary": {
+    "product_visual_labeled_as_demonstration": true,
+    "p2_not_real_swatch_disclaimer": true,
+    "p3_not_real_s02_lip_swatch_disclaimer": true,
+    "first_person_product_experience_claim": false,
+    "wear_test_claim": false
+  },
+  "uploaded_media_sha256_match_manifest_4_of_4": true,
+  "rework_required": false,
+  "rework_round_counted": false,
+  "image_rework_required": false,
+  "publish_approved": false,
+  "ai_content_platform_label_required_at_publish": true,
+  "commercial_relation_basis": "No paid/gifted/commission/brand brief evidence found in current task inputs; audit treated as organic content. If any benefit relationship exists before publication, commercial disclosure must be re-evaluated.",
+  "current_progress_sync_required_by_director": true,
+  "next_role": "总监AI",
+  "next_action": "引用本审核固定提交创建正式CONTENT LOCK并同步当前进度；发布准备阶段必须执行AI生成/合成内容平台标识门禁。",
+  "status": "AUDIT_PASS_WAITING_CONTENT_LOCK"
+}
