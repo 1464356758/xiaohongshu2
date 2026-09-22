@@ -1,0 +1,108 @@
+{
+  "project_id": "XHS-BEAUTY-002",
+  "task_id": "CONTENT-002",
+  "input_revision": 2,
+  "task_version": "V3",
+  "task_type": "real_brand_asset_rebuild",
+  "status": "READY",
+  "pipeline": [
+    "热点与竞品研究员",
+    "内容策划",
+    "文案脚本",
+    "图片生成员A",
+    "图片审核修图员B",
+    "图片终审修图员C",
+    "内容与合规审核",
+    "总监CONTENT_LOCK"
+  ],
+  "responsible_role": "热点与竞品研究员",
+  "fixed_input_commit": "faef17541b27b11613aeae550570bc471829f26c",
+  "inputs": [
+    {
+      "path": "批准/CONTENT-002/V2/LOCK-V1暂停使用与真实品牌素材返修指令.md",
+      "commit": "faef17541b27b11613aeae550570bc471829f26c",
+      "required": true
+    },
+    {
+      "path": "系统/品牌真实素材优先协议V2.2-P2.md",
+      "commit": "faef17541b27b11613aeae550570bc471829f26c",
+      "required": true
+    },
+    {
+      "path": "正式/视觉规范/V3.md",
+      "commit": "faef17541b27b11613aeae550570bc471829f26c",
+      "required": true
+    },
+    {
+      "path": "产物/热点/CONTENT-002/V1/热点报告.md",
+      "commit": "faef17541b27b11613aeae550570bc471829f26c",
+      "required": true,
+      "carry_forward": true
+    },
+    {
+      "path": "产物/文案/CONTENT-002/V1/文案.md",
+      "commit": "200eda5fb2ceb9112f9d3f0457906b8aa6dd469c",
+      "required": true,
+      "use": "仅保留已核实产品事实、标题方向与S01-S04信息；图内免责声明文案不继承。"
+    },
+    {
+      "path": "批准/CONTENT-002/LOCK-V1.json",
+      "commit": "faef17541b27b11613aeae550570bc471829f26c",
+      "required": true,
+      "use": "历史版本，仅用于识别需替换的AI产品视觉；禁止发布。"
+    }
+  ],
+  "product": {
+    "brand": "Judydoll / 橘朵",
+    "product": "Cushion Satin Lip Cream / 缎光唇粉霜",
+    "status": "KEEP_IF_OFFICIAL_ASSETS_USABLE"
+  },
+  "official_asset_research_requirements": [
+    "收集品牌官网、官方社交账号、官方旗舰店或官方媒体资料中的真实产品图URL。",
+    "至少寻找：产品正面/45度图、打开状态或刷头/膏体图（如官方存在）、S01-S04官方色卡或官方试色资料（如官方存在）。",
+    "每项记录来源URL、访问日期、来源类型、对应色号/用途。",
+    "补充观察8至12条近期热门贴的拍摄角度与首图结构，但不得直接搬用博主图片作为正式素材。",
+    "如官方真实素材不足以支持4页视觉，报告缺口并交总监；禁止AI重画产品本体补洞。"
+  ],
+  "visual_mode": "REAL_PRODUCT_EDITORIAL_NO_FACE_PREFERRED",
+  "page_direction": [
+    {
+      "page": "P1",
+      "rule": "官方真实产品图作为主视觉，优先45度产品静物或官方packshot；不出现‘产品视觉示意’。"
+    },
+    {
+      "page": "P2",
+      "rule": "优先官方真实色卡/官方试色资料；如无，使用品牌公开色调名称与中性色块，不造假嘴唇/手臂试色。"
+    },
+    {
+      "page": "P3",
+      "rule": "优先产品选择逻辑、色号对比、官方细节图或真实产品构图；默认不使用虚拟人物。"
+    },
+    {
+      "page": "P4",
+      "rule": "收藏型选择卡/情境选择，不需要人物。"
+    }
+  ],
+  "copy_revision_requirements": [
+    "推荐标题可保留：橘朵4支唇粉霜，通勤怎么选？",
+    "正文保留已核实的S01-S04事实。",
+    "删除图内‘产品视觉示意’、‘非本人真实试色’、‘妆感适配示意≠真实上嘴’等默认免责声明型文案。",
+    "正文可自然写‘色号信息来自品牌公开资料’，不要把来源说明做成海报主视觉。",
+    "不得写‘我买了/我用了/我实拍/我亲测’，除非后续用户提供真实证据。"
+  ],
+  "image_a_hard_rules": [
+    "真实品牌产品本体不得由AI重新生成。",
+    "只使用已记录来源的官方真实产品图或用户真实照片作为产品素材层。",
+    "可以裁切、缩放、普通抠图、排版、白平衡和亮度调整，但不得改变包装、Logo、色号、文字或产品颜色事实。",
+    "禁止把官方图冒充自己实拍。",
+    "禁止自动加入‘非真实照片/视觉示意/非本人真实试色’等大字免责声明。",
+    "如使用AI人物或AI背景，必须在交付记录中单独标记；但本版优先零人物、非生成式产品编辑。"
+  ],
+  "approval_rules": {
+    "old_lock_publishable": false,
+    "new_lock_required": true,
+    "re_audit_changed_scope_required": true,
+    "max_spend_cny": 0
+  },
+  "next_condition": "热点与竞品研究员先完成官方真实素材来源补充；若素材可用，交内容策划V2继续。若不可用，BLOCKED并建议换一个官方素材更完整的热门产品。"
+}
