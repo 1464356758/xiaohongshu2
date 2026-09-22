@@ -1,0 +1,51 @@
+{
+  "project_id": "XHS-BEAUTY-002",
+  "task_id": "CONTENT-002",
+  "task_version": "V5",
+  "input_revision": 4,
+  "role": "内容与合规审核",
+  "version": "V2",
+  "result": "PASS",
+  "P0": 0,
+  "P1": 0,
+  "P2": 3,
+  "score": 93,
+  "rework_required": false,
+  "rework_round_counted": false,
+  "return_to_image_A_B_C": false,
+  "publish_approved": false,
+  "active_script": "产物/文案/CONTENT-002/V2/文案.md",
+  "persona_lock": "批准/PERSONA-001/LOCK-V2.json",
+  "user_accepted_current_images_as_final": true,
+  "image_c_final_chat_decision": "PASS_NO_MORE_REWORK",
+  "current_media": {
+    "page_order": ["P1","P2","P3","P4"],
+    "P1_sha256": "0b2ed7c4b100c9ffa6f7d30b442561090a1e6a20a2de4b9421ce78292113072a",
+    "P2_sha256": "57c962ab451b24c92249f8ef653733b6ff63833702b641005baf1b0a35d8911a",
+    "P3_sha256": "1570068fe9c907b8414779cc7090beae10c2cfe90f19c330317f0a48d2c26a67",
+    "P4_sha256": "6f5a1039b08309c7c23b36552d5e918b01597eabbe3e9a2fff78f093611f6799",
+    "width": 1152,
+    "height": 1536,
+    "decoded_format": "JPEG"
+  },
+  "known_accepted_visual_deviation": {
+    "p3_bottom_product_version": true,
+    "decision": "USER_ACCEPTED_ONCE_NO_REWORK"
+  },
+  "footer_exception": {
+    "path": "批准/CONTENT-002/V5/成图脚注一次性接受记录.md",
+    "applies_to_content_002_only": true,
+    "carry_forward_to_content_003": false
+  },
+  "brand_fact_status": "PASS",
+  "experience_truthfulness_status": "PASS",
+  "commercial_expression_status": "PASS_AS_ORGANIC_BASED_ON_CURRENT_INPUTS",
+  "rights_note": "Current audit found no new blocking rights issue; source/use basis for full official campaign photography or third-party UGC must still be retained where applicable.",
+  "ai_content_platform_label_required_at_publish": true,
+  "current_progress_sync_required_by_director": true,
+  "image_c_repo_status_note": "GitHub visible V2-R1 Image-C record still shows historical REWORK_REQUIRED and does not yet reflect the user's later final PASS decision; preserve history and reconcile at lock stage without returning images to A/B/C.",
+  "audit_report_path": "产物/审核/CONTENT-002/V2/审核报告.md",
+  "next_role": "总监AI",
+  "next_action": "基于本审核PASS与当前4张实际图片SHA-256完成CONTENT-002 V5正式CONTENT LOCK版本对账；同步状态机，保留历史R1，不要求A/B/C再次返工。",
+  "status": "AUDIT_PASS_WAITING_CONTENT_LOCK"
+}
