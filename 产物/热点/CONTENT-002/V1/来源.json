@@ -1,0 +1,950 @@
+{
+  "project_id": "XHS-BEAUTY-002",
+  "task_id": "CONTENT-002",
+  "input_revision": 1,
+  "observed_at": "2026-09-22T13:02:00+08:00",
+  "timezone": "Asia/Shanghai",
+  "research_mode": "热门产品优先；每候选10条内容观察",
+  "direct_user_addendum": {
+    "product_first": true,
+    "candidates_min": 5,
+    "observations_per_candidate": "8-12",
+    "face_not_required_every_page": true,
+    "allowed_visuals": [
+      "产品主图",
+      "手拿产品",
+      "公开色卡/试色资料整理",
+      "上脸局部/妆感示意",
+      "桌面静物",
+      "半脸同框",
+      "镜前"
+    ],
+    "avoid_content_001_visual_routine": true
+  },
+  "methodology": {
+    "candidate_count": 5,
+    "observations_per_candidate": 10,
+    "total_observations": 50,
+    "xhs_anonymous_limitation": "大量小红书explore链接匿名访问返回登录墙/404；无法直接核验的首图/页数/机位保留unknown。",
+    "evidence_grades": {
+      "A": "公开页面直接可见图片、互动或结构",
+      "B": "公开索引可见标题/日期/摘要/部分互动，可判断内容类型",
+      "C": "只可确认标题/日期，视觉字段unknown"
+    },
+    "rule": "unknown不补0；品牌宣称不改写成账号亲测；跨平台互动不冒充小红书互动。"
+  },
+  "primary_sources": [
+    {
+      "id": "S1",
+      "name": "橘朵9月新品/代言整合索引",
+      "url": "https://post.smzdm.com/p/a03q4pgw/",
+      "type": "public_index_of_xhs_and_brand_material"
+    },
+    {
+      "id": "S2",
+      "name": "2026秋季雾面唇新品整合",
+      "url": "https://post.smzdm.com/p/az86w4dn/",
+      "type": "public_index"
+    },
+    {
+      "id": "S3",
+      "name": "YSL水雾唇釉两周内容观察",
+      "url": "https://post.smzdm.com/p/apqv82qx/",
+      "type": "public_index_of_xhs"
+    },
+    {
+      "id": "S4",
+      "name": "YSL/TF水转雾首周内容",
+      "url": "https://post.smzdm.com/p/avgw0mep/",
+      "type": "public_index_of_xhs"
+    },
+    {
+      "id": "S5",
+      "name": "YSL/TF秋季新品比较",
+      "url": "https://post.smzdm.com/p/axkln809/",
+      "type": "public_index_of_xhs"
+    },
+    {
+      "id": "S6",
+      "name": "TF黑金唇雾首批试色/活动索引",
+      "url": "https://post.smzdm.com/p/awwkz4pg/",
+      "type": "public_index_of_xhs"
+    },
+    {
+      "id": "S7",
+      "name": "INTO YOU官方公开社媒",
+      "url": "https://www.sina.cn/media/7339405441",
+      "type": "brand_official_public_social"
+    },
+    {
+      "id": "S8",
+      "name": "DW 9月新旧版讨论整合",
+      "url": "https://post.smzdm.com/p/arzq9emg/",
+      "type": "public_index_of_xhs"
+    },
+    {
+      "id": "S9",
+      "name": "DW两代内容样本整合",
+      "url": "https://post.smzdm.com/p/az8mplmp/",
+      "type": "public_index_of_xhs"
+    },
+    {
+      "id": "S10",
+      "name": "雅诗兰黛DW底妆全A计划",
+      "url": "https://weibo.com/2/detail/5338383200029700",
+      "type": "brand_campaign_public_social"
+    },
+    {
+      "id": "S11",
+      "name": "YSL官方公开社媒",
+      "url": "https://www.sina.cn/media/3167532862",
+      "type": "brand_official_public_social"
+    },
+    {
+      "id": "S12",
+      "name": "2026彩妆新品趋势公开资料",
+      "url": "https://www.renrendoc.com/paper/531632986.html",
+      "type": "industry_trend_secondary"
+    }
+  ],
+  "candidates": [
+    {
+      "id": "C1",
+      "brand": "Judydoll 橘朵",
+      "product": "缎光唇粉霜 S01-S04",
+      "decision": "MAIN",
+      "heat_types": [
+        "new_product",
+        "xiaohongshu_content_interaction",
+        "brand_ambassador_campaign"
+      ],
+      "evidence": [
+        "8/27新品上线；同窗口公开索引显示超过10篇商务种草集中出现",
+        "首批试色公开记录出现2841赞量级",
+        "9/2 S02色号内容公开记录418赞/261收藏/6评论"
+      ],
+      "no_real_product_execution": "YES_WITH_LIMITS",
+      "asset_gap": [
+        "官方准确管身/包装",
+        "S01-S04准确色号资料",
+        "可核公开色卡；真实手臂试色需实物/授权素材"
+      ],
+      "visual_summary": {
+        "common": "自然光试色/唇部局部/产品或礼盒静物",
+        "most_saveworthy": "色号选择、自然光对比、冷暖/场景分组",
+        "recommended_cover": "产品45度静物或手拿产品，无需露脸"
+      },
+      "observations": [
+        {
+          "id": "J1",
+          "title": "新品官宣｜橘朵缎光唇粉霜丝滑上线～",
+          "date": "2026-08-27",
+          "platform": "小红书",
+          "structure": "新品首发",
+          "cover_form": "unknown",
+          "face_presence": "unknown",
+          "shot_type": "unknown",
+          "save_point": "产品名+妆效认知",
+          "evidence_grade": "C",
+          "note": ""
+        },
+        {
+          "id": "J2",
+          "title": "新品…橘朵缎光唇粉霜，丝滑如生巧🍫!",
+          "date": "2026-08-27",
+          "platform": "小红书",
+          "structure": "新品+甜品意象",
+          "cover_form": "unknown",
+          "face_presence": "unknown",
+          "shot_type": "产品静物/质地意象（推断）",
+          "save_point": "质地记忆点",
+          "evidence_grade": "B",
+          "note": ""
+        },
+        {
+          "id": "J3",
+          "title": "橘朵缎光唇粉霜！干唇赛道迎来了最权威产品！",
+          "date": "2026-08-28",
+          "platform": "小红书",
+          "structure": "问题/质地",
+          "cover_form": "unknown",
+          "face_presence": "unknown",
+          "shot_type": "局部/产品（未直接核验）",
+          "save_point": "干唇是否适配",
+          "evidence_grade": "B",
+          "note": ""
+        },
+        {
+          "id": "J4",
+          "title": "橘朵缎光唇粉霜新色自然光试色对比帖",
+          "date": "2026-08-30",
+          "platform": "小红书",
+          "structure": "自然光试色对比",
+          "cover_form": "非纯产品（类型可确认）",
+          "face_presence": "局部可能，完整脸unknown",
+          "shot_type": "自然光试色/局部",
+          "save_point": "色差与选色",
+          "evidence_grade": "B",
+          "note": ""
+        },
+        {
+          "id": "J5",
+          "title": "🍫橘朵新品唇粉霜~秋日里的生巧热可可~",
+          "date": "2026-08-31",
+          "platform": "小红书",
+          "structure": "季节氛围+色号",
+          "cover_form": "unknown",
+          "face_presence": "unknown",
+          "shot_type": "秋日静物/唇部（推断）",
+          "save_point": "秋日配色",
+          "evidence_grade": "B",
+          "note": ""
+        },
+        {
+          "id": "J6",
+          "title": "S02芭比甜巧色号种草帖",
+          "date": "2026-09-02",
+          "platform": "小红书",
+          "structure": "单色号决策",
+          "cover_form": "unknown",
+          "face_presence": "unknown",
+          "shot_type": "色号/唇部局部（推断）",
+          "save_point": "418赞/261藏：单色号决策",
+          "evidence_grade": "B",
+          "note": "公开索引记录418赞、261收藏、6评论"
+        },
+        {
+          "id": "J7",
+          "title": "Angelababy新代言要断货了，橘朵好福气啊…",
+          "date": "2026-09-02",
+          "platform": "小红书",
+          "structure": "代言事件",
+          "cover_form": "非纯产品",
+          "face_presence": "是/明星",
+          "shot_type": "人物+产品/事件",
+          "save_point": "事件讨论，不是主要收藏模板",
+          "evidence_grade": "B",
+          "note": ""
+        },
+        {
+          "id": "J8",
+          "title": "橘朵代言人礼盒与周边开售机制帖",
+          "date": "2026-09-02",
+          "platform": "小红书",
+          "structure": "礼盒/机制",
+          "cover_form": "产品/礼盒为主（推断）",
+          "face_presence": "unknown",
+          "shot_type": "礼盒平拍/静物（推断）",
+          "save_point": "机制与清单",
+          "evidence_grade": "B",
+          "note": ""
+        },
+        {
+          "id": "J9",
+          "title": "出baby代言的橘朵产品",
+          "date": "2026-09-06",
+          "platform": "小红书",
+          "structure": "代言延续",
+          "cover_form": "unknown",
+          "face_presence": "可能",
+          "shot_type": "人物/产品（未直接核验）",
+          "save_point": "产品清单",
+          "evidence_grade": "C",
+          "note": ""
+        },
+        {
+          "id": "J10",
+          "title": "缎光唇粉霜这玩意儿谁研究的呢",
+          "date": "2026-09-08",
+          "platform": "小红书",
+          "structure": "讨论/质地",
+          "cover_form": "unknown",
+          "face_presence": "unknown",
+          "shot_type": "unknown",
+          "save_point": "质地到底是什么",
+          "evidence_grade": "C",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "C2",
+      "brand": "YSL 圣罗兰美妆",
+      "product": "全新水雾唇釉 9色",
+      "decision": "BACKUP_1",
+      "heat_types": [
+        "new_product",
+        "xiaohongshu_content_interaction",
+        "brand_continued_push"
+      ],
+      "evidence": [
+        "上新两周高互动7篇试色公开统计点赞约751-4939",
+        "全端测评公开记录2613赞/784收藏",
+        "8/29 610哑光版试色公开记录1018赞",
+        "9/17官方仍持续推610和全系"
+      ],
+      "no_real_product_execution": "YES_WITH_LIMITS",
+      "asset_gap": [
+        "官方9色产品图",
+        "官方准确色号名",
+        "公开可核色卡；真实上嘴/持妆需实物"
+      ],
+      "visual_summary": {
+        "common": "全色试色、唇部近景、产品+色卡",
+        "most_saveworthy": "全端测评/9色指南/单色争议对照",
+        "recommended_cover": "产品+3个重点色或唇部局部，不必完整人脸"
+      },
+      "observations": [
+        {
+          "id": "Y1",
+          "title": "🆕YSL新品水雾唇釉全试色！低饱和9色指南！",
+          "date": "2026-08-27",
+          "platform": "小红书",
+          "structure": "9色指南",
+          "cover_form": "非单一纯产品",
+          "face_presence": "局部为主/完整脸unknown",
+          "shot_type": "多色试色矩阵",
+          "save_point": "9色怎么选",
+          "evidence_grade": "B",
+          "note": ""
+        },
+        {
+          "id": "Y2",
+          "title": "YSL的新品水雾唇釉全端测评！",
+          "date": "2026-08-27",
+          "platform": "小红书",
+          "structure": "全端测评",
+          "cover_form": "unknown",
+          "face_presence": "unknown",
+          "shot_type": "产品+试色/测试（类型）",
+          "save_point": "2613赞/784藏；一篇解决多个问题",
+          "evidence_grade": "B",
+          "note": "公开索引记录2613赞、784收藏"
+        },
+        {
+          "id": "Y3",
+          "title": "关于ysl水转雾唇釉520的大实话",
+          "date": "2026-09-01",
+          "platform": "小红书",
+          "structure": "反向真实反馈",
+          "cover_form": "unknown",
+          "face_presence": "局部/完整脸unknown",
+          "shot_type": "原相机/上嘴反馈（摘要可确认）",
+          "save_point": "争议与避坑",
+          "evidence_grade": "B",
+          "note": "公开记录96赞、89评论"
+        },
+        {
+          "id": "Y4",
+          "title": "ysl新品水雾唇釉 气得我想报J",
+          "date": "2026-08-31",
+          "platform": "小红书",
+          "structure": "负向讨论",
+          "cover_form": "unknown",
+          "face_presence": "unknown",
+          "shot_type": "unknown",
+          "save_point": "反差/避坑",
+          "evidence_grade": "C",
+          "note": ""
+        },
+        {
+          "id": "Y5",
+          "title": "新品试色！ysl610哑光版我的秋天本命🍂",
+          "date": "2026-08-29",
+          "platform": "小红书",
+          "structure": "单色+季节",
+          "cover_form": "非纯产品（试色）",
+          "face_presence": "局部",
+          "shot_type": "唇部试色",
+          "save_point": "1018赞；秋季单色决策",
+          "evidence_grade": "B",
+          "note": ""
+        },
+        {
+          "id": "Y6",
+          "title": "全新YSL水雾唇釉",
+          "date": "2026-08-26",
+          "platform": "小红书",
+          "structure": "新品首发",
+          "cover_form": "unknown",
+          "face_presence": "unknown",
+          "shot_type": "产品发布",
+          "save_point": "新品认知",
+          "evidence_grade": "C",
+          "note": ""
+        },
+        {
+          "id": "Y7",
+          "title": "44/610/530三色到手公开分享",
+          "date": "2026-08-28",
+          "platform": "微博",
+          "structure": "三色对照",
+          "cover_form": "产品为主",
+          "face_presence": "否/unknown",
+          "shot_type": "产品排布+三色",
+          "save_point": "三色快速比较",
+          "evidence_grade": "A",
+          "note": ""
+        },
+        {
+          "id": "Y8",
+          "title": "YSL水雾唇釉全新上新/秋日氛围",
+          "date": "2026-09-03",
+          "platform": "微博/专柜公开内容",
+          "structure": "门店/新品",
+          "cover_form": "产品/门店",
+          "face_presence": "否/unknown",
+          "shot_type": "专柜产品+场景",
+          "save_point": "秋日搭配",
+          "evidence_grade": "A",
+          "note": ""
+        },
+        {
+          "id": "Y9",
+          "title": "YSL610降噪，日晒乌龙",
+          "date": "2026-09-17",
+          "platform": "品牌官方微博",
+          "structure": "单色官方物料",
+          "cover_form": "产品/色号为主",
+          "face_presence": "unknown",
+          "shot_type": "产品+氛围",
+          "save_point": "单色记忆",
+          "evidence_grade": "A",
+          "note": ""
+        },
+        {
+          "id": "Y10",
+          "title": "YSL水雾唇釉全新上市/低饱和9色",
+          "date": "2026-09-17",
+          "platform": "品牌官方微博",
+          "structure": "全系官方物料",
+          "cover_form": "产品为主",
+          "face_presence": "unknown",
+          "shot_type": "全系产品/色卡",
+          "save_point": "全系认知",
+          "evidence_grade": "A",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "C3",
+      "brand": "INTO YOU",
+      "product": "双头多用釉",
+      "decision": "BACKUP_2",
+      "heat_types": [
+        "new_product",
+        "brand_official_social_interaction",
+        "ambassador_bundle"
+      ],
+      "evidence": [
+        "8/6-8/11品牌连续高频发布同一产品内容",
+        "9/2-9/3 MLD05进入品牌大使Hunting限定套组继续露出",
+        "9/3公开品牌内容出现千级转评和数千评论量级"
+      ],
+      "no_real_product_execution": "YES_WITH_LIMITS",
+      "asset_gap": [
+        "官方产品正反面/双头结构",
+        "MLD色号准确资料",
+        "真实质地与持妆需实物"
+      ],
+      "visual_summary": {
+        "common": "产品静物/局部腮红高光/分区图/叠涂色块",
+        "most_saveworthy": "3步分区、腮红+高光搭配、6色全试色",
+        "recommended_cover": "产品双头结构特写或手拿产品；P3再半脸"
+      },
+      "observations": [
+        {
+          "id": "I1",
+          "title": "新品｜首创腮红高光双头釉",
+          "date": "2026-08-06",
+          "platform": "品牌官方微博",
+          "structure": "新品首发",
+          "cover_form": "产品为主",
+          "face_presence": "否/unknown",
+          "shot_type": "产品静物/双头结构",
+          "save_point": "一眼理解双头",
+          "evidence_grade": "A",
+          "note": ""
+        },
+        {
+          "id": "I2",
+          "title": "双头多用釉｜奶光双全，有多Nice",
+          "date": "2026-08-06",
+          "platform": "品牌官方微博",
+          "structure": "质地/双头",
+          "cover_form": "产品为主",
+          "face_presence": "否/unknown",
+          "shot_type": "45度产品/材质特写（公开物料）",
+          "save_point": "一支两效",
+          "evidence_grade": "A",
+          "note": ""
+        },
+        {
+          "id": "I3",
+          "title": "首创双头多用釉，一支不止顶三支",
+          "date": "2026-08-07",
+          "platform": "品牌官方微博",
+          "structure": "功能图解",
+          "cover_form": "产品为主",
+          "face_presence": "否/unknown",
+          "shot_type": "产品+功能标签",
+          "save_point": "功能清单",
+          "evidence_grade": "A",
+          "note": ""
+        },
+        {
+          "id": "I4",
+          "title": "新品双头多用釉，一支好多妆/MOTD×3",
+          "date": "2026-08-08",
+          "platform": "品牌官方微博",
+          "structure": "多妆效",
+          "cover_form": "非纯产品",
+          "face_presence": "是/妆效人物",
+          "shot_type": "脸颊/半脸+产品",
+          "save_point": "一支三妆",
+          "evidence_grade": "A",
+          "note": ""
+        },
+        {
+          "id": "I5",
+          "title": "不是所有奶味调色都叫双头多用釉",
+          "date": "2026-08-09",
+          "platform": "品牌官方微博",
+          "structure": "色号/调色",
+          "cover_form": "产品/色号为主",
+          "face_presence": "unknown",
+          "shot_type": "色块+产品",
+          "save_point": "色号怎么选",
+          "evidence_grade": "A",
+          "note": ""
+        },
+        {
+          "id": "I6",
+          "title": "0岁双头多用釉高能量的一天",
+          "date": "2026-08-09",
+          "platform": "品牌官方微博",
+          "structure": "场景时间线",
+          "cover_form": "非纯产品",
+          "face_presence": "可能",
+          "shot_type": "生活场景+产品",
+          "save_point": "场景用途",
+          "evidence_grade": "A",
+          "note": "持妆相关仅为品牌宣称"
+        },
+        {
+          "id": "I7",
+          "title": "双头多用釉3步捏脸万能公式",
+          "date": "2026-08-10",
+          "platform": "品牌官方微博",
+          "structure": "步骤教程",
+          "cover_form": "非纯产品",
+          "face_presence": "是/局部脸",
+          "shot_type": "脸部区域/分区图",
+          "save_point": "3步分区收藏卡",
+          "evidence_grade": "A",
+          "note": ""
+        },
+        {
+          "id": "I8",
+          "title": "腮红和高光怎么搭更配？",
+          "date": "2026-08-10",
+          "platform": "品牌官方微博",
+          "structure": "搭配指南",
+          "cover_form": "产品/色卡",
+          "face_presence": "unknown",
+          "shot_type": "产品+色块",
+          "save_point": "组合选择",
+          "evidence_grade": "A",
+          "note": ""
+        },
+        {
+          "id": "I9",
+          "title": "叠涂爱好者都能刷到这条试色",
+          "date": "2026-08-10",
+          "platform": "品牌官方微博",
+          "structure": "叠涂试色",
+          "cover_form": "非纯产品",
+          "face_presence": "局部unknown",
+          "shot_type": "色块/局部叠涂",
+          "save_point": "叠色结果",
+          "evidence_grade": "A",
+          "note": ""
+        },
+        {
+          "id": "I10",
+          "title": "6款高光液全试色",
+          "date": "2026-08-11",
+          "platform": "品牌官方微博",
+          "structure": "全色试色",
+          "cover_form": "非纯产品",
+          "face_presence": "局部unknown",
+          "shot_type": "高光/色块近景",
+          "save_point": "6色选择",
+          "evidence_grade": "A",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "C4",
+      "brand": "Estée Lauder 雅诗兰黛",
+      "product": "第二代DW持妆粉底液",
+      "decision": "CANDIDATE",
+      "heat_types": [
+        "current_brand_campaign",
+        "xiaohongshu_version_discussion",
+        "comparison_content"
+      ],
+      "evidence": [
+        "9/1-10/31正在执行DW底妆全A计划",
+        "9月上旬小红书索引集中出现新旧版/干油皮/替代旧版讨论"
+      ],
+      "no_real_product_execution": "LIMITED",
+      "asset_gap": [
+        "官方新旧瓶图",
+        "公开色号表",
+        "真实底妆前后/持妆必须实物"
+      ],
+      "visual_summary": {
+        "common": "新旧瓶对比、半脸/底妆局部、色号卡、多产品比较",
+        "most_saveworthy": "一代vs二代、色号、谁适合新版",
+        "recommended_cover": "新旧瓶同框/左右对比，不建议纯人物"
+      },
+      "observations": [
+        {
+          "id": "D1",
+          "title": "雅诗兰黛新升级第二代DW持妆粉底液",
+          "date": "2026-09-06",
+          "platform": "小红书",
+          "structure": "新品/升级说明",
+          "cover_form": "unknown",
+          "face_presence": "unknown",
+          "shot_type": "产品瓶身/底妆（未直接核验）",
+          "save_point": "新版信息",
+          "evidence_grade": "C",
+          "note": ""
+        },
+        {
+          "id": "D2",
+          "title": "难用？",
+          "date": "2026-09-04",
+          "platform": "小红书",
+          "structure": "争议问句",
+          "cover_form": "unknown",
+          "face_presence": "unknown",
+          "shot_type": "unknown",
+          "save_point": "评论讨论",
+          "evidence_grade": "C",
+          "note": ""
+        },
+        {
+          "id": "D3",
+          "title": "是谁买完了我的1n0啊",
+          "date": "2026-09-08",
+          "platform": "小红书",
+          "structure": "旧版库存/情绪",
+          "cover_form": "unknown",
+          "face_presence": "unknown",
+          "shot_type": "产品瓶身（推断）",
+          "save_point": "旧版库存信息",
+          "evidence_grade": "B",
+          "note": ""
+        },
+        {
+          "id": "D4",
+          "title": "雅诗兰黛DW一代🆚二代",
+          "date": "2026-09-04",
+          "platform": "小红书",
+          "structure": "新旧对比",
+          "cover_form": "对比拼图（类型可确认）",
+          "face_presence": "可能半脸/unknown",
+          "shot_type": "瓶身/妆效对比",
+          "save_point": "新旧差异",
+          "evidence_grade": "B",
+          "note": ""
+        },
+        {
+          "id": "D5",
+          "title": "说DW二代粉底液好用的应该都是干皮😂",
+          "date": "2026-09-05",
+          "platform": "小红书",
+          "structure": "肤质分歧",
+          "cover_form": "unknown",
+          "face_presence": "可能",
+          "shot_type": "底妆局部（推断）",
+          "save_point": "肤质分流",
+          "evidence_grade": "B",
+          "note": ""
+        },
+        {
+          "id": "D6",
+          "title": "旧版DW粉底液的替代品",
+          "date": "2026-09-06",
+          "platform": "小红书",
+          "structure": "替代选择",
+          "cover_form": "多产品可能",
+          "face_presence": "unknown",
+          "shot_type": "多瓶对比（推断）",
+          "save_point": "替代清单",
+          "evidence_grade": "B",
+          "note": ""
+        },
+        {
+          "id": "D7",
+          "title": "到底有什么能替代旧版dw",
+          "date": "2026-09-07",
+          "platform": "小红书",
+          "structure": "搜索问题",
+          "cover_form": "unknown",
+          "face_presence": "unknown",
+          "shot_type": "unknown",
+          "save_point": "替代决策",
+          "evidence_grade": "C",
+          "note": ""
+        },
+        {
+          "id": "D8",
+          "title": "迪奥恒久凝脂锁妆与雅诗兰黛DW二代对比",
+          "date": "2026-09-06",
+          "platform": "小红书",
+          "structure": "双产品对比",
+          "cover_form": "对比型",
+          "face_presence": "可能",
+          "shot_type": "双产品/妆效对比",
+          "save_point": "横向选择",
+          "evidence_grade": "B",
+          "note": ""
+        },
+        {
+          "id": "D9",
+          "title": "等了2个月终于漂洋过海到手了老版DW",
+          "date": "2026-09-07",
+          "platform": "小红书",
+          "structure": "到手/旧版",
+          "cover_form": "产品为主（推断）",
+          "face_presence": "否/unknown",
+          "shot_type": "手拿/瓶身（推断）",
+          "save_point": "版本辨识",
+          "evidence_grade": "B",
+          "note": ""
+        },
+        {
+          "id": "D10",
+          "title": "DW粉底液一代色号",
+          "date": "2026-09-08",
+          "platform": "小红书",
+          "structure": "色号指南",
+          "cover_form": "色卡/产品（类型）",
+          "face_presence": "unknown",
+          "shot_type": "色号卡",
+          "save_point": "色号选择",
+          "evidence_grade": "B",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "C5",
+      "brand": "TOM FORD BEAUTY",
+      "product": "黑金唇雾 14色",
+      "decision": "CANDIDATE",
+      "heat_types": [
+        "new_product",
+        "xiaohongshu_content_interaction",
+        "brand_event"
+      ],
+      "evidence": [
+        "8/31全14色试色公开记录单条最高4054赞、440评论",
+        "8/24-8/31集中出现原相机试色/选色指南/单色内容",
+        "9月初品牌活动继续曝光"
+      ],
+      "no_real_product_execution": "YES_WITH_LIMITS",
+      "asset_gap": [
+        "官方14色产品图/色号",
+        "真实唇部试色需实物"
+      ],
+      "visual_summary": {
+        "common": "14色矩阵、唇部局部、黑金产品静物、明星+产品",
+        "most_saveworthy": "14色全试色/选色指南",
+        "recommended_cover": "黑金产品45度静物+3个重点色；4页不要塞14色"
+      },
+      "observations": [
+        {
+          "id": "T1",
+          "title": "TF黑金唇雾全试色☕️14种人设来回切换",
+          "date": "2026-08-31",
+          "platform": "小红书",
+          "structure": "14色全试色",
+          "cover_form": "非纯产品",
+          "face_presence": "局部/完整脸unknown",
+          "shot_type": "多色矩阵/唇部",
+          "save_point": "4054赞/440评量级；选色",
+          "evidence_grade": "B",
+          "note": ""
+        },
+        {
+          "id": "T2",
+          "title": "全新TF黑金唇雾 原相机试色！",
+          "date": "2026-08-24",
+          "platform": "小红书",
+          "structure": "原相机试色",
+          "cover_form": "非纯产品",
+          "face_presence": "局部",
+          "shot_type": "唇部/产品",
+          "save_point": "真实光线参考",
+          "evidence_grade": "B",
+          "note": ""
+        },
+        {
+          "id": "T3",
+          "title": "TF黑金唇雾选色指南｜仅1s就爱上了哑光新品",
+          "date": "2026-08-25",
+          "platform": "小红书",
+          "structure": "选色指南",
+          "cover_form": "unknown",
+          "face_presence": "unknown",
+          "shot_type": "色号/产品",
+          "save_point": "选色收藏",
+          "evidence_grade": "B",
+          "note": ""
+        },
+        {
+          "id": "T4",
+          "title": "水雾转绒雾",
+          "date": "2026-08-24",
+          "platform": "小红书",
+          "structure": "质地转变",
+          "cover_form": "非纯产品",
+          "face_presence": "局部",
+          "shot_type": "唇部近景",
+          "save_point": "质地过程",
+          "evidence_grade": "B",
+          "note": ""
+        },
+        {
+          "id": "T5",
+          "title": "TF新品唇雾135",
+          "date": "2026-08-30",
+          "platform": "小红书",
+          "structure": "单色号",
+          "cover_form": "unknown",
+          "face_presence": "局部unknown",
+          "shot_type": "单色/唇部（推断）",
+          "save_point": "单色决策",
+          "evidence_grade": "C",
+          "note": ""
+        },
+        {
+          "id": "T6",
+          "title": "TF黑金唇雾我赖上你了！！！",
+          "date": "2026-08-21",
+          "platform": "小红书",
+          "structure": "情绪种草",
+          "cover_form": "unknown",
+          "face_presence": "unknown",
+          "shot_type": "unknown",
+          "save_point": "情绪点击",
+          "evidence_grade": "C",
+          "note": ""
+        },
+        {
+          "id": "T7",
+          "title": "500份🎁TF惊喜盒子掉落",
+          "date": "2026-08-24",
+          "platform": "小红书",
+          "structure": "活动/礼盒",
+          "cover_form": "产品/礼盒为主（推断）",
+          "face_presence": "否/unknown",
+          "shot_type": "礼盒静物",
+          "save_point": "活动机制",
+          "evidence_grade": "B",
+          "note": ""
+        },
+        {
+          "id": "T8",
+          "title": "谁中TF惊喜盒子！是我",
+          "date": "2026-08-25",
+          "platform": "小红书",
+          "structure": "开箱/活动",
+          "cover_form": "产品为主（推断）",
+          "face_presence": "unknown",
+          "shot_type": "手拿/开箱（推断）",
+          "save_point": "到手展示",
+          "evidence_grade": "B",
+          "note": ""
+        },
+        {
+          "id": "T9",
+          "title": "TOM FORD BEAUTY中国区大使亲绎全新TF黑金唇雾",
+          "date": "2026-08-24",
+          "platform": "品牌官方微博",
+          "structure": "大使物料",
+          "cover_form": "非纯产品",
+          "face_presence": "是",
+          "shot_type": "人物+产品",
+          "save_point": "品牌认知",
+          "evidence_grade": "A",
+          "note": ""
+        },
+        {
+          "id": "T10",
+          "title": "TOM FORD绝色之夜/TF136迷雾",
+          "date": "2026-09-05",
+          "platform": "公开品牌活动社媒",
+          "structure": "品牌事件",
+          "cover_form": "非纯产品",
+          "face_presence": "是",
+          "shot_type": "人物+产品/活动",
+          "save_point": "事件曝光",
+          "evidence_grade": "A",
+          "note": ""
+        }
+      ]
+    }
+  ],
+  "cross_candidate_visual_findings": {
+    "face_rule": "产品帖不需要每页露脸；唇妆尤其常用唇部局部/色卡/产品静物。",
+    "common_shots": [
+      "产品45度或桌面静物",
+      "唇部/脸颊局部",
+      "自然光色卡/多色矩阵",
+      "手拿产品",
+      "新旧/左右对比"
+    ],
+    "highest_save_structures": [
+      "全色号/重点色号怎么选",
+      "自然光色卡",
+      "冷暖/场景分组",
+      "新旧版对比",
+      "分区上妆图"
+    ],
+    "mirror_shot": "可做生活氛围页，但本轮证据不足以证明镜前拍是产品帖主要收藏结构。",
+    "content_002_recommendation": {
+      "p1": "产品45度主图/手拿产品，无需脸",
+      "p2": "公开色卡/色调整理，不伪装真人手臂试色",
+      "p3": "PERSONA LOCK-V2唇部或半脸妆感适配示意",
+      "p4": "适合谁/怎么选四格收藏卡"
+    },
+    "content_001_differences": [
+      "人物主导→产品主导",
+      "托腮正脸→产品静物/手拿",
+      "四页近脸→产品/色卡/局部/总结",
+      "露脸建议仅1页",
+      "如露脸换灰/黑/白衬衫体系"
+    ]
+  },
+  "final_selection": {
+    "main": "Judydoll 橘朵 缎光唇粉霜",
+    "backup_1": "YSL 全新水雾唇釉",
+    "backup_2": "INTO YOU 双头多用釉",
+    "reason": "主选同时具备近期新品窗口、可核小红书收藏信号、4色信息量适配4页、产品主导视觉可明显区别CONTENT-001。"
+  },
+  "limitations": [
+    "小红书匿名网页大量具体笔记返回登录墙/404，不能逐条直接读取所有首图和页数。",
+    "视觉字段只在公开图片/标题/摘要足够时判断，其余unknown。",
+    "INTO YOU样本以品牌官方公开社媒为主，不能写成小红书UGC热度。",
+    "品牌官方功效/持妆/保湿描述均视为品牌宣称，不是本账号体验事实。",
+    "当前CONTENT-001未到24h数据点，未使用早期数据做第二篇方向结论。"
+  ]
+}
