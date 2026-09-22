@@ -1,0 +1,76 @@
+{
+  "project_id": "XHS-BEAUTY-002",
+  "task_id": "CONTENT-002",
+  "input_revision": 4,
+  "task_version": "V5",
+  "task_type": "full_content_reset_with_effect_summary",
+  "status": "READY",
+  "supersedes_task": "任务/CONTENT-002/V4/任务.json",
+  "responsible_role": "热点与竞品研究员",
+  "pipeline": [
+    "热点与竞品研究员",
+    "内容策划",
+    "文案脚本",
+    "图片生成员A",
+    "图片审核修图员B",
+    "图片终审修图员C",
+    "内容与合规审核",
+    "总监CONTENT_LOCK",
+    "发布与社群运营",
+    "用户发布",
+    "数据分析与实验"
+  ],
+  "fixed_input_commit": "36bb3500a7030a258bbcd7981b3eeb0cc374dd48",
+  "inputs": [
+    {
+      "path": "任务/CONTENT-002/V4/任务.json",
+      "commit": "36bb3500a7030a258bbcd7981b3eeb0cc374dd48",
+      "required": true,
+      "carry_forward": true
+    },
+    {
+      "path": "批准/CONTENT-002/V4/产品效果表达补充批准.md",
+      "commit": "36bb3500a7030a258bbcd7981b3eeb0cc374dd48",
+      "required": true
+    },
+    {
+      "path": "系统/产品效果与用户体验归纳协议V2.2-P4.md",
+      "commit": "36bb3500a7030a258bbcd7981b3eeb0cc374dd48",
+      "required": true
+    },
+    {
+      "path": "系统/真人感美妆内容运营协议V2.2-P3.md",
+      "commit": "36bb3500a7030a258bbcd7981b3eeb0cc374dd48",
+      "required": true
+    },
+    {
+      "path": "正式/视觉规范/V4.md",
+      "commit": "36bb3500a7030a258bbcd7981b3eeb0cc374dd48",
+      "required": true
+    }
+  ],
+  "carry_forward_rules": [
+    "V4全部热门产品研究、人物/产品自由组合、真实产品素材、真实用户评价和视觉轮换规则继续有效。",
+    "本版本只新增‘效果可以写’的规则，不推翻V4其他内容。"
+  ],
+  "effect_research_requirements": [
+    "每个主选热门产品在8至12条代表性内容中额外提取：妆效、质地、显色、遮盖、持妆倾向、卡粉/拔干/氧化/飞粉/晕染等用户反馈。",
+    "记录正向、负向和分歧，不只抄好评。",
+    "同一效果尽量至少有多个独立样本支持；明显分歧必须标记为分歧。",
+    "精确持妆时长、不沾杯、防水等强结论必须有官方测试或可靠测评证据；只有用户评论时不得写成确定事实。"
+  ],
+  "copy_rules": [
+    "允许把多样本真实反馈整理成自然、有判断的账号文案，不要求每句都挂来源。",
+    "允许自然写产品优点、缺点、肤感、妆效、适合谁、不适合谁。",
+    "允许第一人称表达选择和编辑判断，例如‘我会更推荐通勤选S02’、‘我把大家最常提的槽点整理了’。",
+    "没有真实账号使用证据时，不得写‘我亲测/我用了X天/我带妆X小时/我买回来/我回购/我踩雷/我空瓶’。",
+    "不得把某个用户的体验改写成账号自己的亲历。"
+  ],
+  "page_count": 4,
+  "max_page_count": 6,
+  "budget_cny": 0,
+  "max_spend_cny": 0,
+  "max_rework_rounds": 2,
+  "publish_authority": "USER_ONLY",
+  "next_condition": "热点与竞品研究员按V4原任务完成热门产品候选研究，并新增产品效果/优缺点/用户体验的多样本归纳后，交内容策划AI。"
+}
