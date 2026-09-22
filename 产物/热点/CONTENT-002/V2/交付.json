@@ -1,0 +1,57 @@
+{
+  "project_id": "XHS-BEAUTY-002",
+  "task_id": "CONTENT-002",
+  "task_version": "V5",
+  "input_revision": 4,
+  "role": "热点与竞品研究员",
+  "role_version": "V2.2",
+  "status": "DONE",
+  "result": "HOT_PRODUCT_RESEARCH_WITH_EFFECT_SUMMARY_COMPLETE",
+  "completed_at": "2026-09-22T16:24:00+08:00",
+  "timezone": "Asia/Shanghai",
+  "research_content_commit": "ac025f33937778165e0d668561b2b652f4ca1ee4",
+  "deliverables": [
+    {
+      "path": "产物/热点/CONTENT-002/V2/热门产品研究.md",
+      "git_blob_sha": "f733e7c83a09f9d1add7d537082eb5878c2819fd",
+      "verified_readback": true
+    },
+    {
+      "path": "产物/热点/CONTENT-002/V2/来源.json",
+      "git_blob_sha": "c395a843a73c2493e0571936179740ba1f478e80",
+      "verified_readback": true
+    }
+  ],
+  "scope": {
+    "candidate_count": 5,
+    "observations_per_candidate": 10,
+    "total_observations": 50,
+    "visual_research": true,
+    "effect_summary": true,
+    "user_feedback_consensus_and_divergence": true,
+    "real_product_asset_sources_recorded": true,
+    "unknown_fields_not_fabricated": true
+  },
+  "selection": {
+    "main": "Flower Knows 花知晓 雪花芭蕾六色丝缎眼影盘",
+    "main_hook": "03水晶球蓝盘 + 三盘怎么选 + 包装争议后看产品本体",
+    "backup_1": "PROYA 珀莱雅 立体光塑V气垫",
+    "backup_2": "JOOCYEE 酵色 香槟低语固体唇蜜"
+  },
+  "carry_forward_rules": {
+    "old_content_002_versions": "HISTORICAL_DO_NOT_PUBLISH",
+    "human_style_protocol": "系统/真人感美妆内容运营协议V2.2-P3.md",
+    "effect_protocol": "系统/产品效果与用户体验归纳协议V2.2-P4.md",
+    "visual_spec": "正式/视觉规范/V4.md"
+  },
+  "truth_boundary": {
+    "effect_editorial_judgment_allowed": true,
+    "personal_use_claim_without_evidence": false,
+    "fake_purchase": false,
+    "fake_brand_collaboration": false,
+    "single_user_feedback_upgraded_to_general_fact": false
+  },
+  "spend_cny": 0,
+  "next_role": "内容策划AI",
+  "next_condition": "读取CONTENT-002 V5任务、P3/P4协议、视觉规范V4、本轮热门产品研究与来源文件，按主选花知晓雪花芭蕾眼影盘重新策划第二篇；允许自然写多样本支持的妆效/优缺点/适合人群，不得虚构账号亲历。"
+}
