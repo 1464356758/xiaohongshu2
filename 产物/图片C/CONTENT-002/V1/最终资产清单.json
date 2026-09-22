@@ -1,0 +1,101 @@
+{
+  "project_id": "XHS-BEAUTY-002",
+  "task_id": "CONTENT-002",
+  "input_revision": 1,
+  "role": "图片终审修图员C",
+  "version": "V1",
+  "status": "FINAL_VISUAL_ASSET",
+  "review_result": "PASS",
+  "persona_lock": "批准/PERSONA-001/LOCK-V2.json",
+  "script_path": "产物/文案/CONTENT-002/V1/文案.md",
+  "asset_root": "资产/内容/CONTENT-002/LOCK-V1/",
+  "asset_commit": "da1549df9b8d704e273ac407fb4c06dfa6570384",
+  "page_order": [
+    "01_cover.jpg",
+    "02_page.jpg",
+    "03_page.jpg",
+    "04_page.jpg"
+  ],
+  "files": [
+    {
+      "page": "P1",
+      "file": "01_cover.jpg",
+      "repo_path": "资产/内容/CONTENT-002/LOCK-V1/01_cover.jpg",
+      "commit": "da1549df9b8d704e273ac407fb4c06dfa6570384",
+      "git_blob_sha": "4483c13c2dd70f93f679f5d34b66bb01e456d56a",
+      "SHA256": "e3d4866462972cde7ce703cea0ee965ad99437832d229e33a90d02a9cae7c6a8",
+      "bytes": 332097,
+      "width": 1152,
+      "height": 1536,
+      "format": "JPEG"
+    },
+    {
+      "page": "P2",
+      "file": "02_page.jpg",
+      "repo_path": "资产/内容/CONTENT-002/LOCK-V1/02_page.jpg",
+      "commit": "da1549df9b8d704e273ac407fb4c06dfa6570384",
+      "git_blob_sha": "d9acafc55c2135feb55237b1c65fb8aed236fe98",
+      "SHA256": "855f18013457a28f34b14db921c622d19d67055789951b2b57347bca42c8cfad",
+      "bytes": 245804,
+      "width": 1152,
+      "height": 1536,
+      "format": "JPEG"
+    },
+    {
+      "page": "P3",
+      "file": "03_page.jpg",
+      "repo_path": "资产/内容/CONTENT-002/LOCK-V1/03_page.jpg",
+      "commit": "da1549df9b8d704e273ac407fb4c06dfa6570384",
+      "git_blob_sha": "772bb0ac47956670f35625931721883c9b0fb978",
+      "SHA256": "6955a2e6ccbd6e2bdde7fb4b439b08b1060787271a064bcd458c86df57e94d60",
+      "bytes": 321040,
+      "width": 1152,
+      "height": 1536,
+      "format": "JPEG"
+    },
+    {
+      "page": "P4",
+      "file": "04_page.jpg",
+      "repo_path": "资产/内容/CONTENT-002/LOCK-V1/04_page.jpg",
+      "commit": "da1549df9b8d704e273ac407fb4c06dfa6570384",
+      "git_blob_sha": "4f25699f81517e7de9fb0a8a315050d351c68c3e",
+      "SHA256": "c67a6cc7d20e9f84b6464202857674007afd78269dbe10630b01a75d38a83b67",
+      "bytes": 266154,
+      "width": 1152,
+      "height": 1536,
+      "format": "JPEG"
+    }
+  ],
+  "quality_gate": {
+    "first_impression": "PASS",
+    "persona_identity": "PASS",
+    "face_skin_hair_eyes_ears_hands_makeup": "PASS",
+    "deterministic_chinese_text_exact_match": "PASS",
+    "multi_page_consistency_without_mechanical_repetition": "PASS",
+    "cover_click_reason": "PASS",
+    "product_reference_consistency": "PASS_AS_VISUAL_DEMONSTRATION",
+    "publishable_file_format": "PASS"
+  },
+  "truth_boundary": {
+    "p1_label": "产品视觉示意",
+    "p2_label": "品牌公开色调整理，非本人真实试色",
+    "p3_label": "妆感适配示意 ≠ S02真实上嘴试色",
+    "real_swatch_claim": false,
+    "first_person_product_experience": false,
+    "wear_test_claim": false
+  },
+  "c_processing": {
+    "retouch_performed": false,
+    "page_redone": false,
+    "reason": "B最终图已满足C终审门禁，无需额外修图。"
+  },
+  "verification": {
+    "method": "GitHub固定提交回读base64与用户上传B最终图逐字节比对 + git_blob_sha核对",
+    "blob_sha_match_4_of_4": true,
+    "byte_content_match_4_of_4": true,
+    "verified_commit": "da1549df9b8d704e273ac407fb4c06dfa6570384"
+  },
+  "zip_bundle": "CONTENT-002_FINAL_IMAGES_V1.zip",
+  "content_lock_status": "NOT_CREATED_BY_C",
+  "next_role": "内容与合规审核"
+}
