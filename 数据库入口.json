@@ -15,6 +15,7 @@
   "image_gate_path": "系统/图片质量门禁.md",
   "asset_protocol_path": "系统/图片资产交付协议V2.2.md",
   "binary_asset_protocol_path": "系统/GitHub图片资产入库补充协议V2.2-P1.md",
+  "brand_real_asset_protocol_path": "系统/品牌真实素材优先协议V2.2-P2.md",
   "asset_root_path": "资产",
   "binary_assets_in_git": true,
   "lock_protocol_path": "系统/版本锁定协议.md",
