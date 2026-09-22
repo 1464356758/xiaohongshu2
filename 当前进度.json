@@ -1,46 +1,45 @@
 {
   "project_id": "XHS-BEAUTY-002",
   "system_version": "2.2",
-  "revision": 10,
-  "handoff_epoch": 10,
+  "revision": 11,
+  "handoff_epoch": 11,
   "stage": "CONTENT",
-  "status": "OBSERVING",
-  "current_task": "CONTENT-001",
-  "task_path": "任务/CONTENT-001/V4/标题差异审核任务.json",
-  "parallel_data_task_path": "任务/DATA-CONTENT-001/V1/任务.json",
-  "current_input_revision": 2,
-  "current_pipeline_step": "POST_PUBLISH_TITLE_RECONCILIATION_AND_DATA_OBSERVATION",
+  "status": "READY_FOR_HOT_RESEARCH",
+  "current_task": "CONTENT-002",
+  "task_path": "任务/CONTENT-002/V1/任务.json",
+  "current_input_revision": 1,
+  "current_pipeline_step": "HOT_RESEARCH",
   "account_registration_status": "REGISTERED",
   "publish_status": "PUBLISHED_CONFIRMED",
   "active_persona_version": "正式/人设/虚拟博主人设V1.md",
-  "active_visual_spec": "正式/视觉规范/V1.md",
+  "active_visual_spec": "正式/视觉规范/V2.md",
   "active_anchor_lock": "批准/PERSONA-001/LOCK-V2.json",
   "active_positioning_version": "正式/定位/V2.md",
-  "active_content_lock": "批准/CONTENT-001/LOCK-V1.json",
-  "publication": {
-    "receipt_path": "数据/回执/CONTENT-001/V1/发布回执.json",
-    "receipt_commit": "5ff4976c0fc3b6cc88681f73394dd7b1152980e1",
-    "actual_public_title": "低饱和秋妆显灰？出门只改3处",
+  "active_content_lock": "批准/CONTENT-001/LOCK-V2.json",
+  "last_published_content": {
+    "task_id": "CONTENT-001",
+    "title": "低饱和秋妆显灰？出门只改3处",
+    "lock_path": "批准/CONTENT-001/LOCK-V2.json",
     "published_at_estimate": "2026-09-22T10:27:00+08:00",
-    "evidence_status": "VERIFIED"
+    "status": "OBSERVING"
   },
-  "post_publish_title_deviation": {
-    "status": "TITLE_DELTA_AUDIT_PENDING",
-    "delta": "通勤 → 出门",
-    "disposition_path": "批准/CONTENT-001/V4/发布后标题偏差处置.md",
-    "audit_task_path": "任务/CONTENT-001/V4/标题差异审核任务.json",
-    "rebuild_images": false,
-    "rewrite_body": false,
-    "rework_round_counted": false
-  },
-  "data_observation": {
-    "task_path": "任务/DATA-CONTENT-001/V1/任务.json",
-    "traffic_type": "organic",
-    "paid_spend_cny": 0,
-    "t_plus_24h": "2026-09-23T10:27:00+08:00",
-    "t_plus_72h": "2026-09-25T10:27:00+08:00",
-    "t_plus_7d": "2026-09-29T10:27:00+08:00",
-    "status": "WAITING_FIRST_SNAPSHOT"
+  "parallel_tasks": [
+    {
+      "task_id": "DATA-CONTENT-001",
+      "path": "任务/DATA-CONTENT-001/V1/任务.json",
+      "status": "WAITING_FIRST_SNAPSHOT",
+      "next_window": "2026-09-23T10:27:00+08:00"
+    }
+  ],
+  "visual_rotation_policy": {
+    "spec": "正式/视觉规范/V2.md",
+    "status": "ACTIVE",
+    "rule": "连续内容至少在主服装、主动作、主场景、主构图中更换两项；人物身份保持不变。",
+    "content_002_forbidden_default": [
+      "奶油/白色宽松针织开衫 + 粉色碎花吊带作为主服装组合",
+      "托腮 + 正面看镜头作为P1主动作",
+      "四页使用近似同一机位"
+    ]
   },
   "latest_data_report": null,
   "latest_verified_snapshot": null,
@@ -49,14 +48,14 @@
   "capital_limit_cny": 10000,
   "next_actions": [
     {
-      "role": "内容与合规审核",
-      "action": "只复审发布标题从“通勤”改为“出门”的差异，不重做图片或正文。"
+      "role": "热点与竞品研究员",
+      "action": "执行CONTENT-002 V1，重新联网检索当期热点，给至少5个候选、1个主选和2个备选；不得重复CONTENT-001同题结构。"
     },
     {
-      "role": "用户",
-      "action": "到24h观察时点提供小红书后台真实数据截图或数字给数据分析与实验AI。"
+      "role": "数据分析与实验",
+      "action": "CONTENT-001到24h观察时点后，读取用户提供的后台真实数据并写第一份快照。"
     }
   ],
-  "updated_at": "2026-09-22T11:19:00+08:00",
-  "note": "CONTENT-001已真实发布并进入OBSERVING。LOCK-V1保留历史，标题差异做最小范围独立复审；数据观察并行推进。"
+  "updated_at": "2026-09-22T12:26:00+08:00",
+  "note": "CONTENT-001发布后标题差异已通过TITLE_ONLY审核并用LOCK-V2完成对账；CONTENT-002正式启动。视觉规范升级到V2，强制服装、动作、场景、构图轮换，避免重复托腮与同套服装。"
 }
