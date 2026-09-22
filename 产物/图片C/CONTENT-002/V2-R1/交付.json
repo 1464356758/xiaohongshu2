@@ -1,0 +1,43 @@
+{
+  "project_id": "XHS-BEAUTY-002",
+  "task_id": "CONTENT-002",
+  "task_version": "V5",
+  "input_revision": 4,
+  "role": "图片终审修图员C",
+  "role_version": "V2.2",
+  "version": "V2-R1",
+  "result": "REWORK_REQUIRED",
+  "status": "CONTENT_002_C_R1_REWORK_REQUIRED",
+  "final_asset_uploaded": false,
+  "historical_lock_preserved": "批准/CONTENT-002/LOCK-V1.json",
+  "active_script": "产物/文案/CONTENT-002/V2/文案.md",
+  "issues": [
+    {
+      "severity": "P1",
+      "page": "P2",
+      "type": "PRODUCT_FACT_MISMATCH",
+      "detail": "03 Crystal Ball盘面未准确呈现官方冷蓝灰配色，三盘开盘视觉高度重复。"
+    },
+    {
+      "severity": "P1",
+      "page": "P3",
+      "type": "WRONG_PRODUCT_VARIANT",
+      "detail": "03重点页出现非03黑色版本产品外观，需替换为官方真实03素材。"
+    },
+    {
+      "severity": "P1",
+      "page": "P1-P4",
+      "type": "DETERMINISTIC_TEXT_MISMATCH",
+      "detail": "图内文字未逐字使用CONTENT-002文案V2的锁定短文案。"
+    }
+  ],
+  "passed": [
+    "整体成熟度",
+    "PERSONA LOCK-V2人物一致性",
+    "五官/发丝/耳部/手部",
+    "页序",
+    "3:4文件完整性"
+  ],
+  "next_role": "图片生成员A",
+  "next_action": "按续接/图片C/CONTENT-002/V2-R1/返修任务.md做最小范围返修；不改主题与整体视觉，只修产品对应和确定性文字层。返修后交B快速复核，再把B最终4张上传给C做R2。"
+}
