@@ -1,0 +1,107 @@
+{
+  "project_id": "XHS-BEAUTY-002",
+  "task_id": "CONTENT-002",
+  "task_version": "V5",
+  "input_revision": 4,
+  "role": "内容策划",
+  "role_version": "V2.2",
+  "plan_version": "V2",
+  "status": "DONE",
+  "result": "PLAN_COMPLETE",
+  "date": "2026-09-22",
+  "timezone": "Asia/Shanghai",
+  "input_task_path": "任务/CONTENT-002/V5/任务.json",
+  "hot_research_fixed_commit": "4e58ed2cd7d21246e87ce19fd26632e6a55ef5fa",
+  "hot_research_path": "产物/热点/CONTENT-002/V2/热门产品研究.md",
+  "human_style_protocol": "系统/真人感美妆内容运营协议V2.2-P3.md",
+  "effect_protocol": "系统/产品效果与用户体验归纳协议V2.2-P4.md",
+  "visual_spec_path": "正式/视觉规范/V4.md",
+  "persona_lock_path": "批准/PERSONA-001/LOCK-V2.json",
+  "latest_data_report": null,
+  "old_content_002_plan_v1": "HISTORICAL_DO_NOT_PUBLISH",
+  "selection": {
+    "main_product": "Flower Knows 花知晓 雪花芭蕾六色丝缎眼影盘",
+    "main_focus": "03 Crystal Ball / 水晶球",
+    "main_question": "包装争议很大，但单看眼影本身，三盘怎么选，03水晶球值不值得普通人重点看",
+    "page_count": 4,
+    "recommended_title": "花知晓雪花芭蕾吵成这样，眼影本身呢？",
+    "backup_title": "雪花芭蕾3盘怎么选？03蓝盘先别急着冲",
+    "recommended_cover": "三盘真实产品主视觉，03居中放大",
+    "primary_experiment_variable": "争议去噪型封面钩子 vs 纯选择型封面钩子"
+  },
+  "internal_scoring": [
+    {
+      "candidate": "包装吵归吵，单看眼影本身三盘怎么选",
+      "audience_relevance_30": 30,
+      "evidence_asset_availability_25": 25,
+      "expression_difference_20": 20,
+      "production_cost_15": 14,
+      "commercial_fit_10": 10,
+      "total_100": 99,
+      "decision": "MAIN"
+    },
+    {
+      "candidate": "03水晶球蓝盘，普通人到底能不能日常画",
+      "audience_relevance_30": 29,
+      "evidence_asset_availability_25": 24,
+      "expression_difference_20": 19,
+      "production_cost_15": 13,
+      "commercial_fit_10": 9,
+      "total_100": 94,
+      "decision": "BACKUP"
+    },
+    {
+      "candidate": "雪花芭蕾三盘只按配色和使用频率怎么选",
+      "audience_relevance_30": 28,
+      "evidence_asset_availability_25": 25,
+      "expression_difference_20": 16,
+      "production_cost_15": 15,
+      "commercial_fit_10": 10,
+      "total_100": 94,
+      "decision": "BACKUP"
+    }
+  ],
+  "effect_boundary": {
+    "allowed": [
+      "03显色同时仍有透亮感",
+      "03清冷蓝灰妆效、辨识度高、成片强",
+      "03日常门槛更高",
+      "早期粉质评价偏正向但样本偏提前拿货创作者",
+      "包装争议和眼影本体评价分开"
+    ],
+    "not_finalized": [
+      "飞粉",
+      "积线",
+      "普遍晕染难度",
+      "精确持妆时长"
+    ],
+    "personal_use_claim_allowed": false
+  },
+  "product_assets": {
+    "official_assets_available": true,
+    "user_real_product_photo_required": false,
+    "use_real_product_assets_first": true,
+    "do_not_redraw_packaging": true
+  },
+  "supplemental_public_verification": [
+    {
+      "source": "花知晓官方有赞商品页",
+      "use": "确认中国区雪花芭蕾六色丝缎眼影盘真实商品页与真实商品素材"
+    },
+    {
+      "source": "Flower Knows官方产品页",
+      "use": "核对01 Music Box、02 Romantic Waltz、03 Crystal Ball的官方配色描述"
+    }
+  ],
+  "deliverables": [
+    {
+      "path": "产物/策划/CONTENT-002/V2/策划.md",
+      "git_blob_sha": "a5ab9865684239df0f303dd3798d12bb99b1ead5"
+    },
+    {
+      "path": "产物/策划/CONTENT-002/V2/交付.json"
+    }
+  ],
+  "next_role": "文案脚本AI",
+  "next_condition": "读取CONTENT-002 V5任务、本策划V2、热点研究V2、P3/P4协议和视觉规范V4后，按四页主方案写文案；允许自然写多样本支持的效果/优缺点/适用人群，但不得虚构账号亲测。"
+}
