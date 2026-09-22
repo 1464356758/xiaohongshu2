@@ -1,8 +1,8 @@
 {
   "project_id": "XHS-BEAUTY-002",
   "system_version": "2.2",
-  "revision": 19,
-  "handoff_epoch": 19,
+  "revision": 20,
+  "handoff_epoch": 20,
   "stage": "CONTENT",
   "status": "READY_FOR_HOT_RESEARCH",
   "current_task": "CONTENT-003",
@@ -10,24 +10,28 @@
   "current_input_revision": 1,
   "current_pipeline_step": "HOT_RESEARCH",
   "account_registration_status": "REGISTERED",
-  "publish_status": "PUBLISHED_CONFIRMED",
+  "publish_status": "PUBLISHED_CONFIRMED_WITH_CONTENT_002_FACT_ERROR",
   "active_persona_version": "正式/人设/虚拟博主人设V1.md",
   "active_visual_spec": "正式/视觉规范/V5.md",
   "active_anchor_lock": "批准/PERSONA-001/LOCK-V2.json",
   "active_positioning_version": "正式/定位/V2.md",
-  "active_content_lock": "批准/CONTENT-002/LOCK-V2.json",
+  "active_content_lock": "批准/CONTENT-001/LOCK-V2.json",
   "last_published_content": {
     "task_id": "CONTENT-002",
     "receipt_path": "数据/回执/CONTENT-002/V1/发布回执.json",
     "published_at_estimate": "2026-09-22T22:55:00+08:00",
-    "status": "OBSERVING"
+    "status": "PUBLISHED_FACT_ERROR_REVOKED_FOR_REUSE",
+    "correction_record": "批准/CONTENT-002/V7/发布后事实错误撤销许可.md",
+    "error": "当前图片属于Swan Ballet天鹅芭蕾，而标题/色号命名与部分效果判断使用Snow Ballet雪花芭蕾，构成系列硬错配。"
   },
   "content_003_rules": {
     "image_footer_ban": "HARD_GATE",
-    "protocol": "系统/成图脚注禁用协议V2.2-P5.md",
+    "footer_protocol": "系统/成图脚注禁用协议V2.2-P5.md",
+    "product_identity_gate": "HARD_GATE",
+    "product_identity_protocol": "系统/产品视觉身份一致性门禁V2.2-P6.md",
     "visual_spec": "正式/视觉规范/V5.md",
-    "forbidden_summary": "最终图片禁止出现非本人使用/亲测/测试、公开资料整理、多样本整理、资料收集、用户反馈整理、仅供参考及任何同义来源/免责声明脚注。",
-    "sources_backend_only": true
+    "sources_backend_only": true,
+    "rule": "具体品牌产品必须同时核对品牌、系列、产品名、色号名、实际包装/盘面、效果与用户反馈属于同一产品版本；任一串系列不得PASS。"
   },
   "parallel_tasks": [
     {
@@ -35,8 +39,7 @@
       "path": "任务/RESEARCH-002/V1/任务.json",
       "role": "市场与定位研究员",
       "status": "READY",
-      "mode": "PARALLEL_NON_BLOCKING",
-      "purpose": "复核热门产品+人物审美+效果判断是否应升级为账号主要内容模型，不阻塞CONTENT-003。"
+      "mode": "PARALLEL_NON_BLOCKING"
     },
     {
       "task_id": "DATA-CONTENT-001",
@@ -46,8 +49,7 @@
     {
       "task_id": "DATA-CONTENT-002",
       "path": "任务/DATA-CONTENT-002/V1/任务.json",
-      "status": "WAITING_FIRST_SNAPSHOT",
-      "next_window": "2026-09-23T22:55:00+08:00"
+      "status": "HISTORICAL_DATA_ONLY_CONTENT_FACT_ERROR"
     }
   ],
   "approved_spend_cny": 0,
@@ -55,18 +57,18 @@
   "capital_limit_cny": 10000,
   "next_actions": [
     {
+      "role": "用户",
+      "action": "CONTENT-002已发布版本存在产品系列硬错配，建议先隐藏/删除；若重发必须按单一正确系列重新核实并制作。"
+    },
+    {
       "role": "热点与竞品研究员",
-      "action": "继续执行CONTENT-003 V1，不等待RESEARCH-002。"
+      "action": "继续CONTENT-003，但从本轮起强制执行P6产品视觉身份一致性门禁。"
     },
     {
       "role": "市场与定位研究员",
-      "action": "并行执行RESEARCH-002 V1，重点研究成长型/腰部美妆账号的热门产品、妆教、人物出镜与商业承载结构，完成后交总监。"
-    },
-    {
-      "role": "数据分析与实验",
-      "action": "按CONTENT-001/002观察时点记录真实后台数据。"
+      "action": "并行执行RESEARCH-002，不受CONTENT-002纠错阻塞。"
     }
   ],
-  "updated_at": "2026-09-22T23:37:00+08:00",
-  "note": "CONTENT-003正常运行；RESEARCH-002作为非阻塞并行定位复核任务启动。市场定位研究AI不逐条抢热点任务，而负责账号级赛道、竞品、内容支柱与商业适配研究。"
+  "updated_at": "2026-09-23T07:07:00+08:00",
+  "note": "CONTENT-002已确认发生Swan Ballet与Snow Ballet系列混用，原LOCK-V2撤销作为正确内容依据；CONTENT-003继续运行并新增P6产品视觉身份一致性硬门禁。"
 }
