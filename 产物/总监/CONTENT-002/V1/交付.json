@@ -1,0 +1,32 @@
+{
+  "project_id": "XHS-BEAUTY-002",
+  "role": "总监",
+  "task_id": "CONTENT-002",
+  "input_revision": 1,
+  "version": "V1",
+  "action": "START_NEXT_CONTENT_WITH_VISUAL_ROTATION",
+  "result": "READY_FOR_HOT_RESEARCH",
+  "previous_content_reconciliation": {
+    "task_id": "CONTENT-001",
+    "lock_v2_path": "批准/CONTENT-001/LOCK-V2.json",
+    "lock_v2_commit": "ec9a51133a809de5a8ae0ef90f3bf41a0a5e274e",
+    "title_delta_audit_commit": "e087bae116c339edb47ebdc5458538a89ff93360"
+  },
+  "visual_spec": {
+    "path": "正式/视觉规范/V2.md",
+    "commit": "212535b828f26887c829b9ef371ced1bd6d9070f",
+    "new_rules": [
+      "连续内容主服装不得照搬",
+      "封面主动作不得连续复用托腮",
+      "至少在服装/动作/场景/构图中更换两项",
+      "每张带手臂图片检查左右手臂比例和关节",
+      "人物与背景必须共享真实光色、景深和颗粒"
+    ]
+  },
+  "task_path": "任务/CONTENT-002/V1/任务.json",
+  "task_commit": "4d1de0352a433ffc98e7fea9bf6b69b39decf42c",
+  "progress_commit": "d39572181153ee397ffe050f02b90cd81fe146da",
+  "parallel_data_task": "任务/DATA-CONTENT-001/V1/任务.json",
+  "next_role": "热点与竞品研究员",
+  "next_action": "执行CONTENT-002 V1真实联网热点研究；至少5个候选、1个主选、2个备选，不重复CONTENT-001同题结构。"
+}
