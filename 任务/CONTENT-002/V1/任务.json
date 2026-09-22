@@ -1,0 +1,135 @@
+{
+  "project_id": "XHS-BEAUTY-002",
+  "task_id": "CONTENT-002",
+  "input_revision": 1,
+  "task_type": "content_production",
+  "status": "READY",
+  "pipeline": [
+    "热点与竞品研究员",
+    "内容策划",
+    "文案脚本",
+    "图片生成员A",
+    "图片审核修图员B",
+    "图片终审修图员C",
+    "内容与合规审核",
+    "总监CONTENT_LOCK",
+    "发布与社群运营",
+    "用户发布",
+    "数据分析与实验"
+  ],
+  "responsible_role": "热点与竞品研究员",
+  "fixed_input_commit": "ec9a51133a809de5a8ae0ef90f3bf41a0a5e274e",
+  "inputs": [
+    {
+      "path": "正式/定位/V2.md",
+      "commit": "ec9a51133a809de5a8ae0ef90f3bf41a0a5e274e",
+      "required": true
+    },
+    {
+      "path": "正式/视觉规范/V2.md",
+      "commit": "ec9a51133a809de5a8ae0ef90f3bf41a0a5e274e",
+      "required": true
+    },
+    {
+      "path": "批准/PERSONA-001/LOCK-V2.json",
+      "commit": "ec9a51133a809de5a8ae0ef90f3bf41a0a5e274e",
+      "required": true
+    },
+    {
+      "path": "批准/CONTENT-001/LOCK-V2.json",
+      "commit": "ec9a51133a809de5a8ae0ef90f3bf41a0a5e274e",
+      "required": true,
+      "use": "仅用于避免第二篇重复第一篇的选题承诺和视觉套路，不复制其标题、文案、图片或动作。"
+    },
+    {
+      "path": "产物/研究/RESEARCH-001/V1/研究报告.md",
+      "commit": "3f040891b47cdd79669df84a54a41b32e1610a7f",
+      "required": true
+    },
+    {
+      "path": "产物/研究/RESEARCH-001/V1/来源.json",
+      "commit": "3f040891b47cdd79669df84a54a41b32e1610a7f",
+      "required": true
+    },
+    {
+      "path": "系统/热点与品牌借势协议V2.2.md",
+      "commit": "ec9a51133a809de5a8ae0ef90f3bf41a0a5e274e",
+      "required": true
+    },
+    {
+      "path": "系统/图片工作流V2.md",
+      "commit": "ec9a51133a809de5a8ae0ef90f3bf41a0a5e274e",
+      "required": true
+    },
+    {
+      "path": "系统/审核标准.md",
+      "commit": "ec9a51133a809de5a8ae0ef90f3bf41a0a5e274e",
+      "required": true
+    }
+  ],
+  "content_direction": {
+    "primary_positioning": "轻通勤问题解决型妆感卡",
+    "secondary_pillar": "热门妆容趋势翻译器",
+    "conditional_pillar": "品牌审美观察 + 单品信息整理",
+    "rule": "第二篇优先继续服务A主定位，但不得重复CONTENT-001的“低饱和显灰/眼颊唇3处”同题结构；如当期真实热点强烈支持，可借B作为切口。"
+  },
+  "hot_research_requirements": [
+    "每次CONTENT重新联网检索，至少提供5个候选、1个主选和2个备选。",
+    "优先找新的单一问题：如眼妆显肿、腮红显脏、唇色没精神、眼镜妆、底妆显厚、眉眼重点失衡等；最终以当期真实证据决定，不由本任务预设赢家。",
+    "补充3至10条近期竞品内容结构观察，不复制原文和图片。",
+    "每个候选写来源、日期、热度类型、证据、账号切入角度、视觉难度和事实风险。",
+    "没有可靠品牌/产品资料时，不以具体商品作为主选。"
+  ],
+  "visual_diversity_hard_rules": {
+    "visual_spec": "正式/视觉规范/V2.md",
+    "must_change_at_least_two": [
+      "主服装",
+      "主动作",
+      "主场景",
+      "主构图"
+    ],
+    "content_001_visual_patterns_to_avoid_as_default": [
+      "奶油/白色宽松针织开衫 + 粉色碎花吊带作为主服装组合",
+      "单手托腮 + 正面看镜头作为封面主动作",
+      "四页都使用近似同一机位和同一脸部大小"
+    ],
+    "mandatory_image_a_log": [
+      "本条主服装",
+      "辅助服装（如有）",
+      "P1主动作",
+      "P2-P4动作",
+      "主场景",
+      "与上一条相比具体变更项"
+    ],
+    "anatomy_check": [
+      "左右手臂粗细与长度合理",
+      "肩臂连接自然",
+      "手腕手掌手指正常",
+      "衣袖厚度符合透视",
+      "人物与背景共享真实光向、色温、颗粒和景深"
+    ]
+  },
+  "content_rules": [
+    "一条只解决一个主要问题。",
+    "默认4页，策划有充分理由时最多6页。",
+    "人物必须使用PERSONA LOCK-V2，不得随机重建脸。",
+    "服装、动作、场景可以变化，但核心身份结构不能变。",
+    "长中文使用确定性文字层，必须逐字与批准文案一致。",
+    "无账号真实体验证据时不得写亲测、持妆、使用感或现实效果结论。",
+    "具体品牌/产品事实必须有可靠来源。",
+    "A→B→C→独立审核链不跳步。"
+  ],
+  "page_count": 4,
+  "max_page_count": 6,
+  "budget_cny": 0,
+  "max_spend_cny": 0,
+  "max_rework_rounds": 2,
+  "publish_authority": "USER_ONLY",
+  "deliverables_by_first_role": [
+    "产物/热点/CONTENT-002/V1/热点报告.md",
+    "产物/热点/CONTENT-002/V1/来源.json",
+    "产物/热点/CONTENT-002/V1/交付.json"
+  ],
+  "data_note": "CONTENT-001尚未到24h观察点，因此当前不得用其早期表现做结论或据此改变定位；CONTENT-001数据观察任务并行继续。",
+  "next_condition": "热点与竞品研究员完成CONTENT-002真实联网研究并给出1个主选+2个备选后，交内容策划AI。"
+}
