@@ -1,8 +1,8 @@
 {
   "project_id": "XHS-BEAUTY-002",
   "system_version": "2.2",
-  "revision": 18,
-  "handoff_epoch": 18,
+  "revision": 19,
+  "handoff_epoch": 19,
   "stage": "CONTENT",
   "status": "READY_FOR_HOT_RESEARCH",
   "current_task": "CONTENT-003",
@@ -31,6 +31,14 @@
   },
   "parallel_tasks": [
     {
+      "task_id": "RESEARCH-002",
+      "path": "任务/RESEARCH-002/V1/任务.json",
+      "role": "市场与定位研究员",
+      "status": "READY",
+      "mode": "PARALLEL_NON_BLOCKING",
+      "purpose": "复核热门产品+人物审美+效果判断是否应升级为账号主要内容模型，不阻塞CONTENT-003。"
+    },
+    {
       "task_id": "DATA-CONTENT-001",
       "path": "任务/DATA-CONTENT-001/V1/任务.json",
       "status": "WAITING_SNAPSHOT"
@@ -48,13 +56,17 @@
   "next_actions": [
     {
       "role": "热点与竞品研究员",
-      "action": "执行CONTENT-003 V1：至少5个热门产品候选，每个观察8至12条内容，给1主选+2备选；图片脚注禁令从本篇起强制生效。"
+      "action": "继续执行CONTENT-003 V1，不等待RESEARCH-002。"
+    },
+    {
+      "role": "市场与定位研究员",
+      "action": "并行执行RESEARCH-002 V1，重点研究成长型/腰部美妆账号的热门产品、妆教、人物出镜与商业承载结构，完成后交总监。"
     },
     {
       "role": "数据分析与实验",
-      "action": "CONTENT-002到24h时点后按真实后台数据写快照。"
+      "action": "按CONTENT-001/002观察时点记录真实后台数据。"
     }
   ],
-  "updated_at": "2026-09-22T23:05:00+08:00",
-  "note": "CONTENT-003正式启动。自本篇起成图脚注禁用协议P5和视觉规范V5全面生效，禁止任何非本人使用/亲测/资料整理/来源说明型脚注进入最终图片。"
+  "updated_at": "2026-09-22T23:37:00+08:00",
+  "note": "CONTENT-003正常运行；RESEARCH-002作为非阻塞并行定位复核任务启动。市场定位研究AI不逐条抢热点任务，而负责账号级赛道、竞品、内容支柱与商业适配研究。"
 }
