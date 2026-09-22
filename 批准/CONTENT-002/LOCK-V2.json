@@ -1,0 +1,92 @@
+{
+  "project_id": "XHS-BEAUTY-002",
+  "task_id": "CONTENT-002",
+  "task_version": "V5",
+  "input_revision": 4,
+  "lock_type": "CONTENT",
+  "lock_version": "LOCK-V2",
+  "status": "LOCKED",
+  "created_at": "2026-09-22T22:33:00+08:00",
+  "supersedes": "批准/CONTENT-002/LOCK-V1.json",
+  "history_note": "LOCK-V1及其资产目录为历史橘朵版本，不得用于当前花知晓CONTENT-002发布。",
+  "final_title": "花知晓雪花芭蕾吵成这样，眼影本身呢？",
+  "final_body": {
+    "path": "产物/文案/CONTENT-002/V2/文案.md",
+    "blob_sha": "35f1050e70f909f878e539844d712c4afc9a4d70"
+  },
+  "persona_lock": "批准/PERSONA-001/LOCK-V2.json",
+  "media_delivery_mode": "USER_CARRIED_FINAL_MEDIA",
+  "repo_binary_assets_present": false,
+  "user_holds_original_media": true,
+  "publish_operator_must_request_user_media_if_not_visible": true,
+  "page_order": ["P1","P2","P3","P4"],
+  "media": [
+    {
+      "page": "P1",
+      "logical_name": "01_cover.jpg",
+      "sha256": "0b2ed7c4b100c9ffa6f7d30b442561090a1e6a20a2de4b9421ce78292113072a",
+      "width": 1152,
+      "height": 1536,
+      "format": "JPEG"
+    },
+    {
+      "page": "P2",
+      "logical_name": "02_page.jpg",
+      "sha256": "57c962ab451b24c92249f8ef653733b6ff63833702b641005baf1b0a35d8911a",
+      "width": 1152,
+      "height": 1536,
+      "format": "JPEG"
+    },
+    {
+      "page": "P3",
+      "logical_name": "03_page.jpg",
+      "sha256": "1570068fe9c907b8414779cc7090beae10c2cfe90f19c330317f0a48d2c26a67",
+      "width": 1152,
+      "height": 1536,
+      "format": "JPEG"
+    },
+    {
+      "page": "P4",
+      "logical_name": "04_page.jpg",
+      "sha256": "6f5a1039b08309c7c23b36552d5e918b01597eabbe3e9a2fff78f093611f6799",
+      "width": 1152,
+      "height": 1536,
+      "format": "JPEG"
+    }
+  ],
+  "audit": {
+    "report_path": "产物/审核/CONTENT-002/V2/审核报告.md",
+    "delivery_path": "产物/审核/CONTENT-002/V2/交付.json",
+    "fixed_commit": "8b0af7770914db1fc48153a5db061025dffc4a25",
+    "result": "PASS",
+    "P0": 0,
+    "P1": 0,
+    "P2": 3,
+    "score": 93,
+    "rework_required": false
+  },
+  "director_approval": {
+    "path": "批准/CONTENT-002/V6/最终发布许可.md",
+    "fixed_commit": "04dad0b315f2b99246d7dd7e3876c9a1a72ac0e4"
+  },
+  "accepted_once_deviations": [
+    "当前图片与文案V2并非逐字复刻，但用户和独立审核已接受。",
+    "P3底部产品版本问题按用户最终决定一次性接受。",
+    "CONTENT-002现有脚注按批准/CONTENT-002/V5/成图脚注一次性接受记录.md保留，本篇不返工。"
+  ],
+  "future_rule": "从CONTENT-003起执行系统/成图脚注禁用协议V2.2-P5.md与正式/视觉规范/V5.md，不得继承本篇脚注例外。",
+  "commercial_relation_status": "NONE_ORGANIC_CONTENT",
+  "allowed_publish_scope": {
+    "platform": "小红书",
+    "scope": "单条自然发布准备",
+    "final_publish_authority": "USER_ONLY",
+    "paid_growth_authorized": false
+  },
+  "forbidden_assets": [
+    "资产/内容/CONTENT-002/LOCK-V1/01_cover.jpg",
+    "资产/内容/CONTENT-002/LOCK-V1/02_page.jpg",
+    "资产/内容/CONTENT-002/LOCK-V1/03_page.jpg",
+    "资产/内容/CONTENT-002/LOCK-V1/04_page.jpg"
+  ],
+  "change_rule": "如更换任一最终图片，必须重新核对新媒体SHA-256；如发生实质内容变更，需重新审核变更范围。"
+}
