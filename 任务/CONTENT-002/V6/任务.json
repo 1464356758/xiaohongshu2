@@ -1,0 +1,57 @@
+{
+  "project_id": "XHS-BEAUTY-002",
+  "task_id": "CONTENT-002",
+  "input_revision": 4,
+  "task_version": "V6",
+  "task_type": "publish_prep",
+  "status": "READY",
+  "responsible_role": "发布与社群运营",
+  "fixed_input_commit": "d9ed99528a586032a26b7872e7fe3f0ab23fbf5c",
+  "inputs": [
+    {
+      "path": "批准/CONTENT-002/LOCK-V2.json",
+      "commit": "d9ed99528a586032a26b7872e7fe3f0ab23fbf5c",
+      "required": true
+    },
+    {
+      "path": "批准/CONTENT-002/V6/最终发布许可.md",
+      "commit": "d9ed99528a586032a26b7872e7fe3f0ab23fbf5c",
+      "required": true
+    },
+    {
+      "path": "产物/审核/CONTENT-002/V2/交付.json",
+      "commit": "8b0af7770914db1fc48153a5db061025dffc4a25",
+      "required": true
+    }
+  ],
+  "locked_publish_content": {
+    "title": "花知晓雪花芭蕾吵成这样，眼影本身呢？",
+    "body_path": "产物/文案/CONTENT-002/V2/文案.md",
+    "content_lock": "批准/CONTENT-002/LOCK-V2.json",
+    "media_delivery_mode": "USER_CARRIED_FINAL_MEDIA",
+    "page_order": ["P1","P2","P3","P4"],
+    "media_sha256": [
+      "0b2ed7c4b100c9ffa6f7d30b442561090a1e6a20a2de4b9421ce78292113072a",
+      "57c962ab451b24c92249f8ef653733b6ff63833702b641005baf1b0a35d8911a",
+      "1570068fe9c907b8414779cc7090beae10c2cfe90f19c330317f0a48d2c26a67",
+      "6f5a1039b08309c7c23b36552d5e918b01597eabbe3e9a2fff78f093611f6799"
+    ]
+  },
+  "requirements": [
+    "生成正式发布包：最终标题、正文、建议话题、4张图页序、发布前检查。",
+    "不得调用资产/内容/CONTENT-002/LOCK-V1/中的旧橘朵图片。",
+    "如果当前聊天看不到4张最终图，直接让用户上传这4张原图；不要求回传GitHub。",
+    "用户上传后按LOCK-V2记录的SHA-256核对页序与图片版本。",
+    "不得重新修改图片、标题、正文、页序或品牌事实。",
+    "CONTENT-002当前脚注属于一次性接受，不因发布准备再次返工。",
+    "实际点击发布由用户本人完成。",
+    "本轮付费投放授权为0元。"
+  ],
+  "deliverables": [
+    "产物/运营/CONTENT-002/V2/发布包.md",
+    "数据/回执/CONTENT-002/V1/发布回执.json（仅真实发布后）"
+  ],
+  "max_spend_cny": 0,
+  "publish_authority": "USER_ONLY",
+  "next_condition": "发布与社群运营完成发布包；用户提供4张最终图并真实发布后，再写发布回执并进入数据观察。"
+}
