@@ -1,0 +1,71 @@
+{
+  "project_id": "XHS-BEAUTY-002",
+  "task_id": "CONTENT-002",
+  "input_revision": 1,
+  "role": "热点与竞品研究员",
+  "role_version": "V2.2",
+  "status": "DONE",
+  "result": "HOT_PRODUCT_RESEARCH_COMPLETE",
+  "completed_at": "2026-09-22T13:06:00+08:00",
+  "timezone": "Asia/Shanghai",
+  "user_addendum_applied": true,
+  "research_content_commit": "57f389f67315c79c7da472766d3730855c1449a8",
+  "deliverables": [
+    {
+      "path": "产物/热点/CONTENT-002/V1/热点报告.md",
+      "git_blob_sha": "d1ffdfe047c2e3fc653914fee4f36761de261494",
+      "verified_readback": true
+    },
+    {
+      "path": "产物/热点/CONTENT-002/V1/来源.json",
+      "git_blob_sha": "5f66e2ff59d0dc898052e86f18bad5f74b1be655",
+      "verified_readback": true
+    }
+  ],
+  "research_scope": {
+    "product_candidate_count": 5,
+    "observations_per_candidate": 10,
+    "total_content_observations": 50,
+    "fields": [
+      "首图形式",
+      "是否出脸",
+      "拍摄/展示类型",
+      "页面/内容结构",
+      "收藏点",
+      "证据等级"
+    ],
+    "unknown_not_fabricated": true
+  },
+  "selection": {
+    "main": "Judydoll 橘朵 缎光唇粉霜",
+    "backup_1": "YSL 全新水雾唇釉",
+    "backup_2": "INTO YOU 双头多用釉"
+  },
+  "main_visual_direction": {
+    "p1": "产品45度主图或手拿产品，可无人脸",
+    "p2": "公开色卡/色调整理，不伪装账号真实手臂试色",
+    "p3": "PERSONA LOCK-V2唇部或半脸妆感适配示意",
+    "p4": "适合谁/怎么选四格收藏卡",
+    "face_required_every_page": false,
+    "avoid_content_001_routine": true
+  },
+  "truth_boundary": {
+    "no_real_product_experience": true,
+    "allowed": [
+      "公开产品信息整理",
+      "公开色卡/色调逻辑",
+      "产品视觉参考",
+      "PERSONA妆感适配示意"
+    ],
+    "prohibited": [
+      "冒充本人购买或亲测",
+      "伪造真实手臂试色",
+      "伪造持妆时长",
+      "把品牌宣称改写成账号体验"
+    ]
+  },
+  "budget_cny": 0,
+  "spend_cny": 0,
+  "next_role": "内容策划AI",
+  "next_condition": "读取本轮热点报告/来源、正式定位V2、视觉规范V2、PERSONA LOCK-V2，按主选橘朵缎光唇粉霜做默认4页策划；产品主导，不重复CONTENT-001视觉套路，并严格区分公开资料与真实体验。"
+}
