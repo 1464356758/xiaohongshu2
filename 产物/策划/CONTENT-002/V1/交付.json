@@ -1,0 +1,97 @@
+{
+  "project_id": "XHS-BEAUTY-002",
+  "task_id": "CONTENT-002",
+  "input_revision": 1,
+  "role": "内容策划",
+  "role_version": "V2.2",
+  "status": "DONE",
+  "result": "PLAN_COMPLETE",
+  "completed_at": "2026-09-22T12:49:00+08:00",
+  "timezone": "Asia/Shanghai",
+  "input_task_path": "任务/CONTENT-002/V1/任务.json",
+  "hot_research_fixed_commit": "f411474d1b3ef5f91e1ac979054dabfcc79c7fd9",
+  "positioning_path": "正式/定位/V2.md",
+  "visual_spec_path": "正式/视觉规范/V2.md",
+  "persona_lock_path": "批准/PERSONA-001/LOCK-V2.json",
+  "previous_content_lock_path": "批准/CONTENT-001/LOCK-V2.json",
+  "latest_data_report": null,
+  "selection": {
+    "main_product": "Judydoll 橘朵 缎光唇粉霜 S01-S04",
+    "main_question": "橘朵这4支缎光唇粉霜，通勤/日常到底怎么选",
+    "page_count": 4,
+    "recommended_title": "橘朵4支唇粉霜，通勤怎么选？",
+    "recommended_cover": "产品45度静物，无人脸",
+    "face_pages_recommended": 1,
+    "primary_experiment_variable": "封面主体从人物主导切换为产品主导"
+  },
+  "internal_scoring": [
+    {
+      "candidate": "S01-S04按通勤/日常妆感怎么选",
+      "audience_relevance_30": 30,
+      "evidence_asset_availability_25": 25,
+      "expression_difference_20": 20,
+      "production_cost_15": 14,
+      "commercial_fit_10": 10,
+      "total_100": 99,
+      "decision": "MAIN"
+    },
+    {
+      "candidate": "只拆S02芭比甜巧：灰粉通勤妆怎么搭",
+      "audience_relevance_30": 28,
+      "evidence_asset_availability_25": 24,
+      "expression_difference_20": 18,
+      "production_cost_15": 15,
+      "commercial_fit_10": 9,
+      "total_100": 94,
+      "decision": "BACKUP"
+    },
+    {
+      "candidate": "缎光唇粉霜到底是什么妆感",
+      "audience_relevance_30": 25,
+      "evidence_asset_availability_25": 18,
+      "expression_difference_20": 19,
+      "production_cost_15": 13,
+      "commercial_fit_10": 9,
+      "total_100": 84,
+      "decision": "BACKUP"
+    }
+  ],
+  "verified_product_facts": {
+    "S01": "无花果生巧｜肉桂杏橘调",
+    "S02": "芭比甜巧｜复古裸调灰粉",
+    "S03": "可可生巧｜摩卡茶棕",
+    "S04": "烤栗生巧｜木质红棕",
+    "usage_rule": "仅作为品牌公开色调资料，不作为账号真实试色结论"
+  },
+  "supplemental_public_verification": [
+    {
+      "url": "https://judydoll.com/products/cushion-satin-lip-cream",
+      "use": "核对产品存在、S01 Fig Ganache与官方产品视觉入口"
+    },
+    {
+      "url": "https://weibo.com/2/detail/5339402416687721",
+      "use": "核对S01-S04中文名及品牌公开色调描述"
+    }
+  ],
+  "deliverables": [
+    {
+      "path": "产物/策划/CONTENT-002/V1/策划.md",
+      "git_blob_sha": "a7d01b5e23310a90003b9079f3fc02d50fb3b25a"
+    },
+    {
+      "path": "产物/策划/CONTENT-002/V1/交付.json"
+    }
+  ],
+  "constraints": {
+    "budget_cny": 0,
+    "real_product_owned_or_used": false,
+    "user_real_product_image_required": false,
+    "reliable_official_product_visual_required_before_image_generation": true,
+    "real_swatch_claim_allowed": false,
+    "wear_test_claim_allowed": false,
+    "product_first_visual": true,
+    "avoid_content_001_visual_routine": true
+  },
+  "next_role": "文案脚本AI",
+  "next_condition": "读取本策划V1、热点最终交付、正式定位V2、视觉规范V2及PERSONA LOCK-V2，按4页产品型主方案写文案；不得重新换产品，不得把色调示意/PERSONA妆感示意写成真实试色或亲测。"
+}
