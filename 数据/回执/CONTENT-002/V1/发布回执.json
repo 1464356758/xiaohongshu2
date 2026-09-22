@@ -1,0 +1,71 @@
+{
+  "project_id": "XHS-BEAUTY-002",
+  "task_id": "CONTENT-002",
+  "input_revision": 4,
+  "role": "发布与社群运营 V2.2",
+  "receipt_version": "V1",
+  "status": "PUBLISHED_CONFIRMED_BY_USER",
+  "platform": "小红书",
+  "share_url": "https://xhslink.cn/o/4mglYQzJNPm",
+  "verification_policy": {
+    "user_explicitly_requested_no_further_link_check": true,
+    "external_link_verification_performed": false,
+    "screenshot_required_by_user": false,
+    "basis": "用户在当前对话明确表示“发布成功了，肯定发布了。不用查看了”"
+  },
+  "publication": {
+    "title": "花知晓雪花芭蕾吵成这样，眼影本身呢？",
+    "title_matches_lock": true,
+    "title_match_basis": "用户分享文本与批准/CONTENT-002/LOCK-V2.json一致",
+    "body_path": "产物/文案/CONTENT-002/V2/文案.md",
+    "body_post_publish_verification": "NOT_PERFORMED_BY_USER_REQUEST",
+    "published_at_estimate": "2026-09-22T22:55:00+08:00",
+    "timezone": "Asia/Shanghai",
+    "time_precision": "APPROXIMATE_USER_REPORTED_CURRENT_SESSION"
+  },
+  "lock_reference": {
+    "path": "批准/CONTENT-002/LOCK-V2.json",
+    "lock_commit": "d9ed99528a586032a26b7872e7fe3f0ab23fbf5c",
+    "media_delivery_mode": "USER_CARRIED_FINAL_MEDIA"
+  },
+  "media_verification": {
+    "pre_publish_verified": true,
+    "verification_record": "产物/运营/CONTENT-002/V2/媒体核验.json",
+    "sha256_match": "4/4",
+    "required_publish_order": [
+      "P1",
+      "P2",
+      "P3",
+      "P4"
+    ],
+    "github_binary_upload": false
+  },
+  "commercial_status": "NONE_ORGANIC_CONTENT",
+  "paid_growth_spend_cny": 0,
+  "ai_content_declaration": {
+    "required": true,
+    "post_publish_verification": "NOT_PERFORMED_BY_USER_REQUEST"
+  },
+  "metrics_at_publish": {
+    "views": null,
+    "likes": null,
+    "saves": null,
+    "comments": null,
+    "shares": null,
+    "note": "未提供真实后台数据，不补0、不猜。"
+  },
+  "observation_schedule": {
+    "t_plus_24h": "2026-09-23T22:55:00+08:00",
+    "t_plus_72h": "2026-09-25T22:55:00+08:00",
+    "t_plus_7d": "2026-09-29T22:55:00+08:00",
+    "anchor_precision": "APPROXIMATE",
+    "note": "若后续获得平台精确发布时间，数据分析角色可重锚观察时点。"
+  },
+  "workflow": {
+    "publish_receipt_written": true,
+    "next_role": "数据分析与实验",
+    "director_state_sync_required": true,
+    "current_progress_not_modified_by_publish_ops": true
+  },
+  "recorded_at": "2026-09-22T22:55:00+08:00"
+}
