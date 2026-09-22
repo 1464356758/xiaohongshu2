@@ -1,0 +1,1225 @@
+{
+  "project_id": "XHS-BEAUTY-002",
+  "task_id": "CONTENT-003",
+  "task_version": "V1",
+  "input_revision": 1,
+  "observed_at": "2026-09-22T23:58:00+08:00",
+  "timezone": "Asia/Shanghai",
+  "methodology": {
+    "candidate_count": 5,
+    "observation_counts": {
+      "C1_NARS": 10,
+      "C2_HOURGLASS": 10,
+      "C3_ARMANI": 10,
+      "C4_BOBBI_BROWN": 8,
+      "C5_DIOR": 10
+    },
+    "total_observations": 48,
+    "xhs_priority": true,
+    "unknown_rule": "无法匿名核实的视觉字段不补0、不伪造，按unknown/inferred记录。",
+    "effect_rule": "多样本归纳正向、负向和分歧；精确持妆数字仅在官方测试/可靠测试口径下记录，不把单个用户体验升级为普遍事实。",
+    "backend_only_provenance": true
+  },
+  "image_footer_gate": {
+    "protocol": "系统/成图脚注禁用协议V2.2-P5.md",
+    "hard_gate": true,
+    "rule": "研究来源、样本、身份边界、内部免责声明只保留后台，严禁复制进最终图片。",
+    "final_image_must_not_contain_internal_provenance_or_disclaimer_text": true
+  },
+  "sources": [
+    {
+      "id": "S01",
+      "name": "NARS中国官方微博｜欲色无尽液体腮红11款定制调色",
+      "url": "https://www.sina.cn/news/detail/5327073678988161.html",
+      "type": "brand_official_social",
+      "date": "2026-08-01"
+    },
+    {
+      "id": "S02",
+      "name": "NARS中国官方微博｜欲色无尽产品效果与官方测试口径",
+      "url": "https://www.sina.cn/news/detail/5327043484189248.html",
+      "type": "brand_official_social",
+      "date": "2026-08-01"
+    },
+    {
+      "id": "S03",
+      "name": "NARS全球官网｜Insatiable Liquid Blush",
+      "url": "https://www.narscosmetics.com/USA/insatiable-liquid-blush/999NAC0000305.html",
+      "type": "brand_official_product",
+      "date": "observed-2026-09-22"
+    },
+    {
+      "id": "S04",
+      "name": "NARS新品小红书多样本｜69位全网作者",
+      "url": "https://post.smzdm.com/p/az83pz55/",
+      "type": "multi_source_public_index",
+      "date": "2026-08-20"
+    },
+    {
+      "id": "S05",
+      "name": "NARS新款液体腮红选色/避坑/买点",
+      "url": "https://post.smzdm.com/p/az8x99on/",
+      "type": "multi_source_public_index",
+      "date": "2026-08-17"
+    },
+    {
+      "id": "S06",
+      "name": "液体腮红第二波回潮｜NARS/HOURGLASS等",
+      "url": "https://post.smzdm.com/p/az830o9r/",
+      "type": "multi_source_public_index",
+      "date": "2026-09"
+    },
+    {
+      "id": "S10",
+      "name": "HOURGLASS官方｜Unreal Liquid Blush",
+      "url": "https://www.hourglasscosmetics.com/products/unreal-liquid-blush",
+      "type": "brand_official_product",
+      "date": "observed-2026-09-22"
+    },
+    {
+      "id": "S11",
+      "name": "Hourglass新色与包装长期反馈",
+      "url": "https://post.smzdm.com/p/avgwpvwm/",
+      "type": "multi_source_public_index",
+      "date": "2026-08-26"
+    },
+    {
+      "id": "S12",
+      "name": "HOURGLASS 2026口碑｜Muse分歧",
+      "url": "https://post.smzdm.com/p/a4qdk4kl/",
+      "type": "multi_source_public_index",
+      "date": "2026-09"
+    },
+    {
+      "id": "S20",
+      "name": "阿玛尼官方｜全新传奇红管颠覆上市",
+      "url": "https://www.sina.cn/news/detail/5320913090515700.html",
+      "type": "brand_official_social",
+      "date": "2026-07-15"
+    },
+    {
+      "id": "S21",
+      "name": "阿玛尼官方｜100绝色粉棕",
+      "url": "https://www.sina.cn/news/detail/5320988582479001.html",
+      "type": "brand_official_social",
+      "date": "2026-07-15"
+    },
+    {
+      "id": "S22",
+      "name": "阿玛尼100三十多条真实试色归纳",
+      "url": "https://post.smzdm.com/p/ad7283lx/",
+      "type": "multi_source_public_index",
+      "date": "2026-08-29"
+    },
+    {
+      "id": "S23",
+      "name": "阿玛尼新红管玻璃易碎/溢管讨论",
+      "url": "https://post.smzdm.com/p/al3qowog/",
+      "type": "multi_source_public_index",
+      "date": "2026-08"
+    },
+    {
+      "id": "S30",
+      "name": "BOBBI BROWN官方｜Intensive Serum Foundation",
+      "url": "https://www.bobbibrowncosmetics.com/product/14017/93890/makeup/face/foundation/intensive-serum-foundation-spf-4030/radiance-boosting-foundation",
+      "type": "brand_official_product",
+      "date": "observed-2026-09-22"
+    },
+    {
+      "id": "S31",
+      "name": "BOBBI BROWN四代虫草粉底8月跨平台测评",
+      "url": "https://post.smzdm.com/p/a4qd306x/",
+      "type": "multi_source_public_index",
+      "date": "2026-08-31"
+    },
+    {
+      "id": "S40",
+      "name": "Dior官方｜Backstage Glow Maximizer Palette",
+      "url": "https://www.dior.com/en_us/beauty/products/dior-backstage-glow-face-palette-Y0015002.html",
+      "type": "brand_official_product",
+      "date": "observed-2026-09-22"
+    },
+    {
+      "id": "S41",
+      "name": "Dior 9/19后台高光新旧与色号讨论",
+      "url": "https://post.smzdm.com/p/ak8kd5e8/",
+      "type": "multi_source_public_index",
+      "date": "2026-09-19"
+    },
+    {
+      "id": "S42",
+      "name": "Dior 9/8日报｜后台高光/眼影实测",
+      "url": "https://post.smzdm.com/p/apqvlx60/",
+      "type": "multi_source_public_index",
+      "date": "2026-09-08"
+    },
+    {
+      "id": "S43",
+      "name": "Dior 9/11日报｜后台高光对比",
+      "url": "https://post.smzdm.com/p/a4qpnnqx/",
+      "type": "multi_source_public_index",
+      "date": "2026-09-11"
+    },
+    {
+      "id": "S44",
+      "name": "Dior后台高光历史/近期多样本参考",
+      "url": "https://post.smzdm.com/p/awwxnq0k/",
+      "type": "multi_source_public_index",
+      "date": "2026-07-14"
+    }
+  ],
+  "candidates": [
+    {
+      "id": "C1",
+      "brand": "NARS",
+      "product": "欲色无尽液体腮红 / Insatiable Liquid Blush",
+      "decision": "MAIN",
+      "heat_types": [
+        "新品发布",
+        "小红书内容互动",
+        "色号选择讨论",
+        "体验分歧",
+        "品牌持续传播"
+      ],
+      "current_evidence": [
+        "中国官方8/1官宣11款定制调色",
+        "8/15官方小红书新品活动公开索引约8780评论",
+        "9/20仍有公开社媒推ORGASM色号"
+      ],
+      "asset_sources": [
+        "S01",
+        "S02",
+        "S03"
+      ],
+      "asset_availability": "HIGH",
+      "visual_patterns": [
+        "瓶身45度",
+        "多色号平拍/色卡",
+        "刷头与液体微距",
+        "手背/手臂色块",
+        "脸颊局部",
+        "人物+产品",
+        "新旧版对比"
+      ],
+      "frequent_questions": [
+        "11色怎么选",
+        "新旧同名色是否一致",
+        "会不会融底妆",
+        "会不会氧化",
+        "为什么有人觉得臭",
+        "刷头是否易控量",
+        "什么底妆更搭"
+      ],
+      "effect_summary": {
+        "finish": "饱和色彩+光感，水缎/水钻等光泽差异明显",
+        "pigmentation": "多样本认为显色强且可叠加，少量更易控制",
+        "blendability": "不少样本认为丝滑好晕染，但受底妆/工具/用量影响",
+        "base_makeup_compatibility": "明确分歧；有人不融底妆，也有人反馈会把持妆粉底区域带薄",
+        "oxidation": "有讨论但证据不足以升级为普遍问题",
+        "smell": "明显分歧并形成独立讨论",
+        "wear": "官方有16H测试口径；用户侧不按所有人16H表述",
+        "pros": [
+          "色号丰富",
+          "显色强",
+          "妆效辨识度高",
+          "好做色号选择内容"
+        ],
+        "cons": [
+          "气味分歧",
+          "融底妆风险",
+          "高显色容易下手重",
+          "新旧色差讨论"
+        ],
+        "disagreement": "最大分歧来自底妆搭配、肤色与上妆手法"
+      },
+      "observations": [
+        {
+          "id": "N01",
+          "title": "全新液体腮红 500份惊喜掉落",
+          "date": "2026-08-15",
+          "platform": "小红书",
+          "cover_type": "新品活动/产品主图",
+          "shoot_angle": "产品正面/活动图",
+          "face_presence": "低或无",
+          "people_ratio": "low",
+          "product_ratio": "high",
+          "save_point": "新品认知+活动",
+          "comment_questions": "克制是什么色/怎么参与",
+          "confidence": "public-index",
+          "note": ""
+        },
+        {
+          "id": "N02",
+          "title": "NARS欲色无尽液体腮红",
+          "date": "2026-08-16",
+          "platform": "小红书",
+          "cover_type": "产品+使用",
+          "shoot_angle": "unknown",
+          "face_presence": "unknown",
+          "people_ratio": "unknown",
+          "product_ratio": "high",
+          "save_point": "产品本体与妆效",
+          "comment_questions": "好不好晕/选哪个色",
+          "confidence": "public-index",
+          "note": ""
+        },
+        {
+          "id": "N03",
+          "title": "NARS液体腮红新款11色全试色｜附新旧版对比",
+          "date": "2026-08-09",
+          "platform": "小红书",
+          "cover_type": "多色矩阵",
+          "shoot_angle": "平拍/试色/对比",
+          "face_presence": "局部或无",
+          "people_ratio": "low",
+          "product_ratio": "high",
+          "save_point": "11色+新旧对比",
+          "comment_questions": "色号怎么选/新旧是否一样",
+          "confidence": "public-index",
+          "note": ""
+        },
+        {
+          "id": "N04",
+          "title": "Dear丝芙兰柜姐 你怎么不告诉我",
+          "date": "2026-08-24",
+          "platform": "小红书",
+          "cover_type": "柜台/体验问题",
+          "shoot_angle": "unknown",
+          "face_presence": "unknown",
+          "people_ratio": "可能",
+          "product_ratio": "medium",
+          "save_point": "medium",
+          "comment_questions": "使用问题",
+          "confidence": "为什么和预期不同",
+          "note": "public-index"
+        },
+        {
+          "id": "N05",
+          "title": "无滤镜试色｜Nars液体腮红爱欲和热恋",
+          "date": "2026-08-09",
+          "platform": "小红书",
+          "cover_type": "无滤镜色号对比",
+          "shoot_angle": "自然光/试色",
+          "face_presence": "局部",
+          "people_ratio": "low-medium",
+          "product_ratio": "medium-high",
+          "save_point": "两色选择",
+          "comment_questions": "爱欲vs热恋",
+          "confidence": "public-index",
+          "note": ""
+        },
+        {
+          "id": "N06",
+          "title": "nars液体腮红到底臭不臭啊",
+          "date": "2026-08-18",
+          "platform": "小红书",
+          "cover_type": "问题型/产品",
+          "shoot_angle": "产品近景或文字问题",
+          "face_presence": "unknown",
+          "people_ratio": "低",
+          "product_ratio": "medium",
+          "save_point": "气味避坑",
+          "comment_questions": "到底有没有明显味道",
+          "confidence": "public-index",
+          "note": "公开记录约133赞/62评"
+        },
+        {
+          "id": "N07",
+          "title": "试色NARS新品液体腮红克制",
+          "date": "2026-07-24",
+          "platform": "小红书",
+          "cover_type": "单色试色",
+          "shoot_angle": "局部/色块",
+          "face_presence": "局部",
+          "people_ratio": "low-medium",
+          "product_ratio": "medium",
+          "save_point": "克制单色决策",
+          "comment_questions": "肤色适配",
+          "confidence": "public-index",
+          "note": ""
+        },
+        {
+          "id": "N08",
+          "title": "好粉嫩🎀Nars液体腮红来喽",
+          "date": "2026-08-19",
+          "platform": "小红书",
+          "cover_type": "妆效氛围+产品",
+          "shoot_angle": "脸颊局部/产品",
+          "face_presence": "可能",
+          "people_ratio": "medium",
+          "product_ratio": "medium-high",
+          "save_point": "妆效",
+          "comment_questions": "粉嫩会不会显肿",
+          "confidence": "public-index",
+          "note": ""
+        },
+        {
+          "id": "N09",
+          "title": "NARS新款液体腮红+腮红刷",
+          "date": "2026-08-06",
+          "platform": "小红书",
+          "cover_type": "产品+工具",
+          "shoot_angle": "产品/刷具",
+          "face_presence": "低",
+          "people_ratio": "low",
+          "product_ratio": "high",
+          "save_point": "刷头/工具",
+          "comment_questions": "怎么上最不破底妆",
+          "confidence": "public-index",
+          "note": ""
+        },
+        {
+          "id": "N10",
+          "title": "Nars新款腮红液 Impassioned",
+          "date": "2026-08-01",
+          "platform": "小红书",
+          "cover_type": "单色号",
+          "shoot_angle": "产品/脸颊色彩",
+          "face_presence": "局部unknown",
+          "people_ratio": "low-medium",
+          "product_ratio": "medium",
+          "save_point": "单色选择",
+          "comment_questions": "Impassioned适合谁",
+          "confidence": "public-index",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "C2",
+      "brand": "HOURGLASS",
+      "product": "Unreal Liquid Blush Muse / Surreal",
+      "decision": "BACKUP_2",
+      "heat_types": [
+        "新色发布",
+        "小红书试色",
+        "肤色适配分歧",
+        "包装槽点"
+      ],
+      "current_evidence": [
+        "7/22官方新增Muse/Surreal",
+        "8月新色试色集中",
+        "头部试色评论区公开索引达到数千评论量级"
+      ],
+      "asset_sources": [
+        "S10"
+      ],
+      "asset_availability": "HIGH",
+      "visual_patterns": [
+        "小滴管瓶身",
+        "一滴液体微距",
+        "Muse/Surreal并排",
+        "腮紫脸颊局部",
+        "NARS横向对比",
+        "包装按压结构近景"
+      ],
+      "frequent_questions": [
+        "Muse适合冷白还是橄榄皮",
+        "Surreal是否太浅",
+        "是否氧化发红",
+        "上多了会不会融妆",
+        "包装为什么难按",
+        "美甲怎么按",
+        "高海拔会不会漏液"
+      ],
+      "effect_summary": {
+        "finish": "轻薄自然、serum-like，强调融肤",
+        "pigmentation": "可叠加；Muse显色在不同肤色上差异大，Surreal对部分人偏浅",
+        "blendability": "普遍较好，但少量叠加更稳",
+        "oxidation": "Muse在部分浅夏/橄榄皮样本出现发红或氧化感，存在明显分歧",
+        "wear": "官方12H测试；用户实际反馈并不完全一致",
+        "packaging": "长期稳定槽点：难按、美甲不友好、漏液/高海拔溢液",
+        "pros": [
+          "质地轻",
+          "自然红润",
+          "新色辨识高"
+        ],
+        "cons": [
+          "肤色适配高度分化",
+          "包装使用体验差"
+        ],
+        "disagreement": "同一Muse可从冷白皮仙气到橄榄皮燥热发红，两极明显"
+      },
+      "observations": [
+        {
+          "id": "H01",
+          "title": "Hourglass液体腮红新色！！！真的好美",
+          "date": "2026-08-01",
+          "platform": "小红书",
+          "cover_type": "双新色/产品",
+          "shoot_angle": "产品+试色",
+          "face_presence": "局部unknown",
+          "people_ratio": "low-medium",
+          "product_ratio": "high",
+          "save_point": "新色认知",
+          "comment_questions": "Muse/Surreal怎么选",
+          "confidence": "public-index",
+          "note": ""
+        },
+        {
+          "id": "H02",
+          "title": "Hourglass液体腮红试色，显色yyds",
+          "date": "2026-07-30",
+          "platform": "小红书",
+          "cover_type": "试色",
+          "shoot_angle": "色卡/脸颊局部",
+          "face_presence": "局部",
+          "people_ratio": "low-medium",
+          "product_ratio": "medium",
+          "save_point": "显色",
+          "comment_questions": "显色是否太强",
+          "confidence": "public-index",
+          "note": ""
+        },
+        {
+          "id": "H03",
+          "title": "hourglass小滴管掉色氧化",
+          "date": "2026-08-16",
+          "platform": "小红书",
+          "cover_type": "负向体验",
+          "shoot_angle": "产品+局部",
+          "face_presence": "unknown",
+          "people_ratio": "low-medium",
+          "product_ratio": "medium",
+          "save_point": "氧化/持妆",
+          "comment_questions": "会不会氧化",
+          "confidence": "public-index",
+          "note": ""
+        },
+        {
+          "id": "H04",
+          "title": "Hourglass你美",
+          "date": "2026-08-24",
+          "platform": "小红书",
+          "cover_type": "氛围种草",
+          "shoot_angle": "产品/妆效",
+          "face_presence": "可能",
+          "people_ratio": "medium",
+          "product_ratio": "medium",
+          "save_point": "妆效",
+          "comment_questions": "适合哪种妆",
+          "confidence": "public-index",
+          "note": ""
+        },
+        {
+          "id": "H05",
+          "title": "这包装我也是服了啊啊啊",
+          "date": "2026-04-17",
+          "platform": "小红书",
+          "cover_type": "包装槽点",
+          "shoot_angle": "产品结构近景",
+          "face_presence": "无/低",
+          "people_ratio": "low",
+          "product_ratio": "high",
+          "save_point": "包装避坑",
+          "comment_questions": "为什么难按/漏液",
+          "confidence": "public-index",
+          "note": ""
+        },
+        {
+          "id": "H06",
+          "title": "hourglass包装终极改造！（美甲版）",
+          "date": "2026-07-12",
+          "platform": "小红书",
+          "cover_type": "包装解决方案",
+          "shoot_angle": "手拿/产品结构",
+          "face_presence": "手部",
+          "people_ratio": "low",
+          "product_ratio": "high",
+          "save_point": "美甲用户操作",
+          "comment_questions": "美甲怎么按",
+          "confidence": "public-index",
+          "note": ""
+        },
+        {
+          "id": "H07",
+          "title": "nars和hourglass液体腮红都买了 随便问",
+          "date": "2026-08-26",
+          "platform": "小红书",
+          "cover_type": "横向对比",
+          "shoot_angle": "双产品/脸颊",
+          "face_presence": "可能",
+          "people_ratio": "medium",
+          "product_ratio": "high",
+          "save_point": "竞品选择",
+          "comment_questions": "NARS还是Hourglass",
+          "confidence": "public-index",
+          "note": ""
+        },
+        {
+          "id": "H08",
+          "title": "Hourglass液体腮红scene 平替",
+          "date": "2026-08-08",
+          "platform": "小红书",
+          "cover_type": "相似色/平替",
+          "shoot_angle": "多产品对比",
+          "face_presence": "局部unknown",
+          "people_ratio": "low-medium",
+          "product_ratio": "medium-high",
+          "save_point": "相似色",
+          "comment_questions": "Scene有没有平替",
+          "confidence": "public-index",
+          "note": ""
+        },
+        {
+          "id": "H09",
+          "title": "三位液体腮紫界的真神‼️",
+          "date": "2026-08-26",
+          "platform": "小红书",
+          "cover_type": "三产品对比",
+          "shoot_angle": "多产品+脸颊",
+          "face_presence": "局部",
+          "people_ratio": "medium",
+          "product_ratio": "high",
+          "save_point": "腮紫选择",
+          "comment_questions": "Muse与其他腮紫谁更适合",
+          "confidence": "public-index",
+          "note": ""
+        },
+        {
+          "id": "H10",
+          "title": "浅夏避雷hourglass新出的muse…别买",
+          "date": "2026-08-05",
+          "platform": "小红书",
+          "cover_type": "反向/肤色适配",
+          "shoot_angle": "上脸局部",
+          "face_presence": "局部/半脸",
+          "people_ratio": "medium",
+          "product_ratio": "medium",
+          "save_point": "避雷条件",
+          "comment_questions": "橄榄/浅夏会不会发红",
+          "confidence": "public-index",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "C3",
+      "brand": "Giorgio Armani Beauty",
+      "product": "全新传奇红管｜100绝色",
+      "decision": "BACKUP_1",
+      "heat_types": [
+        "新品升级",
+        "明星同款",
+        "小红书试色",
+        "肤色/深唇分歧",
+        "包装问题"
+      ],
+      "current_evidence": [
+        "7/15官方新版上市19色",
+        "100为主推满分粉棕",
+        "8月七夕+谷爱凌同款带来集中试色和争议"
+      ],
+      "asset_sources": [
+        "S20",
+        "S21"
+      ],
+      "asset_availability": "HIGH",
+      "visual_patterns": [
+        "玻璃红管45度",
+        "手拿产品",
+        "唇部局部",
+        "薄涂/厚涂对比",
+        "100/214并排",
+        "礼盒桌面静物",
+        "碎壳/溢管产品近景"
+      ],
+      "frequent_questions": [
+        "100到底粉棕还是发玫",
+        "黄皮深唇能不能涂",
+        "100和214怎么选",
+        "新版沾杯改善吗",
+        "会不会干显唇纹",
+        "玻璃管是不是易碎",
+        "会不会溢管"
+      ],
+      "effect_summary": {
+        "finish": "轻丝绒哑光",
+        "color": "浅唇/偏白皮更容易呈柔和粉棕/玫瑰豆沙；黄皮深唇更易发闷、偏棕或荧光",
+        "texture": "常见正向是比旧版更轻、更顺；负向是时间久偏干、显唇纹/小渣",
+        "transfer": "部分用户认为成膜后沾杯比旧版改善，但不写绝对不沾",
+        "packaging": "玻璃质感强但易碎，个别用户反馈溢管",
+        "pros": [
+          "包装质感",
+          "氛围色",
+          "新版轻丝绒"
+        ],
+        "cons": [
+          "100挑肤色唇色",
+          "偏干/显唇纹",
+          "玻璃易碎"
+        ],
+        "disagreement": "同一100受自然唇色与灯光影响极大"
+      },
+      "observations": [
+        {
+          "id": "A01",
+          "title": "阿玛尼新款红管405传奇｜永不落幕的烂番茄色",
+          "date": "2026-07-25",
+          "platform": "小红书",
+          "cover_type": "产品+唇妆",
+          "shoot_angle": "唇部/产品",
+          "face_presence": "局部",
+          "people_ratio": "low-medium",
+          "product_ratio": "medium",
+          "save_point": "经典色新版",
+          "comment_questions": "405新版变化",
+          "confidence": "public-index",
+          "note": ""
+        },
+        {
+          "id": "A02",
+          "title": "为氛围感而生的全新阿玛尼红管！",
+          "date": "2026-07-23",
+          "platform": "小红书",
+          "cover_type": "氛围+产品",
+          "shoot_angle": "产品/唇妆",
+          "face_presence": "可能",
+          "people_ratio": "medium",
+          "product_ratio": "medium",
+          "save_point": "氛围妆效",
+          "comment_questions": "新版质地",
+          "confidence": "public-index",
+          "note": ""
+        },
+        {
+          "id": "A03",
+          "title": "阿玛尼100&214，黄黑皮深唇慎入！",
+          "date": "2026-08-16",
+          "platform": "小红书",
+          "cover_type": "反向试色",
+          "shoot_angle": "唇部局部/双色",
+          "face_presence": "局部",
+          "people_ratio": "low-medium",
+          "product_ratio": "medium-high",
+          "save_point": "肤色避坑",
+          "comment_questions": "黄黑皮深唇怎么选",
+          "confidence": "public-index",
+          "note": ""
+        },
+        {
+          "id": "A04",
+          "title": "谁能驾驭阿玛尼100绝色啊",
+          "date": "2026-08-13",
+          "platform": "小红书",
+          "cover_type": "问题型试色",
+          "shoot_angle": "唇部/产品",
+          "face_presence": "局部",
+          "people_ratio": "low-medium",
+          "product_ratio": "medium",
+          "save_point": "100适配",
+          "comment_questions": "为什么我涂不好看",
+          "confidence": "public-index",
+          "note": ""
+        },
+        {
+          "id": "A05",
+          "title": "绝色虽然好看",
+          "date": "2026-07-23",
+          "platform": "小红书",
+          "cover_type": "正反评价",
+          "shoot_angle": "unknown",
+          "face_presence": "局部unknown",
+          "people_ratio": "unknown",
+          "product_ratio": "medium",
+          "save_point": "购买判断",
+          "comment_questions": "好看但有什么门槛",
+          "confidence": "public-index",
+          "note": ""
+        },
+        {
+          "id": "A06",
+          "title": "阿玛尼传奇红管唇釉丝绒哑光",
+          "date": "2026-07-28",
+          "platform": "小红书",
+          "cover_type": "质地展示",
+          "shoot_angle": "唇部/产品",
+          "face_presence": "局部",
+          "people_ratio": "low-medium",
+          "product_ratio": "medium",
+          "save_point": "质地",
+          "comment_questions": "干不干/显唇纹吗",
+          "confidence": "public-index",
+          "note": ""
+        },
+        {
+          "id": "A07",
+          "title": "阿玛尼红管3支玫瑰系｜黄皮冷皮怎么选不踩雷",
+          "date": "2026-08-19",
+          "platform": "小红书",
+          "cover_type": "多色选择",
+          "shoot_angle": "三色/唇部矩阵",
+          "face_presence": "局部",
+          "people_ratio": "low-medium",
+          "product_ratio": "high",
+          "save_point": "选色",
+          "comment_questions": "肤色怎么分",
+          "confidence": "public-index",
+          "note": ""
+        },
+        {
+          "id": "A08",
+          "title": "阿玛尼新品唇釉100和214对比",
+          "date": "2026-08-23",
+          "platform": "小红书",
+          "cover_type": "双产品对比",
+          "shoot_angle": "100/214并排",
+          "face_presence": "局部",
+          "people_ratio": "low-medium",
+          "product_ratio": "high",
+          "save_point": "两色比较",
+          "comment_questions": "100还是214",
+          "confidence": "public-index",
+          "note": ""
+        },
+        {
+          "id": "A09",
+          "title": "阿玛尼这次外壳材质居然是玻璃",
+          "date": "2026-08-13",
+          "platform": "小红书",
+          "cover_type": "包装话题",
+          "shoot_angle": "产品结构近景",
+          "face_presence": "无/低",
+          "people_ratio": "low",
+          "product_ratio": "high",
+          "save_point": "包装质感/风险",
+          "comment_questions": "玻璃会不会碎",
+          "confidence": "public-index",
+          "note": ""
+        },
+        {
+          "id": "A10",
+          "title": "用了三天摔碎的阿玛尼抢救结束了",
+          "date": "2026-08-14",
+          "platform": "小红书",
+          "cover_type": "真实损坏",
+          "shoot_angle": "碎壳产品近景",
+          "face_presence": "无/低",
+          "people_ratio": "low",
+          "product_ratio": "high",
+          "save_point": "包装避坑",
+          "comment_questions": "售后/易碎",
+          "confidence": "public-index",
+          "note": "仅作为用户体验样本，不改写为账号经历"
+        }
+      ]
+    },
+    {
+      "id": "C4",
+      "brand": "BOBBI BROWN",
+      "product": "第四代虫草精华粉底液",
+      "decision": "CANDIDATE",
+      "heat_types": [
+        "新品升级",
+        "干皮底妆",
+        "色号/氧化争议"
+      ],
+      "current_evidence": [
+        "8月初新版集中铺开",
+        "8月真人实测密集",
+        "讨论核心从浮粉转到偏黄/色号"
+      ],
+      "asset_sources": [
+        "S30"
+      ],
+      "asset_availability": "HIGH",
+      "visual_patterns": [
+        "瓶身",
+        "粉底质地",
+        "半脸对比",
+        "皮肤纹理局部",
+        "浅白色号并排",
+        "自然光色号"
+      ],
+      "frequent_questions": [
+        "新版黄不黄",
+        "氧化还是选色错",
+        "C/N/W/NW怎么选",
+        "干皮混干适合吗",
+        "遮瑕够不够",
+        "光泽会不会过强"
+      ],
+      "effect_summary": {
+        "finish": "radiant/丝缎光泽取向",
+        "texture": "多样本偏滋润、贴肤、轻薄",
+        "coverage": "官方中等可叠加；不属于纯高遮瑕路线",
+        "dry_skin": "干皮/混干正向更集中",
+        "oxidation_and_color": "上脸偏黄/氧化感与新色号体系是最大分歧",
+        "wear": "有个体8h/10h长测正向，但不升级成所有人结果",
+        "pros": [
+          "滋润",
+          "贴肤",
+          "光泽漂亮",
+          "干纹友好反馈多"
+        ],
+        "cons": [
+          "色号难选",
+          "偏黄/氧化争议",
+          "光泽强不一定人人喜欢"
+        ],
+        "disagreement": "黄感可能同时来自配方色变与选色错误，两者难完全分离"
+      },
+      "observations": [
+        {
+          "id": "B01",
+          "title": "芭比波朗全新升级第四代虫草粉底液",
+          "date": "2026-08-02",
+          "platform": "小红书",
+          "cover_type": "新品/产品",
+          "shoot_angle": "瓶身/底妆",
+          "face_presence": "unknown",
+          "people_ratio": "unknown",
+          "product_ratio": "medium-high",
+          "save_point": "新品变化",
+          "comment_questions": "四代改了什么",
+          "confidence": "public-index",
+          "note": ""
+        },
+        {
+          "id": "B02",
+          "title": "8h测评｜持妆抗氧化暗沉！但为啥上脸就黄了？",
+          "date": "2026-08-28",
+          "platform": "小红书",
+          "cover_type": "长测/反差",
+          "shoot_angle": "上脸局部",
+          "face_presence": "半脸/局部",
+          "people_ratio": "high",
+          "product_ratio": "medium",
+          "save_point": "黄感争议",
+          "comment_questions": "为什么变黄",
+          "confidence": "public-index",
+          "note": ""
+        },
+        {
+          "id": "B03",
+          "title": "全新虫草粉底！开箱首测，被惊到",
+          "date": "2026-08-05",
+          "platform": "小红书",
+          "cover_type": "开箱+首测",
+          "shoot_angle": "产品+上脸",
+          "face_presence": "可能",
+          "people_ratio": "medium",
+          "product_ratio": "medium-high",
+          "save_point": "新品首测",
+          "comment_questions": "妆效/质地",
+          "confidence": "public-index",
+          "note": ""
+        },
+        {
+          "id": "B04",
+          "title": "第四代虫草3大热门浅白试色｜白皮闭眼冲",
+          "date": "2026-08-24",
+          "platform": "小红书",
+          "cover_type": "色号试色",
+          "shoot_angle": "三色/自然光",
+          "face_presence": "局部unknown",
+          "people_ratio": "low-medium",
+          "product_ratio": "high",
+          "save_point": "浅白色号",
+          "comment_questions": "白皮选哪个",
+          "confidence": "public-index",
+          "note": ""
+        },
+        {
+          "id": "B05",
+          "title": "全网素人第一测｜四代虫草粉底液混干10小时",
+          "date": "2026-08-02",
+          "platform": "小红书",
+          "cover_type": "长测",
+          "shoot_angle": "半脸/皮肤局部",
+          "face_presence": "是/局部",
+          "people_ratio": "high",
+          "product_ratio": "medium",
+          "save_point": "混干持妆",
+          "comment_questions": "混干会不会暗沉",
+          "confidence": "public-index",
+          "note": ""
+        },
+        {
+          "id": "B06",
+          "title": "这款上脸薄到感觉不到，好用！！！！！",
+          "date": "2026-08-10",
+          "platform": "小红书",
+          "cover_type": "轻薄妆效",
+          "shoot_angle": "上脸局部",
+          "face_presence": "可能",
+          "people_ratio": "high",
+          "product_ratio": "medium",
+          "save_point": "轻薄肤感",
+          "comment_questions": "遮瑕够不够",
+          "confidence": "public-index",
+          "note": ""
+        },
+        {
+          "id": "B07",
+          "title": "避雷芭比布朗粉底液",
+          "date": "2026-08-28",
+          "platform": "小红书",
+          "cover_type": "负向体验",
+          "shoot_angle": "产品/上脸",
+          "face_presence": "unknown",
+          "people_ratio": "unknown",
+          "product_ratio": "unknown",
+          "save_point": "避坑",
+          "comment_questions": "什么肤质/色号会翻车",
+          "confidence": "public-index",
+          "note": ""
+        },
+        {
+          "id": "B08",
+          "title": "芭比波朗第四代虫草粉底液",
+          "date": "2026-08-18",
+          "platform": "小红书",
+          "cover_type": "产品体验",
+          "shoot_angle": "unknown",
+          "face_presence": "unknown",
+          "people_ratio": "unknown",
+          "product_ratio": "medium",
+          "save_point": "用户反馈",
+          "comment_questions": "光泽/色号/服帖",
+          "confidence": "public-index",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "C5",
+      "brand": "Dior",
+      "product": "Backstage Glow Maximizer Palette 后台高光盘",
+      "decision": "CANDIDATE",
+      "heat_types": [
+        "新版/旧版对比",
+        "高光色号讨论",
+        "多用途彩妆"
+      ],
+      "current_evidence": [
+        "9月仍有006/002/皮革高光对比",
+        "9/18出现新旧全试色内容",
+        "官方当前新版Glow Maximizer在售"
+      ],
+      "asset_sources": [
+        "S40"
+      ],
+      "asset_availability": "HIGH",
+      "visual_patterns": [
+        "四格盘产品",
+        "开盘45度",
+        "刷具/指腹取粉",
+        "颧骨/鼻梁局部",
+        "新旧盘并排",
+        "多盘比较"
+      ],
+      "frequent_questions": [
+        "新版002与旧006差多少",
+        "哪盘适合冷皮/日常",
+        "闪片是否太明显",
+        "会不会显毛孔纹理",
+        "旧版需要换新版吗",
+        "能否一盘多用"
+      ],
+      "effect_summary": {
+        "finish": "多反射光，珠光/金属/闪片/双色等不同效果",
+        "texture": "官方为超细粉体+珠光微粒透明凝胶基底",
+        "intensity": "002/冷调高光辨识强，部分色更适合明显高光而非隐形通勤",
+        "versatility": "脸/眼/身体多用途是产品优势",
+        "skin_texture": "用户对明显闪片与自然融肤偏好分化，重手更容易放大高光存在感",
+        "pros": [
+          "视觉强",
+          "多用途",
+          "色彩层次丰富"
+        ],
+        "cons": [
+          "价格高",
+          "日常需要控量",
+          "部分闪片效果挑审美"
+        ],
+        "disagreement": "有人追求明显碎钻，有人只想自然融肤，评价取决于目标妆效"
+      },
+      "observations": [
+        {
+          "id": "D01",
+          "title": "Dior后台高光新旧全试色：006最亮眼",
+          "date": "2026-09-18",
+          "platform": "小红书",
+          "cover_type": "新旧多盘对比",
+          "shoot_angle": "多盘/色卡",
+          "face_presence": "无/局部",
+          "people_ratio": "low",
+          "product_ratio": "high",
+          "save_point": "新旧选择",
+          "comment_questions": "006/新版怎么选",
+          "confidence": "public-index",
+          "note": ""
+        },
+        {
+          "id": "D02",
+          "title": "Dior后台高光006、002与皮革高光对比",
+          "date": "2026-09-19",
+          "platform": "小红书",
+          "cover_type": "多产品对比",
+          "shoot_angle": "并排/局部",
+          "face_presence": "局部unknown",
+          "people_ratio": "low-medium",
+          "product_ratio": "high",
+          "save_point": "横向选择",
+          "comment_questions": "002/006/皮革谁更适合",
+          "confidence": "public-index",
+          "note": ""
+        },
+        {
+          "id": "D03",
+          "title": "后台高光与皮革高光妆效对比",
+          "date": "2026-09-10",
+          "platform": "小红书",
+          "cover_type": "妆效对比",
+          "shoot_angle": "脸部局部+产品",
+          "face_presence": "局部",
+          "people_ratio": "medium",
+          "product_ratio": "medium-high",
+          "save_point": "妆效差异",
+          "comment_questions": "自然还是闪",
+          "confidence": "public-index",
+          "note": ""
+        },
+        {
+          "id": "D04",
+          "title": "后台眼影002与高光02实测",
+          "date": "2026-09-07",
+          "platform": "小红书",
+          "cover_type": "产品实测",
+          "shoot_angle": "产品+上脸",
+          "face_presence": "局部",
+          "people_ratio": "medium",
+          "product_ratio": "medium",
+          "save_point": "实测效果",
+          "comment_questions": "高光02上脸如何",
+          "confidence": "public-index",
+          "note": ""
+        },
+        {
+          "id": "D05",
+          "title": "Dior后台高光四色对比",
+          "date": "2026-08-31",
+          "platform": "小红书",
+          "cover_type": "四色对比",
+          "shoot_angle": "多盘/色卡",
+          "face_presence": "低",
+          "people_ratio": "low",
+          "product_ratio": "high",
+          "save_point": "色号选择",
+          "comment_questions": "哪色适合肤色",
+          "confidence": "public-index",
+          "note": ""
+        },
+        {
+          "id": "D06",
+          "title": "给到夯的冷白皮高光盘 Dior后台高光002",
+          "date": "2026-07-05",
+          "platform": "小红书",
+          "cover_type": "单盘/肤色",
+          "shoot_angle": "产品+局部",
+          "face_presence": "局部",
+          "people_ratio": "medium",
+          "product_ratio": "medium",
+          "save_point": "冷皮适配",
+          "comment_questions": "002适合谁",
+          "confidence": "public-index",
+          "note": ""
+        },
+        {
+          "id": "D07",
+          "title": "Dior四色高光001真的可以画全妆！附004对比",
+          "date": "2026-07-06",
+          "platform": "小红书",
+          "cover_type": "多用途+对比",
+          "shoot_angle": "产品/局部",
+          "face_presence": "可能",
+          "people_ratio": "medium",
+          "product_ratio": "high",
+          "save_point": "一盘多用",
+          "comment_questions": "001/004怎么选",
+          "confidence": "public-index",
+          "note": ""
+        },
+        {
+          "id": "D08",
+          "title": "高光｜既然买都买了，那就拿出来比一比",
+          "date": "2026-06-29",
+          "platform": "小红书",
+          "cover_type": "多产品横评",
+          "shoot_angle": "多盘并排",
+          "face_presence": "低",
+          "people_ratio": "low",
+          "product_ratio": "high",
+          "save_point": "横评",
+          "comment_questions": "哪盘最值",
+          "confidence": "public-index",
+          "note": ""
+        },
+        {
+          "id": "D09",
+          "title": "超级貌美 Dior四色高光002冷皮天菜碎钻冰",
+          "date": "2026-06-04",
+          "platform": "小红书",
+          "cover_type": "氛围+单盘",
+          "shoot_angle": "产品+高光局部",
+          "face_presence": "局部",
+          "people_ratio": "medium",
+          "product_ratio": "medium",
+          "save_point": "冷皮/碎钻",
+          "comment_questions": "闪片明显吗",
+          "confidence": "public-index",
+          "note": ""
+        },
+        {
+          "id": "D10",
+          "title": "Dior后台高光 003+004都好喜欢",
+          "date": "2026-06-02",
+          "platform": "小红书",
+          "cover_type": "双盘/色号",
+          "shoot_angle": "产品并排",
+          "face_presence": "低",
+          "people_ratio": "low",
+          "product_ratio": "high",
+          "save_point": "003/004选择",
+          "comment_questions": "两个怎么选",
+          "confidence": "public-index",
+          "note": ""
+        }
+      ]
+    }
+  ],
+  "cross_candidate_findings": {
+    "visual": "产品帖不设露脸比例；产品本体/色号/局部妆效/问题卡按信息价值自由混搭。",
+    "strongest_covers": [
+      "真实产品特写+明确问题",
+      "多色并排+怎么选",
+      "局部妆效+产品",
+      "正向/翻车点对照"
+    ],
+    "useful_shots": [
+      "45度产品照",
+      "桌面平拍",
+      "手拿",
+      "刷头/滴管/玻璃管身微距",
+      "脸颊/唇/底妆局部",
+      "信息卡"
+    ],
+    "save_drivers": [
+      "色号选择",
+      "肤色/肤质适配",
+      "新旧版区别",
+      "优缺点同页",
+      "使用手法避坑",
+      "包装/气味/融妆等买前问题"
+    ],
+    "content003_rotation": "从CONTENT-002眼影盘切换为液体腮红瓶装产品，减少盘状产品连续感，增加瓶身/刷头/脸颊局部/底妆兼容视觉。"
+  },
+  "final_selection": {
+    "main": "NARS 欲色无尽液体腮红",
+    "main_hook": "11色怎么选 + 融底妆/气味/显色分歧",
+    "backup_1": "阿玛尼 全新传奇红管 100绝色",
+    "backup_2": "HOURGLASS Unreal Liquid Blush Muse / Surreal"
+  },
+  "next_role": "内容策划AI"
+}
