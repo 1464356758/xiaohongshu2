@@ -1,80 +1,62 @@
 {
   "project_id": "XHS-BEAUTY-002",
   "system_version": "2.2",
-  "revision": 9,
-  "handoff_epoch": 9,
+  "revision": 10,
+  "handoff_epoch": 10,
   "stage": "CONTENT",
-  "status": "PUBLISH_PREP",
+  "status": "OBSERVING",
   "current_task": "CONTENT-001",
-  "task_path": "任务/CONTENT-001/V3/任务.json",
+  "task_path": "任务/CONTENT-001/V4/标题差异审核任务.json",
+  "parallel_data_task_path": "任务/DATA-CONTENT-001/V1/任务.json",
   "current_input_revision": 2,
-  "current_pipeline_step": "PUBLISH_OPS",
-  "account_registration_status": "NOT_REGISTERED",
-  "publish_status": "NOT_PUBLISHED",
+  "current_pipeline_step": "POST_PUBLISH_TITLE_RECONCILIATION_AND_DATA_OBSERVATION",
+  "account_registration_status": "REGISTERED",
+  "publish_status": "PUBLISHED_CONFIRMED",
   "active_persona_version": "正式/人设/虚拟博主人设V1.md",
   "active_visual_spec": "正式/视觉规范/V1.md",
   "active_anchor_lock": "批准/PERSONA-001/LOCK-V2.json",
   "active_positioning_version": "正式/定位/V2.md",
   "active_content_lock": "批准/CONTENT-001/LOCK-V1.json",
-  "latest_market_research": {
-    "task_id": "RESEARCH-001",
-    "report_path": "产物/研究/RESEARCH-001/V1/研究报告.md",
-    "source_path": "产物/研究/RESEARCH-001/V1/来源.json",
-    "fixed_commit": "3f040891b47cdd79669df84a54a41b32e1610a7f",
-    "status": "APPROVED"
+  "publication": {
+    "receipt_path": "数据/回执/CONTENT-001/V1/发布回执.json",
+    "receipt_commit": "5ff4976c0fc3b6cc88681f73394dd7b1152980e1",
+    "actual_public_title": "低饱和秋妆显灰？出门只改3处",
+    "published_at_estimate": "2026-09-22T10:27:00+08:00",
+    "evidence_status": "VERIFIED"
   },
-  "content_001_carry_forward": {
-    "hot_research_commit": "ae39b11a15529e1bb0776bb25cd03f092a40fb2c",
-    "planning_commit": "1a8fcc2ad6a99d61b3c5b6fc583ff1d3125f0a76",
-    "script_commit": "cfe82ca46022a67529c36eb0d8298c92bc6c8bb5",
-    "status": "VALIDATED_CARRY_FORWARD",
-    "approval_path": "批准/CONTENT-001/V2/人物锁升级继承批准.md"
-  },
-  "content_001_visual": {
-    "c_result": "PASS",
-    "asset_root": "资产/内容/CONTENT-001/LOCK-V1/",
-    "asset_commit": "1fbafe7dc00bfdc3048a107a29116f64f077e90c",
-    "manifest_path": "产物/图片C/CONTENT-001/V1/最终资产清单.json",
-    "delivery_path": "产物/图片C/CONTENT-001/V1/交付.json"
-  },
-  "content_001_audit": {
-    "result": "PASS",
-    "P0": 0,
-    "P1": 0,
-    "P2": 2,
-    "score": 92,
-    "fixed_commit": "90449e5f180f2696dc44df66ea83d1a995195920",
-    "github_writeback_status": "VERIFIED",
-    "rework_required": false,
+  "post_publish_title_deviation": {
+    "status": "TITLE_DELTA_AUDIT_PENDING",
+    "delta": "通勤 → 出门",
+    "disposition_path": "批准/CONTENT-001/V4/发布后标题偏差处置.md",
+    "audit_task_path": "任务/CONTENT-001/V4/标题差异审核任务.json",
+    "rebuild_images": false,
+    "rewrite_body": false,
     "rework_round_counted": false
   },
-  "content_001_lock": {
-    "path": "批准/CONTENT-001/LOCK-V1.json",
-    "commit": "912ce9a5a70eb1356e96f3d2401de755dfc9276e",
-    "status": "LOCKED",
-    "director_approval_path": "批准/CONTENT-001/V3/最终发布许可.md",
-    "director_approval_commit": "7bed7f7ac106d63a41153ab227676c253a963a1d"
+  "data_observation": {
+    "task_path": "任务/DATA-CONTENT-001/V1/任务.json",
+    "traffic_type": "organic",
+    "paid_spend_cny": 0,
+    "t_plus_24h": "2026-09-23T10:27:00+08:00",
+    "t_plus_72h": "2026-09-25T10:27:00+08:00",
+    "t_plus_7d": "2026-09-29T10:27:00+08:00",
+    "status": "WAITING_FIRST_SNAPSHOT"
   },
   "latest_data_report": null,
   "latest_verified_snapshot": null,
   "approved_spend_cny": 0,
   "actual_spend_cny": 0,
   "capital_limit_cny": 10000,
-  "role_system": "13_ROLE_COMPLETE_OPERATING_SYSTEM",
   "next_actions": [
     {
-      "role": "发布与社群运营",
-      "action": "读取任务/CONTENT-001/V3/任务.json与批准/CONTENT-001/LOCK-V1.json，生成正式发布包；不得修改锁定标题、正文、图片或页序。"
+      "role": "内容与合规审核",
+      "action": "只复审发布标题从“通勤”改为“出门”的差异，不重做图片或正文。"
     },
     {
       "role": "用户",
-      "action": "发布包完成后，用户本人完成账号注册/验证及最终发布；真实发布后提供笔记链接、发布时间和必要截图。"
+      "action": "到24h观察时点提供小红书后台真实数据截图或数字给数据分析与实验AI。"
     }
   ],
-  "updated_at": "2026-09-22T07:18:00+08:00",
-  "note": "CONTENT-001独立审核已正式落库并回读验证；总监已完成最终批准与CONTENT LOCK-V1。当前进入PUBLISH_PREP。账号仍未登记为已注册，实际发布尚未发生。",
-  "system_patch": "V2.2-P1_GITHUB_BINARY_ASSETS",
-  "binary_asset_policy_active": true,
-  "current_persona_binary_upload_required": false,
-  "persona_image_commit": "10133ebfaf320546daf28b218e62d88911e4de3b"
+  "updated_at": "2026-09-22T11:19:00+08:00",
+  "note": "CONTENT-001已真实发布并进入OBSERVING。LOCK-V1保留历史，标题差异做最小范围独立复审；数据观察并行推进。"
 }
