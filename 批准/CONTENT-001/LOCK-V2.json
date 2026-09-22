@@ -1,0 +1,68 @@
+{
+  "project_id": "XHS-BEAUTY-002",
+  "task_id": "CONTENT-001",
+  "input_revision": 2,
+  "lock_type": "CONTENT",
+  "lock_version": "LOCK-V2",
+  "status": "LOCKED",
+  "reconciliation_type": "POST_PUBLISH_TITLE_DELTA",
+  "created_at": "2026-09-22T12:26:00+08:00",
+  "supersedes": [
+    "批准/CONTENT-001/LOCK-V1.json"
+  ],
+  "history_rule": "LOCK-V1保留为发布前历史锁，不覆盖、不删除；LOCK-V2仅用于发布后版本对账，不伪装为发布前批准。",
+  "actual_public_title": "低饱和秋妆显灰？出门只改3处",
+  "previous_locked_title": "低饱和秋妆显灰？通勤只改3处",
+  "title_delta": "通勤 → 出门",
+  "final_body": {
+    "path": "产物/文案/CONTENT-001/V1/文案.md",
+    "fixed_commit": "cfe82ca46022a67529c36eb0d8298c92bc6c8bb5",
+    "changed_after_v1": false
+  },
+  "persona_lock": "批准/PERSONA-001/LOCK-V2.json",
+  "image_commit": "1fbafe7dc00bfdc3048a107a29116f64f077e90c",
+  "final_image_repo_paths": [
+    "资产/内容/CONTENT-001/LOCK-V1/01_cover.jpg",
+    "资产/内容/CONTENT-001/LOCK-V1/02_page.jpg",
+    "资产/内容/CONTENT-001/LOCK-V1/03_page.jpg",
+    "资产/内容/CONTENT-001/LOCK-V1/04_page.jpg"
+  ],
+  "assets_reused_from_lock_v1": true,
+  "c_final_manifest": {
+    "path": "产物/图片C/CONTENT-001/V1/最终资产清单.json",
+    "manifest_commit": "5fe517482b1e396e8e313660722aa37c25976661"
+  },
+  "original_full_audit": {
+    "path": "产物/审核/CONTENT-001/V1/审核报告.md",
+    "fixed_commit": "90449e5f180f2696dc44df66ea83d1a995195920",
+    "result": "PASS",
+    "score": 92
+  },
+  "title_delta_audit": {
+    "report_path": "产物/审核/CONTENT-001/V2/标题差异审核报告.md",
+    "delivery_path": "产物/审核/CONTENT-001/V2/交付.json",
+    "fixed_commit": "e087bae116c339edb47ebdc5458538a89ff93360",
+    "result": "PASS",
+    "P0": 0,
+    "P1": 0,
+    "P2": 1,
+    "rebuild_images": false,
+    "rewrite_body": false
+  },
+  "director_disposition": {
+    "path": "批准/CONTENT-001/V4/发布后标题偏差处置.md",
+    "fixed_commit": "d351546e840d7bc9bee34d5a071db26dbefbed2c"
+  },
+  "publication_receipt": {
+    "path": "数据/回执/CONTENT-001/V1/发布回执.json",
+    "fixed_commit": "5ff4976c0fc3b6cc88681f73394dd7b1152980e1",
+    "status": "PUBLISHED_CONFIRMED"
+  },
+  "commercial_relation_status": "NONE_ORGANIC_CONTENT",
+  "allowed_publish_scope": {
+    "platform": "小红书",
+    "actual_publication_already_occurred": true,
+    "paid_growth_authorized": false
+  },
+  "note": "本LOCK仅用于把实际公开标题与版本记录对齐。图片、正文、页序、人物均未修改。"
+}
