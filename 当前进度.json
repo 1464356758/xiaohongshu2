@@ -1,27 +1,27 @@
 {
   "project_id": "XHS-BEAUTY-002",
   "system_version": "2.2",
-  "revision": 11,
-  "handoff_epoch": 11,
+  "revision": 12,
+  "handoff_epoch": 12,
   "stage": "CONTENT",
-  "status": "READY_FOR_HOT_RESEARCH",
+  "status": "REWORK_REAL_BRAND_ASSET_SOURCE",
   "current_task": "CONTENT-002",
-  "task_path": "任务/CONTENT-002/V1/任务.json",
-  "current_input_revision": 1,
-  "current_pipeline_step": "HOT_RESEARCH",
+  "task_path": "任务/CONTENT-002/V3/任务.json",
+  "current_input_revision": 2,
+  "current_pipeline_step": "OFFICIAL_ASSET_RESEARCH",
   "account_registration_status": "REGISTERED",
   "publish_status": "PUBLISHED_CONFIRMED",
   "active_persona_version": "正式/人设/虚拟博主人设V1.md",
-  "active_visual_spec": "正式/视觉规范/V2.md",
+  "active_visual_spec": "正式/视觉规范/V3.md",
   "active_anchor_lock": "批准/PERSONA-001/LOCK-V2.json",
   "active_positioning_version": "正式/定位/V2.md",
   "active_content_lock": "批准/CONTENT-001/LOCK-V2.json",
-  "last_published_content": {
-    "task_id": "CONTENT-001",
-    "title": "低饱和秋妆显灰？出门只改3处",
-    "lock_path": "批准/CONTENT-001/LOCK-V2.json",
-    "published_at_estimate": "2026-09-22T10:27:00+08:00",
-    "status": "OBSERVING"
+  "content_002": {
+    "old_lock": "批准/CONTENT-002/LOCK-V1.json",
+    "old_lock_operational_status": "DO_NOT_PUBLISH",
+    "hold_instruction": "批准/CONTENT-002/V2/LOCK-V1暂停使用与真实品牌素材返修指令.md",
+    "rebuild_task": "任务/CONTENT-002/V3/任务.json",
+    "rebuild_reason": "切换为品牌官方真实素材优先，不再使用AI重画产品本体与图内免责声明模板。"
   },
   "parallel_tasks": [
     {
@@ -31,31 +31,21 @@
       "next_window": "2026-09-23T10:27:00+08:00"
     }
   ],
-  "visual_rotation_policy": {
-    "spec": "正式/视觉规范/V2.md",
+  "brand_asset_policy": {
+    "path": "系统/品牌真实素材优先协议V2.2-P2.md",
     "status": "ACTIVE",
-    "rule": "连续内容至少在主服装、主动作、主场景、主构图中更换两项；人物身份保持不变。",
-    "content_002_forbidden_default": [
-      "奶油/白色宽松针织开衫 + 粉色碎花吊带作为主服装组合",
-      "托腮 + 正面看镜头作为P1主动作",
-      "四页使用近似同一机位"
-    ]
+    "rule": "具体品牌产品本体优先使用官方真实产品图或用户真实照片；禁止AI重画包装、Logo、色号。"
   },
-  "latest_data_report": null,
-  "latest_verified_snapshot": null,
-  "approved_spend_cny": 0,
-  "actual_spend_cny": 0,
-  "capital_limit_cny": 10000,
   "next_actions": [
     {
       "role": "热点与竞品研究员",
-      "action": "执行CONTENT-002 V1，重新联网检索当期热点，给至少5个候选、1个主选和2个备选；不得重复CONTENT-001同题结构。"
+      "action": "执行CONTENT-002 V3，只补充官方真实产品素材来源和热门贴拍摄角度；如官方素材不足则BLOCKED，不得AI重画产品。"
     },
     {
-      "role": "数据分析与实验",
-      "action": "CONTENT-001到24h观察时点后，读取用户提供的后台真实数据并写第一份快照。"
+      "role": "内容策划",
+      "action": "官方素材补充完成后，按零人物产品帖优先原则重排P1-P4。"
     }
   ],
-  "updated_at": "2026-09-22T12:26:00+08:00",
-  "note": "CONTENT-001发布后标题差异已通过TITLE_ONLY审核并用LOCK-V2完成对账；CONTENT-002正式启动。视觉规范升级到V2，强制服装、动作、场景、构图轮换，避免重复托腮与同套服装。"
+  "updated_at": "2026-09-22T14:40:00+08:00",
+  "note": "用户否定AI产品视觉+图内免责声明方式。CONTENT-002旧LOCK-V1暂停发布，切换真实品牌素材优先方案。图内默认不再出现‘非真实照片/非本人真实试色/产品视觉示意’等免责声明大字。"
 }
