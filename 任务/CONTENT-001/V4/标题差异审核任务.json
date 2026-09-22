@@ -1,0 +1,56 @@
+{
+  "project_id": "XHS-BEAUTY-002",
+  "task_id": "CONTENT-001-TITLE-DELTA-AUDIT",
+  "parent_task_id": "CONTENT-001",
+  "input_revision": 1,
+  "task_type": "post_publish_title_delta_audit",
+  "status": "READY",
+  "responsible_role": "内容与合规审核",
+  "scope": "TITLE_ONLY",
+  "fixed_input_commit": "d351546e840d7bc9bee34d5a071db26dbefbed2c",
+  "inputs": [
+    {
+      "path": "批准/CONTENT-001/V4/发布后标题偏差处置.md",
+      "commit": "d351546e840d7bc9bee34d5a071db26dbefbed2c",
+      "required": true
+    },
+    {
+      "path": "批准/CONTENT-001/LOCK-V1.json",
+      "commit": "912ce9a5a70eb1356e96f3d2401de755dfc9276e",
+      "required": true
+    },
+    {
+      "path": "产物/审核/CONTENT-001/V1/审核报告.md",
+      "commit": "90449e5f180f2696dc44df66ea83d1a995195920",
+      "required": true
+    },
+    {
+      "path": "数据/回执/CONTENT-001/V1/发布回执.json",
+      "commit": "5ff4976c0fc3b6cc88681f73394dd7b1152980e1",
+      "required": true
+    }
+  ],
+  "locked_old_title": "低饱和秋妆显灰？通勤只改3处",
+  "actual_public_title": "低饱和秋妆显灰？出门只改3处",
+  "exact_delta": "通勤 → 出门",
+  "unchanged_scope": {
+    "body_fixed_commit": "cfe82ca46022a67529c36eb0d8298c92bc6c8bb5",
+    "visual_commit": "1fbafe7dc00bfdc3048a107a29116f64f077e90c",
+    "persona_lock": "批准/PERSONA-001/LOCK-V2.json",
+    "page_order": ["P1","P2","P3","P4"]
+  },
+  "instructions": [
+    "仅复审标题变化本身，不重新审核未变的正文、图片、页序和人物。",
+    "重点判断“出门只改3处”是否仍被原正文与4页图片兑现，是否新增事实、误导、风险或与主题不一致。",
+    "若在同一个原审核聊天中执行，可使用该聊天已经看到的C最终4张实际图片；不得要求重新生成图片。",
+    "若当前聊天已无法看到原C最终实际图片，则按角色硬规则BLOCKED并要求用户重新上传同一4张C最终原图；不得凭哈希做像素判断。",
+    "输出只能PASS/FAIL/BLOCKED；PASS后交总监创建CONTENT LOCK-V2做发布后版本对账。",
+    "本任务不改变已发生的发布事实，也不计图片返修轮次。"
+  ],
+  "deliverables": [
+    "产物/审核/CONTENT-001/V2/标题差异审核报告.md",
+    "产物/审核/CONTENT-001/V2/交付.json"
+  ],
+  "max_rework_rounds": 0,
+  "next_condition": "PASS后由总监创建CONTENT LOCK-V2；FAIL则由总监决定是否要求用户修改已发布标题。"
+}
