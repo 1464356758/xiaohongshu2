@@ -1,0 +1,22 @@
+{
+  "project_id": "XHS-BEAUTY-002",
+  "role": "总监",
+  "task_id": "CONTENT-002",
+  "input_revision": 4,
+  "version": "V5",
+  "action": "LOCK_WITH_USER_CARRIED_MEDIA_AND_ENTER_PUBLISH_PREP",
+  "result": "PUBLISH_PREP",
+  "audit_fixed_commit": "8b0af7770914db1fc48153a5db061025dffc4a25",
+  "director_approval": "批准/CONTENT-002/V6/最终发布许可.md",
+  "director_approval_commit": "04dad0b315f2b99246d7dd7e3876c9a1a72ac0e4",
+  "content_lock": "批准/CONTENT-002/LOCK-V2.json",
+  "content_lock_commit": "d9ed99528a586032a26b7872e7fe3f0ab23fbf5c",
+  "publish_task": "任务/CONTENT-002/V6/任务.json",
+  "publish_task_commit": "4ba0b00cb10c75e44cf674af892e239fe4186b07",
+  "progress_commit": "15453a2a66aed2691bab3bb59dd9c78b6faa3eac",
+  "media_delivery_mode": "USER_CARRIED_FINAL_MEDIA",
+  "repo_binary_assets_present": false,
+  "old_lock_v1_assets_forbidden": true,
+  "next_role": "发布与社群运营",
+  "next_action": "生成发布包；需要实际图片时直接让用户上传P1-P4，不再要求GitHub二进制回写。"
+}
