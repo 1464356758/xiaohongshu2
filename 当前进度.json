@@ -1,13 +1,13 @@
 {
   "project_id": "XHS-BEAUTY-002",
   "system_version": "2.2",
-  "revision": 13,
-  "handoff_epoch": 13,
+  "revision": 14,
+  "handoff_epoch": 14,
   "stage": "CONTENT",
   "status": "READY_FOR_HOT_RESEARCH",
   "current_task": "CONTENT-002",
-  "task_path": "任务/CONTENT-002/V4/任务.json",
-  "current_input_revision": 3,
+  "task_path": "任务/CONTENT-002/V5/任务.json",
+  "current_input_revision": 4,
   "current_pipeline_step": "HOT_RESEARCH",
   "account_registration_status": "REGISTERED",
   "publish_status": "PUBLISHED_CONFIRMED",
@@ -18,15 +18,17 @@
   "active_content_lock": "批准/CONTENT-001/LOCK-V2.json",
   "content_002_reset": {
     "approval_path": "批准/CONTENT-002/V3/推倒重启批准.md",
-    "new_task": "任务/CONTENT-002/V4/任务.json",
+    "base_task": "任务/CONTENT-002/V4/任务.json",
+    "current_task": "任务/CONTENT-002/V5/任务.json",
     "old_versions_status": "HISTORICAL_DO_NOT_PUBLISH",
     "old_lock": "批准/CONTENT-002/LOCK-V1.json",
     "old_lock_status": "HISTORICAL_DO_NOT_PUBLISH"
   },
   "content_policy": {
-    "protocol": "系统/真人感美妆内容运营协议V2.2-P3.md",
+    "human_style_protocol": "系统/真人感美妆内容运营协议V2.2-P3.md",
+    "effect_summary_protocol": "系统/产品效果与用户体验归纳协议V2.2-P4.md",
     "status": "ACTIVE",
-    "summary": "真人感、生活化、混合人物与产品素材；不把画面做成AI免责声明模板；不虚构购买、亲测、合作和现实身份事实。"
+    "summary": "热门产品允许基于多样本真实反馈写妆效、质地、优缺点和使用体验总结；不得把外部体验伪装成账号亲测。"
   },
   "parallel_tasks": [
     {
@@ -42,13 +44,13 @@
   "next_actions": [
     {
       "role": "热点与竞品研究员",
-      "action": "执行CONTENT-002 V4：重新找至少5个热门美妆产品，每个观察8至12条近期热门/代表性内容，拆拍法、角度、是否露脸、用户关注点和真实素材来源，最终给1主选+2备选。"
+      "action": "执行CONTENT-002 V5：按V4继续找至少5个热门产品、每个观察8至12条内容，并新增多样本效果归纳，记录优点、槽点、肤感、妆效、持妆倾向和分歧。"
     },
     {
       "role": "内容策划",
-      "action": "热点主选确定后，按人物/产品自由组合原则重新策划第二篇，不套旧CONTENT-002版式。"
+      "action": "热点主选确定后，可正常安排产品效果、优缺点和适用人群内容，不因账号未购买就一律禁写效果。"
     }
   ],
-  "updated_at": "2026-09-22T14:55:00+08:00",
-  "note": "CONTENT-002已完整推倒重启。旧V1/V2/V3与LOCK-V1全部仅保留历史且不可发布。以后CONTENT默认读取P3真人感运营协议与视觉规范V4。"
+  "updated_at": "2026-09-22T15:05:00+08:00",
+  "note": "CONTENT-002升级到V5。允许基于真实多样本反馈自然写产品效果与体验总结，但不把他人体验改写成账号亲测或虚构使用时长。"
 }
