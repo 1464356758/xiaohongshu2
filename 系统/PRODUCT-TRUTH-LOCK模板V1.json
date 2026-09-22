@@ -1,0 +1,92 @@
+{
+  "content_id": "CONTENT-xxx",
+  "lock_type": "PRODUCT_TRUTH",
+  "lock_version": "V1",
+  "status": "LOCKED",
+  "created_at": null,
+  "brand": {
+    "cn": null,
+    "en": null
+  },
+  "series": {
+    "cn": null,
+    "en": null
+  },
+  "product": {
+    "cn": null,
+    "en": null,
+    "type": null,
+    "edition_or_generation": null,
+    "market_region": null
+  },
+  "official_references": [
+    {
+      "level": "A",
+      "source_type": "brand_official",
+      "url": null,
+      "accessed_at": null,
+      "supports": []
+    },
+    {
+      "level": "A_OR_B",
+      "source_type": null,
+      "url": null,
+      "accessed_at": null,
+      "supports": []
+    }
+  ],
+  "sku_list": [
+    {
+      "sku_code": null,
+      "shade_name_cn": null,
+      "shade_name_en": null,
+      "market_region": null,
+      "package_front_reference": null,
+      "package_open_reference": null,
+      "visual_fingerprint": {
+        "outer_case_color": null,
+        "outer_case_theme": null,
+        "logo_position": null,
+        "open_structure": null,
+        "pan_or_component_count": null,
+        "layout": null,
+        "key_identifiers": []
+      },
+      "official_color_description": null,
+      "allowed_claims": [],
+      "forbidden_confusions": []
+    }
+  ],
+  "user_feedback_binding": {
+    "target_product_exact": true,
+    "sample_count": null,
+    "positive_patterns": [],
+    "negative_patterns": [],
+    "disagreements": [],
+    "excluded_wrong_series_samples": []
+  },
+  "product_truth_package": {
+    "report_path": null,
+    "sources_path": null,
+    "visual_fingerprint_path": null,
+    "fixed_commit": null
+  },
+  "independent_fact_audit": {
+    "report_path": null,
+    "fixed_commit": null,
+    "result": "PASS",
+    "checks": {
+      "BRAND_MATCH": "PASS",
+      "SERIES_MATCH": "PASS",
+      "PRODUCT_MATCH": "PASS",
+      "MARKET_VARIANT_MATCH": "PASS",
+      "SKU_NAME_MATCH": "PASS",
+      "PACKAGE_FRONT_MATCH": "PASS",
+      "PACKAGE_OPEN_MATCH": "PASS",
+      "PAN_LAYOUT_MATCH": "PASS",
+      "CLAIM_SOURCE_MATCH": "PASS",
+      "USER_FEEDBACK_TARGET_MATCH": "PASS"
+    }
+  },
+  "production_rule": "策划/文案/A/B/C/最终审核只能使用本LOCK内产品身份、视觉指纹和允许结论；任一冲突立即HARD STOP。"
+}
