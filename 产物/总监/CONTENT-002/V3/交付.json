@@ -1,0 +1,35 @@
+{
+  "project_id": "XHS-BEAUTY-002",
+  "role": "总监",
+  "task_id": "CONTENT-002",
+  "input_revision": 3,
+  "version": "V3",
+  "action": "FULL_RESET_AND_REISSUE",
+  "result": "READY_FOR_HOT_RESEARCH",
+  "reset_approval": "批准/CONTENT-002/V3/推倒重启批准.md",
+  "reset_approval_commit": "e85bc3639944c5436a9b0da86ec0d140a5746f78",
+  "new_task": "任务/CONTENT-002/V4/任务.json",
+  "new_task_commit": "f7a9000837ec47e161b3d339602051a96633ef7d",
+  "human_style_protocol": "系统/真人感美妆内容运营协议V2.2-P3.md",
+  "human_style_protocol_commit": "8a7e7f347579cee07cabaa7bc0d48f4dd5cc93ae",
+  "visual_spec": "正式/视觉规范/V4.md",
+  "visual_spec_commit": "f4e7b28e411a75b85719488e540c65f355b960bc",
+  "progress_commit": "d0d7b504586a4a783ba8681df9b1836ea6288af5",
+  "old_content_002": {
+    "V1": "HISTORICAL_DO_NOT_PUBLISH",
+    "V2": "HISTORICAL_DO_NOT_PUBLISH",
+    "V3": "HISTORICAL_DO_NOT_PUBLISH",
+    "LOCK-V1": "HISTORICAL_DO_NOT_PUBLISH"
+  },
+  "long_term_rules": [
+    "人物可有可无，按内容需要自由组合",
+    "真实产品图可抠图、裁切、排版、组合",
+    "热门贴主要研究拍法、角度、页面结构和用户关注点",
+    "真实用户评价可多样本归纳，不把他人体验写成账号亲测",
+    "图内不默认堆AI/非真实免责声明",
+    "服装动作场景构图持续轮换",
+    "不虚构购买、使用、亲测、品牌合作或现实身份事实"
+  ],
+  "next_role": "热点与竞品研究员",
+  "next_action": "执行CONTENT-002 V4，从头重新找热门产品：至少5个候选，每个观察8至12条近期热门/代表性内容，最终给1主选+2备选。"
+}
