@@ -1,0 +1,1146 @@
+{
+  "project_id": "XHS-BEAUTY-002",
+  "task_id": "CONTENT-002",
+  "task_version": "V5",
+  "input_revision": 4,
+  "observed_at": "2026-09-22T16:20:00+08:00",
+  "timezone": "Asia/Shanghai",
+  "sample_count": {
+    "candidates": 5,
+    "per_candidate": 10,
+    "total": 50
+  },
+  "methodology": {
+    "xhs_primary": true,
+    "unknown_not_filled": true,
+    "visual_access_note": "小红书匿名网页不稳定，未能直接读取的首图/角度/页数保留unknown；仅按公开标题、索引、预览或聚合信息做可验证拆解。",
+    "effect_rule": "允许基于多样本归纳妆效/质地/优缺点/持妆倾向；不得把外部体验改写为账号亲历。",
+    "user_asset_rule": "用户图/长评论直接进成品需适当许可或使用依据；默认只研究拍法和做多样本归纳。"
+  },
+  "sources": [
+    {
+      "id": "S01",
+      "name": "花知晓雪花芭蕾首发讨论",
+      "url": "https://post.smzdm.com/p/apqvz5k0/"
+    },
+    {
+      "id": "S02",
+      "name": "花知晓雪花芭蕾预览讨论",
+      "url": "https://post.smzdm.com/p/a950nole/"
+    },
+    {
+      "id": "S03",
+      "name": "花知晓雪花芭蕾实物/路透层级讨论",
+      "url": "https://post.smzdm.com/p/a70n9335/"
+    },
+    {
+      "id": "S04",
+      "name": "花知晓官方有赞旗舰店 雪花芭蕾六色丝缎眼影盘",
+      "url": "https://detail.youzan.com/show/goods?alias=3ngx1ng5otjfukw&from_source=gbox_seo"
+    },
+    {
+      "id": "S05",
+      "name": "亿邦/新浪财经 花知晓雪花芭蕾发布",
+      "url": "https://finance.sina.com.cn/tech/roll/2026-09-15/doc-inirwfqh3763529.shtml"
+    },
+    {
+      "id": "S06",
+      "name": "Flower Knows Official",
+      "url": "https://flowerknows.co/"
+    },
+    {
+      "id": "S10",
+      "name": "珀莱雅V气垫近期内容汇总",
+      "url": "https://post.smzdm.com/p/arzqqkr7/"
+    },
+    {
+      "id": "S11",
+      "name": "珀莱雅官网",
+      "url": "https://www.proya.com/"
+    },
+    {
+      "id": "S20",
+      "name": "酵色香槟新色真实吐槽/反馈",
+      "url": "https://post.smzdm.com/p/a95gwzxe/"
+    },
+    {
+      "id": "S21",
+      "name": "酵色570等22篇试色/80条评论",
+      "url": "https://post.smzdm.com/p/apqv8762/"
+    },
+    {
+      "id": "S22",
+      "name": "酵色色号相似度地图",
+      "url": "https://post.smzdm.com/p/a4qdg897/"
+    },
+    {
+      "id": "S23",
+      "name": "JOOCYEE官方 Long-Lasting Glossy Rouge 2.0",
+      "url": "https://joocyee.com/products/lasting-glossy-rouge-2-0"
+    },
+    {
+      "id": "S30",
+      "name": "毛戈平花花联名当前讨论",
+      "url": "https://post.smzdm.com/p/aggqz4ew/"
+    },
+    {
+      "id": "S31",
+      "name": "毛戈平官网 幻花柔光清透气垫粉底液",
+      "url": "https://www.maogepingbeauty.com/makeup/304.html"
+    },
+    {
+      "id": "S40",
+      "name": "兰蔻是我气垫9月清仓/口碑",
+      "url": "https://post.smzdm.com/p/axkz4wx9/"
+    },
+    {
+      "id": "S41",
+      "name": "兰蔻中国官网",
+      "url": "https://www.lancome.com.cn/"
+    }
+  ],
+  "candidates": [
+    {
+      "id": "C1",
+      "decision": "MAIN",
+      "brand": "Flower Knows 花知晓",
+      "product": "雪花芭蕾六色丝缎眼影盘",
+      "focus": "03 水晶球",
+      "heat_types": [
+        "新品发布",
+        "小红书内容互动",
+        "直播",
+        "包装争议"
+      ],
+      "asset_sources": [
+        "S04",
+        "S06"
+      ],
+      "asset_availability": "HIGH",
+      "frequent_questions": [
+        "实物是否比路透好看",
+        "三盘怎么选",
+        "03蓝盘普通人/通勤能不能画",
+        "是否与旧盘重复",
+        "粉质显色是否值得"
+      ],
+      "effect_summary": {
+        "finish": "清冷蓝灰/银蓝闪，高存在感",
+        "pigmentation": "高互动样本称显色同时仍有透亮感",
+        "texture": "早期正向反馈较多但样本偏提前拿货创作者",
+        "wear": "飞粉/积线/精确持妆证据不足",
+        "pros": [
+          "配色辨识度高",
+          "眼妆成片强"
+        ],
+        "cons": [
+          "日常门槛较高",
+          "包装争议大"
+        ],
+        "divergence": "包装负评强，但眼影单品相对更受认可"
+      },
+      "observations": [
+        {
+          "id": "F01",
+          "title": "怎么又是芭蕾",
+          "date": "2026-09-02",
+          "platform": "小红书",
+          "cover_type": "产品预览/争议",
+          "shoot_angle": "unknown",
+          "face_presence": "unknown",
+          "person_ratio": "unknown",
+          "product_ratio": "medium-high",
+          "structure": "预览争议",
+          "save_point": "元素重复",
+          "comment_questions": "为什么又是芭蕾",
+          "visual_confidence": "inferred",
+          "note": ""
+        },
+        {
+          "id": "F02",
+          "title": "花知晓新品真是两眼一黑",
+          "date": "2026-09-08",
+          "platform": "小红书",
+          "cover_type": "产品预览/争议",
+          "shoot_angle": "unknown",
+          "face_presence": "unknown",
+          "person_ratio": "unknown",
+          "product_ratio": "medium-high",
+          "structure": "负向情绪",
+          "save_point": "包装审美",
+          "comment_questions": "实物会不会翻盘",
+          "visual_confidence": "inferred",
+          "note": ""
+        },
+        {
+          "id": "F03",
+          "title": "花知晓新品会是第二个贝壳系列吗",
+          "date": "2026-09-08",
+          "platform": "小红书",
+          "cover_type": "对比型",
+          "shoot_angle": "unknown",
+          "face_presence": "unknown",
+          "person_ratio": "unknown",
+          "product_ratio": "medium-high",
+          "structure": "新旧系列比较",
+          "save_point": "工艺/系列对比",
+          "comment_questions": "质感能否复刻",
+          "visual_confidence": "inferred",
+          "note": ""
+        },
+        {
+          "id": "F04",
+          "title": "从疯狂all in到观望…",
+          "date": "2026-09-08",
+          "platform": "小红书",
+          "cover_type": "产品+观点",
+          "shoot_angle": "unknown",
+          "face_presence": "unknown",
+          "person_ratio": "unknown",
+          "product_ratio": "medium",
+          "structure": "购买态度",
+          "save_point": "老用户决策",
+          "comment_questions": "还值不值得all in",
+          "visual_confidence": "inferred",
+          "note": ""
+        },
+        {
+          "id": "F05",
+          "title": "雪花芭蕾系列高清图汇总来",
+          "date": "2026-09-10",
+          "platform": "小红书",
+          "cover_type": "产品主导",
+          "shoot_angle": "高清产品汇总",
+          "face_presence": "否/低",
+          "person_ratio": "low",
+          "product_ratio": "high",
+          "structure": "产品图汇总",
+          "save_point": "看清包装",
+          "comment_questions": "哪盘实物最好看",
+          "visual_confidence": "inferred",
+          "note": ""
+        },
+        {
+          "id": "F06",
+          "title": "怎么好像突然变好看了",
+          "date": "2026-09-10",
+          "platform": "小红书",
+          "cover_type": "高清图/反差",
+          "shoot_angle": "unknown",
+          "face_presence": "unknown",
+          "person_ratio": "unknown",
+          "product_ratio": "high",
+          "structure": "反差",
+          "save_point": "路透vs高清",
+          "comment_questions": "是实物更好还是精修",
+          "visual_confidence": "inferred",
+          "note": ""
+        },
+        {
+          "id": "F07",
+          "title": "好看和好难看里反复仰卧起坐",
+          "date": "2026-09-10",
+          "platform": "小红书",
+          "cover_type": "产品/对比",
+          "shoot_angle": "unknown",
+          "face_presence": "unknown",
+          "person_ratio": "unknown",
+          "product_ratio": "high",
+          "structure": "审美争议",
+          "save_point": "正反观点",
+          "comment_questions": "到底哪件好看",
+          "visual_confidence": "inferred",
+          "note": ""
+        },
+        {
+          "id": "F08",
+          "title": "花知晓冰冻了我的心",
+          "date": "2026-09-11",
+          "platform": "小红书",
+          "cover_type": "包装/材质",
+          "shoot_angle": "unknown",
+          "face_presence": "unknown",
+          "person_ratio": "low",
+          "product_ratio": "high",
+          "structure": "设计吐槽",
+          "save_point": "材质与创新",
+          "comment_questions": "塑料感/元素重复",
+          "visual_confidence": "inferred",
+          "note": ""
+        },
+        {
+          "id": "F09",
+          "title": "这次真被花知晓背刺了！",
+          "date": "2026-09-14",
+          "platform": "小红书",
+          "cover_type": "产品+观点",
+          "shoot_angle": "unknown",
+          "face_presence": "unknown",
+          "person_ratio": "unknown",
+          "product_ratio": "high",
+          "structure": "发布期争议",
+          "save_point": "争议决策",
+          "comment_questions": "正式图是否降级",
+          "visual_confidence": "inferred",
+          "note": ""
+        },
+        {
+          "id": "F10",
+          "title": "天鹅湖下雪了！完全美到我心里了",
+          "date": "2026-09-14",
+          "platform": "小红书",
+          "cover_type": "产品/氛围",
+          "shoot_angle": "unknown",
+          "face_presence": "unknown",
+          "person_ratio": "unknown",
+          "product_ratio": "high",
+          "structure": "正向实物",
+          "save_point": "实物审美",
+          "comment_questions": "实物是否比路透好",
+          "visual_confidence": "inferred",
+          "note": "另有03蓝盘教程约2390赞/1021藏公开索引"
+        }
+      ]
+    },
+    {
+      "id": "C2",
+      "decision": "BACKUP_1",
+      "brand": "PROYA 珀莱雅",
+      "product": "立体光塑V气垫",
+      "heat_types": [
+        "换季底妆",
+        "内容互动",
+        "色号选择"
+      ],
+      "asset_sources": [
+        "S11"
+      ],
+      "asset_availability": "MEDIUM_HIGH",
+      "frequent_questions": [
+        "V气垫和夜气垫怎么选",
+        "干皮/油皮选哪个",
+        "N0/O1/N1.5怎么选",
+        "遮瑕够不够",
+        "等不等双11"
+      ],
+      "effect_summary": {
+        "finish": "轻薄水光/柔光取向",
+        "coverage": "多样本认为遮瑕不是强项",
+        "shade": "N0偏白/偏灰风险反复出现，O1更常被黄一白询问",
+        "wear": "高赞商单密度高，持妆不做无条件结论",
+        "pros": [
+          "换季干皮妆效",
+          "薄透"
+        ],
+        "cons": [
+          "重瑕疵遮盖弱",
+          "色号需要谨慎"
+        ],
+        "divergence": "干皮与混油/油皮反馈差异明显"
+      },
+      "observations": [
+        {
+          "id": "P01",
+          "title": "换季不纠结！底妆稳稳的～",
+          "date": "2026-09-10",
+          "platform": "小红书",
+          "cover_type": "人物/底妆或产品",
+          "shoot_angle": "unknown",
+          "face_presence": "unknown",
+          "person_ratio": "unknown",
+          "product_ratio": "unknown",
+          "structure": "换季问题",
+          "save_point": "换季稳定",
+          "comment_questions": "会不会卡粉",
+          "visual_confidence": "inferred",
+          "note": ""
+        },
+        {
+          "id": "P02",
+          "title": "珀莱雅做底妆也是第一？？！！",
+          "date": "2026-09-11",
+          "platform": "小红书",
+          "cover_type": "产品/底妆",
+          "shoot_angle": "unknown",
+          "face_presence": "unknown",
+          "person_ratio": "unknown",
+          "product_ratio": "unknown",
+          "structure": "品牌反差",
+          "save_point": "新品认知",
+          "comment_questions": "珀莱雅居然有气垫",
+          "visual_confidence": "inferred",
+          "note": ""
+        },
+        {
+          "id": "P03",
+          "title": "V气垫干皮新品榜TOP1相关帖",
+          "date": "2026-09-11",
+          "platform": "小红书",
+          "cover_type": "产品+榜单话术",
+          "shoot_angle": "unknown",
+          "face_presence": "unknown",
+          "person_ratio": "low",
+          "product_ratio": "high",
+          "structure": "榜单/种草",
+          "save_point": "干皮选择",
+          "comment_questions": "榜单是否官方",
+          "visual_confidence": "inferred",
+          "note": "公开约2149赞/804藏；榜单话术不作为官方事实"
+        },
+        {
+          "id": "P04",
+          "title": "长白山/机舱干燥场景实测",
+          "date": "2026-09-14",
+          "platform": "小红书",
+          "cover_type": "场景+底妆",
+          "shoot_angle": "unknown",
+          "face_presence": "可能",
+          "person_ratio": "medium-high",
+          "product_ratio": "medium",
+          "structure": "场景实测",
+          "save_point": "极干环境",
+          "comment_questions": "会不会拔干",
+          "visual_confidence": "aggregated",
+          "note": ""
+        },
+        {
+          "id": "P05",
+          "title": "V气垫vs夜气垫同框盘点",
+          "date": "2026-09-16",
+          "platform": "小红书",
+          "cover_type": "双产品对比",
+          "shoot_angle": "并排/桌面",
+          "face_presence": "unknown",
+          "person_ratio": "low",
+          "product_ratio": "high",
+          "structure": "对比",
+          "save_point": "两款怎么选",
+          "comment_questions": "V还是夜气垫",
+          "visual_confidence": "aggregated",
+          "note": "约628赞/287藏"
+        },
+        {
+          "id": "P06",
+          "title": "双11/机制相关V气垫内容",
+          "date": "2026-09-17",
+          "platform": "小红书",
+          "cover_type": "产品+机制",
+          "shoot_angle": "unknown",
+          "face_presence": "unknown",
+          "person_ratio": "low",
+          "product_ratio": "high",
+          "structure": "买入时点",
+          "save_point": "价格/机制",
+          "comment_questions": "现在买还是等",
+          "visual_confidence": "aggregated",
+          "note": ""
+        },
+        {
+          "id": "P07",
+          "title": "V气垫全色号盘点",
+          "date": "2026-09-20",
+          "platform": "小红书",
+          "cover_type": "产品+色号卡",
+          "shoot_angle": "平拍/色卡",
+          "face_presence": "unknown",
+          "person_ratio": "low",
+          "product_ratio": "high",
+          "structure": "色号指南",
+          "save_point": "色号选择",
+          "comment_questions": "评论集中问色号",
+          "visual_confidence": "aggregated",
+          "note": ""
+        },
+        {
+          "id": "P08",
+          "title": "N0早期实测",
+          "date": "2026-05-18",
+          "platform": "小红书",
+          "cover_type": "局部/底妆",
+          "shoot_angle": "unknown",
+          "face_presence": "可能",
+          "person_ratio": "medium",
+          "product_ratio": "medium",
+          "structure": "色号实测",
+          "save_point": "N0风险",
+          "comment_questions": "会不会太白/发灰",
+          "visual_confidence": "aggregated",
+          "note": ""
+        },
+        {
+          "id": "P09",
+          "title": "V气垫早期用户实测",
+          "date": "2026-05-30",
+          "platform": "小红书",
+          "cover_type": "unknown",
+          "shoot_angle": "unknown",
+          "face_presence": "unknown",
+          "person_ratio": "unknown",
+          "product_ratio": "unknown",
+          "structure": "新品期体验",
+          "save_point": "早期口碑",
+          "comment_questions": "妆效如何",
+          "visual_confidence": "index",
+          "note": ""
+        },
+        {
+          "id": "P10",
+          "title": "混油皮负向体验样本",
+          "date": "2026-05",
+          "platform": "小红书",
+          "cover_type": "底妆/人物",
+          "shoot_angle": "unknown",
+          "face_presence": "unknown",
+          "person_ratio": "unknown",
+          "product_ratio": "unknown",
+          "structure": "反例",
+          "save_point": "肤质分流",
+          "comment_questions": "遮瑕是否太轻",
+          "visual_confidence": "aggregated",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "C3",
+      "decision": "BACKUP_2",
+      "brand": "JOOCYEE 酵色",
+      "product": "香槟低语固体唇蜜 568/569/570/571",
+      "heat_types": [
+        "新色",
+        "试色内容",
+        "相似色对比"
+      ],
+      "asset_sources": [
+        "S23"
+      ],
+      "asset_availability": "HIGH",
+      "frequent_questions": [
+        "四色怎么选",
+        "黄皮深唇能不能涂570",
+        "571是否太挑人",
+        "569会不会显灰",
+        "像不像高价色",
+        "黏不黏/沾不沾/气味如何"
+      ],
+      "effect_summary": {
+        "finish": "水亮/碎闪唇妆",
+        "shade": "570最常被问且相对日常；571更挑妆容；569冷灰棕踩雷风险高；568较稳",
+        "texture": "黏嘴/油味/香味评价两极",
+        "wear": "不支持精确持妆或不沾杯强结论",
+        "pros": [
+          "色号氛围感强",
+          "570讨论高"
+        ],
+        "cons": [
+          "近色多",
+          "部分色号挑唇色",
+          "质地体验分歧"
+        ],
+        "divergence": "黏腻、沾杯、气味分歧明显"
+      },
+      "observations": [
+        {
+          "id": "J01",
+          "title": "上新 | 一杯香槟酒打开Happy hour",
+          "date": "2026-09-01",
+          "platform": "小红书",
+          "cover_type": "产品主导",
+          "shoot_angle": "产品静物/氛围",
+          "face_presence": "低/无",
+          "person_ratio": "low",
+          "product_ratio": "high",
+          "structure": "新品入口",
+          "save_point": "四色认知",
+          "comment_questions": "新色有哪些",
+          "visual_confidence": "inferred",
+          "note": ""
+        },
+        {
+          "id": "J02",
+          "title": "酵色新色！老钱味溢出",
+          "date": "2026-09-01/02",
+          "platform": "小红书",
+          "cover_type": "产品+试色",
+          "shoot_angle": "unknown",
+          "face_presence": "局部可能",
+          "person_ratio": "low-medium",
+          "product_ratio": "high",
+          "structure": "氛围+选色",
+          "save_point": "四色怎么选",
+          "comment_questions": "哪支最日常",
+          "visual_confidence": "aggregated",
+          "note": "约1500赞/700藏"
+        },
+        {
+          "id": "J03",
+          "title": "太像了",
+          "date": "2026-09-01",
+          "platform": "小红书",
+          "cover_type": "对比型",
+          "shoot_angle": "并排",
+          "face_presence": "unknown",
+          "person_ratio": "low",
+          "product_ratio": "high",
+          "structure": "近色对比",
+          "save_point": "撞色辨别",
+          "comment_questions": "像哪支旧色",
+          "visual_confidence": "inferred",
+          "note": ""
+        },
+        {
+          "id": "J04",
+          "title": "气泡香槟碎闪美得好突出",
+          "date": "2026-09-05",
+          "platform": "小红书",
+          "cover_type": "局部/产品",
+          "shoot_angle": "微距/斜光",
+          "face_presence": "局部unknown",
+          "person_ratio": "low-medium",
+          "product_ratio": "medium-high",
+          "structure": "碎闪细节",
+          "save_point": "闪片效果",
+          "comment_questions": "会不会夸张",
+          "visual_confidence": "inferred",
+          "note": ""
+        },
+        {
+          "id": "J05",
+          "title": "571试色…569更适合我",
+          "date": "2026-09-05",
+          "platform": "小红书",
+          "cover_type": "试色局部",
+          "shoot_angle": "嘴唇/局部",
+          "face_presence": "局部",
+          "person_ratio": "low-medium",
+          "product_ratio": "medium",
+          "structure": "两色选择",
+          "save_point": "肤色适配",
+          "comment_questions": "571还是569",
+          "visual_confidence": "inferred",
+          "note": ""
+        },
+        {
+          "id": "J06",
+          "title": "绝美固体唇蜜新色全试色",
+          "date": "2026-09-06",
+          "platform": "小红书",
+          "cover_type": "多色矩阵",
+          "shoot_angle": "局部/色卡",
+          "face_presence": "局部unknown",
+          "person_ratio": "low-medium",
+          "product_ratio": "high",
+          "structure": "全色试色",
+          "save_point": "四色选择",
+          "comment_questions": "怎么选",
+          "visual_confidence": "inferred",
+          "note": ""
+        },
+        {
+          "id": "J07",
+          "title": "香香90 vs 小酵570",
+          "date": "2026-09-06",
+          "platform": "小红书",
+          "cover_type": "双产品对比",
+          "shoot_angle": "并排",
+          "face_presence": "局部unknown",
+          "person_ratio": "low-medium",
+          "product_ratio": "high",
+          "structure": "相似色",
+          "save_point": "平替/相似度",
+          "comment_questions": "像不像90",
+          "visual_confidence": "inferred",
+          "note": ""
+        },
+        {
+          "id": "J08",
+          "title": "坚持真实试色｜第364天",
+          "date": "2026-09-06",
+          "platform": "小红书",
+          "cover_type": "试色局部",
+          "shoot_angle": "原相机/局部",
+          "face_presence": "局部",
+          "person_ratio": "low-medium",
+          "product_ratio": "medium",
+          "structure": "真实试色",
+          "save_point": "色差",
+          "comment_questions": "滤镜影响",
+          "visual_confidence": "inferred",
+          "note": ""
+        },
+        {
+          "id": "J09",
+          "title": "黄皮深唇素颜的显贵气血感",
+          "date": "2026-09-07",
+          "platform": "小红书",
+          "cover_type": "唇部/半脸",
+          "shoot_angle": "上嘴局部",
+          "face_presence": "可能",
+          "person_ratio": "medium",
+          "product_ratio": "medium",
+          "structure": "人群适配",
+          "save_point": "黄皮深唇",
+          "comment_questions": "素颜能不能涂",
+          "visual_confidence": "inferred",
+          "note": ""
+        },
+        {
+          "id": "J10",
+          "title": "避雷酵色固体唇蜜",
+          "date": "2026-08-09",
+          "platform": "小红书",
+          "cover_type": "产品/体验",
+          "shoot_angle": "unknown",
+          "face_presence": "unknown",
+          "person_ratio": "unknown",
+          "product_ratio": "unknown",
+          "structure": "负向样本",
+          "save_point": "槽点",
+          "comment_questions": "黏嘴/沾杯/气味",
+          "visual_confidence": "inferred",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "C4",
+      "decision": "CANDIDATE",
+      "brand": "MAOGEPING 毛戈平",
+      "product": "花花联名气垫",
+      "heat_types": [
+        "IP联名",
+        "直播/渠道",
+        "用户讨论"
+      ],
+      "asset_sources": [
+        "S31"
+      ],
+      "asset_availability": "HIGH",
+      "frequent_questions": [
+        "101还是102",
+        "会不会偏白",
+        "遮瑕够不够",
+        "状态差会不会斑驳",
+        "干皮/中性皮适配",
+        "渠道价差"
+      ],
+      "effect_summary": {
+        "finish": "清透柔光/原生妆感",
+        "texture": "官方为水薄轻盈",
+        "coverage": "轻薄隐瑕，重瑕疵不是主打",
+        "shade": "101/102选择问题高频",
+        "wear": "部分用户状态差时斑驳，不能普遍化",
+        "pros": [
+          "包装/IP强",
+          "柔光轻薄"
+        ],
+        "cons": [
+          "遮瑕有限",
+          "色号少/偏白风险"
+        ],
+        "divergence": "有人润贴自然，有人觉得假白/斑驳"
+      },
+      "observations": [
+        {
+          "id": "M01",
+          "title": "蜡黄脸快速换皮的邪修气垫",
+          "date": "2026-09-10",
+          "platform": "小红书",
+          "cover_type": "底妆结果+产品",
+          "shoot_angle": "上脸/局部",
+          "face_presence": "可能",
+          "person_ratio": "medium",
+          "product_ratio": "medium",
+          "structure": "结果钩子",
+          "save_point": "妆前后",
+          "comment_questions": "黄气/妆效变化",
+          "visual_confidence": "inferred",
+          "note": ""
+        },
+        {
+          "id": "M02",
+          "title": "毛戈平新出的气垫好用吗？",
+          "date": "2026-09-11",
+          "platform": "小红书",
+          "cover_type": "产品/体验",
+          "shoot_angle": "unknown",
+          "face_presence": "unknown",
+          "person_ratio": "unknown",
+          "product_ratio": "unknown",
+          "structure": "直接提问",
+          "save_point": "真实反馈",
+          "comment_questions": "到底好不好用",
+          "visual_confidence": "inferred",
+          "note": ""
+        },
+        {
+          "id": "M03",
+          "title": "毛戈平柜姐求业绩～",
+          "date": "2026-09-13",
+          "platform": "小红书",
+          "cover_type": "柜台/产品",
+          "shoot_angle": "镜前/柜台",
+          "face_presence": "可能",
+          "person_ratio": "medium",
+          "product_ratio": "medium",
+          "structure": "渠道",
+          "save_point": "赠品/机制",
+          "comment_questions": "怎么买划算",
+          "visual_confidence": "inferred",
+          "note": ""
+        },
+        {
+          "id": "M04",
+          "title": "我不藏了，底妆就是这么简单",
+          "date": "2026-09-12",
+          "platform": "小红书",
+          "cover_type": "人物/底妆",
+          "shoot_angle": "上脸/局部",
+          "face_presence": "可能",
+          "person_ratio": "high",
+          "product_ratio": "medium",
+          "structure": "教程",
+          "save_point": "手法",
+          "comment_questions": "怎么拍才服帖",
+          "visual_confidence": "inferred",
+          "note": ""
+        },
+        {
+          "id": "M05",
+          "title": "毛戈平花花",
+          "date": "2026-09-05",
+          "platform": "小红书",
+          "cover_type": "产品主导",
+          "shoot_angle": "桌面/手拿unknown",
+          "face_presence": "unknown",
+          "person_ratio": "low",
+          "product_ratio": "high",
+          "structure": "联名展示",
+          "save_point": "包装收藏",
+          "comment_questions": "花花哪些值得买",
+          "visual_confidence": "inferred",
+          "note": ""
+        },
+        {
+          "id": "M06",
+          "title": "毛戈平限定花花气垫99",
+          "date": "2026-09-11",
+          "platform": "小红书",
+          "cover_type": "产品+价格",
+          "shoot_angle": "产品实拍/挂单",
+          "face_presence": "低",
+          "person_ratio": "low",
+          "product_ratio": "high",
+          "structure": "二手/价格",
+          "save_point": "价格/色号",
+          "comment_questions": "99元什么状态",
+          "visual_confidence": "inferred",
+          "note": ""
+        },
+        {
+          "id": "M07",
+          "title": "毛戈平花花气垫真实使用感受",
+          "date": "2026-06-13",
+          "platform": "小红书",
+          "cover_type": "产品+上脸",
+          "shoot_angle": "上脸/局部",
+          "face_presence": "可能",
+          "person_ratio": "medium",
+          "product_ratio": "medium",
+          "structure": "真实体验",
+          "save_point": "正反反馈",
+          "comment_questions": "润度/遮瑕/持妆",
+          "visual_confidence": "inferred",
+          "note": ""
+        },
+        {
+          "id": "M08",
+          "title": "毛戈平花花留还是退",
+          "date": "2026-06-13",
+          "platform": "小红书",
+          "cover_type": "产品实拍",
+          "shoot_angle": "unknown",
+          "face_presence": "unknown",
+          "person_ratio": "low",
+          "product_ratio": "high",
+          "structure": "购买决策",
+          "save_point": "留退",
+          "comment_questions": "值不值",
+          "visual_confidence": "inferred",
+          "note": ""
+        },
+        {
+          "id": "M09",
+          "title": "毛戈平粉蓝繁花限定壳",
+          "date": "2026-07-31",
+          "platform": "小红书",
+          "cover_type": "产品主导",
+          "shoot_angle": "产品静物",
+          "face_presence": "低",
+          "person_ratio": "low",
+          "product_ratio": "high",
+          "structure": "包装视觉",
+          "save_point": "限定收藏",
+          "comment_questions": "壳值不值得",
+          "visual_confidence": "inferred",
+          "note": "同品牌限定壳视觉对照"
+        },
+        {
+          "id": "M10",
+          "title": "毛戈平花花系列9.7终于来咯",
+          "date": "2026-09-04",
+          "platform": "小红书",
+          "cover_type": "产品集合",
+          "shoot_angle": "桌面/产品集合",
+          "face_presence": "unknown",
+          "person_ratio": "low",
+          "product_ratio": "high",
+          "structure": "直播节点",
+          "save_point": "系列选择",
+          "comment_questions": "哪件最值得",
+          "visual_confidence": "inferred",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "C5",
+      "decision": "CANDIDATE",
+      "brand": "Lancôme 兰蔻",
+      "product": "是我水光气垫",
+      "heat_types": [
+        "清仓价格",
+        "肤质分歧",
+        "色号/真假/效期"
+      ],
+      "asset_sources": [
+        "S41"
+      ],
+      "asset_availability": "HIGH",
+      "frequent_questions": [
+        "60/90元是否正品",
+        "正装还是替芯",
+        "效期多久",
+        "干皮/混油皮适配",
+        "W10/N10/P10/W20怎么选",
+        "为什么拍不匀"
+      ],
+      "effect_summary": {
+        "finish": "即时清透水光是主要优点",
+        "texture": "水润感强",
+        "coverage": "不是高遮瑕路线",
+        "wear": "多样本倾向即时水光强于长时间稳定",
+        "fit": "干皮正向较多，混油/油皮负向较多",
+        "pros": [
+          "即时水光",
+          "干皮友好反馈多"
+        ],
+        "cons": [
+          "持妆弱/油浮/拍不匀反馈反复出现"
+        ],
+        "divergence": "有人润贴，有人面中鼻翼斑驳；渠道低价又增加真假/效期噪声"
+      },
+      "observations": [
+        {
+          "id": "L01",
+          "title": "495冤枉钱？兰蔻水光气垫",
+          "date": "2026-03-11",
+          "platform": "小红书",
+          "cover_type": "产品+价格/观点",
+          "shoot_angle": "unknown",
+          "face_presence": "unknown",
+          "person_ratio": "low-medium",
+          "product_ratio": "high",
+          "structure": "价值争议",
+          "save_point": "值不值",
+          "comment_questions": "正价是否值得",
+          "visual_confidence": "inferred",
+          "note": "约668赞/132评"
+        },
+        {
+          "id": "L02",
+          "title": "兰蔻新品粉气垫又又又骨折价清仓了",
+          "date": "2026-04-16",
+          "platform": "小红书",
+          "cover_type": "产品+价格",
+          "shoot_angle": "商品/截图",
+          "face_presence": "unknown",
+          "person_ratio": "low",
+          "product_ratio": "high",
+          "structure": "清仓",
+          "save_point": "价格变化",
+          "comment_questions": "为什么这么快清仓",
+          "visual_confidence": "inferred",
+          "note": ""
+        },
+        {
+          "id": "L03",
+          "title": "兰蔻是我水光气垫14g",
+          "date": "2026-07-11",
+          "platform": "小红书",
+          "cover_type": "产品实拍",
+          "shoot_angle": "商品近景",
+          "face_presence": "unknown",
+          "person_ratio": "low",
+          "product_ratio": "high",
+          "structure": "产品/转卖",
+          "save_point": "规格",
+          "comment_questions": "是不是正装",
+          "visual_confidence": "inferred",
+          "note": ""
+        },
+        {
+          "id": "L04",
+          "title": "兰蔻是我气垫避雷！",
+          "date": "2026-07-23",
+          "platform": "小红书",
+          "cover_type": "产品+体验",
+          "shoot_angle": "unknown",
+          "face_presence": "unknown",
+          "person_ratio": "unknown",
+          "product_ratio": "unknown",
+          "structure": "负向体验",
+          "save_point": "避坑",
+          "comment_questions": "什么肤质踩雷",
+          "visual_confidence": "inferred",
+          "note": ""
+        },
+        {
+          "id": "L05",
+          "title": "源400…跳9X…兰蔻是我气垫",
+          "date": "2026-08-01",
+          "platform": "小红书",
+          "cover_type": "产品+价格",
+          "shoot_angle": "商品/截图",
+          "face_presence": "unknown",
+          "person_ratio": "low",
+          "product_ratio": "high",
+          "structure": "低价",
+          "save_point": "真假/渠道",
+          "comment_questions": "为什么只要9X",
+          "visual_confidence": "inferred",
+          "note": ""
+        },
+        {
+          "id": "L06",
+          "title": "风很大的兰蔻这朵玫瑰气垫｜真实测评",
+          "date": "2026-08-25",
+          "platform": "小红书",
+          "cover_type": "产品+上脸",
+          "shoot_angle": "局部/上脸",
+          "face_presence": "可能",
+          "person_ratio": "medium",
+          "product_ratio": "medium",
+          "structure": "正反测评",
+          "save_point": "口碑分歧",
+          "comment_questions": "为什么两极",
+          "visual_confidence": "inferred",
+          "note": ""
+        },
+        {
+          "id": "L07",
+          "title": "兰蔻九月活动",
+          "date": "2026-09-10",
+          "platform": "小红书",
+          "cover_type": "产品/活动",
+          "shoot_angle": "柜台/商品",
+          "face_presence": "unknown",
+          "person_ratio": "low",
+          "product_ratio": "high",
+          "structure": "活动机制",
+          "save_point": "专柜价",
+          "comment_questions": "活动多少",
+          "visual_confidence": "inferred",
+          "note": ""
+        },
+        {
+          "id": "L08",
+          "title": "双11美妆篇预告",
+          "date": "2026-09-16",
+          "platform": "小红书",
+          "cover_type": "机制/信息",
+          "shoot_angle": "信息卡/清单",
+          "face_presence": "低",
+          "person_ratio": "low",
+          "product_ratio": "medium",
+          "structure": "购买时点",
+          "save_point": "什么时候买",
+          "comment_questions": "现在还是双11",
+          "visual_confidence": "inferred",
+          "note": ""
+        },
+        {
+          "id": "L09",
+          "title": "跌至60…兰蔻是我气垫又有了",
+          "date": "2026-09-17",
+          "platform": "小红书",
+          "cover_type": "产品+价格",
+          "shoot_angle": "商品/截图",
+          "face_presence": "unknown",
+          "person_ratio": "low",
+          "product_ratio": "high",
+          "structure": "极低价",
+          "save_point": "真假/效期",
+          "comment_questions": "60元是真的吗",
+          "visual_confidence": "inferred",
+          "note": ""
+        },
+        {
+          "id": "L10",
+          "title": "干皮好物分享",
+          "date": "2026-09-17",
+          "platform": "小红书",
+          "cover_type": "产品+妆效",
+          "shoot_angle": "unknown",
+          "face_presence": "可能",
+          "person_ratio": "unknown",
+          "product_ratio": "unknown",
+          "structure": "肤质正向",
+          "save_point": "干皮适配",
+          "comment_questions": "水光/持妆",
+          "visual_confidence": "aggregated",
+          "note": ""
+        }
+      ]
+    }
+  ],
+  "cross_candidate_findings": {
+    "face_ratio_conclusion": "不固定露脸比例；产品与具体问题优先，完整正脸只是可选表现。",
+    "useful_cover_types": [
+      "真实产品特写+问题",
+      "局部妆效+产品",
+      "多色/多款并排",
+      "争议/反差"
+    ],
+    "useful_shots": [
+      "45度产品照",
+      "桌面俯拍",
+      "开盘微俯拍",
+      "手拿",
+      "眼唇底妆局部",
+      "产品对比",
+      "信息卡"
+    ],
+    "save_drivers": [
+      "色号/配色怎么选",
+      "不同肤质/场景怎么选",
+      "正反口碑怎么理解",
+      "何时买",
+      "哪款最不容易踩雷"
+    ],
+    "comment_drivers": [
+      "肤色/肤质适配",
+      "真实产品与官方图差异",
+      "广告密度与真实反馈",
+      "价格渠道效期",
+      "与旧款是否重复"
+    ]
+  },
+  "final_selection": {
+    "main": "Flower Knows 花知晓 雪花芭蕾六色丝缎眼影盘",
+    "main_hook": "03水晶球蓝盘 + 三盘怎么选 + 包装争议后看单品",
+    "backup_1": "PROYA 珀莱雅 立体光塑V气垫",
+    "backup_2": "JOOCYEE 酵色 香槟低语固体唇蜜"
+  },
+  "next_role": "内容策划AI"
+}
