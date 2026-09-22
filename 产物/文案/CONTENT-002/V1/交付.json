@@ -1,0 +1,80 @@
+{
+  "project_id": "XHS-BEAUTY-002",
+  "task_id": "CONTENT-002",
+  "input_revision": 1,
+  "role": "文案脚本",
+  "role_version": "V2.2",
+  "status": "DONE",
+  "result": "SCRIPT_COMPLETE",
+  "completed_at": "2026-09-22T12:59:00+08:00",
+  "timezone": "Asia/Shanghai",
+  "input_task_path": "任务/CONTENT-002/V1/任务.json",
+  "fixed_inputs": {
+    "hot_research_commit": "f411474d1b3ef5f91e1ac979054dabfcc79c7fd9",
+    "planning_commit": "499ad249f9e80a3209d52732bec9a246dff68a5d",
+    "positioning_path": "正式/定位/V2.md",
+    "visual_spec_path": "正式/视觉规范/V2.md",
+    "persona_lock_path": "批准/PERSONA-001/LOCK-V2.json"
+  },
+  "public_fact_verification": {
+    "verified_on": "2026-09-22",
+    "official_product_page": "https://judydoll.com/products/cushion-satin-lip-cream",
+    "brand_public_post": "https://weibo.com/2/detail/5339402416687721",
+    "verified_product_facts": {
+      "S01": "无花果生巧｜肉桂杏橘调",
+      "S02": "芭比甜巧｜复古裸调灰粉",
+      "S03": "可可生巧｜摩卡茶棕色",
+      "S04": "烤栗生巧｜浓郁木质红棕"
+    },
+    "excluded_claims": [
+      "持妆时长",
+      "保湿时长",
+      "不沾杯",
+      "使用感",
+      "真实上嘴效果",
+      "绝对肤色适配"
+    ]
+  },
+  "selection": {
+    "recommended_title": "橘朵4支唇粉霜，通勤怎么选？",
+    "page_count": 4,
+    "main_product": "Judydoll 橘朵 缎光唇粉霜 S01-S04",
+    "main_question": "4支通勤/日常怎么选",
+    "visual_sequence": [
+      "P1 产品45°静物封面",
+      "P2 S01-S04公开色调地图",
+      "P3 PERSONA灰粉通勤妆感适配示意",
+      "P4 四色情境选择收藏卡"
+    ],
+    "face_pages": 1,
+    "interaction_question": "你会先选S01、S02、S03还是S04？"
+  },
+  "deliverables": [
+    {
+      "path": "产物/文案/CONTENT-002/V1/文案.md",
+      "git_blob_sha": "99200de399764a42bf01ceca1cb042090a4a6d42",
+      "content_commit": "200eda5fb2ceb9112f9d3f0457906b8aa6dd469c",
+      "verified_readback": true
+    },
+    {
+      "path": "产物/文案/CONTENT-002/V1/交付.json"
+    }
+  ],
+  "constraints": {
+    "budget_cny": 0,
+    "page_count_locked": 4,
+    "product_locked": true,
+    "product_first_visual": true,
+    "p1_face_allowed": false,
+    "p2_real_swatch_claim_allowed": false,
+    "p3_persona_only_face_page": true,
+    "p3_real_lip_swatch_claim_allowed": false,
+    "wear_test_claim_allowed": false,
+    "first_person_product_experience_allowed": false,
+    "deterministic_chinese_text": true,
+    "exact_shade_codes_required": true,
+    "avoid_content_001_visual_routine": true
+  },
+  "next_role": "图片生成员A",
+  "next_condition": "读取本V1文案、正式视觉规范V2、PERSONA LOCK-V2和CONTENT-002任务；严格按P1产品→P2色调地图→P3唯一人物页→P4收藏卡执行。产品包装必须依据可靠官方视觉，不得把P2/P3示意写成真实试色或亲测。"
+}
