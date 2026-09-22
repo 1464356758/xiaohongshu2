@@ -1,0 +1,75 @@
+{
+  "project_id": "XHS-BEAUTY-002",
+  "task_id": "CONTENT-002",
+  "task_version": "V5",
+  "input_revision": 4,
+  "role": "文案脚本",
+  "role_version": "V2.2",
+  "script_version": "V2",
+  "status": "DONE",
+  "result": "SCRIPT_COMPLETE",
+  "completed_at": "2026-09-22T16:48:00+08:00",
+  "timezone": "Asia/Shanghai",
+  "input_task_path": "任务/CONTENT-002/V5/任务.json",
+  "fixed_inputs": {
+    "hot_research_fixed_commit": "4e58ed2cd7d21246e87ce19fd26632e6a55ef5fa",
+    "planning_fixed_commit": "404a285c6f264b4fb8f36d7166fd9b1dcaf58260",
+    "human_style_protocol": "系统/真人感美妆内容运营协议V2.2-P3.md",
+    "effect_protocol": "系统/产品效果与用户体验归纳协议V2.2-P4.md",
+    "visual_spec": "正式/视觉规范/V4.md",
+    "persona_lock": "批准/PERSONA-001/LOCK-V2.json"
+  },
+  "selection": {
+    "main_product": "Flower Knows 花知晓 雪花芭蕾六色丝缎眼影盘",
+    "main_focus": "03 Crystal Ball / 水晶球",
+    "recommended_title": "花知晓雪花芭蕾吵成这样，眼影本身呢？",
+    "page_count": 4,
+    "page_structure": [
+      "P1 包装争议去噪 + 三盘真实产品主视觉",
+      "P2 01/02/03三盘配色与使用方向",
+      "P3 03水晶球显色/透亮层次/清冷妆效 + 日常门槛",
+      "P4 三盘适合谁的收藏选择卡"
+    ],
+    "interaction_question": "你会选01、02还是03？"
+  },
+  "effect_boundary": {
+    "allowed": [
+      "03显色同时仍有透亮层次",
+      "03清冷蓝灰、辨识度高、成片感强",
+      "03日常使用门槛更高",
+      "早期粉质反馈整体偏正向但样本偏提前拿货创作者",
+      "包装评价两极，眼影本体应与包装争议分开判断"
+    ],
+    "not_finalized": [
+      "飞粉",
+      "积线",
+      "普遍晕染难度",
+      "精确持妆小时数",
+      "所有肤色/眼型显色一致性"
+    ],
+    "personal_use_claim_allowed": false,
+    "editorial_first_person_allowed": true
+  },
+  "deliverables": [
+    {
+      "path": "产物/文案/CONTENT-002/V2/文案.md",
+      "git_blob_sha": "35f1050e70f909f878e539844d712c4afc9a4d70",
+      "content_commit": "deeaf31f9623b15cab773c45774990579f32f76d",
+      "verified_readback": true
+    },
+    {
+      "path": "产物/文案/CONTENT-002/V2/交付.json"
+    }
+  ],
+  "image_a_rules": {
+    "real_product_assets_first": true,
+    "redraw_packaging": false,
+    "deterministic_chinese_text": true,
+    "ordinary_user_images_without_use_basis": false,
+    "persona_if_used": "PERSONA LOCK-V2",
+    "p3_persona_is_not_personal_test": true,
+    "avoid_repeated_disclaimer_visuals": true
+  },
+  "next_role": "图片生成员A",
+  "next_condition": "读取CONTENT-002 V5任务、本V2文案、视觉规范V4、真人感P3协议、效果归纳P4协议和PERSONA LOCK-V2；优先使用官方真实产品素材，严格按4页确定性中文执行，不自行升级飞粉/积线/晕染/持妆结论，也不得把PERSONA妆容写成账号真实上眼亲测。"
+}
