@@ -1,0 +1,37 @@
+{
+  "project_id": "XHS-BEAUTY-002",
+  "task_id": "DATA-CONTENT-002",
+  "input_revision": 1,
+  "task_type": "post_publish_observation",
+  "status": "READY",
+  "responsible_role": "数据分析与实验",
+  "inputs": [
+    {
+      "path": "数据/回执/CONTENT-002/V1/发布回执.json",
+      "commit": "f1fdb97c50a7e17bfb1f0b322bdfbea52c193ff8",
+      "required": true
+    },
+    {
+      "path": "批准/CONTENT-002/LOCK-V2.json",
+      "commit": "f1fdb97c50a7e17bfb1f0b322bdfbea52c193ff8",
+      "required": true
+    }
+  ],
+  "publication": {
+    "platform": "小红书",
+    "published_at_estimate": "2026-09-22T22:55:00+08:00",
+    "traffic_type": "organic",
+    "paid_spend_cny": 0
+  },
+  "observation_schedule": [
+    {"window":"24h","target_at":"2026-09-23T22:55:00+08:00"},
+    {"window":"72h","target_at":"2026-09-25T22:55:00+08:00"},
+    {"window":"7d","target_at":"2026-09-29T22:55:00+08:00"}
+  ],
+  "rules": [
+    "只记录用户提供的真实后台数据；未知填null，不补0。",
+    "少于5条可比内容只做探索性观察。",
+    "自然流量与付费流量分开；当前付费支出为0。"
+  ],
+  "next_condition": "到观察时点后由用户提供后台截图或数字，再写对应快照。"
+}
