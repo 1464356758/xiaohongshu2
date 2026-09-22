@@ -1,0 +1,66 @@
+{
+  "project_id": "XHS-BEAUTY-002",
+  "task_id": "CONTENT-002",
+  "input_revision": 1,
+  "task_version": "V2",
+  "task_type": "publish_prep",
+  "status": "READY",
+  "pipeline": [
+    "发布与社群运营",
+    "用户发布",
+    "数据分析与实验"
+  ],
+  "responsible_role": "发布与社群运营",
+  "fixed_input_commit": "60a7df9cf23648f36a7037745bd515d09e4057f3",
+  "inputs": [
+    {
+      "path": "批准/CONTENT-002/LOCK-V1.json",
+      "commit": "60a7df9cf23648f36a7037745bd515d09e4057f3",
+      "required": true
+    },
+    {
+      "path": "批准/CONTENT-002/V1/最终发布许可.md",
+      "commit": "60a7df9cf23648f36a7037745bd515d09e4057f3",
+      "required": true
+    },
+    {
+      "path": "角色/10_发布与社群运营.txt",
+      "commit": "60a7df9cf23648f36a7037745bd515d09e4057f3",
+      "required": true
+    }
+  ],
+  "locked_publish_content": {
+    "title": "橘朵4支唇粉霜，通勤怎么选？",
+    "body_path": "产物/文案/CONTENT-002/V1/文案.md",
+    "body_fixed_commit": "200eda5fb2ceb9112f9d3f0457906b8aa6dd469c",
+    "content_lock": "批准/CONTENT-002/LOCK-V1.json",
+    "persona_lock": "批准/PERSONA-001/LOCK-V2.json",
+    "page_order": [
+      "资产/内容/CONTENT-002/LOCK-V1/01_cover.jpg",
+      "资产/内容/CONTENT-002/LOCK-V1/02_page.jpg",
+      "资产/内容/CONTENT-002/LOCK-V1/03_page.jpg",
+      "资产/内容/CONTENT-002/LOCK-V1/04_page.jpg"
+    ],
+    "image_commit": "da1549df9b8d704e273ac407fb4c06dfa6570384"
+  },
+  "truth_boundary_hard_rules": [
+    "P1产品画面只能描述为产品视觉示意，不得写实拍、到手图、原相机或本人拍摄。",
+    "P2为品牌公开色调整理，不是本人真实试色。",
+    "P3为妆感适配示意，不是S02真实上嘴试色。",
+    "不得新增亲测、持妆、不沾杯、不卡唇纹、绝对显白或真实使用体验宣称。"
+  ],
+  "publish_hard_gates": [
+    "必须根据发布当日小红书实际编辑器与适用规则，主动使用平台提供的AI生成/合成内容声明或标识功能。",
+    "图内“产品视觉示意”等说明不能替代平台AI标识。",
+    "不得修改锁定标题、正文、图片、页序、色号、品牌事实或真实性说明。",
+    "若发布前出现品牌付费、赠品、返佣、置换或其他利益关系，立即停止并回总监/商务/合规复核。",
+    "最终点击发布由用户本人执行。"
+  ],
+  "deliverables": [
+    "产物/运营/CONTENT-002/V1/发布包.md",
+    "数据/回执/CONTENT-002/V1/发布回执.json（仅真实发布后）"
+  ],
+  "max_spend_cny": 0,
+  "publish_authority": "USER_ONLY",
+  "next_condition": "发布运营生成锁定发布包；用户真实发布后提供笔记链接、发布时间和必要截图，才进入PUBLISHED_CONFIRMED与数据观察。"
+}
