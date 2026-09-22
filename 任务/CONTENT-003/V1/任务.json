@@ -4,9 +4,17 @@
   "input_revision": 1,
   "task_version": "V1",
   "task_type": "hot_product_content",
-  "status": "READY",
+  "status": "PAUSED_SYSTEM_REBUILD",
+  "pause_reason": "CONTENT-002发生Swan Ballet与Snow Ballet系列硬错配，产品生产链已被总监紧急停产。V1不得继续执行。",
+  "pause_record": "批准/SYSTEM/V2.2-P7/产品内容停产与重构批准.md",
+  "resume_requires_new_task_version": true,
+  "resume_minimum_version": "V2",
+  "responsible_role": "NONE_WHILE_PAUSED",
   "pipeline": [
     "热点与竞品研究员",
+    "PRODUCT_TRUTH_PACKAGE",
+    "内容与合规审核-产品事实独立核验",
+    "总监PRODUCT_TRUTH_LOCK",
     "内容策划",
     "文案脚本",
     "图片生成员A",
@@ -18,133 +26,36 @@
     "用户发布",
     "数据分析与实验"
   ],
-  "responsible_role": "热点与竞品研究员",
-  "fixed_input_commit": "f1fdb97c50a7e17bfb1f0b322bdfbea52c193ff8",
-  "inputs": [
-    {
-      "path": "系统/真人感美妆内容运营协议V2.2-P3.md",
-      "commit": "f1fdb97c50a7e17bfb1f0b322bdfbea52c193ff8",
-      "required": true
-    },
-    {
-      "path": "系统/产品效果与用户体验归纳协议V2.2-P4.md",
-      "commit": "f1fdb97c50a7e17bfb1f0b322bdfbea52c193ff8",
-      "required": true
-    },
-    {
-      "path": "系统/成图脚注禁用协议V2.2-P5.md",
-      "commit": "f1fdb97c50a7e17bfb1f0b322bdfbea52c193ff8",
-      "required": true
-    },
-    {
-      "path": "正式/视觉规范/V5.md",
-      "commit": "f1fdb97c50a7e17bfb1f0b322bdfbea52c193ff8",
-      "required": true
-    },
-    {
-      "path": "批准/PERSONA-001/LOCK-V2.json",
-      "commit": "f1fdb97c50a7e17bfb1f0b322bdfbea52c193ff8",
-      "required": true
-    },
-    {
-      "path": "批准/CONTENT-002/LOCK-V2.json",
-      "commit": "f1fdb97c50a7e17bfb1f0b322bdfbea52c193ff8",
-      "required": true,
-      "use": "只用于避免连续重复花知晓雪花芭蕾及上一条版式、服装、动作与视觉风格。"
-    }
+  "system_protocols": [
+    "系统/真人感美妆内容运营协议V2.2-P3.md",
+    "系统/产品效果与用户体验归纳协议V2.2-P4.md",
+    "系统/成图脚注禁用协议V2.2-P5.md",
+    "系统/产品视觉身份一致性门禁V2.2-P6.md",
+    "系统/产品真源锁协议V2.2-P7.md"
   ],
-  "content_goal": "继续做近期热门美妆产品。内容要像正常真人感美妆账号，产品效果可以直接自然表达，但成图严禁出现任何‘非本人使用/亲测/资料整理/来源说明’式脚注。",
-  "hot_product_research": {
-    "candidate_count_min": 5,
-    "posts_per_candidate": "8-12",
-    "requirements": [
-      "重新联网检索近期热门美妆产品，不重复CONTENT-002花知晓雪花芭蕾同一产品。",
-      "每个候选观察8至12条近期热门或代表性内容。",
-      "拆解首图、拍摄角度、是否露脸、人物/产品占比、平拍/45度/手拿/镜前/桌面/局部/上脸、页面结构、收藏点、评论区高频问题。",
-      "提取真实用户对妆效、质地、显色、遮盖、持妆倾向、拔干/卡粉/氧化/飞粉/晕染等反馈。",
-      "记录正向、负向与分歧，尽量多样本归纳。",
-      "最终给1个主选+2个备选。"
-    ]
-  },
-  "visual_rules": {
-    "face_required": false,
-    "face_forbidden": false,
-    "free_mix": true,
-    "allowed": [
-      "人物",
-      "人物+产品",
-      "产品静物",
-      "手拿产品",
-      "桌面平拍",
-      "45度产品照",
-      "镜前",
-      "妆面局部",
-      "真实产品图抠图排版",
-      "色号/效果对比",
-      "用户反馈摘要",
-      "收藏卡"
-    ],
-    "rotation": "与CONTENT-002相比，至少更换主服装、主动作、主场景、主构图中的两项；若纯产品帖，则更换主拍法、背景、构图节奏中的两项。"
-  },
-  "image_footer_hard_ban": {
-    "effective": true,
-    "forbidden_phrases_and_equivalents": [
-      "非本人亲测",
-      "非本人测试",
-      "非本人使用",
-      "非本人真实试色",
-      "产品视觉示意",
-      "妆感适配示意",
-      "AI生成示意",
-      "基于公开资料整理",
-      "基于公开资料与多样本观察整理",
-      "多样本观察整理",
-      "资料收集",
-      "资料整理",
-      "用户反馈整理",
-      "评论区反馈整理",
-      "仅供参考",
-      "数据来源于公开资料",
-      "公开资料整理"
-    ],
-    "rule": "以上内容及任何同义改写不得进入最终成图任何位置，包括底部、角落、卡片、页脚和小字。来源和证据只留后台文件。",
-    "gate": {
-      "copy": "文案逐页成图文字不得输出禁用脚注。",
-      "image_a": "发现禁用脚注不得制作。",
-      "image_b": "发现即必改删除。",
-      "image_c": "仍存在则不得PASS。",
-      "audit": "不得要求把来源/非亲测说明重新塞回图片。"
-    }
-  },
-  "effect_expression": {
-    "allowed": true,
-    "examples": [
-      "显色更强",
-      "更容易晕开",
-      "偏干",
-      "容易卡粉",
-      "飞粉明显",
-      "更适合通勤",
-      "持妆相对稳",
-      "更挑手法"
-    ],
-    "rule": "只要后台有真实多样本依据即可自然表达，不需要在图片上加来源尾巴。不得虚构账号本人未发生的购买、使用时长、亲测或回购经历。"
-  },
-  "product_asset_rules": [
-    "真实产品可以用官方图、官方店图、用户自有图或具备适当使用依据的素材进行抠图、裁切、排版和组合。",
-    "小红书热门贴可用于研究拍摄角度和内容结构；直接使用他人原图需有适当使用依据。",
-    "不得故意改错Logo、包装、色号、产品名或关键产品事实。"
+  "blocked_actions": [
+    "内容策划",
+    "正式文案",
+    "图片A",
+    "图片B",
+    "图片C",
+    "独立内容审核",
+    "CONTENT LOCK",
+    "发布"
   ],
-  "page_count": 4,
-  "max_page_count": 6,
-  "budget_cny": 0,
+  "allowed_while_paused": [
+    "候选产品粗研究，但不得把任何具体产品交下游生产",
+    "市场与定位RESEARCH-002",
+    "历史数据记录"
+  ],
+  "resume_condition": [
+    "总监发布CONTENT-003 V2或更高版本",
+    "主选产品完成产品真源包",
+    "内容与合规审核AI完成独立产品事实核验",
+    "总监创建PRODUCT TRUTH LOCK",
+    "新任务固定引用PRODUCT TRUTH LOCK"
+  ],
+  "publish_authority": "NONE_WHILE_PAUSED",
   "max_spend_cny": 0,
-  "max_rework_rounds": 2,
-  "publish_authority": "USER_ONLY",
-  "deliverables_by_first_role": [
-    "产物/热点/CONTENT-003/V1/热门产品研究.md",
-    "产物/热点/CONTENT-003/V1/来源.json",
-    "产物/热点/CONTENT-003/V1/交付.json"
-  ],
-  "next_condition": "热点与竞品研究员完成至少5个候选×每个8至12条观察，给出1主选+2备选后交内容策划AI。"
+  "next_condition": "等待总监完成P7系统重构并发布新任务版本。"
 }
