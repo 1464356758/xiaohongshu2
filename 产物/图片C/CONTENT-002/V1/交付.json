@@ -11,7 +11,7 @@
   "final_asset_dir": "资产/内容/CONTENT-002/LOCK-V1/",
   "asset_commit": "da1549df9b8d704e273ac407fb4c06dfa6570384",
   "manifest_path": "产物/图片C/CONTENT-002/V1/最终资产清单.json",
-  "manifest_commit": "9de17d271bef8617e9ea601f932c74f302ce5bfb",
+  "manifest_commit": "dac4779c8e98ec2b9aec0e138ce98350238aacba",
   "binary_assets_verified": true,
   "final_files": [
     "01_cover.jpg",
@@ -26,5 +26,6 @@
   "current_progress_sync_note": "当前进度.json仍停留在CONTENT-002 HOT_RESEARCH；C不越权修改总监状态机，交由后续总监同步。",
   "publish_authority": "NONE",
   "next_role": "内容与合规审核",
-  "next_action": "读取CONTENT-002任务、文案V1、PERSONA LOCK-V2与本C最终资产清单；当前聊天必须看到这4张C最终实际图片后执行独立内容与合规审核。"
+  "next_action": "读取CONTENT-002任务、文案V1、PERSONA LOCK-V2与本C最终资产清单；当前聊天必须看到这4张C最终实际图片后执行独立内容与合规审核。",
+  "zip_bundle": "ZIP_NOT_AVAILABLE"
 }
