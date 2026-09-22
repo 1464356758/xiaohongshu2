@@ -1,0 +1,129 @@
+{
+  "project_id": "XHS-BEAUTY-002",
+  "task_id": "CONTENT-002",
+  "input_revision": 1,
+  "lock_type": "CONTENT",
+  "lock_version": "LOCK-V1",
+  "status": "LOCKED",
+  "created_at": "2026-09-22T14:35:00+08:00",
+  "final_title": "橘朵4支唇粉霜，通勤怎么选？",
+  "final_body": {
+    "path": "产物/文案/CONTENT-002/V1/文案.md",
+    "fixed_commit": "200eda5fb2ceb9112f9d3f0457906b8aa6dd469c"
+  },
+  "persona_lock": "批准/PERSONA-001/LOCK-V2.json",
+  "c_final_manifest": {
+    "path": "产物/图片C/CONTENT-002/V1/最终资产清单.json",
+    "manifest_commit": "dac4779c8e98ec2b9aec0e138ce98350238aacba"
+  },
+  "c_pass_delivery": {
+    "path": "产物/图片C/CONTENT-002/V1/交付.json",
+    "result": "PASS"
+  },
+  "image_commit": "da1549df9b8d704e273ac407fb4c06dfa6570384",
+  "asset_root": "资产/内容/CONTENT-002/LOCK-V1/",
+  "page_order": ["P1","P2","P3","P4"],
+  "final_image_repo_paths": [
+    "资产/内容/CONTENT-002/LOCK-V1/01_cover.jpg",
+    "资产/内容/CONTENT-002/LOCK-V1/02_page.jpg",
+    "资产/内容/CONTENT-002/LOCK-V1/03_page.jpg",
+    "资产/内容/CONTENT-002/LOCK-V1/04_page.jpg"
+  ],
+  "assets": [
+    {
+      "page": "P1",
+      "file": "01_cover.jpg",
+      "repo_path": "资产/内容/CONTENT-002/LOCK-V1/01_cover.jpg",
+      "git_blob_sha": "4483c13c2dd70f93f679f5d34b66bb01e456d56a",
+      "sha256": "e3d4866462972cde7ce703cea0ee965ad99437832d229e33a90d02a9cae7c6a8",
+      "bytes": 332097,
+      "width": 1152,
+      "height": 1536,
+      "format": "JPEG"
+    },
+    {
+      "page": "P2",
+      "file": "02_page.jpg",
+      "repo_path": "资产/内容/CONTENT-002/LOCK-V1/02_page.jpg",
+      "git_blob_sha": "d9acafc55c2135feb55237b1c65fb8aed236fe98",
+      "sha256": "855f18013457a28f34b14db921c622d19d67055789951b2b57347bca42c8cfad",
+      "bytes": 245804,
+      "width": 1152,
+      "height": 1536,
+      "format": "JPEG"
+    },
+    {
+      "page": "P3",
+      "file": "03_page.jpg",
+      "repo_path": "资产/内容/CONTENT-002/LOCK-V1/03_page.jpg",
+      "git_blob_sha": "772bb0ac47956670f35625931721883c9b0fb978",
+      "sha256": "6955a2e6ccbd6e2bdde7fb4b439b08b1060787271a064bcd458c86df57e94d60",
+      "bytes": 321040,
+      "width": 1152,
+      "height": 1536,
+      "format": "JPEG"
+    },
+    {
+      "page": "P4",
+      "file": "04_page.jpg",
+      "repo_path": "资产/内容/CONTENT-002/LOCK-V1/04_page.jpg",
+      "git_blob_sha": "4f25699f81517e7de9fb0a8a315050d351c68c3e",
+      "sha256": "c67a6cc7d20e9f84b6464202857674007afd78269dbe10630b01a75d38a83b67",
+      "bytes": 266154,
+      "width": 1152,
+      "height": 1536,
+      "format": "JPEG"
+    }
+  ],
+  "binary_verification": {
+    "verified_at_image_commit": "da1549df9b8d704e273ac407fb4c06dfa6570384",
+    "director_blob_readback": true,
+    "blob_sha_match_4_of_4": true,
+    "user_uploaded_sha256_match_4_of_4": true
+  },
+  "audit": {
+    "report_path": "产物/审核/CONTENT-002/V1/审核报告.md",
+    "delivery_path": "产物/审核/CONTENT-002/V1/交付.json",
+    "fixed_commit": "ea2e9b5b46cf6d2311ae15feb4fe74522fe0da83",
+    "result": "PASS",
+    "P0": 0,
+    "P1": 0,
+    "P2": 2,
+    "score": 94,
+    "rework_required": false
+  },
+  "director_approval": {
+    "path": "批准/CONTENT-002/V1/最终发布许可.md",
+    "fixed_commit": "7cf1c09475ba2541bbc1a2f3673c4b8e77be2046"
+  },
+  "truth_boundary": {
+    "product_visual_demonstration": true,
+    "p2_not_real_swatch": true,
+    "p3_not_real_s02_lip_swatch": true,
+    "first_person_product_experience_claim": false,
+    "wear_test_claim": false
+  },
+  "brand_fact_basis": {
+    "product_name": "Judydoll Cushion Satin Lip Cream / 橘朵缎光唇粉霜",
+    "s01_s04_names_and_tones_verified": true,
+    "official_product_source": "https://judydoll.com/products/cushion-satin-lip-cream",
+    "brand_public_source": "https://weibo.com/2/detail/5339402416687721"
+  },
+  "commercial_relation_status": "NONE_ORGANIC_CONTENT",
+  "allowed_publish_scope": {
+    "platform": "小红书",
+    "scope": "单条自然发布准备",
+    "final_publish_authority": "USER_ONLY",
+    "paid_growth_authorized": false,
+    "ai_generated_content_platform_label_required": true,
+    "ad_or_sponsorship_claim_allowed": false
+  },
+  "forbidden_old_versions": [
+    "所有图片A中间图",
+    "所有图片B中间图",
+    "非本LOCK列出的C图片",
+    "CONTENT-002历史候选标题",
+    "任何把产品视觉示意称为实拍/到手图/原相机的运营表述"
+  ],
+  "change_rule": "LOCK后如修改标题、正文、图片、页序、人物、品牌事实、色号信息、真实性说明或商业关系，必须建立新CONTENT LOCK并重新审核变更范围。"
+}
