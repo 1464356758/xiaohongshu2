@@ -1,0 +1,80 @@
+{
+  "project_id": "XHS-BEAUTY-002",
+  "task_id": "CONTENT-003",
+  "task_version": "V1",
+  "input_revision": 1,
+  "role": "热点与竞品研究员",
+  "role_version": "V2.2",
+  "status": "DONE",
+  "result": "HOT_PRODUCT_RESEARCH_COMPLETE",
+  "completed_at": "2026-09-23T00:02:00+08:00",
+  "timezone": "Asia/Shanghai",
+  "research_content_commit": "98c2600624ca116b4458c9a462a8108f4ed51b95",
+  "deliverables": [
+    {
+      "path": "产物/热点/CONTENT-003/V1/热门产品研究.md",
+      "git_blob_sha": "212a2d0272f9d851ca44612488fe92c42ec52108",
+      "verified_readback": true
+    },
+    {
+      "path": "产物/热点/CONTENT-003/V1/来源.json",
+      "git_blob_sha": "157977106b47829c0a2d990ef0e76125d863825d",
+      "verified_readback": true
+    }
+  ],
+  "scope": {
+    "candidate_count": 5,
+    "observations_per_candidate_range": "8-12",
+    "observation_counts": [
+      10,
+      10,
+      10,
+      8,
+      10
+    ],
+    "total_observations": 48,
+    "visual_structure_research": true,
+    "effect_summary": true,
+    "pros_cons_divergence": true,
+    "real_product_asset_sources_recorded": true,
+    "unknown_fields_not_fabricated": true
+  },
+  "selection": {
+    "main": "NARS 欲色无尽液体腮红",
+    "main_hook": "11色怎么选 + 融底妆/气味/显色分歧",
+    "backup_1": "阿玛尼 全新传奇红管 100绝色",
+    "backup_2": "HOURGLASS Unreal Liquid Blush Muse / Surreal"
+  },
+  "visual_rotation": {
+    "avoid_content_002_product": true,
+    "avoid_content_002_palette_structure": true,
+    "recommended_mix": [
+      "真实瓶身产品主视觉",
+      "多色/色卡",
+      "刷头/液体微距",
+      "脸颊局部或半脸",
+      "购买前问题收藏卡"
+    ],
+    "face_required": false
+  },
+  "p5_image_gate": {
+    "hard_gate": true,
+    "protocol": "系统/成图脚注禁用协议V2.2-P5.md",
+    "sources_backend_only": true,
+    "internal_provenance_in_final_image": false,
+    "disclaimer_footnotes_in_final_image": false,
+    "note": "策划、文案、图片A/B/C不得把研究来源、样本说明、内部真实性边界或同义免责声明复制到最终成图。"
+  },
+  "truth_boundary": {
+    "effect_editorial_judgment_allowed": true,
+    "multi_sample_summary_allowed": true,
+    "fake_personal_use": false,
+    "fake_purchase": false,
+    "fake_repurchase": false,
+    "fake_precise_personal_wear_time": false,
+    "fake_brand_collaboration": false
+  },
+  "spend_cny": 0,
+  "next_role": "内容策划AI",
+  "next_condition": "读取CONTENT-003 V1任务、P3/P4/P5协议、视觉规范V5、本轮热门产品研究与来源文件，按主选NARS欲色无尽液体腮红重新策划；成图不得设计来源/样本/身份/免责声明脚注区。"
+}
