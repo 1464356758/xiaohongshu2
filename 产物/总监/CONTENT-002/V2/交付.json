@@ -1,0 +1,29 @@
+{
+  "project_id": "XHS-BEAUTY-002",
+  "role": "总监",
+  "task_id": "CONTENT-002",
+  "input_revision": 2,
+  "version": "V2",
+  "action": "HOLD_AI_PRODUCT_LOCK_AND_SWITCH_TO_REAL_BRAND_ASSETS",
+  "result": "REWORK_REAL_BRAND_ASSET_SOURCE",
+  "old_lock": "批准/CONTENT-002/LOCK-V1.json",
+  "old_lock_publishable": false,
+  "hold_instruction": "批准/CONTENT-002/V2/LOCK-V1暂停使用与真实品牌素材返修指令.md",
+  "hold_commit": "faef17541b27b11613aeae550570bc471829f26c",
+  "brand_asset_protocol": "系统/品牌真实素材优先协议V2.2-P2.md",
+  "brand_asset_protocol_commit": "6738f7db4bc9a7fc6d0bab14c2babd78d6c42383",
+  "visual_spec": "正式/视觉规范/V3.md",
+  "visual_spec_commit": "277eeec797980123565bc15d323f49482004a1b2",
+  "rebuild_task": "任务/CONTENT-002/V3/任务.json",
+  "rebuild_task_commit": "81eaddda9ffac8aced96ca38a5997d0c4c33239e",
+  "progress_commit": "651c2a20ab38a77159fa5c2cf5ffad8add109fe7",
+  "user_requirement_applied": [
+    "品牌产品本体优先官方真实图片",
+    "禁止AI重画产品本体",
+    "图内默认不出现非真实照片/非本人真实试色/产品视觉示意等免责声明大字",
+    "CONTENT-002优先零人物产品帖",
+    "官方素材不足则换素材/换产品，不用AI补假产品"
+  ],
+  "next_role": "热点与竞品研究员",
+  "next_action": "只补充CONTENT-002官方真实产品素材来源和8至12条热门贴拍摄角度研究；素材可用后交内容策划。"
+}
