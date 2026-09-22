@@ -1,0 +1,31 @@
+{
+  "project_id": "XHS-BEAUTY-002",
+  "role": "总监",
+  "task_id": "CONTENT-001",
+  "version": "V3",
+  "action": "CONFIRM_PUBLISHED_AND_START_POST_PUBLISH_RECONCILIATION",
+  "result": "PUBLISHED_CONFIRMED",
+  "publish_receipt_path": "数据/回执/CONTENT-001/V1/发布回执.json",
+  "publish_receipt_commit": "5ff4976c0fc3b6cc88681f73394dd7b1152980e1",
+  "original_lock": "批准/CONTENT-001/LOCK-V1.json",
+  "actual_public_title": "低饱和秋妆显灰？出门只改3处",
+  "locked_title": "低饱和秋妆显灰？通勤只改3处",
+  "title_delta": "通勤 → 出门",
+  "disposition_path": "批准/CONTENT-001/V4/发布后标题偏差处置.md",
+  "disposition_commit": "d351546e840d7bc9bee34d5a071db26dbefbed2c",
+  "title_delta_audit_task": "任务/CONTENT-001/V4/标题差异审核任务.json",
+  "title_delta_audit_task_commit": "9fadef289cb2fdeb44bd99bdbe412bded82ea489",
+  "data_task": "任务/DATA-CONTENT-001/V1/任务.json",
+  "data_task_commit": "f13a393169b454dd3ff0f762ade88debeea07eba",
+  "progress_commit": "69aef7b160c0aa7326747af08e7fb29dd249cfde",
+  "data_schedule": {
+    "24h": "2026-09-23T10:27:00+08:00",
+    "72h": "2026-09-25T10:27:00+08:00",
+    "7d": "2026-09-29T10:27:00+08:00"
+  },
+  "image_rebuild_required": false,
+  "body_rewrite_required": false,
+  "paid_spend_cny": 0,
+  "next_role": "内容与合规审核",
+  "next_action": "在原审核聊天执行标题级差异复审；只审核“通勤→出门”，通过后由总监创建CONTENT LOCK-V2做发布后版本对账。"
+}
