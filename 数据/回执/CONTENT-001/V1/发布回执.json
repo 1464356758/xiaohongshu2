@@ -1,0 +1,86 @@
+{
+  "project_id": "XHS-BEAUTY-002",
+  "task_id": "CONTENT-001",
+  "input_revision": 2,
+  "role": "发布与社群运营 V2.2",
+  "receipt_version": "V1",
+  "status": "PUBLISHED_EVIDENCE_VERIFIED_WITH_LOCK_TITLE_DEVIATION",
+  "platform": "小红书",
+  "publish_evidence": {
+    "user_confirmed_published": true,
+    "share_url": "https://xhslink.cn/o/NDEsnPgBJ7",
+    "screenshot_received": true,
+    "screenshot_format": "JPEG",
+    "screenshot_dimensions": {
+      "width": 691,
+      "height": 1536
+    },
+    "screenshot_bytes": 160688,
+    "screenshot_sha256": "05d52240ebbf71557baf27ee2032251be2701f5d83cb44258c58edba51f96070",
+    "screenshot_observations": [
+      "账号主页显示公开笔记数量为1",
+      "公开笔记卡片已出现在主页",
+      "笔记卡片显示“3分钟前”",
+      "设备状态栏显示时间10:30",
+      "笔记标题显示“低饱和秋妆显灰？出门只改3处”"
+    ]
+  },
+  "publication_time": {
+    "timezone": "Asia/Shanghai",
+    "published_at_estimate": "2026-09-22T10:27:00+08:00",
+    "precision": "APPROXIMATE",
+    "basis": "截图设备时间10:30且笔记卡显示3分钟前；用户同时明确表示刚刚发布成功",
+    "exact_platform_timestamp_verified": false
+  },
+  "lock_reference": {
+    "path": "批准/CONTENT-001/LOCK-V1.json",
+    "lock_commit": "912ce9a5a70eb1356e96f3d2401de755dfc9276e",
+    "locked_title": "低饱和秋妆显灰？通勤只改3处"
+  },
+  "actual_publication": {
+    "actual_title_from_screenshot": "低饱和秋妆显灰？出门只改3处",
+    "title_matches_lock": false,
+    "title_deviation": {
+      "type": "POST_LOCK_TITLE_VARIANCE",
+      "diff": "通勤 → 出门",
+      "requires_director_reconciliation": true,
+      "report_path": "续接/运营/CONTENT-001/V1/发布后LOCK偏差报告.md"
+    },
+    "body_match_status": "NOT_FULLY_VERIFIED_FROM_SCREENSHOT",
+    "image_set_match_status": "NOT_FULLY_VERIFIED_FROM_SCREENSHOT",
+    "public_note_visible": true
+  },
+  "ai_content_declaration": {
+    "expected": true,
+    "verified_from_screenshot": false,
+    "status": "UNKNOWN_NOT_VISIBLE_IN_SCREENSHOT",
+    "note": "当前主页截图未展示发布页的AI生成/合成内容声明状态，不能推断为已开启或未开启。"
+  },
+  "commercial_status": "NONE_ORGANIC_CONTENT",
+  "paid_growth_spend_cny": 0,
+  "metrics_at_publish": {
+    "note_views": null,
+    "likes": null,
+    "saves": null,
+    "comments": null,
+    "shares": null,
+    "note": "当前截图不是后台数据页，不从主页UI猜测指标。"
+  },
+  "observation_schedule": {
+    "anchor": "published_at_estimate",
+    "t_plus_24h": "2026-09-23T10:27:00+08:00",
+    "t_plus_72h": "2026-09-25T10:27:00+08:00",
+    "t_plus_7d": "2026-09-29T10:27:00+08:00",
+    "note": "若后续取得平台精确发布时间，数据分析需据此重新锚定观察时点。"
+  },
+  "workflow": {
+    "publish_receipt_written": true,
+    "published_confirmed_by_user_and_screenshot": true,
+    "state_transition_pending_director": true,
+    "next_roles": [
+      "总监：处理标题LOCK偏差并更新当前进度",
+      "数据分析与实验：按真实发布版本开始24h/72h/7d观察"
+    ]
+  },
+  "recorded_at": "2026-09-22T10:30:00+08:00"
+}
