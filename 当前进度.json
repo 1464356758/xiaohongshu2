@@ -1,42 +1,39 @@
 {
   "project_id": "XHS-BEAUTY-002",
   "system_version": "2.2",
-  "revision": 16,
-  "handoff_epoch": 16,
+  "revision": 17,
+  "handoff_epoch": 17,
   "stage": "CONTENT",
-  "status": "WAITING_C_BINARY_WRITEBACK",
+  "status": "PUBLISH_PREP",
   "current_task": "CONTENT-002",
-  "task_path": "任务/CONTENT-002/V5/任务.json",
+  "task_path": "任务/CONTENT-002/V6/任务.json",
   "current_input_revision": 4,
-  "current_pipeline_step": "C_FINAL_BINARY_WRITEBACK",
+  "current_pipeline_step": "PUBLISH_OPS",
   "account_registration_status": "REGISTERED",
-  "publish_status": "PUBLISHED_CONFIRMED",
+  "publish_status": "NOT_PUBLISHED",
   "active_persona_version": "正式/人设/虚拟博主人设V1.md",
   "active_visual_spec": "正式/视觉规范/V4.md",
   "next_content_visual_spec": "正式/视觉规范/V5.md",
   "next_content_visual_spec_effective_from": "CONTENT-003",
   "active_anchor_lock": "批准/PERSONA-001/LOCK-V2.json",
   "active_positioning_version": "正式/定位/V2.md",
-  "active_content_lock": "批准/CONTENT-001/LOCK-V2.json",
+  "active_content_lock": "批准/CONTENT-002/LOCK-V2.json",
   "content_002": {
     "task_version": "V5",
     "audit_result": "PASS",
     "audit_fixed_commit": "8b0af7770914db1fc48153a5db061025dffc4a25",
-    "P0": 0,
-    "P1": 0,
-    "P2": 3,
-    "score": 93,
-    "rework_required": false,
+    "lock_path": "批准/CONTENT-002/LOCK-V2.json",
+    "lock_commit": "d9ed99528a586032a26b7872e7fe3f0ab23fbf5c",
+    "media_delivery_mode": "USER_CARRIED_FINAL_MEDIA",
+    "repo_binary_assets_present": false,
+    "user_upload_on_demand": true,
     "current_media_sha256": {
       "P1": "0b2ed7c4b100c9ffa6f7d30b442561090a1e6a20a2de4b9421ce78292113072a",
       "P2": "57c962ab451b24c92249f8ef653733b6ff63833702b641005baf1b0a35d8911a",
       "P3": "1570068fe9c907b8414779cc7090beae10c2cfe90f19c330317f0a48d2c26a67",
       "P4": "6f5a1039b08309c7c23b36552d5e918b01597eabbe3e9a2fff78f093611f6799"
     },
-    "binary_writeback_instruction": "任务/CONTENT-002/V5/图片C最终二进制回写指令.md",
-    "target_asset_root": "资产/内容/CONTENT-002/LOCK-V2/",
-    "historical_c_record": "产物/图片C/CONTENT-002/V2-R1/交付.json",
-    "historical_c_record_preserved": true,
+    "historical_asset_warning": "资产/内容/CONTENT-002/LOCK-V1/为旧橘朵版本，禁止用于当前发布。",
     "footer_exception": "批准/CONTENT-002/V5/成图脚注一次性接受记录.md"
   },
   "content_policy": {
@@ -58,14 +55,14 @@
   "capital_limit_cny": 10000,
   "next_actions": [
     {
-      "role": "图片终审修图员C",
-      "action": "不重新审核、不重新生成、不改图；仅将当前4张最终PASS图片原样上传至资产/内容/CONTENT-002/LOCK-V2/，新建V3最终资产清单与交付并做4/4 SHA-256回读验证。"
+      "role": "发布与社群运营",
+      "action": "读取CONTENT-002 LOCK-V2生成发布包；若当前聊天看不到4张最终图，直接让用户上传，不再要求回写GitHub。"
     },
     {
-      "role": "总监",
-      "action": "收到C最终二进制回写固定提交后，创建CONTENT-002 LOCK-V2并进入发布准备。"
+      "role": "用户",
+      "action": "发布包完成后，用本人持有的P1-P4最终原图按顺序上传并完成实际发布。"
     }
   ],
   "updated_at": "2026-09-22T22:33:00+08:00",
-  "note": "CONTENT-002 V5独立审核已PASS。当前唯一缺项是最终4张花知晓图片尚未以新版本二进制写入GitHub；旧资产/内容/CONTENT-002/LOCK-V1仍是历史橘朵版本，严禁串用。此等待不计返修，不退回A/B。"
+  "note": "用户明确取消GitHub最终图片二进制回写。CONTENT-002已采用USER_CARRIED_FINAL_MEDIA模式创建LOCK-V2并进入发布准备。旧橘朵LOCK-V1资产严禁串用。"
 }
