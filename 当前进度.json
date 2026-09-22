@@ -1,8 +1,8 @@
 {
   "project_id": "XHS-BEAUTY-002",
   "system_version": "2.2",
-  "revision": 14,
-  "handoff_epoch": 14,
+  "revision": 15,
+  "handoff_epoch": 15,
   "stage": "CONTENT",
   "status": "READY_FOR_HOT_RESEARCH",
   "current_task": "CONTENT-002",
@@ -13,6 +13,8 @@
   "publish_status": "PUBLISHED_CONFIRMED",
   "active_persona_version": "正式/人设/虚拟博主人设V1.md",
   "active_visual_spec": "正式/视觉规范/V4.md",
+  "next_content_visual_spec": "正式/视觉规范/V5.md",
+  "next_content_visual_spec_effective_from": "CONTENT-003",
   "active_anchor_lock": "批准/PERSONA-001/LOCK-V2.json",
   "active_positioning_version": "正式/定位/V2.md",
   "active_content_lock": "批准/CONTENT-001/LOCK-V2.json",
@@ -27,8 +29,14 @@
   "content_policy": {
     "human_style_protocol": "系统/真人感美妆内容运营协议V2.2-P3.md",
     "effect_summary_protocol": "系统/产品效果与用户体验归纳协议V2.2-P4.md",
+    "image_footer_ban_protocol": "系统/成图脚注禁用协议V2.2-P5.md",
     "status": "ACTIVE",
-    "summary": "热门产品允许基于多样本真实反馈写妆效、质地、优缺点和使用体验总结；不得把外部体验伪装成账号亲测。"
+    "summary": "允许基于多样本真实反馈写产品效果；从CONTENT-003起禁止在最终图片中出现非本人亲测、公开资料整理、多样本观察整理、资料收集、仅供参考等研究/来源/免责声明型脚注。"
+  },
+  "content_002_footer_exception": {
+    "approval_path": "批准/CONTENT-002/V5/成图脚注一次性接受记录.md",
+    "status": "ACCEPTED_ONCE_NO_REWORK",
+    "carry_forward_allowed": false
   },
   "parallel_tasks": [
     {
@@ -44,13 +52,13 @@
   "next_actions": [
     {
       "role": "热点与竞品研究员",
-      "action": "执行CONTENT-002 V5：按V4继续找至少5个热门产品、每个观察8至12条内容，并新增多样本效果归纳，记录优点、槽点、肤感、妆效、持妆倾向和分歧。"
+      "action": "继续执行CONTENT-002 V5；当前CONTENT-002已有脚注不因P5返工。"
     },
     {
-      "role": "内容策划",
-      "action": "热点主选确定后，可正常安排产品效果、优缺点和适用人群内容，不因账号未购买就一律禁写效果。"
+      "role": "总监",
+      "action": "创建CONTENT-003及后续任务时必须固定读取成图脚注禁用协议P5和视觉规范V5。"
     }
   ],
-  "updated_at": "2026-09-22T15:05:00+08:00",
-  "note": "CONTENT-002升级到V5。允许基于真实多样本反馈自然写产品效果与体验总结，但不把他人体验改写成账号亲测或虚构使用时长。"
+  "updated_at": "2026-09-22T19:32:00+08:00",
+  "note": "用户接受CONTENT-002当前图片，不返工。自CONTENT-003起，最终成图不得出现任何研究来源、非亲测、公开资料整理、多样本整理、资料收集或类似脚注；所有来源和证据仅后台留档。"
 }
