@@ -1,0 +1,24 @@
+{
+  "project_id": "XHS-BEAUTY-002",
+  "role": "总监",
+  "task_id": "CONTENT-002",
+  "input_revision": 4,
+  "version": "V4",
+  "action": "ENABLE_EVIDENCE_BASED_PRODUCT_EFFECT_SUMMARIES",
+  "result": "READY_FOR_HOT_RESEARCH",
+  "approval_path": "批准/CONTENT-002/V4/产品效果表达补充批准.md",
+  "approval_commit": "36bb3500a7030a258bbcd7981b3eeb0cc374dd48",
+  "effect_protocol": "系统/产品效果与用户体验归纳协议V2.2-P4.md",
+  "effect_protocol_commit": "997181761449adb283022f8c0f92bee724bdc4e2",
+  "task_path": "任务/CONTENT-002/V5/任务.json",
+  "task_commit": "b8eb1d20f69ec188f81d5f9acfba68202fa38a2e",
+  "progress_commit": "9debf906dfb111da31dfec0124b084c3c9bd64ef",
+  "rules": [
+    "允许写产品效果、优缺点、肤感、妆效、显色、遮盖、持妆倾向等",
+    "优先基于8至12条代表性内容与多个独立样本归纳",
+    "允许自然、有判断的账号文案，不要求每句都挂来源",
+    "不得把他人体验伪装成账号亲测或虚构精确使用时长"
+  ],
+  "next_role": "热点与竞品研究员",
+  "next_action": "执行CONTENT-002 V5，热门产品研究时额外提取多样本效果、优缺点和分歧。"
+}
