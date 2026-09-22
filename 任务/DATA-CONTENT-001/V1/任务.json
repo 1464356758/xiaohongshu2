@@ -1,0 +1,82 @@
+{
+  "project_id": "XHS-BEAUTY-002",
+  "task_id": "DATA-CONTENT-001",
+  "input_revision": 1,
+  "task_type": "post_publish_observation",
+  "status": "READY",
+  "responsible_role": "数据分析与实验",
+  "fixed_input_commit": "d351546e840d7bc9bee34d5a071db26dbefbed2c",
+  "inputs": [
+    {
+      "path": "数据/回执/CONTENT-001/V1/发布回执.json",
+      "commit": "5ff4976c0fc3b6cc88681f73394dd7b1152980e1",
+      "required": true
+    },
+    {
+      "path": "批准/CONTENT-001/LOCK-V1.json",
+      "commit": "912ce9a5a70eb1356e96f3d2401de755dfc9276e",
+      "required": true
+    },
+    {
+      "path": "数据/数据字典.md",
+      "commit": "d351546e840d7bc9bee34d5a071db26dbefbed2c",
+      "required": true
+    },
+    {
+      "path": "批准/CONTENT-001/V4/发布后标题偏差处置.md",
+      "commit": "d351546e840d7bc9bee34d5a071db26dbefbed2c",
+      "required": true
+    }
+  ],
+  "publication": {
+    "platform": "小红书",
+    "public_title": "低饱和秋妆显灰？出门只改3处",
+    "share_url": "https://xhslink.cn/o/NDEsnPgBJ7",
+    "published_at_estimate": "2026-09-22T10:27:00+08:00",
+    "time_precision": "APPROXIMATE",
+    "traffic_type": "organic",
+    "paid_spend_cny": 0
+  },
+  "observation_schedule": [
+    {
+      "window": "24h",
+      "target_at": "2026-09-23T10:27:00+08:00"
+    },
+    {
+      "window": "72h",
+      "target_at": "2026-09-25T10:27:00+08:00"
+    },
+    {
+      "window": "7d",
+      "target_at": "2026-09-29T10:27:00+08:00"
+    }
+  ],
+  "required_metrics": [
+    "followers_total",
+    "new_followers",
+    "unfollows",
+    "impressions",
+    "reads_or_plays",
+    "likes",
+    "saves",
+    "comments",
+    "shares",
+    "attributed_follows",
+    "paid_spend_cny"
+  ],
+  "rules": [
+    "只记录用户提供的真实后台截图/数字；未知填null，不能补0。",
+    "累计指标不得跨窗口相加。",
+    "账号净增与笔记归因关注分开记录。",
+    "本条当前为organic，paid_spend_cny只有真实扣费才可非0。",
+    "少于5条可比内容只做探索性观察，不形成稳定基线结论。",
+    "标题LOCK偏差不阻塞数据采集；报告按实际公开标题标识，同时保留原LOCK引用。"
+  ],
+  "deliverables": [
+    "数据/快照/2026-09-23/CONTENT-001/",
+    "数据/快照/2026-09-25/CONTENT-001/",
+    "数据/快照/2026-09-29/CONTENT-001/",
+    "数据/报告/2026-09-29/CONTENT-001/V1.md"
+  ],
+  "next_condition": "到各观察时点后，用户提供对应后台截图/数字；数据角色按同口径写快照。"
+}
