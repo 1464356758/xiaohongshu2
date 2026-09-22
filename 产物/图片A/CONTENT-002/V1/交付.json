@@ -1,0 +1,70 @@
+{
+  "project_id": "XHS-BEAUTY-002",
+  "task_id": "CONTENT-002",
+  "input_revision": 1,
+  "role": "图片生成员A",
+  "version": "V1",
+  "status": "DONE_WAITING_B",
+  "page_count": 4,
+  "persona_lock": "批准/PERSONA-001/LOCK-V2.json",
+  "copy_fixed_commit": "090604169afb6d3049e81a1827de900f38a364b5",
+  "source_product_reference": {
+    "product": "Judydoll Cushion Satin Lip Cream",
+    "official_page": "https://judydoll.com/products/cushion-satin-lip-cream",
+    "official_s01_visual": "https://judydoll.com/cdn/shop/files/1-S01.webp?v=1788488676&width=800",
+    "use": "包装结构与产品视觉参考；P1明确标记产品视觉示意"
+  },
+  "files": [
+    {
+      "file": "01_cover.jpg",
+      "width": 1440,
+      "height": 1920,
+      "format": "JPEG",
+      "bytes": 1115295,
+      "sha256": "3faccbe95dc8fb2db9942e66e039043fa50f0b99ec10c37e3389e8cf94855a0f"
+    },
+    {
+      "file": "02_page.jpg",
+      "width": 1440,
+      "height": 1920,
+      "format": "JPEG",
+      "bytes": 879455,
+      "sha256": "fc68b5bd4e9d8b9f7f3a1a0cf50c0c28ee483319358afbe171caa14d3b4a19dc"
+    },
+    {
+      "file": "03_page.jpg",
+      "width": 1440,
+      "height": 1920,
+      "format": "JPEG",
+      "bytes": 982183,
+      "sha256": "f357c1b93c7b6d0bc6270ffeae48090da5c44f494cff7a122f60db784e208c2c"
+    },
+    {
+      "file": "04_page.jpg",
+      "width": 1440,
+      "height": 1920,
+      "format": "JPEG",
+      "bytes": 937895,
+      "sha256": "f1124ef2e0c7ab2032abcb21a1880e42d4f0acb8a17130d16ffe7a30b6097f94"
+    }
+  ],
+  "deterministic_text_layer": true,
+  "p2_real_swatch": false,
+  "p3_real_s02_lip_swatch": false,
+  "visual_change_log": {
+    "main_outfit": "灰色/燕麦色轻西装 + 黑色基础内搭",
+    "p1_action": "无人脸产品45°静物",
+    "p3_action": "轻扶耳边头发",
+    "main_scene": "窗边暖灰梳妆台/镜前场景",
+    "changed_vs_content_001": [
+      "主服装",
+      "主动作",
+      "主场景",
+      "主构图",
+      "露脸页数"
+    ]
+  },
+  "github_binary_upload": "NOT_REQUIRED_FOR_A_INTERMEDIATE",
+  "next_role": "图片审核修图员B",
+  "next_action": "用户将本轮4张A实际原图逐张上传给图片审核修图员B进行实际像素审核"
+}
