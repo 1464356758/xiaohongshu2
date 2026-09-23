@@ -1,14 +1,14 @@
 {
   "project_id": "XHS-BEAUTY-002",
   "system_version": "2.2",
-  "revision": 21,
-  "handoff_epoch": 21,
+  "revision": 22,
+  "handoff_epoch": 22,
   "stage": "SYSTEM_REBUILD",
-  "status": "HARD_STOP_PRODUCT_PIPELINE",
+  "status": "PAUSED_READY_FOR_FAST_RESTART",
   "current_task": "CONTENT-003",
   "task_path": "任务/CONTENT-003/V1/任务.json",
   "current_input_revision": 1,
-  "current_pipeline_step": "PAUSED_BEFORE_PRODUCT_TRUTH_LOCK",
+  "current_pipeline_step": "PAUSED_OLD_TASK_DO_NOT_RESUME",
   "account_registration_status": "REGISTERED",
   "publish_status": "PUBLISHED_CONFIRMED_WITH_CONTENT_002_FACT_ERROR",
   "active_persona_version": "正式/人设/虚拟博主人设V1.md",
@@ -16,12 +16,12 @@
   "active_anchor_lock": "批准/PERSONA-001/LOCK-V2.json",
   "active_positioning_version": "正式/定位/V2.md",
   "active_content_lock": "批准/CONTENT-001/LOCK-V2.json",
-  "system_hard_stop": {
-    "active": true,
-    "scope": "所有涉及具体品牌/产品/系列/SKU的内容生产",
-    "record": "批准/SYSTEM/V2.2-P7/产品内容停产与重构批准.md",
-    "protocol": "系统/产品真源锁协议V2.2-P7.md",
-    "reason": "CONTENT-002发生Swan Ballet与Snow Ballet系列硬错配，旧流程不再可信。"
+  "system_rebuild": {
+    "product_truth_protocol": "系统/产品真源锁协议V2.2-P7.md",
+    "fast_lane_protocol": "系统/快速内容主链协议V2.2-P8.md",
+    "completion_record": "批准/SYSTEM/V2.2-P8/快速主链重构完成.md",
+    "status": "COMPLETE",
+    "old_pipeline_deprecated": true
   },
   "content_002_incident": {
     "status": "PUBLISHED_FACT_ERROR_REVOKED_FOR_REUSE",
@@ -31,31 +31,32 @@
     "data_use": "HISTORICAL_ONLY_WITH_FACT_ERROR_LABEL"
   },
   "content_003": {
-    "status": "PAUSED_SYSTEM_REBUILD",
+    "status": "PAUSED_OLD_V1",
     "task_version": "V1",
-    "resume_requires": [
-      "CONTENT-003 V2或更高新任务",
-      "主选产品产品真源包",
-      "独立产品事实核验PASS",
-      "总监PRODUCT TRUTH LOCK"
-    ],
-    "downstream_production_allowed": false
+    "downstream_production_allowed": false,
+    "restart_rule": "只能新建CONTENT-003 V2或更高任务，按P7+P8重启；禁止继续旧V1。"
   },
-  "product_truth_system": {
-    "protocol": "系统/产品真源锁协议V2.2-P7.md",
-    "required_for_specific_products": true,
-    "required_fields": [
-      "品牌",
-      "系列",
-      "产品名",
-      "市场/地区版本",
-      "SKU/色号中英文名",
-      "包装/盘面视觉指纹",
-      "官方参考",
-      "允许效果结论",
-      "用户反馈目标产品绑定"
+  "fast_content_lane": {
+    "active": true,
+    "manual_handoffs_target": 5,
+    "abnormal_threshold": 7,
+    "default_chain": [
+      "热点与竞品研究员",
+      "内容策划AI_策划文案一体",
+      "图片生成员A",
+      "图片终审修图员C",
+      "总监"
     ],
-    "production_without_lock": "FORBIDDEN"
+    "conditional_roles": [
+      "文案脚本AI",
+      "图片审核修图员B",
+      "内容与合规审核AI",
+      "发布与社群运营AI"
+    ],
+    "product_truth_lock_required": true,
+    "max_planning_copy_rework": 1,
+    "max_image_a_self_rework": 1,
+    "max_image_c_rework": 1
   },
   "parallel_tasks": [
     {
@@ -63,8 +64,7 @@
       "path": "任务/RESEARCH-002/V1/任务.json",
       "role": "市场与定位研究员",
       "status": "ALLOWED_RESEARCH_ONLY",
-      "mode": "PARALLEL_NON_PRODUCTION",
-      "restriction": "不得创建具体产品发布资产或绕过PRODUCT TRUTH LOCK。"
+      "mode": "PARALLEL_NON_BLOCKING"
     },
     {
       "task_id": "DATA-CONTENT-001",
@@ -83,13 +83,13 @@
   "next_actions": [
     {
       "role": "总监",
-      "action": "完成PRODUCT TRUTH前置锁模板、角色门禁与新CONTENT-003 V2流程后再恢复生产。"
+      "action": "保持CONTENT-003旧V1暂停。恢复时新建V2并按P7产品真源锁+P8五阶段快速主链运行。"
     },
     {
       "role": "市场与定位研究员",
-      "action": "可以继续RESEARCH-002账号级研究，但不得下发具体产品生产任务。"
+      "action": "RESEARCH-002可继续后台并行，不占CONTENT手动交接次数。"
     }
   ],
-  "updated_at": "2026-09-23T07:15:00+08:00",
-  "note": "产品内容生产已全面停产。不是继续CONTENT-003加门禁，而是先完成P7系统重构；无PRODUCT TRUTH LOCK不得进入策划、文案、图片或发布。"
+  "updated_at": "2026-09-23T09:27:00+08:00",
+  "note": "旧的十几角色串行主链已废弃。系统已改为P7产品真源前置锁 + P8五阶段快速主链。CONTENT-003旧V1仍暂停，不会自动继续。"
 }
